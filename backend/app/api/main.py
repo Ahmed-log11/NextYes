@@ -67,6 +67,20 @@ class RateLimiter:
             q.append(now)
 
 
+class JourneyLocks:
+    """A lock per journey: two clicks on the same journey wait for each other, but a long
+    document read in one journey never blocks other visitors. (The SQLite checkpointer
+    serialises its own writes.)"""
+
+    def __init__(self) -> None:
+        self._locks: dict[str, threading.Lock] = {}
+        self._guard = threading.Lock()
+
+    def __call__(self, journey_id: str) -> threading.Lock:
+        with self._guard:
+            return self._locks.setdefault(journey_id, threading.Lock())
+
+
 # ---------------------------------------------------------------- app
 
 
@@ -100,7 +114,7 @@ async def lifespan(app: FastAPI):
     if not hasattr(app.state, "service"):  # tests inject their own
         sessions = Path(os.environ.get("NEXTYES_SESSIONS_DIR", SESSIONS_DIR))
         app.state.service = JourneyService(reader=_reader_kind(), sessions_dir=sessions)
-    app.state.lock = threading.Lock()      # the journey store is one SQLite file: one writer at a time
+    app.state.locks = JourneyLocks()       # one journey at a time per journey; journeys run in parallel
     app.state.limiter = RateLimiter()
     yield
 
@@ -200,18 +214,18 @@ def start(body: StartJourney, request: Request) -> dict[str, Any]:
     if body.policy_id not in available_policies():
         raise HTTPException(400, f"unknown lender policy {body.policy_id}")
     svc = _svc(request)
-    with request.app.state.lock:
-        try:
-            j = svc.start(body.business_id, level=body.level, policy_id=body.policy_id)
-        except ActionError as e:
-            raise HTTPException(400, str(e)) from None
+    try:
+        j = svc.start(body.business_id, level=body.level, policy_id=body.policy_id)  # a new id: no lock needed
+    except ActionError as e:
+        raise HTTPException(400, str(e)) from None
+    with request.app.state.locks(j.journey_id):
         return _payload(svc, j.journey_id)
 
 
 @app.get("/api/journeys/{journey_id}")
 def get_journey(journey_id: str, request: Request) -> dict[str, Any]:
     svc = _svc(request)
-    with request.app.state.lock:
+    with request.app.state.locks(journey_id):
         try:
             return _payload(svc, journey_id)
         except ActionError as e:
@@ -223,7 +237,7 @@ def act(journey_id: str, body: Action, request: Request) -> dict[str, Any]:
     request.app.state.limiter.check(_client(request), "chat" if body.type == "chat" else "action")
     svc = _svc(request)
     action = {k: v for k, v in body.model_dump().items() if v is not None}
-    with request.app.state.lock:
+    with request.app.state.locks(journey_id):
         try:
             svc.act(journey_id, action)
         except ActionError as e:
@@ -254,7 +268,7 @@ def bank_view(journey_id: str, request: Request) -> dict[str, Any]:
     """What the lender sees: nothing until the owner approves submission, then the compiled
     application, the decision and the full audit log."""
     svc = _svc(request)
-    with request.app.state.lock:
+    with request.app.state.locks(journey_id):
         try:
             j = svc.get(journey_id)
         except ActionError as e:

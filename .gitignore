@@ -12,3 +12,8 @@ backend/data/heldout/*/documents/
 
 # Journey sessions (per-run copies of documents + checkpoint database)
 backend/sessions/
+
+# Scratch output from diagnosis runs (diagnose --out, assemble --out)
+backend/*.json
+backend/*.txt
+backend/reports/*-first*.*

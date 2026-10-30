@@ -48,12 +48,6 @@ class Plan(BaseModel):
     unfixable: list[str] = Field(default_factory=list)  # blockers no remedy covers -> advisor
     declined: list[str] = Field(default_factory=list)   # blockers whose remedy the owner declined
 
-    def by_executor(self) -> dict[str, list[PlanStep]]:
-        out: dict[str, list[PlanStep]] = {}
-        for s in self.steps:
-            out.setdefault(s.executor, []).append(s)
-        return out
-
 
 class PlanIssue(BaseModel):
     """A problem the plan validator found. Any issue means the plan is rejected."""
@@ -73,7 +67,6 @@ Stage = Literal[
     # terminal
     "approved", "no_consent", "escalated", "not_reachable", "owner_declined", "out_of_time",
 ]
-TERMINAL = ("approved", "no_consent", "escalated", "not_reachable", "owner_declined", "out_of_time")
 Actor = Literal["agent", "owner", "lender", "system"]
 
 

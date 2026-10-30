@@ -67,16 +67,13 @@ def main() -> None:
 
     import copy
 
-    from .assemble import is_owner, repair_bank
+    from .assemble import apply_owner_rules, repair_bank
 
     raw_bank = readings.get("bank_statement", {})
     fixed_bank = copy.deepcopy(raw_bank)
     repair_bank(fixed_bank)
     cr = readings.get("cr_certificate", {})
-    for t in fixed_bank.get("transactions") or []:
-        if t.get("category") in ("revenue", "other") and float(t.get("amount") or 0) > 0 \
-                and is_owner(t.get("counterparty"), [cr.get("owner_name"), cr.get("owner_name_ar")]):
-            t["category"] = "owner_funds"
+    apply_owner_rules(fixed_bank.get("transactions") or [], [cr.get("owner_name"), cr.get("owner_name_ar")])
     raw_rows = raw_bank.get("transactions") or []
     rows = fixed_bank.get("transactions") or []
     print(f"{args.business_id} / {args.level} · bank layout: {plan.bank_format} · "

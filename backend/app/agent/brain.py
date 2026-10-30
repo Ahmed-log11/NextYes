@@ -21,7 +21,6 @@ import json
 import os
 import re
 import time
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Protocol
 
@@ -146,13 +145,6 @@ class TemplateBrain:
 
 
 # ---------------------------------------------------------------- Claude brain
-
-
-@dataclass
-class _Answer:
-    data: dict[str, Any]
-    input_tokens: int
-    output_tokens: int
 
 
 class ClaudeBrain(TemplateBrain):

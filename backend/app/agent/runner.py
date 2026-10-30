@@ -43,12 +43,6 @@ class Trace(BaseModel):
     checkpoints: list[Checkpoint]
     final_snapshot: FinancialSnapshot
 
-    def executor_counts(self) -> dict[str, int]:
-        out: dict[str, int] = {}
-        for s in self.steps:
-            out[s.executor] = out.get(s.executor, 0) + 1
-        return out
-
 
 def approve_all(step: PlanStep) -> bool:
     return True

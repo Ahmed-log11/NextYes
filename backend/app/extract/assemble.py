@@ -139,6 +139,25 @@ def bank_gap(bank: dict) -> float | None:
     return round(opening + sum(float(t.get("amount") or 0) for t in bank.get("transactions") or []) - closing, 2)
 
 
+def apply_owner_rules(txns: list[dict], owners: list[str | None]) -> tuple[int, int]:
+    """In place: money in from the owner's own name is owner funds, not revenue; money in that
+    the model called owner funds but comes from another named person is revenue. Returns
+    (lines moved to owner funds, lines moved back to revenue)."""
+    moved = back = 0
+    owner_known = any(owners)
+    for t in txns:
+        cp = t.get("counterparty")
+        incoming = float(t.get("amount") or 0) > 0
+        if t.get("category") in ("revenue", "other") and incoming and is_owner(cp, owners):
+            t["category"] = "owner_funds"
+            moved += 1
+        elif t.get("category") == "owner_funds" and incoming and owner_known and _named_person(cp) \
+                and not is_owner(cp, owners):
+            t["category"] = "revenue"  # a transfer from someone else, by name, is not the owner's money
+            back += 1
+    return moved, back
+
+
 def _named_person(counterparty: str | None) -> bool:
     """A counterparty that reads as a person's name (two or more words, not a generic label)."""
     cp = (counterparty or "").strip().lower()
@@ -316,18 +335,7 @@ def assemble(business_id: str, docs: DocumentSet, readings: dict[str, dict],
         # from the owner's own name is the owner's money, not revenue (found by error analysis:
         # the reader's only mistakes on dev were exactly these lines).
         owners = [cr.get("owner_name"), cr.get("owner_name_ar")]
-        moved = back = 0
-        owner_known = any(owners)
-        for t in txns:
-            cp = t.get("counterparty")
-            incoming = float(t.get("amount") or 0) > 0
-            if t.get("category") in ("revenue", "other") and incoming and is_owner(cp, owners):
-                t["category"] = "owner_funds"
-                moved += 1
-            elif t.get("category") == "owner_funds" and incoming and owner_known and _named_person(cp) \
-                    and not is_owner(cp, owners):
-                t["category"] = "revenue"  # a transfer from someone else, by name, is not the owner's money
-                back += 1
+        moved, back = apply_owner_rules(txns, owners)
         if moved:
             notes.append(f"[assemble] {moved} incoming transfer(s) from the owner's own name counted as owner funds, not revenue.")
         if back:

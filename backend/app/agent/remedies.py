@@ -21,7 +21,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass, field
 from datetime import timedelta
-from statistics import mean, pstdev
+from statistics import mean
 from typing import Any, Callable
 
 from ..engine import FinancialSnapshot, Policy, finance
@@ -38,11 +38,6 @@ MAX_MONTHS = 12            # longer than this counts as "not reachable" for plan
 
 def rule_params(policy: Policy, check: str) -> Params | None:
     return next((r.params for r in policy.rules if r.check == check), None)
-
-
-def _cv(rev: list[float]) -> float:
-    m = mean(rev)
-    return pstdev(rev) / m if m else float("inf")
 
 
 @dataclass(frozen=True)
