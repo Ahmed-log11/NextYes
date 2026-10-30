@@ -1,0 +1,16 @@
+[project]
+name = "nextyes-backend"
+version = "0.1.0"
+description = "Funding-readiness agent: from financing rejection to approval"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
