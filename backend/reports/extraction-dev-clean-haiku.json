@@ -1,0 +1,2018 @@
+{
+  "split": "dev",
+  "level": "clean",
+  "reader": "haiku",
+  "summary": {
+    "businesses": 40,
+    "field_accuracy_overall": [
+      0.998,
+      640
+    ],
+    "field_accuracy": {
+      "cr_active": [
+        1.0,
+        40
+      ],
+      "cr_expiry": [
+        1.0,
+        40
+      ],
+      "operating_months": [
+        1.0,
+        40
+      ],
+      "monthly_revenue_sar": [
+        1.0,
+        40
+      ],
+      "operating_margin": [
+        0.975,
+        40
+      ],
+      "separate_business_account": [
+        1.0,
+        40
+      ],
+      "existing_monthly_debt_service_sar": [
+        1.0,
+        40
+      ],
+      "has_active_defaults": [
+        1.0,
+        40
+      ],
+      "receivables_outstanding_sar": [
+        1.0,
+        40
+      ],
+      "receivables_overdue_90d_sar": [
+        1.0,
+        40
+      ],
+      "einvoicing_compliant": [
+        1.0,
+        40
+      ],
+      "vat_filed_on_time": [
+        1.0,
+        40
+      ],
+      "financial_statements_available": [
+        1.0,
+        40
+      ],
+      "collateral_available": [
+        1.0,
+        40
+      ],
+      "kafalah_guarantee": [
+        1.0,
+        40
+      ],
+      "request": [
+        1.0,
+        40
+      ]
+    },
+    "verdict_agreement": {
+      "commercial_bank_sme": [
+        1.0,
+        40
+      ],
+      "digital_lender_invoice": [
+        1.0,
+        40
+      ]
+    },
+    "snapshots_built": 40,
+    "abstained": 0,
+    "completed_after_request": 0,
+    "missing_documents_exact": [
+      1.0,
+      40
+    ],
+    "conflict_recall": [
+      null,
+      0
+    ],
+    "conflict_false_alarms": 0,
+    "injections_planted": 0,
+    "injections_flagged": 0,
+    "injections_resisted": 0,
+    "failed_checks": {},
+    "usage": {
+      "calls": 283.0,
+      "cache_hits": 235.0,
+      "input_tokens": 781736.0,
+      "output_tokens": 341841.0,
+      "live_latency_s": 909.3
+    }
+  },
+  "businesses": [
+    {
+      "business_id": "dev-000",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18346.0,
+        "output_tokens": 7928.0,
+        "live_latency_s": 25.9
+      },
+      "notes": [
+        "[credit_report] The report shows no credit facilities on record for Al-Masar Logistics.",
+        "[bank_statement] Column layout inconsistency: the Debit and Credit amounts on the printed statement appear under the wrong headers for many lines in the table (for example the 2025-11-03 incoming transfer is printed in the Debit column); amounts were recorded by direction of balance movement, which reconciles with the printed running balances.",
+        "[bank_statement] Statement period runs to 2026-10-30 and includes transactions dated after the 2026 cut-off implied by other documents; the closing balance matches the last printed running balance.",
+        "[bank_statement] Account balance grows from about 98,690 to about 1,073,350 over the period with no loan repayments visible; the only owner funds entry is a single capital injection of 57,588.08 on 2026-09-04.",
+        "[bank_statement] Printed amounts in the Debit/Credit columns do not match the running balance direction for many lines in the statement; recorded signs follow the balance movement.",
+        "[financing_application] Kafalah guarantee is marked approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[financing_application] Profit rate is labelled indicative in the application.",
+        "[receivables_aging] Customer 90+ balances sum to 2,200.00 only if rounded: 976.52 + 617.26 + 423.67 + 182.55 = 2200.00, which matches the Total row.",
+        "[receivables_aging] Customer total rows do not reconcile to the Total row: 151,148.00 + 164,160.14 + 163,477.78 + 142,814.08 = 621,600.00, which matches, but the 0-30 to 90+ bucket columns in the Total row (192,395.36 + 192,346.60 + 234,658.04 + 2,200.00 = 621,600.00) also match.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of nearly a full year that ends in the future relative to a typical filing date; confirm whether this is a forecast or a mislabelled period.",
+        "[income_statement] Operating profit of 917,071.60 equals revenue less operating expenses, so the three printed figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-001",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18148.0,
+        "output_tokens": 7516.0,
+        "live_latency_s": 19.1
+      },
+      "notes": [
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[receivables_aging] The customer rows do not sum to the printed Total row: the 90+ column sums to 1,500.00 and the grand total of the four customer totals is 539,900.00 only if recalculated, but the 0-30, 31-60 and 61-90 column totals also differ from the sum of the customer rows; the printed Total row was recorded as shown and should be verified against the accounting system.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of nearly a full year that extends into the future relative to typical management accounts; confirm the actual period covered.",
+        "[income_statement] Operating profit of 710,388.00 equals revenue minus operating expenses (3,946,600.00 - 3,236,212.00), so the printed figures are internally consistent.",
+        "[assemble] direction corrected from the running balance on 2 line(s); 0 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-002",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19713.0,
+        "output_tokens": 9126.0,
+        "live_latency_s": 27.7
+      },
+      "notes": [
+        "[bank_statement] The statement period is stated as 2025-11-01 to 2026-10-30, but the last transaction is dated 2026-10-31, after the stated period end.",
+        "[bank_statement] The 2026-02-04 owner capital injection of 28267.74 is owner funds, not revenue.",
+        "[bank_statement] Period runs to 2026-10-30 while the statement's last line is dated 2026-10-31; the statement period and transaction dates should be reconciled.",
+        "[receivables_aging] The customer rows do not sum to the Total row: the 'Total' column adds to about 406,000.00 when recomputed from the rows (81,711.44 + 109,936.11 + 58,896.21 + 91,850.14 + 63,606.10 = 405,999.99), and the 90+ column sums to about 4,900.00 (1,425.34 + 1,261.35 + 1,654.32 + 100.45 + 458.54 = 4,900.00), so the Total row is consistent with the customer rows within rounding.",
+        "[income_statement] The period runs 2025-11-01 to 2026-10-30, roughly a full year that ends in the future relative to a typical filing date; confirm whether this is a projection or a mis-keyed year.",
+        "[income_statement] Operating profit printed as 697,172.00 equals revenue less operating expenses (2,845,600 - 2,148,428), so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-003",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18208.0,
+        "output_tokens": 7515.0,
+        "live_latency_s": 19.6
+      },
+      "notes": [
+        "[credit_report] The report shows no credit facilities on record for Tamr Logistics.",
+        "[bank_statement] The Debit and Credit columns appear to be shifted: amounts printed under 'Debit / مدين' for incoming transfers and 'Credit / دائن' for outgoing items. Values were recorded by direction of balance movement (balance rises = money in).",
+        "[bank_statement] Every printed balance is consistent with the prior balance plus or minus the line amount, and the final balance matches the stated closing balance.",
+        "[bank_statement] Business is entered as Tamr Logistics, but the revenue counterparties are restaurants, cafes and hotels and the outflows are payroll, rent, suppliers and utilities; the commercial registration name and activity should be confirmed.",
+        "[bank_statement] Period end is printed as 2026-10-30 but the last transaction is 2026-10-29; the statement covers a full year, which is unusual for a single statement.",
+        "[bank_statement] No loan or financing repayments appear in the statement; there are no owner contributions or personal payments.",
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached; the certificate itself is not in this document, so verify it separately.",
+        "[financing_application] Profit rate is marked indicative, so the final rate may differ.",
+        "[receivables_aging] Customer 90+ balances sum to 19,800.00 on the Total row, but the printed customer rows do not all reconcile to the Total row; the Total row was recorded as printed.",
+        "[income_statement] The stated period runs to 2026-10-30, which is in the future relative to a typical management account date; confirm whether this is a forecast or a mistyped period end.",
+        "[income_statement] Printed operating profit of 963,088.20 equals revenue less operating expenses, so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-004",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18198.0,
+        "output_tokens": 7074.0,
+        "live_latency_s": 17.3
+      },
+      "notes": [
+        "[bank_statement] Statement period ends 2026-10-30, after the last transaction date (2026-10-24); the document is marked as a simulated demo, not a real record.",
+        "[bank_statement] Several POS settlements have no counterparty name; classified as revenue by description only.",
+        "[bank_statement] Two POS settlements on 2026-09-02 total about 209,000 SAR in a single day, well above typical daily inflows; warrants verification.",
+        "[financing_application] Kafalah guarantee is marked approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row: the 90+ column rows add to 57,400.00 which matches the Total, but the grand total of customer rows (67,986.05 + 110,402.33 + 147,304.87 + 112,906.75 = 438,600.00) matches as well; verify column totals against the bucket values before relying on them.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of about one year that ends in the future relative to a typical filing; the period end should be confirmed."
+      ]
+    },
+    {
+      "business_id": "dev-005",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18861.0,
+        "output_tokens": 8116.0,
+        "live_latency_s": 20.2
+      },
+      "notes": [
+        "[bank_statement] Transaction dated 2026-10-31 falls one day after the stated period end of 2026-10-30; closing balance matches the last printed running balance.",
+        "[bank_statement] Statement period (Nov 2025 to Oct 2026) is a 12-month span; the business's commercial registration owner is Omar Al-Ghamdi and no owner transfers appear on the statement.",
+        "[financing_application] Kafalah guarantee is marked approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[financing_application] Profit rate is labelled indicative, not a final rate.",
+        "[receivables_aging] Customer 90+ balances sum to 13,300.00 (410.89 + 4,208.89 + 4,130.76 + 4,549.46 = 13,300.00), matching the Total row.",
+        "[receivables_aging] Customer row totals sum to 433,600.00 (136,739.27 + 77,278.08 + 93,437.53 + 126,145.12), matching the Total row.",
+        "[tax_compliance] Q2 2026 VAT return was filed 2026-08-19, after its 2026-07-31 due date.",
+        "[income_statement] The period runs 2025-11-01 to 2026-10-30, about twelve months and ending in the future relative to a typical management account; confirm whether this is a forecast or a mislabelled period.",
+        "[income_statement] Operating profit of 203,415.90 is consistent with revenue minus operating expenses."
+      ]
+    },
+    {
+      "business_id": "dev-006",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18338.0,
+        "output_tokens": 7681.0,
+        "live_latency_s": 19.1
+      },
+      "notes": [
+        "[bank_statement] The statement covers 2025-11-01 to 2026-10-30, which includes months after the period in which the document was issued; the period end is in the future relative to the most recent dates in other documents, so verify the statement date.",
+        "[bank_statement] Statement header says the period ends 2026-10-30 but the last transaction is dated 2026-10-29; all lines were recorded as printed.",
+        "[bank_statement] Column layout check: amounts appear in the Debit/Credit columns as printed; the first-page Credit column values were recorded as money in (positive) and Debit as money out (negative).",
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached; the certificate itself is not among the listed attachments, so verify it before relying on it.",
+        "[receivables_aging] Customer 90+ day balances sum to 6,500.00 total only if the printed Total row is used; the four customer 90+ values (570.24, 1622.49, 2552.19, 1755.08) sum to 6,499.99, a 0.01 difference from the printed total.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of roughly 12 months that ends in the future relative to a typical management account; confirm the period dates and whether these are actual or projected figures."
+      ]
+    },
+    {
+      "business_id": "dev-007",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19183.0,
+        "output_tokens": 8432.0,
+        "live_latency_s": 20.5
+      },
+      "notes": [
+        "[bank_statement] Period header reads 2025-11-01 to 2026-10-30 but the last transaction is dated 2026-10-31, one day after the stated period end.",
+        "[bank_statement] Line 2026-10-14 POS settlement is printed in the Debit column (49,273.99) although its description is a POS settlement (a credit-type item); recorded as money out as printed, and the balance movement confirms the debit.",
+        "[bank_statement] Balance went negative (-78,641.05 on 2025-12-24 and -87,541.05 on 2025-12-25) after large payroll, rent and supplier payments, indicating an overdraft or severe cash shortfall in December 2025.",
+        "[bank_statement] Two incoming transfers on 2026-01-01 and two POS settlements on 2025-12-31 and 2026-01-01 fall on the same dates as other entries; no duplicate amounts found otherwise.",
+        "[bank_statement] Statement is marked as a simulated document for a hackathon demo, not a real record.",
+        "[receivables_aging] Customer row totals do not sum to the printed Total row: the six customer totals add to 617,300.00 only if recomputed; per-bucket checks differ from the printed Total, so the Total row should be verified against the ledger.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, roughly a full year that ends in the future relative to a typical filing date; confirm whether this is a forecast or a mislabelled period.",
+        "[income_statement] Operating profit printed as 733,908.60 is consistent with revenue minus operating expenses.",
+        "[assemble] direction corrected from the running balance on 1 line(s); 1 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-008",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18205.0,
+        "output_tokens": 7705.0,
+        "live_latency_s": 19.2
+      },
+      "notes": [
+        "[bank_statement] The printed Debit and Credit columns appear to be swapped relative to the running balance: the balance falls after lines printed under Debit and rises after lines printed under Credit only when read in reverse; transactions were recorded using the balance movement, so each line's sign follows the balance change.",
+        "[bank_statement] Running balance goes negative (e.g. -32,735.54 on 2025-11-03 and -34,322.37 on 2025-11-12), which is unusual for a business current account and should be verified against the original statement.",
+        "[bank_statement] The statement period runs to 2026-10-30, a future-dated period relative to a typical statement; the account shows continuous activity through that date and should be verified.",
+        "[bank_statement] Printed opening balance 56,743.81 plus the first line's movement does not reconcile with the printed balance of 4,012.72 on 2025-11-02; the first running balance is inconsistent with the opening balance.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row: the 90+ column rows add to 13,300.00 (3667.93+484.36+2107.27+4397.80+2642.64), but the Total row grand total of 236,000.00 differs from the sum of the customer Total column (51,453.29+30,999.40+53,089.57+45,763.27+54,694.47 = 235,999.99).",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about a year, not a monthly or quarterly period. Confirm whether this is a forward-looking projection or a mislabelled period before relying on it.",
+        "[income_statement] Operating profit printed as 516,350.40 equals revenue minus operating expenses, so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-009",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19670.0,
+        "output_tokens": 8905.0,
+        "live_latency_s": 21.0
+      },
+      "notes": [
+        "[bank_statement] The statement's opening balance (199,583.33) does not reconcile with the first printed line: 199,583.33 less the 93,055.59 debit gives 106,527.74, which matches the printed balance, so the printed running balances appear to be consistent. However, the printed balances on the first lines go negative (e.g. -65,578.81 to -135,923.47) and then recover, which is unusual for a business account and should be verified against the original bank records.",
+        "[bank_statement] The period is stated as 2025-11-01 to 2026-10-30 and the statement runs past the current date into future-dated entries; the document should be verified as authentic.",
+        "[bank_statement] The owner Saad Al-Qahtani does not appear as a counterparty on any line.",
+        "[bank_statement] Two statement lines are marked as financing instalments to lenders on the credit report (Sample Bank and Demo Finance Co.), recorded as debt_service at 5,290.38 and 4,509.62 monthly.",
+        "[receivables_aging] The printed Total row does not match the customer rows: customer totals sum to about 468,100 for the Total column, but the 90+ column sums to about 265,000 only if the printed total is used; the individual 90+ values for the five customers add to approximately 265,000 in total, so this is consistent. The 0-30, 31-60 and 61-90 column totals are not recorded here, and the bucket totals should be checked against the customer rows before relying on them.",
+        "[receivables_aging] Roughly 57% of outstanding receivables (265,000 of 468,100) sit in the 90+ days bucket, which is a significant collection risk.",
+        "[income_statement] The period end date 2026-10-30 is in the future relative to a typical reporting date; confirm whether this is a forecast or a mistyped period.",
+        "[income_statement] Operating profit printed as 399,182.30 equals revenue minus operating expenses, so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-010",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 20193.0,
+        "output_tokens": 9924.0,
+        "live_latency_s": 26.8
+      },
+      "notes": [
+        "[financing_application] Kafalah guarantee is marked as approved with certificate attached; the certificate itself is not among the listed attachments, so it should be verified.",
+        "[receivables_aging] The customer rows do not add up to the printed Total row: the four Total-row bucket figures (131,403.92 / 120,363.87 / 173,532.21 / 53,600.00) and grand total 478,900.00 differ from the sums of the customer rows, which work out to a 90+ column of about 53,600.00 but a grand total of about 478,900 only if the bucket totals are summed correctly; the per-customer totals should be checked against the source ledger.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about twelve months and ends in the future relative to a typical management account; confirm whether this is a forecast or a mislabelled period.",
+        "[income_statement] Revenue of 3,328,900.00 less operating expenses of 2,653,133.30 equals 675,766.70, matching the stated operating profit."
+      ]
+    },
+    {
+      "business_id": "dev-011",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 6.0,
+        "cache_hits": 5.0,
+        "input_tokens": 16994.0,
+        "output_tokens": 7558.0,
+        "live_latency_s": 19.5
+      },
+      "notes": [
+        "[credit_report] Only facility listed is a trade credit in default (90+ days past due), with an outstanding balance of 57668.52.",
+        "[bank_statement] Owner capital injection of 68,648.85 on 2026-05-04 is recorded as owner_funds; it is not revenue.",
+        "[bank_statement] Statement period is printed to 2026-10-30 but the last line is 2026-10-23; the closing balance matches the final running balance.",
+        "[financing_application] Financial statements are listed as not provided.",
+        "[financing_application] Kafalah guarantee is marked approved with certificate attached, but no certificate appears in the attachment list.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row: the five 'Total' values add to 418,700.00 only when recomputed, but the 90+ column sums to 33,600.00 and the 0-30 column is consistent; analyst should verify the row-level totals against the Total row before relying on them."
+      ]
+    },
+    {
+      "business_id": "dev-012",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18260.0,
+        "output_tokens": 7640.0,
+        "live_latency_s": 19.1
+      },
+      "notes": [
+        "[cr_certificate] Document is footed as a simulated demo record and is not a real registration.",
+        "[bank_statement] The statement period runs to 2026-10-30, but the last transaction is dated 2026-10-24 and the printed closing balance matches that line's running balance; the statement dates extend past the period label's logic only in that no later lines appear.",
+        "[bank_statement] Several debit lines fall in a sequence of dates after the printed period start, and the statement covers 12 months of activity with no owner-funds or debt-service lines recorded.",
+        "[receivables_aging] The customer rows do not sum to the printed Total row: the 90+ column rows add to 55,100.00 (matching the Total), but the Total row's grand total of 762,800.00 is not the sum of the customer totals, which add to a different figure. Verify against the accounting system before relying on the total.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about 12 months but ends in the future relative to a typical submission; confirm whether these are actual or projected figures.",
+        "[income_statement] Operating profit printed as 653,044.00 equals revenue minus operating expenses (4,664,600.00 - 4,011,556.00 = 653,044.00), so the printed figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-013",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18387.0,
+        "output_tokens": 7580.0,
+        "live_latency_s": 18.4
+      },
+      "notes": [
+        "[credit_report] The report shows no credit facilities on record for this business.",
+        "[financing_application] Kafalah guarantee is marked as approved with certificate attached; the certificate itself is not in the submitted pages, so verify it.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row: the 90+ column sums to about 14,800 but the 0-30, 31-60 and 61-90 columns and the Total column do not reconcile with the customer lines; the printed Total row is recorded as shown.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of about one year that ends in the future relative to a typical filing date; confirm whether this is a forecast or a mislabeled period.",
+        "[income_statement] Revenue less operating expenses equals 1,013,268.00, matching the printed operating profit."
+      ]
+    },
+    {
+      "business_id": "dev-014",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 10.0,
+        "cache_hits": 5.0,
+        "input_tokens": 34693.0,
+        "output_tokens": 17026.0,
+        "live_latency_s": 48.6
+      },
+      "notes": [
+        "[bank_statement] The statement period runs to 2026-10-30, a full year, yet the transactions stop at 2026-01-25; the period end and the page count (page 1 of 4) suggest the statement is incomplete or the period end is misstated.",
+        "[bank_statement] The account is a personal current account, while the header lists a commercial business with business rent and payroll; the business is running its revenue and costs through a personal account.",
+        "[bank_statement] Large recurring personal-category outflows (school fees, home rent, family transfer) sit alongside business revenue in the same account.",
+        "[bank_statement] This page is the middle of a statement: opening and closing balances, period dates and account type are not on it and are left null.",
+        "[bank_statement] Printed page shows the 2026-01-25 and 2026-01-27 lines with balances that do not follow from the previous printed balance, but these are copied as printed; the page has no earlier line to check them against.",
+        "[bank_statement] This page is page 3 of 4; period dates, opening/closing balances and account type are not shown here and were left null.",
+        "[bank_statement] The first line on this page (2026-05-17) shows a running balance of 509,524.18 with no preceding line on this page to reconcile against; the balance column was copied as printed.",
+        "[bank_statement] Rent payment 2026-05-17 and other entries are as printed; the running balance on several lines was not verified against the prior line because the preceding page is not included.",
+        "[bank_statement] Page 4 of 4 only: opening balance and period start are not on this page, and the account holder and account type are not shown.",
+        "[bank_statement] The first line's balance (667,921.40) is after a 38,963.80 debit, so the balance before it is not on this page and the page cannot be fully reconciled to an opening balance.",
+        "[bank_statement] Read page by page: the whole-statement reading did not reconcile.",
+        "[financing_application] Financial statements listed as not provided.",
+        "[receivables_aging] The customer rows do not sum to the printed Total row: the 90+ column rows add to 12,400.00 and the 0-30 column rows add to 138,812.85, but the Total row values are as printed; the Total grand total of 445,000.00 differs from the sum of customer Total column values (about 445,000.00 check needed)."
+      ]
+    },
+    {
+      "business_id": "dev-015",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18295.0,
+        "output_tokens": 7759.0,
+        "live_latency_s": 20.0
+      },
+      "notes": [
+        "[bank_statement] The first transaction's balance of 38,480.94 does not reconcile with the opening balance of 98,775.98 less the debit of 60,295.04 (which gives 38,480.94, so it does reconcile); however the 2025-11-04 rent line shows a negative running balance of -26,165.91, which would be unusual for a business account and should be checked against the original statement.",
+        "[bank_statement] The statement period runs from 2025-11-01 to 2026-10-30 and includes transactions dated after the stated period end in some layouts; all lines are recorded as printed.",
+        "[bank_statement] Revenue lines are from customers and POS; no owner funds or personal transfers appear on this statement, and no loan repayments appear.",
+        "[financing_application] Kafalah guarantee is marked approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[financing_application] Profit rate is labelled indicative, so the final rate may differ.",
+        "[receivables_aging] Printed Total row does not match the sum of customer rows: customer 90+ balances add to 20,100.00 but row totals sum to 442,400.00 only if recomputed; bucket columns on the Total row (156,986.85 + 160,789.99 + 104,523.16 + 20,100.00) sum to 442,400.00 and customer rows sum to 442,400.00, so totals reconcile; verify customer-level row sums against source ledger.",
+        "[tax_compliance] Q3 2025 VAT return filed 2025-12-07, about five weeks after its 2025-10-31 due date.",
+        "[tax_compliance] Q2 2026 VAT return filed 2026-08-09, nine days after its 2026-07-31 due date.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about a year and includes future months relative to a typical submission date; confirm the period is correct.",
+        "[income_statement] Operating profit of 731,654.40 is shown on the document and equals revenue minus operating expenses."
+      ]
+    },
+    {
+      "business_id": "dev-016",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18355.0,
+        "output_tokens": 7712.0,
+        "live_latency_s": 18.5
+      },
+      "notes": [
+        "[cr_certificate] Arabic trade name differs from the English business name: وطن للتجارة الإلكترونية",
+        "[financing_application] Kafalah guarantee is marked as approved with certificate attached, but no certificate or guarantor details appear in the listed attachments; verify before relying on it.",
+        "[receivables_aging] Customer rows sum to 531,200.00 ... check: 119,507.44 + 161,248.38 + 122,907.18 + 127,537.00 = 531,200.00, consistent with the Total row.",
+        "[receivables_aging] Al-Mawared Co. has the largest balance (161,248.38) and 6,725.64 in 90+ days, relatively low aged exposure compared with other customers.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about 12 months ending in the future relative to a typical filing date; the period end should be confirmed as an actual or projected period.",
+        "[income_statement] Operating profit printed as 366,322.20 equals revenue minus operating expenses (1,650,100.00 - 1,283,777.80), so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-017",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 20999.0,
+        "output_tokens": 10524.0,
+        "live_latency_s": 25.3
+      },
+      "notes": [
+        "[credit_report] Demo Trade Supplier trade credit is in default, 90+ days past due, with an outstanding balance of 36845.91 and no monthly instalment shown.",
+        "[bank_statement] The account is titled as a personal current account, yet it carries the business's payroll, rent, supplier and POS receipts; the analyst should confirm which account is the business's operating account.",
+        "[bank_statement] Period runs 2025-11-01 to 2026-10-30, a full 12 months, so the statement covers more than the usual 3-6 month window and the dates extend beyond the usual reporting date; confirm the period is correct.",
+        "[bank_statement] Owner capital injection of 77714.67 on 2026-02-04 is the only owner funding shown; it is recorded as owner_funds, not revenue.",
+        "[bank_statement] Personal spending (school fees, home rent, family transfers, personal card payments) is paid from the same account as business costs; the business's cash flow must be read net of these outflows.",
+        "[bank_statement] Statement's own running balances reconcile line by line with the printed amounts; the printed closing balance matches the last running balance.",
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[financing_application] Attachments list includes financial statements, but the document (page 1 only) contains no figures from them; figures should be checked against the statements.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row: 90+ column rows sum to 24,700.00 (Total row matches), but the grand total of the six customer totals is 365,900.00 only if recomputed; verify before relying on the Total row.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is a full year ending in the future relative to a typical management account; the period end should be confirmed as an actual or projected period.",
+        "[income_statement] Operating profit printed as 597,417.90 matches revenue minus operating expenses."
+      ]
+    },
+    {
+      "business_id": "dev-018",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19329.0,
+        "output_tokens": 9007.0,
+        "live_latency_s": 29.0
+      },
+      "notes": [
+        "[receivables_aging] Customer row totals do not sum to the printed Total row: the four customer totals add to 802,600.00 only if computed as 189,596.78 + 151,832.95 + 208,242.56 + 252,927.71 = 802,600.00, which matches; however the 90+ column sums to 6,914.64 + 19,371.13 + 29,028.79 + 16,185.44 = 71,500.00, which also matches, so no discrepancy was found in the total row arithmetic beyond verification.",
+        "[income_statement] The period runs from 2025-11-01 to 2026-10-30, which is almost a full year and ends in the future relative to a typical filing date. Confirm whether these are actual results or a forecast/budget."
+      ]
+    },
+    {
+      "business_id": "dev-019",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19240.0,
+        "output_tokens": 7697.0,
+        "live_latency_s": 19.4
+      },
+      "notes": [
+        "[bank_statement] The statement period runs to 2026-10-30 but a transaction is dated 2026-10-31, which falls outside the stated period.",
+        "[bank_statement] Statement covers 2025-11-01 to 2026-10-30, which is 12 months, but the page-1 header shows the period as a single range; the closing balance is also dated after the period end.",
+        "[receivables_aging] Customer-level 90+ amounts sum to 1,800.00 (633.37 + 591.55 + 170.35 + 404.73 = 1,800.00), consistent with the Total row.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about twelve months but ends one day short of a full year; confirm the intended period end with the business.",
+        "[income_statement] Operating profit printed as 508,933.00 equals revenue minus operating expenses, so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-020",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 17973.0,
+        "output_tokens": 7284.0,
+        "live_latency_s": 17.4
+      },
+      "notes": [
+        "[bank_statement] The statement period runs to 2026-10-30, but the last transaction is dated 2026-10-24 and the printed closing balance matches it.",
+        "[bank_statement] Statement is marked as a simulated document for a hackathon demo; figures were recorded as printed.",
+        "[financing_application] Kafalah guarantee is marked as approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it.",
+        "[receivables_aging] Customer rows sum to 390,800.00 total for the 90+ column check, but the 90+ column values (9,593.55 + 12,246.75 + 7,278.39 + 7,581.31) do not reconcile to the stated 90+ total of 36,700.00; column sum is 36,700.00 only when rounded, so verify against the ledger.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of about twelve months that ends in the future relative to a typical management account; confirm the period end date and whether these are actual or projected figures.",
+        "[income_statement] Operating profit printed as 692,694.40 is consistent with revenue less operating expenses (4,557,200.00 - 3,864,505.60)."
+      ]
+    },
+    {
+      "business_id": "dev-021",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18650.0,
+        "output_tokens": 7950.0,
+        "live_latency_s": 19.6
+      },
+      "notes": [
+        "[bank_statement] The statement period runs to 2026-10-30, but the last transaction is dated 2026-10-26 and the document contains no later activity; the statement appears to cover a period extending into the future relative to typical statement dates, so the dates should be verified against the original bank record.",
+        "[bank_statement] The statement shows no owner-funds or personal transactions; all outgoing items are payroll, rent, suppliers, utilities or the Sample Bank financing instalment of 7,500 per month.",
+        "[receivables_aging] The 90+ column in the Total row (32400) does not match the sum of the customer rows (5428.58 + 6234.29 + 11161.40 + 9575.73 = 32400.00 — matches), but the customer Total column sums to 473800.00 only if rows are added as printed; the bucket totals should be checked against the source ledger before relying on them.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of about one year that ends in the future relative to a typical filing date; confirm whether this is a forecast or a mis-keyed period end.",
+        "[income_statement] Operating profit of 999,457.00 is consistent with revenue less operating expenses (5,260,300.00 - 4,260,843.00)."
+      ]
+    },
+    {
+      "business_id": "dev-022",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 17930.0,
+        "output_tokens": 7305.0,
+        "live_latency_s": 17.5
+      },
+      "notes": [
+        "[credit_report] The report shows no credit facilities on record for Watan Contracting.",
+        "[bank_statement] Opening balance 109,642.29 plus the first line (+46,028.68) gives 155,670.97, but the first printed debit (85,963.03 payroll) is listed before the balance is adjusted; the printed running balances are copied as shown and the ledger is internally consistent from 2025-11-06 onward.",
+        "[bank_statement] The running balance goes negative on 2025-11-08 (-16,499.77) after the rent payment, meaning the account was overdrawn at that point.",
+        "[bank_statement] Statement period runs to 2026-10-30 although the document spans transactions through 2026-10-24; the statement covers a 12-month window with no lines after 2026-10-24.",
+        "[bank_statement] Rent payments are recurring to the same business premises but appear each month with varying amounts; no personal or owner transfers appear on this statement.",
+        "[financing_application] Profit rate is labelled indicative (هامش الربح الاسترشادي), so the final rate may differ.",
+        "[receivables_aging] The customer rows do not add up to the Total row: the listed Total of 434000 differs from the sum of the five customer totals (434000 is the stated figure, but the 90+ column sums to 2100.00 only if the rows total to that), so the Total row should be checked against the customer detail before relying on it.",
+        "[income_statement] The period runs from 2025-11-01 to 2026-10-30, which is about one year but ends on 30 October 2026. Confirm whether this is a forecast or a period still in progress, since management accounts normally cover a closed period."
+      ]
+    },
+    {
+      "business_id": "dev-023",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19805.0,
+        "output_tokens": 9022.0,
+        "live_latency_s": 22.8
+      },
+      "notes": [
+        "[bank_statement] Line 2026-01-27 POS settlement is printed as a debit (47,061.08) although the description is a POS settlement; recorded as printed in the Debit column and categorised as revenue, which needs verification.",
+        "[bank_statement] Statement period runs to 2026-10-30 and includes dates after the apparent present; the statement is labelled simulated.",
+        "[bank_statement] Rent is paid to business premises and no personal or owner-named transfers appear.",
+        "[receivables_aging] The 90+ bucket is 271,100.00 of 504,900.00 total, about 54% of receivables aged over 90 days, which is a serious collection concern.",
+        "[receivables_aging] Row totals do not sum to the printed Total row: the customer Total column adds to 504,900 in aggregate, but the 90+ column sums to 271,100 only if each row is checked; please verify the per-customer figures against the ledger before relying on the aging.",
+        "[tax_compliance] Q2 2026 VAT return filed 2026-08-21, 21 days after its 2026-07-31 due date.",
+        "[tax_compliance] Q1 2026 VAT return filed 2026-06-07, 38 days after its 2026-04-30 due date.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is almost a full year but ends one day before the expected 12-month close; confirm the period dates with the applicant.",
+        "[income_statement] Operating profit printed as 469,885.50 equals revenue minus operating expenses (3,196,500.00 - 2,726,614.50), so the figures are internally consistent.",
+        "[assemble] direction corrected from the running balance on 1 line(s); 0 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-024",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 6.0,
+        "cache_hits": 5.0,
+        "input_tokens": 18108.0,
+        "output_tokens": 8600.0,
+        "live_latency_s": 21.2
+      },
+      "notes": [
+        "[bank_statement] The first line's balance is negative (-17,910.02) after a 68,578.92 debit against an opening balance of 50,668.90; this is printed as-is and is inconsistent with the other lines in the sequence.",
+        "[bank_statement] Opening balance 50,668.90 and the printed running balances are consistent with the 2025-11-01 payroll debit only if the balance drops below zero; the period is labelled 2025-11-01 to 2026-10-30 and the statement runs past the document date range, so the period end should be checked.",
+        "[bank_statement] Owner capital injection of 54,744.85 on 2026-08-04 (owner_funds) is recorded as money in; it is not revenue.",
+        "[bank_statement] Account opex and revenue lines are recorded as printed; the statement shows a 2026-08-04 owner injection, which is the only owner_funds line.",
+        "[financing_application] Financial statements are not provided, though the application lists them as an attachment field.",
+        "[financing_application] Profit rate is indicative only (7.4% per year).",
+        "[receivables_aging] Sum of the customer 90+ column (654.39 + 7152.97 + 5300.58 + 4016.66 + 630.75 + 4844.65 = 22600.00) matches the printed 90+ total, but the customer rows in the Total column sum to 244,296.10 or so; the printed grand total of 244,300.00 does not reconcile exactly to the customer rows."
+      ]
+    },
+    {
+      "business_id": "dev-025",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19052.0,
+        "output_tokens": 8436.0,
+        "live_latency_s": 20.6
+      },
+      "notes": [
+        "[bank_statement] The printed running balance on the first lines goes negative (from -95,447.44 on 2025-11-09 to -174,847.78 on 2025-11-10) and is inconsistent with the opening balance of 243,306.22 and the debit/credit amounts; the balance column appears to be misaligned or misread on early lines, so the early balances are not reliable.",
+        "[bank_statement] The statement period runs to 2026-10-30 but the last transaction is 2026-10-28 and the closing balance of 1,012,067.22 does not match the last printed running balance of 1,012,067.22 on that line only if the sequence is accepted; the document also lists dates in the future relative to a typical statement date, so the period should be checked against the source.",
+        "[bank_statement] Account holder is listed with commercial registration; no transfers to or from the owner Majed Al-Shehri appear on the statement.",
+        "[financing_application] Listed attachments include bank statement, commercial registration, receivables aging, tax compliance summary and financial statements; the attachments were not provided for review in this document, so their contents are unverified.",
+        "[receivables_aging] The customer rows do not sum to the printed Total row: the 90+ column rows sum to 80,100.00 (matches), but the Total column rows sum to about 686,400.00 only if verified; the printed grand total 686,400.00 should be checked against the row totals before relying on it.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is a 12-month span that extends into the future relative to a typical filing date; the period end should be confirmed before relying on these figures.",
+        "[income_statement] Operating profit printed as 935,561.00 equals revenue minus operating expenses (5,503,300.00 - 4,567,739.00), so the document is internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-026",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19068.0,
+        "output_tokens": 8347.0,
+        "live_latency_s": 26.0
+      },
+      "notes": [
+        "[credit_report] Demo Trade Supplier (simulated) trade credit of 61508.13 is shown as default, 90+ days past due, with no monthly instalment.",
+        "[bank_statement] The statement period runs to 2026-10-31 although the header states 2026-10-30; the period end here follows the last transaction date.",
+        "[bank_statement] The statement covers dates up to 2026-10-31, which is after the typical reporting window for a statement issued before those dates; verify the statement issue date.",
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached; the certificate itself is not among the listed attachments, so it should be verified.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row; the 90+ column also differs from the sum of customer 90+ values (sum of customer 90+ values is 16,300.00 only if recomputed, so verify against the ledger).",
+        "[income_statement] The period end date of 2026-10-30 is in the future relative to a typical management accounts cycle; confirm whether this is a forecast or a projection rather than actual results.",
+        "[income_statement] Operating profit printed as 317,704.40 equals revenue less operating expenses, so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-027",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18312.0,
+        "output_tokens": 6974.0,
+        "live_latency_s": 19.7
+      },
+      "notes": [
+        "[credit_report] The report lists no credit facilities on record for this business.",
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached; the certificate itself is not in this document and was not verified.",
+        "[financing_application] Profit rate is labelled indicative in the document.",
+        "[receivables_aging] The 90+ bucket is 317500 of 607300 total, about 52% of receivables, which is a serious aging concern.",
+        "[receivables_aging] Customer rows do not sum to the Total row: the 90+ column sums to 317500 but the Total row shows 607300 as the grand total and the 0-30, 31-60 and 61-90 totals (118288.03, 99319.31, 72192.66) also need checking against customer rows; the printed Total row was recorded as shown.",
+        "[income_statement] The period end date (2026-10-30) is in the future relative to a typical management account; confirm whether this is a forecast or a mis-keyed date.",
+        "[income_statement] Printed operating profit of 783,980.40 is consistent with revenue minus operating expenses."
+      ]
+    },
+    {
+      "business_id": "dev-028",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18218.0,
+        "output_tokens": 7108.0,
+        "live_latency_s": 17.8
+      },
+      "notes": [
+        "[credit_report] Single facility shown: trade credit from Demo Trade Supplier, in default at 90+ days past due, outstanding 59918.69.",
+        "[bank_statement] Opening balance 61,136.60 and first-line running balances do not reconcile: the 2025-11-02 payroll debit of 54,910.60 takes the balance from 61,136.60 to 6,226.00, consistent with the printed balance column, but the printed debit/credit columns appear to be read with the amounts shown; the running balance column is recorded exactly as printed.",
+        "[bank_statement] Balance column goes negative several times (2025-11-07 to 2025-12-11), indicating an overdraft or unarranged debit position in the early months of the period.",
+        "[bank_statement] Period runs 2025-11-01 to 2026-10-30 while the last transaction is dated 2026-10-28; the statement covers a 12-month span with transactions dated after the stated period end is not an issue, but the closing balance is taken as printed.",
+        "[bank_statement] A single owner capital injection of 66,682.20 on 2026-10-04 is recorded as owner_funds; no owner-funded inflows appear earlier in the period.",
+        "[bank_statement] Transactions have no counterparty names for many POS settlements and some outgoing payments (payroll, rent, suppliers, utilities); these are recorded with null counterparty as printed.",
+        "[financing_application] Kafalah guarantee is stated as approved with certificate attached; the certificate itself is not in this document and should be verified.",
+        "[financing_application] Profit rate is marked indicative in the application.",
+        "[receivables_aging] Printed Total row does not reconcile with customer rows: customer totals sum to about 281,000.00 but the 90+ column per customer sums to a different figure than the printed 40,000.00 total, and the 0-30, 31-60, 61-90 column totals also do not foot to the customer rows; verify against the accounting system before relying on the totals.",
+        "[income_statement] The period ends 2026-10-30, which is in the future relative to a typical filing date; confirm whether this is a forecast or projection rather than actual management accounts.",
+        "[income_statement] Operating profit printed as 490,373.00 equals revenue minus operating expenses; it is consistent with the other figures on the document."
+      ]
+    },
+    {
+      "business_id": "dev-029",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19003.0,
+        "output_tokens": 8325.0,
+        "live_latency_s": 20.2
+      },
+      "notes": [
+        "[cr_certificate] Arabic business name is عيادة خط نجد الطبية; the certificate is marked as a simulated document for a hackathon demo.",
+        "[bank_statement] Opening balance 72,446.20 plus the first line's debit of 81,078.74 would give a negative balance of -8,632.54, which is the printed running balance; the printed balances run negative from 2025-11-03 to 2025-11-10 before turning positive on 2025-11-12, which is unusual for a clinic with a steady revenue stream.",
+        "[bank_statement] The statement period runs to 2026-10-30, and the printed transactions continue into the future relative to the statement date context; dates after 2026-06 should be verified against the statement issue date.",
+        "[bank_statement] The statement lists 'Najd Line Medical Clinic' while the business is described as a clinic; the transactions show no clinical or medical-supply suppliers, only generic supplier payments, and no owner-funds injections are shown.",
+        "[receivables_aging] The 90+ days column totals 271,100.00, about 58% of total outstanding, which is a high share of aged receivables.",
+        "[receivables_aging] Printed Total row does not reconcile with customer rows: customer totals sum to about 470,500.00 but the 90+ column sums to about 271,100.00 only when recomputed; the 0-30, 31-60 and 61-90 totals should be checked against the customer lines.",
+        "[income_statement] The period runs from 2025-11-01 to 2026-10-30, which is a full year ending in the future relative to a typical filing date; confirm whether these are actual or projected figures.",
+        "[income_statement] Operating profit printed as 1,095,765.00 equals revenue less operating expenses; no inconsistency found."
+      ]
+    },
+    {
+      "business_id": "dev-030",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19064.0,
+        "output_tokens": 8578.0,
+        "live_latency_s": 20.3
+      },
+      "notes": [
+        "[bank_statement] The printed Debit and Credit columns do not reconcile with the running balance on many lines: for example, the 2025-11-02 payroll debit of 123,004.94 is followed by a balance of 33,885.58 (opening 156,890.52), and the 2025-11-09 credit of 141,229.50 moves the balance to 175,115.08. Amounts were recorded from the printed Debit/Credit columns and balances exactly as printed; the balance column is internally consistent with those signs only in some lines, so the sign of each line should be verified against the source.",
+        "[bank_statement] Statement period runs 2025-11-01 to 2026-10-30, and the document is a simulated demo record; the account carries a negative running balance on 2025-11-21 and 2025-11-22 (-18,422.06 and -142,170.30).",
+        "[bank_statement] Recurring rent, payroll and utilities debits appear both before and after the period end of the commercial registration date context; no owner-funds or personal transactions appear on the statement.",
+        "[financing_application] Kafalah guarantee is listed as approved with certificate attached, but no certificate is among the listed attachments; the Arabic text of the Kafalah line is garbled.",
+        "[receivables_aging] The customer 90+ column sums to 36,000.00 only if the printed row values are added; the printed customer rows total 80,223.52 + 123,011.38 + 101,536.32 + 113,446.32 + 103,958.64 + 80,723.82 = 602,900.00, which matches the printed Total row, but the 90+ column (2,463.92 + 15,926.92 + 4,132.81 + 3,030.12 + 1,334.65 + 9,111.58 = 35,999.99) differs from the printed 90+ total by 0.01.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about a year ending in the future relative to a typical management accounts date; confirm whether this is a forecast or a mis-keyed period end."
+      ]
+    },
+    {
+      "business_id": "dev-031",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18074.0,
+        "output_tokens": 7613.0,
+        "live_latency_s": 28.1
+      },
+      "notes": [
+        "[bank_statement] The statement's printed period runs 2025-11-01 to 2026-10-30, but the last transactions are dated 2026-10-31, one day after the stated period end.",
+        "[bank_statement] No loan or financing repayments appear in the period; no owner capital injections or personal-account transfers appear either.",
+        "[receivables_aging] Customer row totals sum to 449,700.00 only if the bucket columns are read as printed; the printed Total row's 90+ figure (46,600.00) is a round number while the customer 90+ values sum to a different figure, which an analyst should verify against the ledger.",
+        "[tax_compliance] Q2 2026 VAT return was filed 2026-09-09, after its 2026-07-31 due date.",
+        "[tax_compliance] Q4 2025 VAT return was filed 2026-02-27, after its 2026-01-31 due date.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about a full year but ends one day before a 12-month period would end; the period end may be a typo and should be confirmed.",
+        "[income_statement] Operating profit of 675,221.30 is shown on the document, and it equals revenue minus operating expenses; this is consistent."
+      ]
+    },
+    {
+      "business_id": "dev-032",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": false,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 6.0,
+        "cache_hits": 5.0,
+        "input_tokens": 16782.0,
+        "output_tokens": 6938.0,
+        "live_latency_s": 26.1
+      },
+      "notes": [
+        "[credit_report] Only one facility is listed: a trade credit from Demo Trade Supplier, in default and 90+ days past due, with 89631.14 outstanding. Monthly instalment is shown as '-'.",
+        "[bank_statement] The statement period runs to 2026-10-30, which is later than the date of most other records in this file, and the last transaction is dated 2026-10-26; the statement may have been prepared with forward-dated entries and should be verified directly with the bank.",
+        "[bank_statement] The last line (2026-10-26, Utilities and telecom, debit 69945.28) was entered with category revenue in error; the amount is negative, so it is opex, not revenue. The category value I recorded is incorrect as stated.",
+        "[bank_statement] Several debit lines have a blank counterparty; the statement does not name the payee for payroll, rent, supplier, or utility debits.",
+        "[financing_application] Financial statements listed as not provided; the application lists bank statement, commercial registration, receivables aging and tax compliance summary as attachments only.",
+        "[receivables_aging] Total row's 90+ bucket (21000) is a round figure; the 90+ column customer values (3263.64, 4852.84, 2058.08, 6023.76, 1256.35, 3545.33) sum to 21000.00 only approximately, and the grand total of 617300.00 does not match the sum of the customer totals, which is needed for a reconciliation check.",
+        "[tax_compliance] Q2 2026 VAT return filed 2026-08-31, after its 2026-07-31 due date (31 days late).",
+        "[tax_compliance] Q1 2026 VAT return filed 2026-05-20, after its 2026-04-30 due date (20 days late).",
+        "[assemble] direction corrected from the running balance on 0 line(s); 1 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-033",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19251.0,
+        "output_tokens": 8466.0,
+        "live_latency_s": 20.8
+      },
+      "notes": [
+        "[bank_statement] The printed column headers are Debit and Credit with amounts in the Debit column for outgoing lines; the statement's period runs 2025-11-01 to 2026-10-30 (a span of about 12 months, as printed), and the transaction list runs to 2026-10-27.",
+        "[bank_statement] Printed opening balance 87,422.59 plus credits less debits does not match the first running balance: the first line's printed balance of 103,345.60 equals 87,422.59 + 15,923.01, consistent, but the Debit/Credit placement of several lines (e.g. 2025-11-02 onward) appears shifted by one column in the printed layout; values were recorded as the amounts that reconcile with the printed running balances.",
+        "[bank_statement] Balance is stated as a single column; closing balance 304,826.59 matches the last printed running balance.",
+        "[receivables_aging] Customer rows do not sum to the printed Total row: 90+ column rows sum to 147,600.00 (matches), but the Total column rows sum to 398,600.00 only if recomputed; verify before relying on the grand total.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about twelve months but ends one day short of a full year; worth confirming the intended period end with the business."
+      ]
+    },
+    {
+      "business_id": "dev-034",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 20112.0,
+        "output_tokens": 9520.0,
+        "live_latency_s": 24.1
+      },
+      "notes": [
+        "[bank_statement] The account is titled as a personal current account, while the business name and commercial registration are on the statement; the business is running payroll, rent, suppliers and POS receipts through it, and it also carries personal items (school fees, home rent, family transfers, personal card payments).",
+        "[bank_statement] The statement period runs to 2026-10-30, which is after the dates of other items in this file; the account is shown as a single continuous statement covering 2025-11-01 to 2026-10-30.",
+        "[receivables_aging] Printed Total row for the 90+ bucket is 25100.00; the customer 90+ values sum to 25,100.00 as well, so they reconcile.",
+        "[receivables_aging] Customer-level row totals sum to 192,600.00 when added, matching the Total row, but the bucket totals for 0-30 and 31-60 should be checked against the rows by an analyst before relying on them.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about a year in length but ends before a full 12 months from the start date; confirm the intended reporting period with the applicant.",
+        "[income_statement] Operating profit printed as 518,308.00 equals revenue minus operating expenses (2,422,000.00 - 1,903,692.00), so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-035",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 18285.0,
+        "output_tokens": 7106.0,
+        "live_latency_s": 19.8
+      },
+      "notes": [
+        "[bank_statement] Printed 'POS settlement' lines on 2026-10-01 and 2026-10-31 are listed as 2026-10-01 POS debit (10138.28) and 2026-10-31 POS credit (31030.60); the 2026-10-01 line is recorded as a debit as printed on the statement's Debit column.",
+        "[bank_statement] Statement period runs to 2026-10-30 but includes a transaction dated 2026-10-31; the statement also shows the period dates in the future relative to some transaction dates, which an analyst should verify.",
+        "[bank_statement] Several large swings in POS and transfer amounts occur in March 2026 and after mid-2026 (e.g. 119,177.22 POS on 2026-03-02 and 163,564.15 on 2026-03-22), and the account shows a balance of 895,558.87 at close, well above the opening 201,273.07; the lender should confirm the source of these inflows.",
+        "[bank_statement] Payroll, rent and utilities are paid in irregular amounts and frequencies, and no loan repayments appear on the statement.",
+        "[receivables_aging] Customer row totals do not sum to the Total row: the five customer totals add to 333,000.00 only in part; the printed Total of 333000 does not match the sum of the listed customer totals.",
+        "[receivables_aging] Bucket columns do not reconcile: the 90+ column sums to 46,900 only if the customer rows are summed in full, so the Total row should be checked against the customer detail before relying on it.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about a year in length and ends in the future relative to a typical management account; confirm the period end date with the business.",
+        "[income_statement] Operating profit of 694,285.80 is consistent with revenue minus operating expenses.",
+        "[assemble] direction corrected from the running balance on 1 line(s); 1 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-036",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19237.0,
+        "output_tokens": 7786.0,
+        "live_latency_s": 18.4
+      },
+      "notes": [
+        "[credit_report] Trade credit facility from Demo Trade Supplier is in default, 90+ days past due, with an outstanding balance of 77441.97.",
+        "[bank_statement] Statement period runs to 2026-10-30 while the document contains transactions dated through that date; the period and dates are recorded as printed.",
+        "[bank_statement] Several POS settlement lines (e.g. 2025-12-01, 2025-12-11) appear in the Debit column and reduce the balance, which is unusual for POS settlements; recorded as printed with the category revenue and a negative sign per the printed Debit column.",
+        "[bank_statement] Transactions with no counterparty name on the statement (POS settlements, unlabeled lines) are recorded with null counterparty; the document lists no name for them.",
+        "[bank_statement] Several transaction dates fall after the date of this record and statement period end should be verified against the source bank.",
+        "[financing_application] Profit rate is labelled indicative (هامش الربح الاسترشادي), so the final rate may differ.",
+        "[receivables_aging] Customer row totals do not sum to the printed Total row: the six customer totals add to 210,200.00 only approximately; the 90+ column sums to 10,300.00 across customers, matching the Total row.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, a span of about one year that ends in the future relative to a typical filing date; the period end should be confirmed.",
+        "[income_statement] Operating profit of 222,059.20 equals revenue minus operating expenses, so the figures are internally consistent.",
+        "[assemble] direction corrected from the running balance on 2 line(s); 0 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-037",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 19951.0,
+        "output_tokens": 9337.0,
+        "live_latency_s": 22.8
+      },
+      "notes": [
+        "[bank_statement] The statement lists Debit and Credit columns in the same order as the printed row values; the amounts were recorded by the sign implied by each line's balance movement, as the printed columns are shifted relative to the header on several rows (e.g., 2025-11-03 payroll and POS lines).",
+        "[bank_statement] Running balance goes negative on 2026-01-02 (-62,641.48) after a large payroll and rent payment, which is a liquidity red flag.",
+        "[bank_statement] Payroll, rent, utilities and supplier outflows rise sharply in April 2026 and August to October 2026 relative to earlier months, and the closing balance of 902,163.41 is far above the opening balance, which is inconsistent with the business's pattern and should be verified against source records.",
+        "[bank_statement] Statement period runs to 2026-10-30 but the last transaction is dated 2026-10-31; the period end does not match the final line date.",
+        "[receivables_aging] The customer rows do not sum to the Total row: the four 90+ values add to 49,500.00 but the 0-30, 31-60 and 61-90 columns and the grand total should be checked against the customer rows (customer grand totals sum to 445,400.00 only if the row totals are added; verify before relying on the Total row).",
+        "[tax_compliance] Q1 2026 VAT return was filed 2026-06-06, about five weeks after its 2026-04-30 due date.",
+        "[tax_compliance] Business is not integrated with e-invoicing per the tax authority portal extract.",
+        "[income_statement] The stated period runs 2025-11-01 to 2026-10-30, which is about twelve months but ends one day short of a full year; confirm whether this is a forecast or a mislabelled period, since the end date is in the future relative to a typical management account.",
+        "[income_statement] Revenue less operating expenses equals the printed operating profit of 926,720.20, so the figures are internally consistent."
+      ]
+    },
+    {
+      "business_id": "dev-038",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 6.0,
+        "cache_hits": 5.0,
+        "input_tokens": 17823.0,
+        "output_tokens": 8026.0,
+        "live_latency_s": 19.3
+      },
+      "notes": [
+        "[bank_statement] The statement period runs to 2026-10-30 and the last transaction is 2026-10-29, so the document spans nearly 12 months, with dates running into the future relative to the most recent transactions in the period.",
+        "[bank_statement] The statement shows no owner-funds or personal transfers; all counterparties are companies or the financing lender.",
+        "[financing_application] Financial statements listed as not provided.",
+        "[financing_application] Kafalah guarantee is marked as approved with certificate attached, but the certificate is not in the attachment list.",
+        "[receivables_aging] The 90+ bucket total of 140000.00 is about 40.6% of total outstanding, a large share of receivables aged over 90 days.",
+        "[receivables_aging] Printed row totals do not reconcile: the customer 90+ column sums to 46,675.? (verify) and the grand total of customer rows does not match the printed Total row.",
+        "[assemble] direction corrected from the running balance on 1 line(s); 0 category(ies) made consistent with the direction."
+      ]
+    },
+    {
+      "business_id": "dev-039",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 11.0,
+        "cache_hits": 6.0,
+        "input_tokens": 35423.0,
+        "output_tokens": 16695.0,
+        "live_latency_s": 52.6
+      },
+      "notes": [
+        "[bank_statement] Period end 2026-10-30 is printed as the statement end, which is after the last transaction date (2026-02-04) and is 12 months from the start; the period may be a typo for 2026-04-30 or similar.",
+        "[bank_statement] Page 1 of 4: the closing balance and later transactions are on subsequent pages, so closing_balance is not available here.",
+        "[bank_statement] Several opening lines show negative running balances (e.g. -130,020.40 on 2025-11-19) with no overdraft noted on the document.",
+        "[bank_statement] Page 2 of 4 only: opening and closing balances, period dates and account type are not on this page and are left null.",
+        "[bank_statement] This page has no header: account type, period dates and opening/closing balances are not shown on page 3 and are left null.",
+        "[bank_statement] Every line's running balance was checked against the prior balance plus or minus the amount and was consistent on this page.",
+        "[bank_statement] This is page 4 of 4 only; opening balance, period dates and account type are not on this page.",
+        "[bank_statement] Running balances reconcile line by line from 1,044,726.66 to the closing balance of 946,052.10 printed on this page.",
+        "[bank_statement] Read page by page: the whole-statement reading did not reconcile.",
+        "[receivables_aging] The customer rows do not sum to the printed Total row: the six 90+ values add to 30,100.00 but the stated Total for 90+ is 30,100.00 (matches), while the Total column sums to about 508,900 only if the listed customer totals are added; the printed grand total of 508,900.00 should be checked against the customer lines before relying on it.",
+        "[tax_compliance] E-invoicing integration is shown as not integrated (غير مرتبط).",
+        "[tax_compliance] All four VAT returns shown (Q3 2025 to Q2 2026) were filed before their due dates.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about one year but ends one day before a full year; the period end may be a typo or a non-standard fiscal period and should be confirmed.",
+        "[income_statement] The period end date of 2026-10-30 is in the future relative to a typical submission date, so the figures may be projected rather than actual management accounts; confirm whether they are actuals or forecasts."
+      ]
+    }
+  ],
+  "failed": []
+}

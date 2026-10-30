@@ -1,0 +1,249 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 185145.84,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-06",
+    "amount": -60467.94,
+    "balance": 124677.9,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -51721.77,
+    "balance": 72956.13,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-21",
+    "amount": 44952.56,
+    "balance": 117908.69,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 97230.86,
+    "balance": 215139.55,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 39277.29,
+    "balance": 254416.84,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 95639.29,
+    "balance": 350056.13,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -70325.14,
+    "balance": 279730.99,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -1893.98,
+    "balance": 277837.01,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -2506.02,
+    "balance": 275330.99,
+    "category": "debt_service",
+    "counterparty": "شركة التمويل التجريبية"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -53851.45,
+    "balance": 221479.54,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": 76345.84,
+    "balance": 297825.38,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": -67662.79,
+    "balance": 230162.59,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": -60934.99,
+    "balance": 169227.6,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": 50708.81,
+    "balance": 219936.41,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": 52902.53,
+    "balance": 272838.94,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 31211.99,
+    "balance": 304050.93,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": -51685.26,
+    "balance": 252365.67,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -1893.98,
+    "balance": 250471.69,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -2506.02,
+    "balance": 247965.67,
+    "category": "debt_service",
+    "counterparty": "شركة التمويل التجريبية"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": 66830.83,
+    "balance": 314796.5,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -56850.96,
+    "balance": 257945.54,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 27535.0,
+    "balance": 285480.54,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": -58810.35,
+    "balance": 226670.19,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يناير"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -57133.69,
+    "balance": 169536.5,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 47954.64,
+    "balance": 217491.14,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -65259.12,
+    "balance": 152232.02,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": 29280.5,
+    "balance": 181512.52,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -55760.24,
+    "balance": 125752.28,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 68642.26,
+    "balance": 194394.54,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 57326.52,
+    "balance": 251721.06,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -1893.98,
+    "balance": 249827.08,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -2506.02,
+    "balance": 247321.06,
+    "category": "debt_service",
+    "counterparty": "شركة التمويل التجريبية"
+   }
+  ],
+  "notes": [
+   "Page 1 of 4 only: closing balance and remaining transactions are on later pages.",
+   "Transfers from مقاهي أريج and تركي المطيري and فهد العتيبي appear as revenue inflows; the فهد العتيبي and تركي المطيري lines are individuals, so they were recorded as revenue per the customer rule, but the analyst should confirm they are not owner or personal transfers.",
+   "Statement period end 2026-10-30 is well after the other page dates; period end may be a typo for 2026-01-30 or similar. Recorded as printed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4060,
+  "output_tokens": 2146,
+  "latency_s": 7.27,
+  "cached": false
+ }
+}

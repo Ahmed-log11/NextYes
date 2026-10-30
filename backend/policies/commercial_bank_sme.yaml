@@ -3,6 +3,7 @@
 # because the public source states the criterion but not a number.
 id: commercial_bank_sme
 name: Commercial bank · SME term financing
+name_ar: بنك تجاري · تمويل المنشآت لأجل
 description: >
   Typical commercial-bank criteria for SME financing. The ready threshold (75)
   is our own calibration, not a published bank figure.

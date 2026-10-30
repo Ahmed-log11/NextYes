@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 266600.0,
+  "overdue_90_plus": 1800.0,
+  "notes": [
+   "The 90+ bucket total (1,800.00) is much larger than the sum of the customer rows (633.37 + 591.55 + 170.35 + 404.73 = 1,800.00 matches), but it is 0.7% of outstanding, so limited aged exposure; the 31-60 and 61-90 buckets are large relative to 0-30 (61-90 totals 82,831.89, about 31% of outstanding).",
+   "Al-Safwa Restaurants has the largest balance (78,880.82) and Areej Cafes has the most in the 0-30 bucket; concentration should be checked against the customer list."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 320,
+  "latency_s": 3.79,
+  "cached": false
+ }
+}

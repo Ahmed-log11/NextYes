@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 192600.0,
+  "overdue_90_plus": 25100.0,
+  "notes": [
+   "Sum of the five customer Total column values (44,218.15 + 32,554.88 + 48,109.31 + 33,499.86 + 34,217.80 = 192,600.00) matches the printed grand total.",
+   "Sum of the 90+ column (8,122.45 + 8,347.60 + 3,685.35 + 3,356.09 + 1,588.51 = 25,100.00) matches the printed 90+ total; 90+ balances are about 13% of receivables."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 276,
+  "latency_s": 2.0,
+  "cached": false
+ }
+}

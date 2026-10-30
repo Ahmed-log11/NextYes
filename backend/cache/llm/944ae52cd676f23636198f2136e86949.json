@@ -1,0 +1,313 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-06-04",
+    "amount": 54858.52,
+    "balance": 584382.7,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": 37991.23,
+    "balance": 622373.93,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -33660.26,
+    "balance": 588713.67,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 42495.92,
+    "balance": 631209.59,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": -42496.95,
+    "balance": 588712.64,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -4800.0,
+    "balance": 583912.64,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -27662.03,
+    "balance": 556250.61,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -42142.76,
+    "balance": 514107.85,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-07-05",
+    "amount": -28895.73,
+    "balance": 485212.12,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يوليو"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": 57808.13,
+    "balance": 543020.25,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": -45149.07,
+    "balance": 497871.18,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 39117.51,
+    "balance": 536988.69,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 17915.45,
+    "balance": 554904.14,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 26427.18,
+    "balance": 581331.32,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": 40631.73,
+    "balance": 621963.05,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-07-23",
+    "amount": -30187.64,
+    "balance": 591775.41,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -40378.06,
+    "balance": 551397.35,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -4800.0,
+    "balance": 546597.35,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": 50243.51,
+    "balance": 596840.86,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": 43418.05,
+    "balance": 640258.91,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 27434.34,
+    "balance": 667693.25,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 23916.89,
+    "balance": 691610.14,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 30363.92,
+    "balance": 721974.06,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": -38005.47,
+    "balance": 683968.59,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": 15423.29,
+    "balance": 699391.88,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -35641.71,
+    "balance": 663750.17,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -4800.0,
+    "balance": 658950.17,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-08-26",
+    "amount": -32416.68,
+    "balance": 626533.49,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": -45622.14,
+    "balance": 580911.35,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": -42756.24,
+    "balance": 538155.11,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -46512.11,
+    "balance": 491643.0,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": 19959.46,
+    "balance": 511602.46,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -33607.9,
+    "balance": 477994.56,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": 59778.14,
+    "balance": 537772.7,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -4800.0,
+    "balance": 532972.7,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": -34851.75,
+    "balance": 498120.95,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 45526.53,
+    "balance": 543647.48,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 73135.87,
+    "balance": 616783.35,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": 29948.52,
+    "balance": 646731.87,
+    "category": "revenue",
+    "counterparty": "خالد الحربي"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 38892.65,
+    "balance": 685624.52,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": -43405.4,
+    "balance": 642219.12,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   }
+  ],
+  "notes": [
+   "Page 3 of 4 only: opening and closing balances, account type and period are on other pages and were not recorded.",
+   "Incoming transfer dated 2026-10-04 from Khalid Al-Harbi (the registered owner) is recorded as revenue per the transaction-description rule for transfers from customers; it may be owner_funds and should be checked.",
+   "Running balances on this page are not consistent with the printed amounts on several lines (for example, the balance after 2026-06-04 and 2026-06-21 rows): values were copied as printed.",
+   "Several lines show a running balance that does not match the previous balance plus the line amount (e.g. 2026-06-24 rent line and 2026-07-05 payroll line); analyst should verify against the full statement."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4172,
+  "output_tokens": 2646,
+  "latency_s": 8.63,
+  "cached": false
+ }
+}

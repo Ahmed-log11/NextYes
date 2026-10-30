@@ -1,0 +1,26 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 2500000,
+  "tenor_months": 48,
+  "annual_profit_rate": 0.088,
+  "collateral_offered": false,
+  "kafalah_guarantee": false,
+  "operating_since": "2022-11-29",
+  "financial_statements_attached": true,
+  "notes": [
+   "Business: Al-Nakheel Food Supplies (Arabic name النخيل لتوريد الأغذية), CR 1031040713, Tabuk.",
+   "Profit rate is labeled 'indicative' in the document.",
+   "Attachments listed: 12-month bank statement, commercial registration, receivables aging, tax compliance summary, financial statements. Attachments are listed only; their contents were not reviewed.",
+   "Document footer says it is a simulated document for a hackathon demo, not a real record."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1734,
+  "output_tokens": 391,
+  "latency_s": 2.34,
+  "cached": false
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-06-02",
+    "amount": -48521.63,
+    "balance": 386520.71,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": 48656.61,
+    "balance": 435177.32,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -54066.27,
+    "balance": 381111.05,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 39641.54,
+    "balance": 420752.59,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-13",
+    "amount": 26840.96,
+    "balance": 447593.55,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": 24549.33,
+    "balance": 472142.88,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -40504.08,
+    "balance": 431638.8,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": 50933.09,
+    "balance": 482571.89,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -1893.98,
+    "balance": 480677.91,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -2506.02,
+    "balance": 478171.89,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -63078.12,
+    "balance": 415093.77,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": 51078.47,
+    "balance": 466172.24,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -48758.83,
+    "balance": 417413.41,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-07-05",
+    "amount": -58170.29,
+    "balance": 359243.12,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 18535.57,
+    "balance": 377778.69,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": -51070.14,
+    "balance": 326708.55,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": 49144.55,
+    "balance": 375853.1,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": 60519.55,
+    "balance": 436372.65,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": 36887.13,
+    "balance": 473259.78,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -1893.98,
+    "balance": 471365.8,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -2506.02,
+    "balance": 468859.78,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 38502.29,
+    "balance": 507362.07,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": 47710.91,
+    "balance": 555072.98,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": -56359.64,
+    "balance": 498713.34,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": 34234.84,
+    "balance": 532948.18,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -51939.95,
+    "balance": 481008.23,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 26193.66,
+    "balance": 507201.89,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": -52715.79,
+    "balance": 454486.1,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": -50925.25,
+    "balance": 403560.85,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": 75927.95,
+    "balance": 479488.8,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": 23941.58,
+    "balance": 503430.38,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": -54854.11,
+    "balance": 448576.27,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -1893.98,
+    "balance": 446682.29,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -2506.02,
+    "balance": 444176.27,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 86401.97,
+    "balance": 530578.24,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 53654.51,
+    "balance": 584232.75,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": -49613.83,
+    "balance": 534618.92,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -51336.19,
+    "balance": 483282.73,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 75115.12,
+    "balance": 558397.85,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -71688.9,
+    "balance": 486708.95,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": -64495.08,
+    "balance": 422213.87,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   }
+  ],
+  "notes": [
+   "Page 3 of 4 only: opening and closing balances, account type, and statement period are on other pages and were not recorded.",
+   "Page 3 shows no column headers; debit/credit direction was inferred from the running balance movement on each line."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4158,
+  "output_tokens": 2532,
+  "latency_s": 7.59,
+  "cached": false
+ }
+}

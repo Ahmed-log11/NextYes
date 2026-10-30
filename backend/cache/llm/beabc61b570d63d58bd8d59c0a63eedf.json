@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 398600.0,
+  "overdue_90_plus": 147600.0,
+  "notes": [
+   "90+ day bucket is 147600.00 of 398600.00 total, about 37% of receivables, which is high for a credit analyst to weigh.",
+   "Qasr Al-Diyafa has 50823.64 in the 90+ bucket, more than its 0-30 and 31-60 balances combined with its 61-90 balance; worth checking collectability."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 236,
+  "latency_s": 2.39,
+  "cached": false
+ }
+}

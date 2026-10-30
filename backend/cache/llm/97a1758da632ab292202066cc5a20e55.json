@@ -1,0 +1,24 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated) / البنك التجريبي",
+    "facility_type": "Vehicle financing / تمويل مركبات",
+    "monthly_instalment": 6500.0,
+    "outstanding": 123500.0,
+    "status": "regular"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1658,
+  "output_tokens": 172,
+  "latency_s": 1.57,
+  "cached": false
+ }
+}

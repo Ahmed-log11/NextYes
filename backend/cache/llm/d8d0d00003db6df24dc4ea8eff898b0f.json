@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Watan Online Store",
+  "cr_number": "1081266052",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2014-12-30",
+  "expiry_date": "2028-04-07",
+  "status_active": true,
+  "notes": [
+   "Arabic trade name differs from the English business name: وطن للتجارة الإلكترونية"
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1650,
+  "output_tokens": 270,
+  "latency_s": 1.96,
+  "cached": false
+ }
+}

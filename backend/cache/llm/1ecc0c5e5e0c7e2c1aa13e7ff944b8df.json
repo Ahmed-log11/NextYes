@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Qimma Medical Clinic",
+  "cr_number": "1020933532",
+  "owner_name": "Reem Al-Shammari",
+  "owner_name_ar": "ريم الشمري",
+  "issue_date": "2022-01-29",
+  "expiry_date": "2026-11-22",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1652,
+  "output_tokens": 245,
+  "latency_s": 1.86,
+  "cached": false
+ }
+}

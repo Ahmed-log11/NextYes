@@ -1,0 +1,663 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 104512.67,
+  "closing_balance": 1067600.87,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": 97890.45,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": 163062.13,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 188487.66,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 95474.46,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": -150128.55,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور نوفمبر"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -131637.68,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": -112772.64,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 60385.3,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": -127229.73,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 112626.42,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": -161996.29,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2025-12-05",
+    "amount": 202318.73,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": 161402.59,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": -170646.98,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": 162552.26,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": -109374.74,
+    "category": "other",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -108713.79,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 182752.77,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -141199.22,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يناير"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": 129890.64,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 129447.36,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": -130281.39,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -113108.62,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 130909.23,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-01-30",
+    "amount": -109336.77,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": -126015.71,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -99788.66,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 155648.27,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 85639.67,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": 92162.28,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": -132658.72,
+    "category": "other",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": 142854.7,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": 83695.08,
+    "category": "revenue",
+    "counterparty": "خالد الحربي"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -124256.91,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -112896.55,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 130290.96,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": -129593.15,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": 113789.78,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -109404.88,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": 68667.79,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": 121209.08,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": 119542.39,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-03-30",
+    "amount": -125222.42,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 162382.81,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 161207.72,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": -139606.16,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أبريل"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 111137.03,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": -153166.48,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": -153594.01,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 82694.24,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -102382.55,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": 119178.2,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 125172.69,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": -119216.34,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": -118504.89,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 158043.44,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -124556.75,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 115278.22,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 105794.5,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": -136561.42,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -74411.15,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -150268.88,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": 82898.56,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": -98115.53,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 147639.99,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": 66624.43,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 123968.14,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": -142160.35,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -142842.76,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -109428.16,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -131649.15,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يوليو"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 86042.58,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": -129668.94,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 42785.32,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 118283.22,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-07-16",
+    "amount": 105133.46,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": 94802.63,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": 93052.79,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -103505.02,
+    "category": "other",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": -100743.09,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 86930.44,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -135247.61,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 92675.96,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": -116524.98,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 107509.54,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": -107796.06,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-26",
+    "amount": 116628.23,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-08-26",
+    "amount": 103747.61,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": -46608.22,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -118065.55,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -142626.92,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -110895.79,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": 181843.38,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -110013.37,
+    "category": "other",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -135475.72,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-09-14",
+    "amount": 161892.28,
+    "category": "revenue",
+    "counterparty": "خالد الحربي"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": 140784.5,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 94379.84,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": -131159.33,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 160327.73,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -148910.93,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": 124280.74,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 171158.06,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 132633.47,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -107662.43,
+    "category": "other",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -119468.11,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   }
+  ],
+  "notes": [
+   "The statement's printed balance column does not reconcile with the transaction amounts (e.g., opening 104,512.67 vs first row balance 202,403.12 after a 97,890.45 credit), so running balances were not used; amounts were recorded as printed in the debit/credit columns.",
+   "Some rows show a credit amount with a negative sign in the document's columns (e.g., 2026-06-02 card deposit 150,268.88 and 2026-08-28 POS settlement 46,608.22 appear in the debit column but are labelled as deposits); recorded as printed in the debit column (money out).",
+   "Several transfers are labelled as outgoing ('حوالة صادرة') to suppliers and a rental-related party ('فنار للمعدات', 'سندس للمواد', 'رمال للتغليف') and are categorised as other, not opex, pending clarification.",
+   "Statement period runs to 2026-10-30 and includes dates beyond the typical reporting window; the closing balance is printed as 1,067,600.87.",
+   "Owner Omar Al-Ghamdi does not appear as a counterparty on any line."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 6616,
+  "output_tokens": 5408,
+  "latency_s": 15.65,
+  "cached": false
+ }
+}

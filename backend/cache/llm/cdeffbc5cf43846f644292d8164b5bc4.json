@@ -1,0 +1,129 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 602231.34,
+  "transactions": [
+   {
+    "date": "2026-09-25",
+    "amount": -1893.98,
+    "balance": 420319.89,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -2506.02,
+    "balance": 417813.87,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 45627.2,
+    "balance": 463441.07,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مدارس الأفق"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 57070.27,
+    "balance": 520511.34,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - ماجد الشهري"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 46532.9,
+    "balance": 567044.24,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 76824.7,
+    "balance": 643868.94,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مقاهي أريج"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 58664.24,
+    "balance": 702533.18,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - شركة الموارد"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 43285.65,
+    "balance": 745818.83,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - سعد القحطاني"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": 90525.41,
+    "balance": 836344.24,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - قصر الضيافة"
+   },
+   {
+    "date": "2026-10-13",
+    "amount": -44310.21,
+    "balance": 792034.03,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -1893.98,
+    "balance": 790140.05,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -2506.02,
+    "balance": 787634.03,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": -60489.89,
+    "balance": 727144.14,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -62689.28,
+    "balance": 664454.86,
+    "category": "opex",
+    "counterparty": "حوالة صادرة - رمال للتغليف"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -62223.52,
+    "balance": 602231.34,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": [
+   "Page 4 only: opening balance and period dates are not on this page; the first line's running balance is printed as 420,319.89 with no prior balance shown to verify it against.",
+   "Transaction lines on this page carry dates from 2026-09-25 to 2026-10-29, and the first printed balance is inconsistent with the 1,893.98 and 2,506.02 debits on the same date when no earlier page is present, so the page cannot be reconciled alone."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3181,
+  "output_tokens": 1268,
+  "latency_s": 4.47,
+  "cached": false
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": null,
+  "period_end": "2026-10-31",
+  "opening_balance": null,
+  "closing_balance": 995221.08,
+  "transactions": [
+   {
+    "date": "2026-07-12",
+    "amount": 98035.42,
+    "balance": 804684.14,
+    "category": "revenue",
+    "counterparty": "Fahad Alotaibi"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -56321.62,
+    "balance": 748362.52,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 59017.74,
+    "balance": 807380.26,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -59906.64,
+    "balance": 747473.62,
+    "category": "opex",
+    "counterparty": "SADAD Electricity 757884"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 57463.66,
+    "balance": 804937.28,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -66742.35,
+    "balance": 738194.93,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": 46601.96,
+    "balance": 784796.89,
+    "category": "revenue",
+    "counterparty": "Alriyada Hotels"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": -66379.79,
+    "balance": 718417.1,
+    "category": "opex",
+    "counterparty": "Ejar Rent platform"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -60989.75,
+    "balance": 657427.35,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": -51074.21,
+    "balance": 606353.14,
+    "category": "opex",
+    "counterparty": "SADAD Electricity 359121"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 51852.02,
+    "balance": 658205.16,
+    "category": "revenue",
+    "counterparty": "Alriyada Hotels"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 82096.39,
+    "balance": 740301.55,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": 125549.63,
+    "balance": 865851.18,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": 60774.72,
+    "balance": 926625.9,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 47548.31,
+    "balance": 974174.21,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 54671.73,
+    "balance": 1028845.94,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 25373.17,
+    "balance": 1054219.11,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -61403.28,
+    "balance": 992815.83,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": 66694.61,
+    "balance": 1059510.44,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -52308.25,
+    "balance": 1007202.19,
+    "category": "opex",
+    "counterparty": "Ejar Rent platform"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": -66331.97,
+    "balance": 940870.22,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 67037.46,
+    "balance": 1007907.68,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -77958.6,
+    "balance": 929949.08,
+    "category": "opex",
+    "counterparty": "Telecom bill"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": 24392.84,
+    "balance": 954341.92,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": -57251.38,
+    "balance": 897090.54,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 53291.2,
+    "balance": 950381.74,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   },
+   {
+    "date": "2026-10-17",
+    "amount": 51594.76,
+    "balance": 1001976.5,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 75016.63,
+    "balance": 1076993.13,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 73169.63,
+    "balance": 1150162.76,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 50534.94,
+    "balance": 1200697.7,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -63751.65,
+    "balance": 1136946.05,
+    "category": "opex",
+    "counterparty": "Ejar Rent platform"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -79731.98,
+    "balance": 1057214.07,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -61992.99,
+    "balance": 995221.08,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "Page 3 of 3 only: opening balance and period start are not on this page; account type and owner identity not shown on this page.",
+   "Transfers from Fahad Alotaibi (24392.84 on 2026-10-03 from Turki Al-Mutairi and others) are recorded as revenue as customer receipts; the owner's name (Khalid Al-Harbi) does not appear among counterparties on this page.",
+   "Transaction 2026-09-29 telecom payment is 77958.60, above most other utility/telecom payments on this page; no further detail provided."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4452,
+  "output_tokens": 2212,
+  "latency_s": 7.17,
+  "cached": false
+ }
+}

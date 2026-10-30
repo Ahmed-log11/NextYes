@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 390800,
+  "overdue_90_plus": 36700,
+  "notes": [
+   "Customer rows sum to 390,800.00 total for the 90+ column check, but the 90+ column values (9,593.55 + 12,246.75 + 7,278.39 + 7,581.31) do not reconcile to the stated 90+ total of 36,700.00; column sum is 36,700.00 only when rounded, so verify against the ledger."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1636,
+  "output_tokens": 231,
+  "latency_s": 1.72,
+  "cached": false
+ }
+}

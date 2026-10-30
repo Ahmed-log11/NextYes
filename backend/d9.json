@@ -1,0 +1,81 @@
+{
+  "business_id": "dev-009",
+  "snapshot": null,
+  "fields": {
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-03-08",
+    "operating_months": 20,
+    "monthly_revenue_sar": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "separate_business_account": true,
+    "existing_monthly_debt_service_sar": 9800.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 468100,
+    "receivables_overdue_90d_sar": 265000,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 450000,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.087
+    }
+  },
+  "missing_documents": [],
+  "unreadable_documents": [],
+  "unresolved_fields": [
+    "operating_margin"
+  ],
+  "conflicts": [],
+  "checks": [
+    {
+      "name": "BALANCE_RECONCILES",
+      "passed": false,
+      "detail": "opening + lines - closing = -281,582.30 SAR over 0 lines"
+    },
+    {
+      "name": "TWELVE_MONTHS_COVERED",
+      "passed": false,
+      "detail": "no lines in 2025-11, 2025-12, 2026-01, 2026-02, 2026-03, 2026-04, 2026-05, 2026-06, 2026-07, 2026-08, 2026-09, 2026-10"
+    },
+    {
+      "name": "DEBT_MATCHES_BANK",
+      "passed": false,
+      "detail": "credit report SAR 9,800.00/month, bank statement SAR 0.00/month"
+    },
+    {
+      "name": "NO_EMBEDDED_INSTRUCTIONS",
+      "passed": true,
+      "detail": "none found"
+    }
+  ],
+  "notes": [
+    "[receivables_aging] Stated Total row does not reconcile with customer rows: the customer totals sum to about 468,100.00 in the Total column, but the 90+ column sums to about 265,000 only in the Total row; the per-customer 90+ values sum to a different figure (approximately 265,000 by my check is not confirmed), so the 90+ total should be verified against the customer lines.",
+    "[receivables_aging] Of the customer rows, the 90+ bucket is the majority of outstanding balances for every customer, indicating a severe collections problem.",
+    "[income_statement] The period end date (2026-10-30) is in the future relative to a typical management account; confirm the period is correct and that these are actual rather than projected figures.",
+    "[income_statement] Operating profit printed as 399,182.30 equals revenue minus operating expenses, consistent with the other figures on the page."
+  ],
+  "embedded_instructions": [],
+  "usage": {
+    "calls": 7.0,
+    "cache_hits": 7.0,
+    "input_tokens": 17637.0,
+    "output_tokens": 1681.0,
+    "live_latency_s": 0.0
+  }
+}

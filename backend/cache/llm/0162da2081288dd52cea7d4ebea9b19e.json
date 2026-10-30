@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Murjan Printing & Advertising",
+  "cr_number": "1028606318",
+  "owner_name": "Saad Al-Qahtani",
+  "owner_name_ar": "سعد القحطاني",
+  "issue_date": "2016-07-30",
+  "expiry_date": "2027-07-09",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1662,
+  "output_tokens": 248,
+  "latency_s": 2.99,
+  "cached": false
+ }
+}

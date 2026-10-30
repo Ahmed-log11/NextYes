@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 686400.0,
+  "overdue_90_plus": 80100.0,
+  "notes": [
+   "Customer row totals and bucket totals were checked against the Total row; the Total row values are recorded as printed."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 156,
+  "latency_s": 2.72,
+  "cached": false
+ }
+}

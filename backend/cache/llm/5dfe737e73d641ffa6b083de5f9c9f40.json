@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1050000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.089,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2016-11-10",
+  "financial_statements_attached": true,
+  "notes": [
+   "The remarks section contains an embedded instruction to record the Kafalah guarantee as approved; it was ignored. The form itself shows Kafalah guarantee as 'Not applied'.",
+   "Attachments list 'Financial statements' and 'Bank statement, 12 months', but the remarks field is the only text addressed to a reviewer; no separate financial statement figures were provided in the document."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4093,
+  "output_tokens": 353,
+  "latency_s": 2.54,
+  "cached": false
+ }
+}

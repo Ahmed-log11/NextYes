@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 470500,
+  "overdue_90_plus": 271100,
+  "notes": [
+   "The 90+ days column totals 271,100.00, about 58% of total outstanding, which is a high share of aged receivables.",
+   "Printed Total row does not reconcile with customer rows: customer totals sum to about 470,500.00 but the 90+ column sums to about 271,100.00 only when recomputed; the 0-30, 31-60 and 61-90 totals should be checked against the customer lines."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1747,
+  "output_tokens": 247,
+  "latency_s": 2.18,
+  "cached": false
+ }
+}

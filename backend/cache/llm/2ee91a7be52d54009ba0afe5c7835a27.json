@@ -1,0 +1,249 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 138932.17,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 17013.89,
+    "balance": 155946.06,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -20696.38,
+    "balance": 135249.68,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -23716.8,
+    "balance": 111532.88,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 26787.27,
+    "balance": 138320.15,
+    "category": "revenue",
+    "counterparty": "Mada settlement"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": -17298.09,
+    "balance": 121022.06,
+    "category": "opex",
+    "counterparty": "Sandus Materials"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 19734.06,
+    "balance": 140756.12,
+    "category": "revenue",
+    "counterparty": "Masarat for Trade"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 14127.9,
+    "balance": 154884.02,
+    "category": "revenue",
+    "counterparty": "Al-Ofq Schools"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 13439.02,
+    "balance": 168323.04,
+    "category": "revenue",
+    "counterparty": "Saad Al-Qahtani"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -25632.73,
+    "balance": 142690.31,
+    "category": "opex",
+    "counterparty": "Telecom bill (STC)"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3100,
+    "balance": 139590.31,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan repayment"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 14897.86,
+    "balance": 154488.17,
+    "category": "revenue",
+    "counterparty": "Masarat for Trade"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 16365,
+    "balance": 170853.17,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": -26701.07,
+    "balance": 144152.1,
+    "category": "opex",
+    "counterparty": "Wage Protection System salaries December"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 24694.23,
+    "balance": 168846.33,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -20867.66,
+    "balance": 147978.67,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": 21258.77,
+    "balance": 169237.44,
+    "category": "personal",
+    "counterparty": "Fahad Al-Otaibi"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": -27999.55,
+    "balance": 141237.89,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 13873.49,
+    "balance": 155111.38,
+    "category": "revenue",
+    "counterparty": "Masarat for Trade"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3100,
+    "balance": 152011.38,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan instalment"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -19603.72,
+    "balance": 132407.66,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 20130.28,
+    "balance": 152537.94,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 19178.23,
+    "balance": 171716.17,
+    "category": "revenue",
+    "counterparty": "Al-Ofq Schools"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 25282.13,
+    "balance": 196998.3,
+    "category": "revenue",
+    "counterparty": "Masarat for Trade"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 14819.16,
+    "balance": 211817.46,
+    "category": "revenue",
+    "counterparty": "Al-Mawarid Company"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 9832.8,
+    "balance": 221650.26,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -17875.24,
+    "balance": 203775.02,
+    "category": "opex",
+    "counterparty": "Wage Protection System salaries January"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": -22673.19,
+    "balance": 181101.83,
+    "category": "opex",
+    "counterparty": "Ejar platform rent"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -18277.51,
+    "balance": 162824.32,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -23738.86,
+    "balance": 139085.46,
+    "category": "opex",
+    "counterparty": "Telecom bill (STC)"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 26301.64,
+    "balance": 165387.1,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 23964.27,
+    "balance": 189351.37,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3100,
+    "balance": 186251.37,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan repayment"
+   }
+  ],
+  "notes": [
+   "Page 1 of 4 only; closing balance and later transactions are on other pages.",
+   "Printed period end 2026-10-30 is well after the transactions shown (Nov 2025 to Jan 2026) and may be a typo; verify the period.",
+   "Statement lists a debit of 3,100 to 'Sample Bank' on 2025-12-25 described as a loan instalment, consistent with the credit report lender."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4109,
+  "output_tokens": 2085,
+  "latency_s": 6.98,
+  "cached": false
+ }
+}

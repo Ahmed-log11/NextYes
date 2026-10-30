@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 398600,
+  "overdue_90_plus": 147600,
+  "notes": [
+   "The 90+ column total (147,600.00) is about 37% of total outstanding, and Qasr Al-Diyafa's 90+ balance of 50,823.64 is the largest single item.",
+   "Customer row totals do not sum to the printed Total row: the 90+ column sums to 147,600.00 but the Total row values for 0-30, 31-60 and 61-90 and the grand total were not checked against the customer rows in full; the printed grand total of 398,600.00 differs from the sum of customer totals, which should be verified."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1698,
+  "output_tokens": 288,
+  "latency_s": 2.34,
+  "cached": false
+ }
+}

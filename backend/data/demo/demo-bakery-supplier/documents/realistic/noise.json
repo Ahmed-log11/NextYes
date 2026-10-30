@@ -11,5 +11,6 @@
     "receivables_aging"
   ],
   "scanned": [],
-  "conflicts": []
+  "conflicts": [],
+  "injections": []
 }

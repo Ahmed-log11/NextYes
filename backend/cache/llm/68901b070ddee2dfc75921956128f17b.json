@@ -1,0 +1,313 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-01-28",
+    "amount": 65613.42,
+    "balance": 385468.41,
+    "category": "revenue",
+    "counterparty": "POS settlement (mada)"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 23810.1,
+    "balance": 409278.51,
+    "category": "revenue",
+    "counterparty": "POS settlement (mada)"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 40459.09,
+    "balance": 449737.6,
+    "category": "revenue",
+    "counterparty": "mada settlement"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 28267.74,
+    "balance": 478005.34,
+    "category": "revenue",
+    "counterparty": "Reem Al-Shammari"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": -38923.11,
+    "balance": 439082.23,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 37983.51,
+    "balance": 477065.74,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -42651.06,
+    "balance": 434414.68,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 50490.31,
+    "balance": 484904.99,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 45087.23,
+    "balance": 529992.22,
+    "category": "revenue",
+    "counterparty": "Bait Al-Khair Markets"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 42769.76,
+    "balance": 572761.98,
+    "category": "revenue",
+    "counterparty": "Nujoum Catering"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": -47298.19,
+    "balance": 525463.79,
+    "category": "opex",
+    "counterparty": "Ramal Packaging"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -52780.64,
+    "balance": 472683.15,
+    "category": "opex",
+    "counterparty": "Electricity bill (SADAD)"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3375.71,
+    "balance": 469307.44,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan repayment"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3424.29,
+    "balance": 465883.15,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. financing instalment"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -39008.49,
+    "balance": 426874.66,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": -47718.64,
+    "balance": 379156.02,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": 56111.49,
+    "balance": 435267.51,
+    "category": "revenue",
+    "counterparty": "POS settlement (mada)"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": -52958.69,
+    "balance": 382308.82,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 83609.16,
+    "balance": 465917.98,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": -43477.18,
+    "balance": 422440.8,
+    "category": "opex",
+    "counterparty": "Electricity bill (SADAD)"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": 27631.47,
+    "balance": 450072.27,
+    "category": "revenue",
+    "counterparty": "POS settlement (mada)"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3375.71,
+    "balance": 446696.56,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan repayment"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3424.29,
+    "balance": 443272.27,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. financing instalment"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 75247.88,
+    "balance": 518520.15,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": -55618.86,
+    "balance": 462901.29,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 27890.96,
+    "balance": 490792.25,
+    "category": "revenue",
+    "counterparty": "Bait Al-Khair Markets"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": -36034.2,
+    "balance": 454758.05,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": -42902.81,
+    "balance": 411855.24,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": 59920.23,
+    "balance": 471775.47,
+    "category": "revenue",
+    "counterparty": "mada settlement"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 37536.15,
+    "balance": 509311.62,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 54272.86,
+    "balance": 563584.48,
+    "category": "revenue",
+    "counterparty": "Areej Cafes (instant transfer)"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": -43775.13,
+    "balance": 519809.35,
+    "category": "opex",
+    "counterparty": "Telecom bill"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 27929.1,
+    "balance": 547738.45,
+    "category": "revenue",
+    "counterparty": "Masarat Trading (instant transfer)"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 28650.7,
+    "balance": 576389.15,
+    "category": "revenue",
+    "counterparty": "Areej Cafes (instant transfer)"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3375.71,
+    "balance": 573013.44,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan instalment"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3424.29,
+    "balance": 569589.15,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. financing repayment"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 46181.04,
+    "balance": 615770.19,
+    "category": "revenue",
+    "counterparty": "Nujoum Catering"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 36792.02,
+    "balance": 652562.21,
+    "category": "revenue",
+    "counterparty": "Masarat Trading (instant transfer)"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 35294.21,
+    "balance": 687856.42,
+    "category": "revenue",
+    "counterparty": "POS settlement (mada)"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": -40264.53,
+    "balance": 647591.89,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": -52366.99,
+    "balance": 595224.9,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   }
+  ],
+  "notes": [
+   "Page 2 has no header fields (account type, period, opening/closing balance); those are null.",
+   "Page 2 begins with a running balance of 385,468.41 after the first line's deposit, with no preceding balance shown on this page, so the opening balance for this page cannot be confirmed.",
+   "Transfer from Reem Al-Shammari (02-04) is from the business owner per the commercial registration, so it may be owner_funds rather than revenue; recorded as revenue pending analyst review.",
+   "Rows show no Debit/Credit column headers on this page; direction was inferred from the layout and the Arabic descriptions."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4205,
+  "output_tokens": 2621,
+  "latency_s": 8.37,
+  "cached": false
+ }
+}

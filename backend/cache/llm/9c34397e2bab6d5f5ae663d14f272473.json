@@ -1,0 +1,20 @@
+{
+ "document": "income_statement",
+ "fields": {
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "revenue": 4095100,
+  "operating_expenses": 3665114.5,
+  "notes": [
+   "The period runs from 2025-11-01 to 2026-10-30, which is about one year but ends on 30 October 2026. Confirm whether this is a forecast or a period still in progress, since management accounts normally cover a closed period."
+  ]
+ },
+ "record": {
+  "document": "income_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1415,
+  "output_tokens": 218,
+  "latency_s": 1.73,
+  "cached": false
+ }
+}

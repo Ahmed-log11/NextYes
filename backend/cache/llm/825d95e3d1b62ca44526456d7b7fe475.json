@@ -1,0 +1,66 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 946052.1,
+  "transactions": [
+   {
+    "date": "2026-10-20",
+    "amount": 51980.32,
+    "balance": 1044726.66,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -4300.0,
+    "balance": 1040426.66,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": -69576.98,
+    "balance": 970849.68,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": -66230.71,
+    "balance": 904618.97,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 128231.04,
+    "balance": 1032850.01,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -86797.91,
+    "balance": 946052.1,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "This is page 4 of 4 only; opening balance, period dates and account type are not on this page.",
+   "Running balances reconcile line by line from 1,044,726.66 to the closing balance of 946,052.10 printed on this page."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2860,
+  "output_tokens": 576,
+  "latency_s": 2.74,
+  "cached": false
+ }
+}

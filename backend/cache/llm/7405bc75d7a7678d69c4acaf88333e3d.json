@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 333000,
+  "overdue_90_plus": 46900,
+  "notes": [
+   "The customer rows do not sum to the printed Total row: the 90+ column rows sum to 46,900.00 approximately (12562.01+8720.15+5329.07+10432.26+9856.51=46899.99), but the row totals sum to 333,000.00 only if the printed row totals are used; checking the Total row for the 0-30 column against the customer rows shows a mismatch, so the aging should be verified against the accounting system before relying on it."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1692,
+  "output_tokens": 261,
+  "latency_s": 2.89,
+  "cached": false
+ }
+}

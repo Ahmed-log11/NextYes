@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Nakheel Food Supplies",
+  "cr_number": "1028593415",
+  "owner_name": "Fahad Al-Otaibi",
+  "owner_name_ar": "فهد العتيبي",
+  "issue_date": "2023-05-31",
+  "expiry_date": "2027-08-03",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1665,
+  "output_tokens": 248,
+  "latency_s": 3.26,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Najd Line Logistics",
+  "cr_number": "1054675020",
+  "owner_name": "Faisal Al-Zahrani",
+  "owner_name_ar": "فيصل الزهراني",
+  "issue_date": "2023-07-31",
+  "expiry_date": "2027-12-11",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1660,
+  "output_tokens": 244,
+  "latency_s": 2.37,
+  "cached": false
+ }
+}

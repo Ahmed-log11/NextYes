@@ -1,0 +1,42 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	consent(consent)
+	extract(extract)
+	await_documents(await_documents)
+	diagnose(diagnose)
+	plan(plan)
+	await_owner(await_owner)
+	prepare(prepare)
+	submit_gate(submit_gate)
+	submit(submit)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> consent;
+	await_documents -.-> extract;
+	await_owner -.-> diagnose;
+	consent -.-> __end__;
+	consent -.-> extract;
+	diagnose -.-> __end__;
+	diagnose -.-> plan;
+	diagnose -.-> prepare;
+	extract -.-> __end__;
+	extract -.-> await_documents;
+	extract -.-> diagnose;
+	plan -.-> __end__;
+	plan -.-> await_owner;
+	prepare -.-> submit_gate;
+	submit -.-> __end__;
+	submit -.-> diagnose;
+	submit_gate -.-> await_owner;
+	submit_gate -.-> submit;
+	await_documents -.-> await_documents;
+	await_owner -.-> await_owner;
+	consent -.-> consent;
+	submit_gate -.-> submit_gate;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

@@ -1,0 +1,675 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 193799.35,
+  "closing_balance": 971021.54,
+  "transactions": [
+   {
+    "date": "2025-11-06",
+    "amount": -74293.78,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 127818.67,
+    "category": "revenue",
+    "counterparty": "NORA ALSUBAIE"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -70458.21,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 62970.95,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -82128.18,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": -64793.83,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 96844.6,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 68065.78,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": -61676.49,
+    "category": "opex",
+    "counterparty": "WPS SALARY DEC"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 83978.88,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": 79962.81,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -80899.95,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": -86414.48,
+    "category": "opex",
+    "counterparty": "RIMAL PACKAGING"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 52241.73,
+    "category": "revenue",
+    "counterparty": "SAHL EXPRESS"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 46165.15,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": 71468.18,
+    "category": "revenue",
+    "counterparty": "FAHAD ALOTAIBI"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -73179.08,
+    "category": "opex",
+    "counterparty": "SADAD ELEC"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": 34683.25,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": 56120.42,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -53543.1,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": 62239.24,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -81548.88,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -57022.01,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 45546.25,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": 33848.07,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 71169.03,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -59216.01,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": 37576.99,
+    "category": "revenue",
+    "counterparty": "SAHL EXPRESS"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 54906.42,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -60765.05,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": -52235.31,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": 78869.82,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -72568.96,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": 52804.58,
+    "category": "revenue",
+    "counterparty": "ALUFUQ SCHOOLS"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": 50116.13,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -64940.68,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": 68803.05,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-03-08",
+    "amount": 91967.83,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": 66461.86,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 65126.17,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -71148.01,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": -78411.8,
+    "category": "opex",
+    "counterparty": "EJAR RENT"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 92115.76,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -71963.99,
+    "category": "opex",
+    "counterparty": "RIMAL PACKAGING"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 31328.38,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -63016.2,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 68090.79,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -61744.4,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 86633.53,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": -76739.42,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 143137.57,
+    "category": "revenue",
+    "counterparty": "Saad Al-Qahtani"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -82066.12,
+    "category": "opex",
+    "counterparty": "RIMAL PACKAGING"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -83506.06,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 72938.11,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 111888.17,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": 56540.34,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 50717.67,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": -68247.56,
+    "category": "opex",
+    "counterparty": "WPS SALARY MAY"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": -72766.99,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -53195.64,
+    "category": "opex",
+    "counterparty": "FANAR EQUIPMENT"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -74749.81,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 108853.82,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -77921.62,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": 85365.81,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": -50473.71,
+    "category": "opex",
+    "counterparty": "EJAR RENT"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 87928.12,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 39780.66,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 39073.63,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": -66475.37,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -48013.3,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": 44051.78,
+    "category": "revenue",
+    "counterparty": "SAAD ALQAHTANI"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 32056.86,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-07-06",
+    "amount": -70074.84,
+    "category": "opex",
+    "counterparty": "WPS SALARY JUL"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": 61932.67,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 36718.11,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-07-16",
+    "amount": -52872.15,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -56747.1,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -49823.91,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 49175.43,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 38619.73,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": 61397.2,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": -72012.94,
+    "category": "opex",
+    "counterparty": "WPS SALARY AUG"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 104301.66,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 65346.7,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 47008.56,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 43700.11,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": -72038.03,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": 56342.97,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": -56817.41,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": -58825.62,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 43037.01,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": -70447.14,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -66404.37,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 108981.9,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": 65840.66,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": -69872.35,
+    "category": "opex",
+    "counterparty": "SUNDUS MATERIALS"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 114540.43,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -65844.14,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": 66834.19,
+    "category": "revenue",
+    "counterparty": "KHALID ALHARBI"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": -80468.49,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -71437.94,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 61135.24,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 60732.16,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": -68164.45,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE"
+   },
+   {
+    "date": "2026-10-17",
+    "amount": 63694.84,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": 64103.63,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": 40061.34,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": 49672.79,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": -58237.12,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7642,
+  "output_tokens": 5446,
+  "latency_s": 15.53,
+  "cached": false
+ }
+}

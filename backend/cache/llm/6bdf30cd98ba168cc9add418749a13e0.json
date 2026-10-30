@@ -1,0 +1,25 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Nakheel Food Supplies",
+  "cr_number": "1031040713",
+  "owner_name": "Omar Al-Ghamdi",
+  "owner_name_ar": "عمر الغامدي",
+  "issue_date": "2022-11-29",
+  "expiry_date": "2026-11-29",
+  "status_active": true,
+  "notes": [
+   "Arabic business name printed as النخيل لتوريد الأغذية.",
+   "Document is marked as a simulated hackathon demo, not a real registry record; verify independently before relying on it.",
+   "No instructions embedded in the document."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1577,
+  "output_tokens": 321,
+  "latency_s": 2.83,
+  "cached": false
+ }
+}

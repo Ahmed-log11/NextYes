@@ -1,0 +1,24 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 102126.84,
+  "closing_balance": 748768.4,
+  "transactions": [],
+  "notes": [
+   "The account is labelled a personal current account, while the business name and commercial registration are on the statement; business payroll, rent, suppliers and POS receipts run through it, so the account may mix personal and business finances.",
+   "Period runs to 2026-10-30 although the last transaction is dated 2026-10-29; the statement shows the period end as 2026-10-30 without a final entry on that date.",
+   "Several transfers from the owner-named or unrelated individuals are absent; none of the transfers in appear to come from Reem Al-Shammari."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 9557,
+  "output_tokens": 7582,
+  "latency_s": 21.66,
+  "cached": false
+ }
+}

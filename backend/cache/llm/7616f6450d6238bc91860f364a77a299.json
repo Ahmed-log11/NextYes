@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 617300,
+  "overdue_90_plus": 21000,
+  "notes": [
+   "Total row's 90+ bucket (21000) is a round figure; the 90+ column customer values (3263.64, 4852.84, 2058.08, 6023.76, 1256.35, 3545.33) sum to 21000.00 only approximately, and the grand total of 617300.00 does not match the sum of the customer totals, which is needed for a reconciliation check."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1740,
+  "output_tokens": 236,
+  "latency_s": 1.89,
+  "cached": false
+ }
+}

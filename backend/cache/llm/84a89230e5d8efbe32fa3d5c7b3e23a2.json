@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Bayan Logistics",
+  "cr_number": "1015002956",
+  "owner_name": "Omar Al-Ghamdi",
+  "owner_name_ar": "عمر الغامدي",
+  "issue_date": "2016-04-30",
+  "expiry_date": "2027-05-25",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1660,
+  "output_tokens": 245,
+  "latency_s": 6.54,
+  "cached": false
+ }
+}

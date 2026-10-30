@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 281000.0,
+  "overdue_90_plus": 40000.0,
+  "notes": [
+   "The 90+ column total (40000.00) is a round figure, and the customer 90+ values sum to 40,000.00 exactly; the customer Total column sums to 281,000.00 as printed. Worth confirming with the business that these are full balances rather than estimates.",
+   "Per-row totals do not reconcile: for Sahl Express the bucket values sum to 54,595.98 which matches, but for Al-Riyada Hotels the buckets sum to 59,131.65 (matches) while the column totals should be checked against the grand total; the printed Total row for 0-30 through 90+ sums to 281,000.00 only if the Total column is used, and the bucket totals sum to 281,000.00 as well."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 349,
+  "latency_s": 3.26,
+  "cached": false
+ }
+}

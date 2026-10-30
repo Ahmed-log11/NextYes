@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Noor Online Store",
+  "cr_number": "1080170248",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2019-03-31",
+  "expiry_date": "2028-03-21",
+  "status_active": true,
+  "notes": [
+   "Expiry date (2028-03-21) falls on a different day and month than issue date (2019-03-31); not an error on its own, but confirm against the registry if relied on."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4077,
+  "output_tokens": 295,
+  "latency_s": 2.76,
+  "cached": false
+ }
+}

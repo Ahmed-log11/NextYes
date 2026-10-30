@@ -1,0 +1,930 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 226944.91,
+  "closing_balance": 870784.65,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": 51228.17,
+    "balance": 278173.08,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": -36433.19,
+    "balance": 241739.89,
+    "category": "opex",
+    "counterparty": "Employee salaries"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -45687.1,
+    "balance": 196052.79,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -42947.57,
+    "balance": 153105.22,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": 38157.81,
+    "balance": 191263.03,
+    "category": "revenue",
+    "counterparty": "Majed Alshehri"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 44637.61,
+    "balance": 235900.64,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 62522.49,
+    "balance": 298423.13,
+    "category": "revenue",
+    "counterparty": "Khalid Alharbi"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 43853.92,
+    "balance": 342277.05,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3375.71,
+    "balance": 338901.34,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3424.29,
+    "balance": 335477.05,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": -56434.14,
+    "balance": 279042.91,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": 38775.62,
+    "balance": 317818.53,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -37184.18,
+    "balance": 280634.35,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": 71067.9,
+    "balance": 351702.25,
+    "category": "revenue",
+    "counterparty": "Nasser Al-Dosari"
+   },
+   {
+    "date": "2025-12-17",
+    "amount": -47918.63,
+    "balance": 303783.62,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 46886.8,
+    "balance": 350670.42,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 42409.79,
+    "balance": 393080.21,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": -46858.24,
+    "balance": 346221.97,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 50059.89,
+    "balance": 396281.86,
+    "category": "revenue",
+    "counterparty": "Nasser Al-Dosari"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3375.71,
+    "balance": 392906.15,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3424.29,
+    "balance": 389481.86,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": -56184.95,
+    "balance": 333296.91,
+    "category": "opex",
+    "counterparty": "SADAD electricity"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -37367.9,
+    "balance": 295929.01,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -52120.87,
+    "balance": 243808.14,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": 52163.26,
+    "balance": 295971.4,
+    "category": "revenue",
+    "counterparty": "Omar Alghamdi"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -39363.9,
+    "balance": 256607.5,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 20883.37,
+    "balance": 277490.87,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 32236.26,
+    "balance": 309727.13,
+    "category": "revenue",
+    "counterparty": "Majed Alshehri"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": -52875.83,
+    "balance": 256851.3,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3375.71,
+    "balance": 253475.59,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3424.29,
+    "balance": 250051.3,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 69803.69,
+    "balance": 319854.99,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": 65613.42,
+    "balance": 385468.41,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 23810.1,
+    "balance": 409278.51,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 40459.09,
+    "balance": 449737.6,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 28267.74,
+    "balance": 478005.34,
+    "category": "owner_funds",
+    "counterparty": "Reem Al-Shammari"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": -38923.11,
+    "balance": 439082.23,
+    "category": "opex",
+    "counterparty": "Employee salaries"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 37983.51,
+    "balance": 477065.74,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -42651.06,
+    "balance": 434414.68,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 50490.31,
+    "balance": 484904.99,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 45087.23,
+    "balance": 529992.22,
+    "category": "revenue",
+    "counterparty": "Nora Alsubaie"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 42769.76,
+    "balance": 572761.98,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": -47298.19,
+    "balance": 525463.79,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -52780.64,
+    "balance": 472683.15,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3375.71,
+    "balance": 469307.44,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3424.29,
+    "balance": 465883.15,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -39008.49,
+    "balance": 426874.66,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": -47718.64,
+    "balance": 379156.02,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": 56111.49,
+    "balance": 435267.51,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": -52958.69,
+    "balance": 382308.82,
+    "category": "opex",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 83609.16,
+    "balance": 465917.98,
+    "category": "revenue",
+    "counterparty": "Turki Almutairi"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": -43477.18,
+    "balance": 422440.8,
+    "category": "opex",
+    "counterparty": "SADAD electricity"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": 27631.47,
+    "balance": 450072.27,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3375.71,
+    "balance": 446696.56,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3424.29,
+    "balance": 443272.27,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 75247.88,
+    "balance": 518520.15,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": -55618.86,
+    "balance": 462901.29,
+    "category": "opex",
+    "counterparty": "WPS salary"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 27890.96,
+    "balance": 490792.25,
+    "category": "revenue",
+    "counterparty": "Fahad Alotaibi"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": -36034.2,
+    "balance": 454758.05,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": -42902.81,
+    "balance": 411855.24,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": 59920.23,
+    "balance": 471775.47,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 37536.15,
+    "balance": 509311.62,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 54272.86,
+    "balance": 563584.48,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": -43775.13,
+    "balance": 519809.35,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 27929.1,
+    "balance": 547738.45,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 28650.7,
+    "balance": 576389.15,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3375.71,
+    "balance": 573013.44,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3424.29,
+    "balance": 569589.15,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 46181.04,
+    "balance": 615770.19,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 36792.02,
+    "balance": 652562.21,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 35294.21,
+    "balance": 687856.42,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": -40264.53,
+    "balance": 647591.89,
+    "category": "opex",
+    "counterparty": "Employee salaries"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": -52366.99,
+    "balance": 595224.9,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -33109.92,
+    "balance": 562114.98,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 47967.74,
+    "balance": 610082.72,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -45643.56,
+    "balance": 564439.16,
+    "category": "opex",
+    "counterparty": "SADAD electricity"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3375.71,
+    "balance": 561063.45,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3424.29,
+    "balance": 557639.16,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 60764.99,
+    "balance": 618404.15,
+    "category": "revenue",
+    "counterparty": "Saad Alqahtani"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -44882.04,
+    "balance": 573522.11,
+    "category": "opex",
+    "counterparty": "Wage protection salaries"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": 76881.26,
+    "balance": 650403.37,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 25501.43,
+    "balance": 675904.8,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": 28053.51,
+    "balance": 703958.31,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": -42214.7,
+    "balance": 661743.61,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 89163.8,
+    "balance": 750907.41,
+    "category": "revenue",
+    "counterparty": "Nasser Al-Dosari"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": -34071.09,
+    "balance": 716836.32,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -44630.17,
+    "balance": 672206.15,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3375.71,
+    "balance": 668830.44,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3424.29,
+    "balance": 665406.15,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 80879.41,
+    "balance": 746285.56,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": -32643.05,
+    "balance": 713642.51,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 40580.27,
+    "balance": 754222.78,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 32773.59,
+    "balance": 786996.37,
+    "category": "revenue",
+    "counterparty": "Khalid Alharbi"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3375.71,
+    "balance": 783620.66,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3424.29,
+    "balance": 780196.37,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 65866.73,
+    "balance": 846063.1,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": -39701.19,
+    "balance": 806361.91,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -46905.19,
+    "balance": 759456.72,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -46926.07,
+    "balance": 712530.65,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 38109.97,
+    "balance": 750640.62,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 27882.93,
+    "balance": 778523.55,
+    "category": "revenue",
+    "counterparty": "Majed Alshehri"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -38209.79,
+    "balance": 740313.76,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": 85529.29,
+    "balance": 825843.05,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -32288.73,
+    "balance": 793554.32,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": -50065.48,
+    "balance": 743488.84,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 72477.81,
+    "balance": 815966.65,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3375.71,
+    "balance": 812590.94,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3424.29,
+    "balance": 809166.65,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -48556.0,
+    "balance": 760610.65,
+    "category": "opex",
+    "counterparty": "SADAD telecom"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": 29755.88,
+    "balance": 790366.53,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": 38784.39,
+    "balance": 829150.92,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": -48746.91,
+    "balance": 780404.01,
+    "category": "opex",
+    "counterparty": "Employee salaries"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 93387.14,
+    "balance": 873791.15,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 89272.59,
+    "balance": 963063.74,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": -53174.71,
+    "balance": 909889.03,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": -45995.94,
+    "balance": 863893.09,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3375.71,
+    "balance": 860517.38,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3424.29,
+    "balance": 857093.09,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -41738.44,
+    "balance": 815354.65,
+    "category": "opex",
+    "counterparty": "SADAD electricity"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": -53386.03,
+    "balance": 761968.62,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -35533.29,
+    "balance": 726435.33,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 53176.42,
+    "balance": 779611.75,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": -45570.64,
+    "balance": 734041.11,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": 73971.66,
+    "balance": 808012.77,
+    "category": "revenue",
+    "counterparty": "Omar Alghamdi"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 33391.66,
+    "balance": 841404.43,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3375.71,
+    "balance": 838028.72,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3424.29,
+    "balance": 834604.43,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": 93460.26,
+    "balance": 928064.69,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -57280.04,
+    "balance": 870784.65,
+    "category": "opex",
+    "counterparty": "SADAD electricity"
+   }
+  ],
+  "notes": [
+   "Owner-funds transfer of 28267.74 from Reem Al-Shammari (the business owner) on 2026-02-04 recorded as owner_funds, not revenue.",
+   "Statement period ends 2026-10-30 but the last transaction is dated 2026-10-31; the closing balance is as printed.",
+   "Several lines show amounts out of sequence with the running balance, or the balance is inconsistent with the prior line; values copied as printed.",
+   "Two transfers on 2025-11-25 and 2026-06 from individuals (Majed Alshehri, Khalid Alharbi, Saad Alqahtani, Nasser Al-Dosari, Fahad Alotaibi, Turki Almutairi) are recorded as revenue as customer receipts; analyst should confirm they are customers rather than personal or related-party transfers.",
+   "Line 2026-07-25 'سداد قرض البنك التجريبي' and other loan lines are recorded as debt_service per lender names on the credit report."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 10273,
+  "output_tokens": 7487,
+  "latency_s": 21.19,
+  "cached": false
+ }
+}

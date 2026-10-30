@@ -1,0 +1,310 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-05",
+    "amount": -60748.91,
+    "balance": 450063.65,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 46969.51,
+    "balance": 497033.16,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 89569.96,
+    "balance": 586603.12,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -70444.73,
+    "balance": 516158.39,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -73138.68,
+    "balance": 443019.71,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -75905.28,
+    "balance": 367114.43,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -4300.0,
+    "balance": 362814.43,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 46132.97,
+    "balance": 408947.4,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": -57246.78,
+    "balance": 351700.62,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": 69318.94,
+    "balance": 421019.56,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -78685.26,
+    "balance": 342334.3,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-03-15",
+    "amount": 38106.74,
+    "balance": 380441.04,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Qasr Al-Diyafa / قصر الضيافة - حوالة واردة"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -70136.74,
+    "balance": 310304.3,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 110786.28,
+    "balance": 421090.58,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": -79346.42,
+    "balance": 341744.16,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": 102059.43,
+    "balance": 443803.59,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Al-Safwa Restaurants / مطاعم الصفوة - حوالة واردة"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -4300.0,
+    "balance": 439503.59,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 32528.61,
+    "balance": 472032.2,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Sahl Express / سهل إكسبرس - حوالة واردة"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 86989.56,
+    "balance": 559021.76,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Sahl Express / سهل إكسبرس - حوالة واردة"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": 46999.6,
+    "balance": 606021.36,
+    "category": "owner_funds",
+    "counterparty": "Owner capital injection / ضخ رأس مال من المالك"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": -81497.74,
+    "balance": 524523.62,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": -73613.01,
+    "balance": 450910.61,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-13",
+    "amount": 155151.67,
+    "balance": 606062.28,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": -79004.77,
+    "balance": 527057.51,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 51433.33,
+    "balance": 578490.84,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Bayt Al-Khair Markets / أسواق بيت الخير - حوالة واردة"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -85520.38,
+    "balance": 492970.46,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 101525.44,
+    "balance": 594495.9,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -4300.0,
+    "balance": 590195.9,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 51425.95,
+    "balance": 641621.85,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Sahl Express / سهل إكسبرس - حوالة واردة"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -60227.23,
+    "balance": 581394.62,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -72012.65,
+    "balance": 509381.97,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": -79164.21,
+    "balance": 430217.76,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 63906.95,
+    "balance": 494124.71,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": 76220.82,
+    "balance": 570345.53,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 54642.8,
+    "balance": 624988.33,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Al-Safwa Restaurants / مطاعم الصفوة - حوالة واردة"
+   },
+   {
+    "date": "2026-05-22",
+    "amount": 51596.01,
+    "balance": 676584.34,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -58073.81,
+    "balance": 618510.53,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -4300.0,
+    "balance": 614210.53,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-05-27",
+    "amount": 35307.47,
+    "balance": 649518.0,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Sahl Express / سهل إكسبرس - حوالة واردة"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -67047.11,
+    "balance": 582470.89,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": 56985.59,
+    "balance": 639456.48,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Qasr Al-Diyafa / قصر الضيافة - حوالة واردة"
+   }
+  ],
+  "notes": [
+   "Page 2 of 4 only: opening and closing balances, period dates and account type are not on this page and are left null."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4485,
+  "output_tokens": 3050,
+  "latency_s": 9.94,
+  "cached": false
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [],
+  "notes": [
+   "The report shows no credit facilities on record for Al-Murjan Logistics."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1582,
+  "output_tokens": 111,
+  "latency_s": 1.89,
+  "cached": false
+ }
+}

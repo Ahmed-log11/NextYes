@@ -1,0 +1,312 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-05-15",
+    "amount": -33109.92,
+    "balance": 562114.98,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 47967.74,
+    "balance": 610082.72,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مطاعم الصفوة"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -45643.56,
+    "balance": 564439.16,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3375.71,
+    "balance": 561063.45,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3424.29,
+    "balance": 557639.16,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 60764.99,
+    "balance": 618404.15,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مسارات للتجارة"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -44882.04,
+    "balance": 573522.11,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يونيو"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": 76881.26,
+    "balance": 650403.37,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 25501.43,
+    "balance": 675904.8,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": 28053.51,
+    "balance": 703958.31,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": -42214.7,
+    "balance": 661743.61,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 89163.8,
+    "balance": 750907.41,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مقاهي أريج"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": -34071.09,
+    "balance": 716836.32,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -44630.17,
+    "balance": 672206.15,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3375.71,
+    "balance": 668830.44,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3424.29,
+    "balance": 665406.15,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 80879.41,
+    "balance": 746285.56,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مدارس الأفق"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": -32643.05,
+    "balance": 713642.51,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 40580.27,
+    "balance": 754222.78,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مدارس الأفق"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 32773.59,
+    "balance": 786996.37,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مدارس الأفق"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3375.71,
+    "balance": 783620.66,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3424.29,
+    "balance": 780196.37,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 65866.73,
+    "balance": 846063.1,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مقاهي أريج"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": -39701.19,
+    "balance": 806361.91,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -46905.19,
+    "balance": 759456.72,
+    "category": "opex",
+    "counterparty": "حوالة صادرة - رمال للتغليف"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -46926.07,
+    "balance": 712530.65,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 38109.97,
+    "balance": 750640.62,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 27882.93,
+    "balance": 778523.55,
+    "category": "revenue",
+    "counterparty": "حوالة واردة أسواق بيت الخير"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -38209.79,
+    "balance": 740313.76,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أغسطس"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": 85529.29,
+    "balance": 825843.05,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -32288.73,
+    "balance": 793554.32,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": -50065.48,
+    "balance": 743488.84,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 72477.81,
+    "balance": 815966.65,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3375.71,
+    "balance": 812590.94,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3424.29,
+    "balance": 809166.65,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -48556.0,
+    "balance": 760610.65,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": 29755.88,
+    "balance": 790366.53,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": 38784.39,
+    "balance": 829150.92,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": -48746.91,
+    "balance": 780404.01,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 93387.14,
+    "balance": 873791.15,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 89272.59,
+    "balance": 963063.74,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مسارات للتجارة"
+   }
+  ],
+  "notes": [
+   "Page 3 of 4 only: opening and closing balances, period, account type and header fields are not on this page.",
+   "Two debt instalments to Sample Bank are labelled as recurring loan payments on 25-07-2026 with the same amounts as earlier months; amounts are as printed.",
+   "Balance column on this page is printed in the same row order as the transaction lines; the running balance was recorded exactly as printed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4207,
+  "output_tokens": 2766,
+  "latency_s": 8.61,
+  "cached": false
+ }
+}

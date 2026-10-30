@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Fajr Printing & Advertising",
+  "cr_number": "1078256139",
+  "owner_name": "Nora Al-Subaie",
+  "owner_name_ar": "نورة السبيعي",
+  "issue_date": "2024-03-30",
+  "expiry_date": "2027-06-15",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1665,
+  "output_tokens": 247,
+  "latency_s": 1.84,
+  "cached": false
+ }
+}

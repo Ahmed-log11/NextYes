@@ -1,0 +1,746 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 154941.17,
+  "closing_balance": 385045.57,
+  "transactions": [
+   {
+    "date": "2025-11-06",
+    "amount": 26227.07,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -23792.56,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": -33536.2,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -22981.48,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 30983.81,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -23677.56,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 30558.63,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": 44530.49,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": 32009.97,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (fast transfer)"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": 8680.38,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": -28896.22,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": 32721.63,
+    "category": "revenue",
+    "counterparty": "Saad Al-Qahtani (fast transfer)"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": -27841.43,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 30142.04,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (incoming transfer)"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": -22146.99,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": 28645.98,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": -25024.56,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 20354.15,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 24067.87,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (transfer)"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": -27449.37,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": 22579.71,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": 21026.62,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets (transfer)"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 21908.53,
+    "category": "revenue",
+    "counterparty": "Majed Al-Shehri (fast transfer)"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": -23368.17,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -23468.47,
+    "category": "opex",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": -20977.19,
+    "category": "opex",
+    "counterparty": "Electricity and telecom"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-01-30",
+    "amount": 11263.12,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 36223.68,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": 24595.55,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets (incoming transfer)"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -23345.06,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": -26516.45,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": 15762.6,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (fast transfer)"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": 17748.75,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (fast transfer)"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -19279.71,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 22569.42,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets (transfer)"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -22742.18,
+    "category": "opex",
+    "counterparty": "SADAD Electricity"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": -26846.68,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -25970.14,
+    "category": "opex",
+    "counterparty": "EJAR rent platform"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -20444.17,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": 25821.88,
+    "category": "revenue",
+    "counterparty": "Fahad Al-Otaibi (transfer)"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": 12034.42,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (transfer)"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -29233.41,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": 36689.26,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 25344.83,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurant (transfer)"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": 30509.61,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -28754.16,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-04-06",
+    "amount": -33812.42,
+    "category": "opex",
+    "counterparty": "EJAR rent platform"
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -27775.5,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-15",
+    "amount": 42251.14,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels (incoming transfer)"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 39363.14,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -24492.52,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 25887.75,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurant (transfer)"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": 38597.97,
+    "category": "revenue",
+    "counterparty": "Reem Al-Shammari (incoming transfer)"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 15271.46,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": 26234.25,
+    "category": "revenue",
+    "counterparty": "Majed Al-Shehri (transfer)"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": -22089.58,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": -26583.93,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": 14619.26,
+    "category": "revenue",
+    "counterparty": "Nora Al-Subaie (fast transfer)"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -25175.37,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": 44672.08,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": 25802.95,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -25658.72,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -22844.5,
+    "category": "opex",
+    "counterparty": "WPS salary payment"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": 29776.28,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": 26173.95,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -25376.62,
+    "category": "opex",
+    "counterparty": "EJAR rent platform"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 16824.2,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets (fast transfer)"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": 19923.34,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": 14302.23,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -18577.06,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -17303.82,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": 12336.61,
+    "category": "revenue",
+    "counterparty": "Faisal Al-Zahrani (fast transfer)"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": 17497.75,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (transfer)"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -20043.44,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-07-16",
+    "amount": -18827.42,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": 9047.64,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": 26971.72,
+    "category": "revenue",
+    "counterparty": "Faisal Al-Zahrani (fast transfer)"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 18771.94,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-23",
+    "amount": -28024.37,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -20114.97,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 26074.34,
+    "category": "revenue",
+    "counterparty": "Sahl Express (fast transfer)"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -26979.07,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": -19740.08,
+    "category": "opex",
+    "counterparty": "EJAR rent platform"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 17042.39,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (incoming transfer)"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 29554.29,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 21013.57,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 26819.73,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -20968.8,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 21270.02,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets (transfer)"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": -23252.25,
+    "category": "opex",
+    "counterparty": "SADAD Electricity"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": 10593.66,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": 21299.39,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": -24848.4,
+    "category": "opex",
+    "counterparty": "Salaries"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 26775.79,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": -24746.0,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -26601.37,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 23647.81,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": 12914.44,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": -22132.83,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 29868.91,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. (incoming transfer)"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": 17608.68,
+    "category": "revenue",
+    "counterparty": "Omar Al-Ghamdi (transfer)"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": -21965.67,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": 14419.2,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants (incoming transfer)"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -19745.37,
+    "category": "opex",
+    "counterparty": "EJAR rent platform"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": 35235.21,
+    "category": "revenue",
+    "counterparty": "Fahad Al-Otaibi (transfer)"
+   },
+   {
+    "date": "2026-10-17",
+    "amount": -25385.8,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -7300.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": 53136.91,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -27537.56,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "Statement period runs to 2026-10-30 but the last transaction is dated 2026-10-31; the printed period end and the transaction dates do not agree.",
+   "Statement covers a 12-month window with entries through October 2026; the period_end and last line dates should be checked against the source before relying on them.",
+   "Several transfers are labelled as fast transfers from individuals (e.g. Saad Al-Qahtani, Majed Al-Shehri, Nora Al-Subaie, Faisal Al-Zahrani, Sahl Express) that are recorded as revenue; their customer nature is not confirmed by the document.",
+   "Transactions are shown in the document with a running balance; the recorded amounts were copied as printed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8412,
+  "output_tokens": 6108,
+  "latency_s": 17.61,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Rawabi Printing & Advertising",
+  "cr_number": "1019608222",
+  "owner_name": "Omar Al-Ghamdi",
+  "owner_name_ar": "عمر الغامدي",
+  "issue_date": "2024-01-29",
+  "expiry_date": "2026-11-09",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1665,
+  "output_tokens": 250,
+  "latency_s": 1.95,
+  "cached": false
+ }
+}

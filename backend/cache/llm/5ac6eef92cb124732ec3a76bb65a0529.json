@@ -1,0 +1,25 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 155233,
+  "closing_balance": 946052.1,
+  "transactions": [],
+  "notes": [
+   "Statement period runs 2025-11-01 to 2026-10-30, a 12-month span that includes dates after the date this review is being done; the later lines should be confirmed against the original bank source.",
+   "Transfers in from Fahad Al-Otaibi (2025-11-24, 2026-10-12), Omar Al-Ghamdi, Saad Al-Qahtani and Reem Al-Shammari are recorded as revenue, but Saad Al-Qahtani is the registered owner (4 Apr 2026 inflow of 46,999.60 should be treated as owner funds, not revenue; not reclassified here since category is recorded as printed).",
+   "Balance column goes negative from 2025-11-16 to 2025-11-24 (lowest -130,020.40) before recovering; the statement's opening balance of 155,233.00 is consistent with the first line's balance.",
+   "Lines dated 2026-06-03 through 2026-10-29 show a mix of Arabic and English descriptions with no change in structure; no reconciliation issue found in the running balances."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8964,
+  "output_tokens": 7015,
+  "latency_s": 20.2,
+  "cached": false
+ }
+}

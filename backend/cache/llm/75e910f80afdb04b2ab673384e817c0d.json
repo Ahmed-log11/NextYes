@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Bayan Printing & Advertising",
+  "cr_number": "1056150537",
+  "owner_name": "Majed Al-Shehri",
+  "owner_name_ar": "ماجد الشهري",
+  "issue_date": "2018-02-28",
+  "expiry_date": "2028-08-21",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1664,
+  "output_tokens": 247,
+  "latency_s": 1.66,
+  "cached": false
+ }
+}

@@ -31,6 +31,7 @@ class RuleSpec(BaseModel):
 class Policy(BaseModel):
     id: str
     name: str
+    name_ar: str = ""
     description: str
     ready_threshold: float = Field(ge=0, le=100)
     rules: list[RuleSpec]

@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-01-28",
+    "amount": -116125.37,
+    "balance": 259213.39,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 961105"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 45469.16,
+    "balance": 304682.55,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -89716.95,
+    "balance": 214965.6,
+    "category": "opex",
+    "counterparty": "WPS SALARY FEB"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -6069.74,
+    "balance": 208895.86,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 47285.05,
+    "balance": 256180.91,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 173752.35,
+    "balance": 429933.26,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALMAWARED CO 998061"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -116771.7,
+    "balance": 313161.56,
+    "category": "opex",
+    "counterparty": "EJAR RENT 145359"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": 105766.41,
+    "balance": 418927.97,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALSAFWA RESTAURANT 769436"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -116355.62,
+    "balance": 302572.35,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -129558.03,
+    "balance": 173014.32,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": 44210.75,
+    "balance": 217225.07,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": 172085.44,
+    "balance": 389310.51,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -5888.42,
+    "balance": 383422.09,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -4853.64,
+    "balance": 378568.45,
+    "category": "personal",
+    "counterparty": "تحويل عائلي"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -127256.0,
+    "balance": 251312.45,
+    "category": "opex",
+    "counterparty": "WPS SALARY MAR"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -3759.33,
+    "balance": 247553.12,
+    "category": "personal",
+    "counterparty": "SCHOOL FEES 640819"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 103419.02,
+    "balance": 350972.14,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALMAWARED CO 684743"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 83026.91,
+    "balance": 433999.05,
+    "category": "revenue",
+    "counterparty": "SARIE CR TURKI ALMUTAIRI 789434"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -114265.77,
+    "balance": 319733.28,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -4096.44,
+    "balance": 315636.84,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -110291.59,
+    "balance": 205345.25,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": -128910.94,
+    "balance": 76434.31,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 461079"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 148876.5,
+    "balance": 225310.81,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -4558.92,
+    "balance": 220751.89,
+    "category": "personal",
+    "counterparty": "CC PAYMENT 722528"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": 80268.2,
+    "balance": 301020.09,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 161509.37,
+    "balance": 462529.46,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -125746.7,
+    "balance": 336782.76,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -5406.3,
+    "balance": 331376.46,
+    "category": "personal",
+    "counterparty": "SCHOOL FEES 740017"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 85859.02,
+    "balance": 417235.48,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALSAFWA RESTAURANT 769134"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 213638.44,
+    "balance": 630873.92,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": -5435.51,
+    "balance": 625438.41,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -124842.72,
+    "balance": 500595.69,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 237030.08,
+    "balance": 737625.77,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 87272.46,
+    "balance": 824898.23,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -160011.83,
+    "balance": 664886.4,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -109024.15,
+    "balance": 555862.25,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 473353"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 41239.73,
+    "balance": 597101.98,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 96511.35,
+    "balance": 693613.33,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -115617.08,
+    "balance": 577996.25,
+    "category": "opex",
+    "counterparty": "WPS SALARY MAY"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": -115333.86,
+    "balance": 462662.39,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -94543.0,
+    "balance": 368119.39,
+    "category": "opex",
+    "counterparty": "RIMAL PACKAGING (outgoing transfer)"
+   }
+  ],
+  "notes": [
+   "Page 2 of 4 only: opening and closing balances, period dates and account type are not shown here, so they are null.",
+   "Page 2 has no column headers; direction was inferred from the running balance, which moves consistently with each amount."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4415,
+  "output_tokens": 2556,
+  "latency_s": 7.5,
+  "cached": false
+ }
+}

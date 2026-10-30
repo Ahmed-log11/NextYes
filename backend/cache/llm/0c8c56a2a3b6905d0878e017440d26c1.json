@@ -1,0 +1,21 @@
+{
+ "document": "income_statement",
+ "fields": {
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "revenue": 3055300,
+  "operating_expenses": 2380078.7,
+  "notes": [
+   "The stated period runs from 2025-11-01 to 2026-10-30, which is about a year ending in the future relative to a typical filing; confirm whether this is a forecast or a mis-keyed end date.",
+   "Operating profit printed as 675,221.30 equals revenue less operating expenses (3,055,300.00 - 2,380,078.70), so the three figures are internally consistent."
+  ]
+ },
+ "record": {
+  "document": "income_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1421,
+  "output_tokens": 269,
+  "latency_s": 2.04,
+  "cached": false
+ }
+}

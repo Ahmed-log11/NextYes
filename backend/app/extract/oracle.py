@@ -27,6 +27,7 @@ MISTAKES = {
     "personal_as_opex": "personal spending counted as business costs",
     "drop_last_line": "the last statement line skipped",
     "debit_credit_swap_first_line": "the first line's direction reversed",
+    "no_balances": "running balances not read (null), so direction cannot be checked",
 }
 
 
@@ -76,9 +77,12 @@ class OracleReader:
             if cat == "personal" and "personal_as_opex" in self.mistakes:
                 cat = "opex"
             rows.append({"date": t.day.isoformat(), "amount": (t.credit - t.debit) / 100,
-                         "category": cat, "counterparty": t.party_en or None})
+                         "balance": t.balance / 100, "category": cat, "counterparty": t.party_en or None})
         if "debit_credit_swap_first_line" in self.mistakes:
             rows[0]["amount"] = -rows[0]["amount"]
+        if "no_balances" in self.mistakes:
+            for r in rows:
+                r["balance"] = None
         if "drop_last_line" in self.mistakes:
             rows = rows[:-1]
         return {"account_type": self.L.account_type,

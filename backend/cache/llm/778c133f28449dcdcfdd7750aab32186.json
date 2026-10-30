@@ -1,0 +1,893 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 87422.59,
+  "closing_balance": 304826.59,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": 15923.01,
+    "balance": 103345.6,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2025-11-01",
+    "amount": -25482.81,
+    "balance": 77862.79,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-02",
+    "amount": 9640.77,
+    "balance": 87503.56,
+    "category": "revenue",
+    "counterparty": "Faisal Al-Zahrani"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 20424.7,
+    "balance": 107928.26,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 19933.76,
+    "balance": 127862.02,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 25999.55,
+    "balance": 153861.57,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 27078.21,
+    "balance": 180939.78,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-11-20",
+    "amount": -21981.01,
+    "balance": 158958.77,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -22470.01,
+    "balance": 136488.76,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -25742.17,
+    "balance": 110746.59,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3100.0,
+    "balance": 107646.59,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": 28233.31,
+    "balance": 135879.9,
+    "category": "revenue",
+    "counterparty": "Khalid Al-Harbi"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": -25311.31,
+    "balance": 110568.59,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 8629.06,
+    "balance": 119197.65,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": 20607.91,
+    "balance": 139805.56,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 20133.56,
+    "balance": 159939.12,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 22594.32,
+    "balance": 182533.44,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 14501.84,
+    "balance": 197035.28,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-24",
+    "amount": -20618.51,
+    "balance": 176416.77,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3100.0,
+    "balance": 173316.77,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -27126.72,
+    "balance": 146190.05,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -19162.26,
+    "balance": 127027.79,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-03",
+    "amount": -15478.11,
+    "balance": 111549.68,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-07",
+    "amount": 15947.69,
+    "balance": 127497.37,
+    "category": "revenue",
+    "counterparty": "Noura Al-Subaie"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": -22421.38,
+    "balance": 105075.99,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 17631.97,
+    "balance": 122707.96,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": -22916.84,
+    "balance": 99791.12,
+    "category": "opex",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 11657.34,
+    "balance": 111448.46,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 17725.4,
+    "balance": 129173.86,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 13567.61,
+    "balance": 142741.47,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -18860.07,
+    "balance": 123881.4,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3100.0,
+    "balance": 120781.4,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-01-30",
+    "amount": 22569.99,
+    "balance": 143351.39,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": -18033.76,
+    "balance": 125317.63,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 26224.15,
+    "balance": 151541.78,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-06",
+    "amount": -23925.83,
+    "balance": 127615.95,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -21931.97,
+    "balance": 105683.98,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 8225.61,
+    "balance": 113909.59,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-23",
+    "amount": 25765.56,
+    "balance": 139675.15,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-24",
+    "amount": 27737.25,
+    "balance": 167412.4,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3100.0,
+    "balance": 164312.4,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": 23247.43,
+    "balance": 187559.83,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -25513.24,
+    "balance": 162046.59,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-01",
+    "amount": 20108.1,
+    "balance": 182154.69,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-01",
+    "amount": 11444.5,
+    "balance": 193599.19,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": 21665.52,
+    "balance": 215264.71,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": 12689.77,
+    "balance": 227954.48,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-11",
+    "amount": 25611.61,
+    "balance": 253566.09,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -23715.04,
+    "balance": 229851.05,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3100.0,
+    "balance": 226751.05,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": 19880.5,
+    "balance": 246631.55,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -20822.33,
+    "balance": 225809.22,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": -20637.09,
+    "balance": 205172.13,
+    "category": "opex",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": -24391.14,
+    "balance": 180780.99,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 22828.99,
+    "balance": 203609.98,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -25989.93,
+    "balance": 177620.05,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 21858.82,
+    "balance": 199478.87,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 20462.11,
+    "balance": 219940.98,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -18788.68,
+    "balance": 201152.3,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3100.0,
+    "balance": 198052.3,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 19360.22,
+    "balance": 217412.52,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -25502.69,
+    "balance": 191909.83,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-27",
+    "amount": 33889.86,
+    "balance": 225799.69,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -24912.3,
+    "balance": 200887.39,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 39061.45,
+    "balance": 239948.84,
+    "category": "revenue",
+    "counterparty": "Faisal Al-Zahrani"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": -16895.5,
+    "balance": 223053.34,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-04",
+    "amount": -26336.31,
+    "balance": 196717.03,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 17981.44,
+    "balance": 214698.47,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": 13990.05,
+    "balance": 228688.52,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 21279.66,
+    "balance": 249968.18,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-17",
+    "amount": 15287.4,
+    "balance": 265255.58,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3100.0,
+    "balance": 262155.58,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -25224.72,
+    "balance": 236930.86,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -18053.87,
+    "balance": 218876.99,
+    "category": "opex",
+    "counterparty": "Sadad Telecom"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -22404.19,
+    "balance": 196472.8,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-02",
+    "amount": 11693.36,
+    "balance": 208166.16,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": 16134.41,
+    "balance": 224300.57,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -21091.48,
+    "balance": 203209.09,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 35680.21,
+    "balance": 238889.3,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 11009.66,
+    "balance": 249898.96,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-18",
+    "amount": -17913.09,
+    "balance": 231985.87,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3100.0,
+    "balance": 228885.87,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": 26482.36,
+    "balance": 255368.23,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -19795.24,
+    "balance": 235572.99,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-01",
+    "amount": 30260.65,
+    "balance": 265833.64,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": -19602.0,
+    "balance": 246231.64,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-09",
+    "amount": -18191.01,
+    "balance": 228040.63,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 29940.87,
+    "balance": 257981.5,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": -15105.97,
+    "balance": 242875.53,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-20",
+    "amount": 17498.28,
+    "balance": 260373.81,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3100.0,
+    "balance": 257273.81,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-07-26",
+    "amount": -19059.02,
+    "balance": 238214.79,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 11800.2,
+    "balance": 250014.99,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 8744.83,
+    "balance": 258759.82,
+    "category": "revenue",
+    "counterparty": "Nasser Al-Dosari"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": -22747.16,
+    "balance": 236012.66,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-05",
+    "amount": 29240.17,
+    "balance": 265252.83,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 16216.58,
+    "balance": 281469.41,
+    "category": "revenue",
+    "counterparty": "Saad Al-Qahtani"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -20101.55,
+    "balance": 261367.86,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": 11559.67,
+    "balance": 272927.53,
+    "category": "revenue",
+    "counterparty": "Omar Al-Ghamdi"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": 18063.44,
+    "balance": 290990.97,
+    "category": "revenue",
+    "counterparty": "Khalid Al-Harbi"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": 17475.31,
+    "balance": 308466.28,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3100.0,
+    "balance": 305366.28,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -17542.2,
+    "balance": 287824.08,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -21054.29,
+    "balance": 266769.79,
+    "category": "opex",
+    "counterparty": "Sadad Telecom"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": 34389.1,
+    "balance": 301158.89,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": 32019.78,
+    "balance": 333178.67,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": -25375.53,
+    "balance": 307803.14,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-24",
+    "amount": 19245.36,
+    "balance": 327048.5,
+    "category": "revenue",
+    "counterparty": "Saad Al-Qahtani"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -26532.39,
+    "balance": 300516.11,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -19550.49,
+    "balance": 280965.62,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3100.0,
+    "balance": 277865.62,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 19295.64,
+    "balance": 297161.26,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 11450.12,
+    "balance": 308611.38,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": -22127.19,
+    "balance": 286484.19,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-01",
+    "amount": 23430.66,
+    "balance": 309914.85,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -26815.32,
+    "balance": 283099.53,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 16002.81,
+    "balance": 299102.34,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-13",
+    "amount": -21672.09,
+    "balance": 277430.25,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-19",
+    "amount": -18468.77,
+    "balance": 258961.48,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 21414.56,
+    "balance": 280376.04,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 24216.08,
+    "balance": 304592.12,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -21001.42,
+    "balance": 283590.7,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3100.0,
+    "balance": 280490.7,
+    "category": "debt_service",
+    "counterparty": "Sample Bank"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 24335.89,
+    "balance": 304826.59,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   }
+  ],
+  "notes": [
+   "The statement's printed column layout places Debit before Credit, but the running balance moves opposite to the printed headers on many lines (e.g. 2025-11-01 first line: 87,422.59 opening plus 15,923.01 gives 103,345.60 only if the amount is money in); amounts were recorded as money in or out by the balance movement.",
+   "Personal transactions: none identified as personal; owner name Majed Al-Shehri does not appear as a counterparty.",
+   "Transfers to 'Al-Mawared Co' and 'Nawa Wholesale' and 'Fanar Equipment' treated as company suppliers (opex); individual transfers in from Khalid Al-Harbi, Faisal Al-Zahrani and similar were treated as customer revenue."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 9205,
+  "output_tokens": 6658,
+  "latency_s": 19.11,
+  "cached": false
+ }
+}

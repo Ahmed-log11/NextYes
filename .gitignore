@@ -9,3 +9,6 @@ dist/
 # Regenerate with `make docs`; demo documents are committed
 backend/data/dev/*/documents/
 backend/data/heldout/*/documents/
+
+# Journey sessions (per-run copies of documents + checkpoint database)
+backend/sessions/

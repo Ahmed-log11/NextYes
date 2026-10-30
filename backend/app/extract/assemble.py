@@ -24,6 +24,7 @@ from typing import Any
 from pydantic import BaseModel, ValidationError
 
 from ..engine import FinancialSnapshot
+from .injection import strip_instructions
 from .llm import CallLog, DocInput, Reader, ReadError
 from .pdf_text import OPTIONAL_DOCS, REQUIRED_DOCS, DocumentSet, load_documents
 
@@ -48,6 +49,12 @@ class Check(BaseModel):
     detail: str
 
 
+class EmbeddedInstruction(BaseModel):
+    document: str
+    text: str
+    found_by: str  # "detector" (removed before the model saw it) or "model" (reported in notes)
+
+
 class ExtractionResult(BaseModel):
     business_id: str
     snapshot: FinancialSnapshot | None
@@ -58,6 +65,7 @@ class ExtractionResult(BaseModel):
     conflicts: list[DetectedConflict]
     checks: list[Check]
     notes: list[str]                  # the model's remarks for an analyst; never change values
+    embedded_instructions: list[EmbeddedInstruction] = []  # prompt injection attempts found
     usage: dict[str, float]
 
 
@@ -66,6 +74,76 @@ def _d(x: str | None) -> date | None:
         return date.fromisoformat(x) if x else None
     except ValueError:
         return None
+
+
+def _name_key(name: str | None) -> str:
+    """Letters only, lower case: "Khalid Al-Harbi", "KHALID ALHARBI" and "khalid alharbi" all match.
+    Arabic letters are kept, so the Arabic name matches its own spelling."""
+    return "".join(ch for ch in (name or "").lower() if ch.isalpha())
+
+
+def is_owner(counterparty: str | None, owner_names: list[str | None]) -> bool:
+    """Is this counterparty the business owner? Bank abbreviations may cut a long name,
+    so a counterparty of at least 8 letters that starts the owner's name also counts."""
+    cp = _name_key(counterparty)
+    if len(cp) < 6:
+        return False
+    for name in owner_names:
+        key = _name_key(name)
+        if key and (cp == key or key in cp or (len(cp) >= 8 and key.startswith(cp))):
+            return True
+    return False
+
+
+INFLOW = ("revenue", "owner_funds")
+OUTFLOW = ("opex", "debt_service", "personal")
+
+
+def repair_bank(bank: dict) -> dict[str, int]:
+    """Fix each line's direction from the running balance printed on the statement, in place.
+
+    The model sometimes reads money in as money out (most often in right-to-left layouts).
+    The statement prints the balance after every line, so the direction is certain: if the
+    balance went up by the amount, money came in. Then a category that contradicts the
+    direction is corrected (money in cannot be a cost). Returns counts for the notes."""
+    txns = bank.get("transactions") or []
+    prev = bank.get("opening_balance")
+    flipped = recategorised = mismatched = 0
+    for t in txns:
+        amount = float(t.get("amount") or 0)
+        bal = t.get("balance")
+        if prev is not None and bal is not None:
+            delta = round(float(bal) - float(prev), 2)
+            if abs(abs(delta) - abs(amount)) <= 0.05:
+                if delta and (delta > 0) != (amount > 0):
+                    t["amount"] = amount = -amount
+                    flipped += 1
+            else:
+                mismatched += 1  # amount or balance misread: left as read, the reconciliation check reports it
+        prev = float(bal) if bal is not None else (float(prev) + amount if prev is not None else None)
+        cat = t.get("category")
+        if amount > 0 and cat in OUTFLOW:
+            t["category"] = "revenue"  # money in is never a cost; the owner rule below may still move it
+            recategorised += 1
+        elif amount < 0 and cat in INFLOW:
+            t["category"] = "other"
+            recategorised += 1
+    return {"flipped": flipped, "recategorised": recategorised, "mismatched": mismatched}
+
+
+def bank_gap(bank: dict) -> float | None:
+    """opening + all lines - closing, after repair; None if the balances are missing."""
+    opening, closing = bank.get("opening_balance"), bank.get("closing_balance")
+    if opening is None or closing is None:
+        return None
+    return round(opening + sum(float(t.get("amount") or 0) for t in bank.get("transactions") or []) - closing, 2)
+
+
+def _named_person(counterparty: str | None) -> bool:
+    """A counterparty that reads as a person's name (two or more words, not a generic label)."""
+    cp = (counterparty or "").strip().lower()
+    generic = ("owner", "المالك", "capital", "رأس مال", "cash", "نقد")
+    return len(cp.split()) >= 2 and not any(g in cp for g in generic)
 
 
 def _month_starts(as_of: date) -> list[tuple[int, int]]:
@@ -78,13 +156,17 @@ def _month_starts(as_of: date) -> list[tuple[int, int]]:
     return out[::-1]
 
 
-def read_all(docs: DocumentSet, reader: Reader, log: CallLog) -> tuple[dict[str, dict], list[str]]:
+def read_all(docs: DocumentSet, reader: Reader, log: CallLog,
+             found: list[EmbeddedInstruction] | None = None) -> tuple[dict[str, dict], list[str]]:
     readings: dict[str, dict] = {}
     unreadable: list[str] = []
     context: dict[str, str | None] = {}
+    found = found if found is not None else []
     for name in READ_ORDER:
         if name in docs.texts:
-            doc = DocInput(name, text=docs.texts[name])
+            text, removed = strip_instructions(docs.texts[name])
+            found += [EmbeddedInstruction(document=name, text=t, found_by="detector") for t in removed]
+            doc = DocInput(name, text=text)
         elif name in docs.scanned:
             doc = DocInput(name, pdf_path=docs.scanned[name])
         else:
@@ -92,10 +174,21 @@ def read_all(docs: DocumentSet, reader: Reader, log: CallLog) -> tuple[dict[str,
         try:
             r = reader.read(doc, context)
         except ReadError:
-            unreadable.append(name)
-            continue
-        log.calls.append(r.record)
-        readings[name] = r.fields
+            if name != "bank_statement" or doc.text is None:
+                unreadable.append(name)
+                continue
+            r = None
+        if r is not None:
+            log.calls.append(r.record)
+            r.fields = sanitize(name, r.fields)
+        if name == "bank_statement" and doc.text is not None:
+            fields = _bank_with_fallback(r.fields if r else None, doc.text, reader, context, log)
+            if fields is None:
+                unreadable.append(name)
+                continue
+            readings[name] = fields
+        else:
+            readings[name] = r.fields
         if name == "cr_certificate":
             context["owner_name"] = r.fields.get("owner_name")
             context["owner_name_ar"] = r.fields.get("owner_name_ar")
@@ -105,12 +198,86 @@ def read_all(docs: DocumentSet, reader: Reader, log: CallLog) -> tuple[dict[str,
     return readings, unreadable
 
 
+LIST_FIELDS = {"bank_statement": "transactions", "credit_report": "facilities", "tax_compliance": "vat_returns"}
+
+
+def sanitize(name: str, fields: Any) -> dict:
+    """Make a reading safe to compute on, whatever shape the model returned: a list item that
+    is not an object (e.g. a line as plain text) is dropped and noted, never crashes the run.
+    A dropped bank line then shows up in the reconciliation check."""
+    if not isinstance(fields, dict):
+        return {"notes": [f"[{name}] the reader returned no structured fields"]}
+    key = LIST_FIELDS.get(name)
+    if key is not None:
+        items = fields.get(key)
+        items = items if isinstance(items, list) else []
+        kept = [i for i in items if isinstance(i, dict)]
+        if len(kept) != len(items):
+            fields.setdefault("notes", [])
+            if isinstance(fields["notes"], list):
+                fields["notes"].append(f"{len(items) - len(kept)} malformed {key} item(s) dropped")
+        fields[key] = kept
+    if not isinstance(fields.get("notes"), list):
+        fields["notes"] = []
+    fields["notes"] = [n for n in fields["notes"] if isinstance(n, str)]
+    return fields
+
+
+def _bank_with_fallback(fields: dict | None, text: str, reader: Reader, context: dict, log: CallLog) -> dict | None:
+    """If a whole-statement reading does not reconcile even after repair (lines dropped or
+    misread, or the answer cut off), read the statement again one page at a time and keep the
+    reading that reconciles better. Costs extra calls only for the statements that need it."""
+    import copy
+
+    def gap(f: dict | None) -> float:
+        if not f:
+            return float("inf")
+        f = copy.deepcopy(f)
+        repair_bank(f)
+        g = bank_gap(f)
+        return abs(g) if g is not None else float("inf")
+
+    if gap(fields) < 0.05:
+        return fields
+    pages = [p for p in text.split("--- page ")[1:] if p.strip()]
+    if len(pages) < 2:
+        return fields
+    merged: dict | None = None
+    for i, body in enumerate(pages, 1):
+        try:
+            r = reader.read(DocInput("bank_statement", text="--- page " + body), {**context, "page": f"{i} of {len(pages)}"})
+        except ReadError:
+            return fields
+        log.calls.append(r.record)
+        r.fields = sanitize("bank_statement", r.fields)
+        if merged is None:
+            merged = dict(r.fields)
+            merged["transactions"] = list(r.fields.get("transactions") or [])
+            merged["notes"] = list(r.fields.get("notes") or [])
+        else:
+            merged["transactions"] += r.fields.get("transactions") or []
+            merged["notes"] += r.fields.get("notes") or []
+            for k in ("closing_balance", "period_end", "account_type", "period_start", "opening_balance"):
+                if r.fields.get(k) is not None and (k == "closing_balance" or merged.get(k) is None):
+                    merged[k] = r.fields[k]
+    if merged is not None and gap(merged) < gap(fields):
+        merged["notes"].append("Read page by page: the whole-statement reading did not reconcile.")
+        return merged
+    return fields
+
+
 def assemble(business_id: str, docs: DocumentSet, readings: dict[str, dict],
-             unreadable: list[str], log: CallLog) -> ExtractionResult:
+             unreadable: list[str], log: CallLog,
+             found: list[EmbeddedInstruction] | None = None) -> ExtractionResult:
     f: dict[str, Any] = {}
     conflicts: list[DetectedConflict] = []
     checks: list[Check] = []
     notes = [f"[{doc}] {n}" for doc, r in readings.items() for n in (r.get("notes") or [])]
+    found = list(found or [])
+    for doc, r in readings.items():  # the model reports instructions it saw (scanned pages included)
+        for n in r.get("notes") or []:
+            if n.upper().startswith("INSTRUCTION IN DOCUMENT"):
+                found.append(EmbeddedInstruction(document=doc, text=n, found_by="model"))
 
     cr = readings.get("cr_certificate", {})
     credit = readings.get("credit_report")
@@ -141,6 +308,30 @@ def assemble(business_id: str, docs: DocumentSet, readings: dict[str, dict],
     bank_revenue = None
     if bank and as_of:
         txns = bank.get("transactions") or []
+        fix = repair_bank(bank)
+        if fix["flipped"] or fix["recategorised"]:
+            notes.append(f"[assemble] direction corrected from the running balance on {fix['flipped']} line(s); "
+                         f"{fix['recategorised']} category(ies) made consistent with the direction.")
+        # Business rule, applied in Python rather than trusted to the model: money coming in
+        # from the owner's own name is the owner's money, not revenue (found by error analysis:
+        # the reader's only mistakes on dev were exactly these lines).
+        owners = [cr.get("owner_name"), cr.get("owner_name_ar")]
+        moved = back = 0
+        owner_known = any(owners)
+        for t in txns:
+            cp = t.get("counterparty")
+            incoming = float(t.get("amount") or 0) > 0
+            if t.get("category") in ("revenue", "other") and incoming and is_owner(cp, owners):
+                t["category"] = "owner_funds"
+                moved += 1
+            elif t.get("category") == "owner_funds" and incoming and owner_known and _named_person(cp) \
+                    and not is_owner(cp, owners):
+                t["category"] = "revenue"  # a transfer from someone else, by name, is not the owner's money
+                back += 1
+        if moved:
+            notes.append(f"[assemble] {moved} incoming transfer(s) from the owner's own name counted as owner funds, not revenue.")
+        if back:
+            notes.append(f"[assemble] {back} transfer(s) from people other than the owner counted as revenue, not owner funds.")
         by_month: dict[tuple[int, int], float] = defaultdict(float)
         opex = debt_paid = 0.0
         for t in txns:
@@ -215,9 +406,24 @@ def assemble(business_id: str, docs: DocumentSet, readings: dict[str, dict],
             f["request"] = {"amount_sar": app["requested_amount"], "tenor_months": app["tenor_months"],
                             "annual_profit_rate": app["annual_profit_rate"]}
 
+    checks.append(Check(name="NO_EMBEDDED_INSTRUCTIONS", passed=not found,
+                        detail="none found" if not found else
+                        f"{len(found)} instruction(s) aimed at an AI reader in: "
+                        + ", ".join(sorted({f.document for f in found}))))
+
     missing = list(docs.missing)
     needed = [k for k in FinancialSnapshot.model_fields if k != "business_id"]
     unresolved = [k for k in needed if f.get(k) is None]
+    # Safety rule: never decide on a bank statement that does not add up. Better to say
+    # "needs a person or a clearer copy" than to give a lender a wrong number.
+    if any(c.name == "BALANCE_RECONCILES" and not c.passed for c in checks):
+        for k in ("monthly_revenue_sar", "operating_margin"):
+            if k not in unresolved:
+                unresolved.append(k)
+        if "bank_statement" not in unreadable:
+            unreadable = [*unreadable, "bank_statement"]
+        notes.append("[assemble] the bank statement does not reconcile even after re-reading; "
+                     "no decision is made on it (human review or a clearer copy needed).")
     snapshot = None
     if not missing and not unresolved:
         try:
@@ -230,7 +436,7 @@ def assemble(business_id: str, docs: DocumentSet, readings: dict[str, dict],
         business_id=business_id, snapshot=snapshot,
         fields={k: (v.isoformat() if isinstance(v, date) else v) for k, v in f.items()},
         missing_documents=missing, unreadable_documents=unreadable, unresolved_fields=unresolved,
-        conflicts=conflicts, checks=checks, notes=notes, usage=log.summary(),
+        conflicts=conflicts, checks=checks, notes=notes, embedded_instructions=found, usage=log.summary(),
     )
 
 
@@ -238,9 +444,9 @@ def extract(folder: Path, reader: Reader, business_id: str | None = None) -> Ext
     """Read and assemble one business. `folder` holds its PDFs (one difficulty level)."""
     bid = business_id or _business_id(folder)
     docs = load_documents(folder)
-    log = CallLog()
-    readings, unreadable = read_all(docs, reader, log)
-    return assemble(bid, docs, readings, unreadable, log)
+    log, found = CallLog(), []
+    readings, unreadable = read_all(docs, reader, log, found)
+    return assemble(bid, docs, readings, unreadable, log, found)
 
 
 def _business_id(folder: Path) -> str:
@@ -264,11 +470,19 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("folder", type=Path)
     ap.add_argument("--reader", choices=["haiku", "oracle"], default="haiku")
+    ap.add_argument("--out", type=Path, help="write the JSON to this file (UTF-8; safer than > on Windows)")
     args = ap.parse_args()
     result = extract(args.folder, make_reader(args.reader, args.folder))
-    import sys
-    sys.stdout.reconfigure(encoding="utf-8")
-    print(json.dumps(result.model_dump(mode="json"), indent=2, ensure_ascii=False))
+    text = json.dumps(result.model_dump(mode="json"), indent=2, ensure_ascii=False)
+    if args.out:
+        args.out.write_text(text, encoding="utf-8")
+        ok = {c.name: c.passed for c in result.checks}
+        print(f"wrote {args.out} · snapshot {'built' if result.snapshot else 'NOT built'} · checks {ok} · "
+              f"usage {result.usage}")
+    else:
+        import sys
+        sys.stdout.reconfigure(encoding="utf-8")
+        print(text)
 
 
 if __name__ == "__main__":

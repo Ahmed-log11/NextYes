@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Fajr Food Supplies",
+  "cr_number": "1055056475",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2014-08-30",
+  "expiry_date": "2027-10-07",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1664,
+  "output_tokens": 245,
+  "latency_s": 2.46,
+  "cached": false
+ }
+}

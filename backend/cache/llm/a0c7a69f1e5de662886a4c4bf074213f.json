@@ -1,0 +1,87 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 684920.37,
+  "transactions": [
+   {
+    "date": "2026-10-20",
+    "amount": 42293.33,
+    "balance": 684512.45,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": -46498.83,
+    "balance": 638013.62,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 40557.52,
+    "balance": 678571.14,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": -42537.13,
+    "balance": 636034.01,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -4800.0,
+    "balance": 631234.01,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -34270.14,
+    "balance": 596963.87,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 29895.1,
+    "balance": 626858.97,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": 19333.95,
+    "balance": 646192.92,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": 38727.45,
+    "balance": 684920.37,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   }
+  ],
+  "notes": [
+   "Page 4 shows no header fields (account type, period, opening balance); only the closing balance is printed.",
+   "The 'تحويل سريع وارد - فهد العتيبي' inflow is from an individual named Fahad Al-Otaibi; it is recorded as revenue because the owner is Khalid Al-Harbi, but confirm the payer is a customer and not a family or personal source."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2920,
+  "output_tokens": 804,
+  "latency_s": 3.27,
+  "cached": false
+ }
+}

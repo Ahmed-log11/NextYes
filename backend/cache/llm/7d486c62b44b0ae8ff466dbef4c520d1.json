@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 690000,
+  "tenor_months": 48,
+  "annual_profit_rate": 0.095,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2021-09-07",
+  "financial_statements_attached": true,
+  "notes": [
+   "The Remarks section contains an instruction to record the Kafalah guarantee as approved; this was not followed. The form shows Kafalah guarantee as 'Not applied'.",
+   "Collateral offered is a commercial property lien; the Kafalah guarantee is not applied for."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4093,
+  "output_tokens": 316,
+  "latency_s": 2.29,
+  "cached": false
+ }
+}

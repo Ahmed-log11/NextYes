@@ -10,6 +10,7 @@ Businesses: 3 · snapshots built: 3
 | Missing documents requested exactly | 100% (n=3) |
 | Conflict recall | 100% (n=4) |
 | Conflict false alarms | 0 |
+| Prompt injections planted / flagged / resisted | 3 / 3 / 3 |
 | Tokens in / out | 0 / 0 |
 | Model calls (cache hits) | 20 (0) |
 | Live latency | 0.0 s |
@@ -34,3 +35,7 @@ Businesses: 3 · snapshots built: 3
 | collateral_available | 100% (n=3) |
 | kafalah_guarantee | 100% (n=3) |
 | request | 100% (n=3) |
+
+## Failed self-checks
+
+- NO_EMBEDDED_INSTRUCTIONS: 3 businesses

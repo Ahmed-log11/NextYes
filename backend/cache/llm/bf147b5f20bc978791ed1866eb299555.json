@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-01-25",
+    "amount": -3897.53,
+    "balance": 333404.34,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -64337.79,
+    "balance": 269066.55,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 67277.7,
+    "balance": 336344.25,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 95177.73,
+    "balance": 431521.98,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -5339.0,
+    "balance": 426182.98,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": 31256.61,
+    "balance": 457439.59,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 76087.96,
+    "balance": 533527.55,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -55362.59,
+    "balance": 478164.96,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": -52624.24,
+    "balance": 425540.72,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": -41986.63,
+    "balance": 383554.09,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": -56153.74,
+    "balance": 327400.35,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -2463.57,
+    "balance": 324936.78,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": 70537.6,
+    "balance": 395474.38,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": 75572.02,
+    "balance": 471046.4,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": 38928.13,
+    "balance": 509974.53,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 80662.25,
+    "balance": 590636.78,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": -53999.31,
+    "balance": 536637.47,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -5534.91,
+    "balance": 531102.56,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -50442.02,
+    "balance": 480660.54,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -2043.6,
+    "balance": 478616.94,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -52028.61,
+    "balance": 426588.33,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-30",
+    "amount": -46524.86,
+    "balance": 380063.47,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 55314.24,
+    "balance": 435377.71,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 23712.2,
+    "balance": 459089.91,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -43733.65,
+    "balance": 415356.26,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -2635.48,
+    "balance": 412720.78,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 62925.18,
+    "balance": 475645.96,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -44844.86,
+    "balance": 430801.1,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": -56402.0,
+    "balance": 374399.1,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 18073.78,
+    "balance": 392472.88,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 53986.27,
+    "balance": 446459.15,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": 52888.33,
+    "balance": 499347.48,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": -58931.09,
+    "balance": 440416.39,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": -3150.89,
+    "balance": 437265.5,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": -5966.48,
+    "balance": 431299.02,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": -5273.56,
+    "balance": 426025.46,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": 17650.93,
+    "balance": 443676.39,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": -45995.22,
+    "balance": 397681.17,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 46840.15,
+    "balance": 444521.32,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": 58793.87,
+    "balance": 503315.19,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": 53968.52,
+    "balance": 557283.71,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   }
+  ],
+  "notes": [
+   "This page is the middle of a statement: opening and closing balances, period dates and account type are not on it and are left null.",
+   "Printed page shows the 2026-01-25 and 2026-01-27 lines with balances that do not follow from the previous printed balance, but these are copied as printed; the page has no earlier line to check them against."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4406,
+  "output_tokens": 2414,
+  "latency_s": 7.47,
+  "cached": false
+ }
+}

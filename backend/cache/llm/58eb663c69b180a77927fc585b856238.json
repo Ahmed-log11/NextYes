@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 294000,
+  "overdue_90_plus": 130400,
+  "notes": [
+   "Customer rows sum to 294,000.00 in total, but the 90+ column sums to 46,905.77+41,237.14+26,005.27+16,251.82 = 130,399.99, which differs by 0.01 from the printed 130,400.00 total.",
+   "Roughly 44% of the total receivables are over 90 days past due, a high concentration that warrants collection review."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1639,
+  "output_tokens": 238,
+  "latency_s": 1.77,
+  "cached": false
+ }
+}

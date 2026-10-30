@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Sanad Line Logistics",
+  "cr_number": "1065794111",
+  "owner_name": "Omar Al-Ghamdi",
+  "owner_name_ar": "عمر الغامدي",
+  "issue_date": "2023-03-31",
+  "expiry_date": "2027-10-24",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1663,
+  "output_tokens": 244,
+  "latency_s": 2.34,
+  "cached": false
+ }
+}

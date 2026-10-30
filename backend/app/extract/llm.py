@@ -116,30 +116,25 @@ class AnthropicReader:
 
     def read(self, doc: DocInput, context: dict[str, str | None]) -> Reading:
         tool = TOOLS[doc.name]
-        request = dict(
-            model=self.model,
-            max_tokens=MAX_TOKENS,
-            system=SYSTEM,
-            tools=[tool],
-            tool_choice={"type": "tool", "name": tool["name"]},
+        from ..tool_call import call_tool
+
+        start = time.perf_counter()
+        # Streamed: a 150-line statement is a long answer, and the SDK refuses long
+        # non-streaming requests. No temperature (current models and SDK do not take it);
+        # repeatability comes from the disk cache. call_tool also copes with models that
+        # do not accept a forced tool call.
+        fields, resp = call_tool(
+            self.client, model=self.model, tool=tool, stream=True, max_tokens=MAX_TOKENS, system=SYSTEM,
             messages=[{"role": "user", "content": [
                 *doc.content(), {"type": "text", "text": instructions(doc.name, context)}]}],
         )
-        start = time.perf_counter()
-        try:
-            resp = self.client.messages.create(**request, temperature=0)
-        except Exception as e:  # some models reject temperature; the disk cache keeps runs repeatable anyway
-            if "temperature" not in str(e).lower():
-                raise
-            resp = self.client.messages.create(**request)
         latency = time.perf_counter() - start
         if resp.stop_reason == "max_tokens":
             raise ReadError(f"{doc.name}: answer cut off at {MAX_TOKENS} tokens")
-        block = next((b for b in resp.content if b.type == "tool_use"), None)
-        if block is None:
+        if fields is None:
             raise ReadError(f"{doc.name}: model did not call the tool")
-        return Reading(dict(block.input), CallRecord(doc.name, self.model, resp.usage.input_tokens,
-                                                     resp.usage.output_tokens, round(latency, 2), False))
+        return Reading(fields, CallRecord(doc.name, self.model, resp.usage.input_tokens,
+                                          resp.usage.output_tokens, round(latency, 2), False))
 
 
 class CachedReader:

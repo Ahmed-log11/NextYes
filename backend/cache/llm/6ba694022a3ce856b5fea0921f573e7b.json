@@ -1,0 +1,657 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 100236.35,
+  "closing_balance": 765387.25,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 81524.09,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 77324.8,
+    "category": "revenue",
+    "counterparty": "Saad Alqahtani"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": -92909.17,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-19",
+    "amount": -90105.6,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-19",
+    "amount": -79954.55,
+    "category": "other",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": -64325.28,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 135655.37,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 90095.74,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 83888.32,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 102921.61,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": 102002.03,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-10",
+    "amount": -88276.47,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-11",
+    "amount": -94138.05,
+    "category": "opex",
+    "counterparty": "Ejar"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 44906.07,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-23",
+    "amount": -80656.88,
+    "category": "other",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": 72181.97,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2025-12-31",
+    "amount": -82349.5,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 89799.81,
+    "category": "revenue",
+    "counterparty": "Reem Al-Shammari"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -82796.32,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 60844.6,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-15",
+    "amount": -87923.45,
+    "category": "opex",
+    "counterparty": "Ejar"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 51111.1,
+    "category": "revenue",
+    "counterparty": "Bayt Alkhair Market"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 112268.14,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": -60394.29,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-28",
+    "amount": 52276.35,
+    "category": "revenue",
+    "counterparty": "Bayt Alkhair Market"
+   },
+   {
+    "date": "2026-01-30",
+    "amount": -80607.24,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 49059.13,
+    "category": "revenue",
+    "counterparty": "Fahad Alotaibi"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -69015.06,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -88279.32,
+    "category": "opex",
+    "counterparty": "Ejar"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": 119092.51,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-24",
+    "amount": 82528.49,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -80791.45,
+    "category": "other",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 121519.87,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -78656.37,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": 83291.2,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 54244.95,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -77381.19,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-12",
+    "amount": 73561.03,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": -58751.56,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-24",
+    "amount": 54400.51,
+    "category": "revenue",
+    "counterparty": "Majed Alshehri"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": 52874.83,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-03-30",
+    "amount": 40527.48,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -76452.95,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -92838.2,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -72397.18,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 147086.85,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-10",
+    "amount": 45917.04,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-16",
+    "amount": -112632.05,
+    "category": "opex",
+    "counterparty": "Ejar"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -71136.33,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-20",
+    "amount": 128288.02,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -90106.34,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-28",
+    "amount": 85608.09,
+    "category": "revenue",
+    "counterparty": "Nora Alsubaie"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": -85676.87,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-03",
+    "amount": -84165.94,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 48472.17,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 80476.43,
+    "category": "revenue",
+    "counterparty": "Bayt Alkhair Market"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 64771.55,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": 54348.24,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 59896.7,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-22",
+    "amount": -76890.46,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-25",
+    "amount": 65834.91,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -71370.53,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 42659.86,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": -88220.16,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-05",
+    "amount": 117995.56,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 73412.04,
+    "category": "revenue",
+    "counterparty": "Nora Alsubaie"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": -79509.58,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-29",
+    "amount": 125932.54,
+    "category": "revenue",
+    "counterparty": "Reem Al-Shammari"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -65476.01,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -73154.25,
+    "category": "opex",
+    "counterparty": "Electricity"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 50145.74,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 49147.51,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-08",
+    "amount": 84492.88,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-07-11",
+    "amount": -64660.32,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 78506.4,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 69007.47,
+    "category": "revenue",
+    "counterparty": "Bayt Alkhair Market"
+   },
+   {
+    "date": "2026-07-26",
+    "amount": -81057.94,
+    "category": "opex",
+    "counterparty": "Ejar"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": -70870.07,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -65347.97,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": -75452.71,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 75765.02,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": 116496.92,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -74401.7,
+    "category": "opex",
+    "counterparty": "Ejar"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": -90839.36,
+    "category": "other",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": 96519.13,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -64815.23,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 70218.93,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": -89445.06,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-09",
+    "amount": 85013.07,
+    "category": "revenue",
+    "counterparty": "Majed Alshehri"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 85167.32,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -77792.7,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-22",
+    "amount": 50709.65,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-26",
+    "amount": 93708.78,
+    "category": "revenue",
+    "counterparty": "Bayt Alkhair Market"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": -70428.71,
+    "category": "other",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 70901.18,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -90394.03,
+    "category": "opex",
+    "counterparty": "Electricity"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": -74493.26,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 48920.79,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 73678.6,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-10-13",
+    "amount": 79270.43,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-10-13",
+    "amount": -92976.16,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-15",
+    "amount": 65211.1,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 92619.08,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": -68690,
+    "category": "other",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": -69945.28,
+    "category": "opex",
+    "counterparty": "Electricity"
+   }
+  ],
+  "notes": [
+   "The statement's debit and credit columns are mislabelled in the rows: the amounts shown under Credit are recorded as money in and the Debit amounts as money out, which is inconsistent with the running balance column (e.g. 2025-11-05 credit 81,524.09 moves balance from 100,236.35 to 181,760.44, which implies a credit, but 2025-11-18 debit 92,909.17 reduces it, so the printed column placement is reversed for some rows and the balance column is used as the authority).",
+   "Running balance does not reconcile for several rows: the payroll debit of 2025-11-18 and later rows are consistent with the balance column, but the 2025-11-25 row (Arabic-only transfer) and the 2026-02-12 pair show balance changes that do not match the printed amounts; the balance column is inconsistent with the stated amounts in places and needs to be checked against the original statement.",
+   "Statement shows a negative running balance (-3,884.08 on 2025-11-19 and -68,209.36 on 2025-11-23), meaning the account was overdrawn in November 2025.",
+   "Transfers to Rimal Packaging, Fanar Equipment and Sundus Materials are recorded as 'other' because the purpose is not clear from the statement; recurring outflows to these named companies should be explained by the applicant.",
+   "Period end 2026-10-30 is after several transactions and the closing balance is printed as of 2026-10-26; the statement appears to cover a period that extends beyond the last transaction date."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7724,
+  "output_tokens": 4907,
+  "latency_s": 15.2,
+  "cached": false
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 226944.91,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": 51228.17,
+    "balance": 278173.08,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": -36433.19,
+    "balance": 241739.89,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -45687.1,
+    "balance": 196052.79,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -42947.57,
+    "balance": 153105.22,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": 38157.81,
+    "balance": 191263.03,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 44637.61,
+    "balance": 235900.64,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 62522.49,
+    "balance": 298423.13,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مطاعم الصفوة"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 43853.92,
+    "balance": 342277.05,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3375.71,
+    "balance": 338901.34,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3424.29,
+    "balance": 335477.05,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": -56434.14,
+    "balance": 279042.91,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": 38775.62,
+    "balance": 317818.53,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مدارس الأفق"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -37184.18,
+    "balance": 280634.35,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": 71067.9,
+    "balance": 351702.25,
+    "category": "revenue",
+    "counterparty": "حوالة واردة أسواق بيت الخير"
+   },
+   {
+    "date": "2025-12-17",
+    "amount": -47918.63,
+    "balance": 303783.62,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 46886.8,
+    "balance": 350670.42,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 42409.79,
+    "balance": 393080.21,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - نورة السبيعي"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": -46858.24,
+    "balance": 346221.97,
+    "category": "opex",
+    "counterparty": "حوالة صادرة - رمال للتغليف"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 50059.89,
+    "balance": 396281.86,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مقاهي أريج"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3375.71,
+    "balance": 392906.15,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3424.29,
+    "balance": 389481.86,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": -56184.95,
+    "balance": 333296.91,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -37367.9,
+    "balance": 295929.01,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -52120.87,
+    "balance": 243808.14,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": 52163.26,
+    "balance": 295971.4,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نورة السبيعي"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -39363.9,
+    "balance": 256607.5,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 20883.37,
+    "balance": 277490.87,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 32236.26,
+    "balance": 309727.13,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": -52875.83,
+    "balance": 256851.3,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3375.71,
+    "balance": 253475.59,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3424.29,
+    "balance": 250051.3,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 69803.69,
+    "balance": 319854.99,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   }
+  ],
+  "notes": [
+   "Page 1 of 4 only: closing balance and later transactions are on other pages.",
+   "The statement period runs to 2026-10-30 but the transactions on this page end 2026-01-27.",
+   "Transfers 'حوالة واردة - نورة السبيعي' (2025-12-20 and 2026-01-13) came from a named individual; if she is a customer this is revenue, but it should be confirmed.",
+   "Monthly rent and utility/telecom payments appear at irregular amounts and the account balance is volatile; review with the full statement."
+  ],
+  "notes_placeholder": null
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4079,
+  "output_tokens": 2346,
+  "latency_s": 7.42,
+  "cached": false
+ }
+}

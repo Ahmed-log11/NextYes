@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Ruya Logistics",
+  "cr_number": "1057967807",
+  "owner_name": "Omar Al-Ghamdi",
+  "owner_name_ar": "عمر الغامدي",
+  "issue_date": "2021-11-29",
+  "expiry_date": "2027-12-25",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4077,
+  "output_tokens": 242,
+  "latency_s": 2.83,
+  "cached": false
+ }
+}

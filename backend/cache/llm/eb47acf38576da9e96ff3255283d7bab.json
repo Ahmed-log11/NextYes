@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 539900.0,
+  "overdue_90_plus": 1500.0,
+  "notes": [
+   "The 90+ total of 1,500.00 does not match the customer rows, which sum to 1,500.00 only when added as printed (178.24 + 408.00 + 820.57 + 93.19 = 1,500.00), so this is consistent; no mismatch found in the customer rows."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 213,
+  "latency_s": 2.76,
+  "cached": false
+ }
+}

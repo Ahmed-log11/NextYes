@@ -1,0 +1,866 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 138932.17,
+  "closing_balance": 323791.37,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 17013.89,
+    "balance": 155946.06,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -20696.38,
+    "balance": 135249.68,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -23716.8,
+    "balance": 111532.88,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 26787.27,
+    "balance": 138320.15,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": -17298.09,
+    "balance": 121022.06,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 19734.06,
+    "balance": 140756.12,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 14127.9,
+    "balance": 154884.02,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 13439.02,
+    "balance": 168323.04,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -25632.73,
+    "balance": 142690.31,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3100,
+    "balance": 139590.31,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 14897.86,
+    "balance": 154488.17,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 16365,
+    "balance": 170853.17,
+    "category": "revenue",
+    "counterparty": "مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": -26701.07,
+    "balance": 144152.1,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 24694.23,
+    "balance": 168846.33,
+    "category": "revenue",
+    "counterparty": "نقاط البيع"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -20867.66,
+    "balance": 147978.67,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": 21258.77,
+    "balance": 169237.44,
+    "category": "personal",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": -27999.55,
+    "balance": 141237.89,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 13873.49,
+    "balance": 155111.38,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3100,
+    "balance": 152011.38,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -19603.72,
+    "balance": 132407.66,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 20130.28,
+    "balance": 152537.94,
+    "category": "revenue",
+    "counterparty": "مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 19178.23,
+    "balance": 171716.17,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 25282.13,
+    "balance": 196998.3,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 14819.16,
+    "balance": 211817.46,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 9832.8,
+    "balance": 221650.26,
+    "category": "revenue",
+    "counterparty": "مبيعات البطاقات"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -17875.24,
+    "balance": 203775.02,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": -22673.19,
+    "balance": 181101.83,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -18277.51,
+    "balance": 162824.32,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -23738.86,
+    "balance": 139085.46,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 26301.64,
+    "balance": 165387.1,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 23964.27,
+    "balance": 189351.37,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3100,
+    "balance": 186251.37,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 28902.58,
+    "balance": 215153.95,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": 30797.73,
+    "balance": 245951.68,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 14551.38,
+    "balance": 260503.06,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 24248.31,
+    "balance": 284751.37,
+    "category": "revenue",
+    "counterparty": "مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -20114.63,
+    "balance": 264636.74,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": -19400.87,
+    "balance": 245235.87,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -20044.38,
+    "balance": 225191.49,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -21604.12,
+    "balance": 203587.37,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3100,
+    "balance": 200487.37,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -22251.69,
+    "balance": 178235.68,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -27747.78,
+    "balance": 150487.9,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": 26895.13,
+    "balance": 177383.03,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": 16837.6,
+    "balance": 194220.63,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -22011.93,
+    "balance": 172208.7,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": 26087.05,
+    "balance": 198295.75,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 38880.22,
+    "balance": 237175.97,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -17557.4,
+    "balance": 219618.57,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3100,
+    "balance": 216518.57,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -21704.8,
+    "balance": 194813.77,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 23338.7,
+    "balance": 218152.47,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": -25961.52,
+    "balance": 192190.95,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": 23062.71,
+    "balance": 215253.66,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 7331.86,
+    "balance": 222585.52,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": -25946.51,
+    "balance": 196639.01,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": 22078.3,
+    "balance": 218717.31,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -22877.57,
+    "balance": 195839.74,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3100,
+    "balance": 192739.74,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 18724.53,
+    "balance": 211464.27,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": 22563.9,
+    "balance": 234028.17,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 13445.77,
+    "balance": 247473.94,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": 24981.88,
+    "balance": 272455.82,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": -24372.56,
+    "balance": 248083.26,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": 25584.8,
+    "balance": 273668.06,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -20314.48,
+    "balance": 253353.58,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -21607.95,
+    "balance": 231745.63,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": 15167.75,
+    "balance": 246913.38,
+    "category": "revenue",
+    "counterparty": "نقاط البيع"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3100,
+    "balance": 243813.38,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": -18577.01,
+    "balance": 225236.37,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 23819.8,
+    "balance": 249056.17,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 27687.31,
+    "balance": 276743.48,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 24275.75,
+    "balance": 301019.23,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 20217.89,
+    "balance": 321237.12,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": -23284.05,
+    "balance": 297953.07,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 27819.05,
+    "balance": 325772.12,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3100,
+    "balance": 322672.12,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -23202.88,
+    "balance": 299469.24,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -20935.57,
+    "balance": 278533.67,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -14977.5,
+    "balance": 263556.17,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -21710.47,
+    "balance": 241845.7,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": -18219.11,
+    "balance": 223626.59,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 28112.01,
+    "balance": 251738.6,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": 20918.2,
+    "balance": 272656.8,
+    "category": "revenue",
+    "counterparty": "نقاط البيع"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": 22809.01,
+    "balance": 295465.81,
+    "category": "revenue",
+    "counterparty": "نقاط البيع"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -19289.71,
+    "balance": 276176.1,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 27260.78,
+    "balance": 303436.88,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -22439.11,
+    "balance": 280997.77,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3100,
+    "balance": 277897.77,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -21255.55,
+    "balance": 256642.22,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 22628.31,
+    "balance": 279270.53,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 14905.55,
+    "balance": 294176.08,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 11510.97,
+    "balance": 305687.05,
+    "category": "revenue",
+    "counterparty": "نقاط البيع"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": -21609.17,
+    "balance": 284077.88,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -17686.16,
+    "balance": 266391.72,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3100,
+    "balance": 263291.72,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 26062.2,
+    "balance": 289353.92,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 21392.97,
+    "balance": 310746.89,
+    "category": "revenue",
+    "counterparty": "مدى"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -24229.28,
+    "balance": 291781.77,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": -20055.29,
+    "balance": 271726.48,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": 8475.89,
+    "balance": 280202.37,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": 15027.82,
+    "balance": 295230.19,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": -20077.7,
+    "balance": 275152.49,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": 27005.43,
+    "balance": 302157.92,
+    "category": "revenue",
+    "counterparty": "مبيعات البطاقات"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -26256.37,
+    "balance": 275901.55,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 8478.68,
+    "balance": 284380.23,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 23613.4,
+    "balance": 307993.63,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -24085.84,
+    "balance": 283907.79,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3100,
+    "balance": 280807.79,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 27198.78,
+    "balance": 308006.57,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -22338.13,
+    "balance": 285668.44,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -23775.51,
+    "balance": 261892.93,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 25480.17,
+    "balance": 287373.1,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 13489.76,
+    "balance": 300862.86,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 20459.62,
+    "balance": 321322.48,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 19770.88,
+    "balance": 341093.36,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -18072.28,
+    "balance": 323021.08,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3100,
+    "balance": 319921.08,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 28099.57,
+    "balance": 348020.65,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -24229.28,
+    "balance": 323791.37,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   }
+  ],
+  "notes": [
+   "The statement period runs from 2025-11-01 to 2026-10-30, a 12-month span, and the statement contains transactions dated in 2026 after the period_end header would suggest, so the printed dates should be checked against the statement's actual period.",
+   "Transfers in from individuals (Fahad Al-Otaibi, Turki Al-Mutairi, Reem Al-Shammari, Saad Al-Qahtani, Majed Al-Shahri) are recorded as revenue because they are not the registered owner; confirm they are customers.",
+   "Outgoing transfers to Fahad Al-Otaibi (2025-12-19 not applicable) — the 2025-12-19 inbound transfer from Fahad Al-Otaibi and 2026-09-19 inbound from Fahad Al-Otaibi are inbound; no owner-named transfers appear on this statement.",
+   "Recurring 3,100.00 monthly instalments to Al-Waha / Sample Bank loan appear throughout the period; the lender is listed on the credit report as Sample Bank (simulated)."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8019,
+  "output_tokens": 7008,
+  "latency_s": 20.68,
+  "cached": false
+ }
+}

@@ -1,0 +1,741 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 72446.2,
+  "closing_balance": 1120211.2,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": -81078.74,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -78170.91,
+    "category": "opex",
+    "counterparty": "EJAR RENT 898130 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": 49281.11,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مقاهي أريج"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": 48810.76,
+    "category": "revenue",
+    "counterparty": "SARIE CR SAAD ALQAHTANI 938820 / سعد القحطاني - تحويل سريع وارد"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 91081.24,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - خالد الحربي"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 82978.04,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-11-21",
+    "amount": -99055.57,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 99113.92,
+    "category": "revenue",
+    "counterparty": "TRF IN FAISAL ALZAHRANI / حوالة واردة فيصل الزهراني"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -63047.58,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 778702 / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "LOAN REPAY SAMPLE BANK SIMULA / سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 45534.93,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALUFUQ SCHOOLS 858193 / مدارس الأفق - تحويل سريع وارد"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": -88139.19,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور ديسمبر"
+   },
+   {
+    "date": "2025-12-05",
+    "amount": 93401.4,
+    "category": "revenue",
+    "counterparty": "حوالة واردة شركة الموارد"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 65918.31,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -91026.78,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": 95073.24,
+    "category": "revenue",
+    "counterparty": "TRF IN AREEJ CAFES / حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": 91073.36,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -72557.35,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "LOAN REPAY SAMPLE BANK SIMULA / سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -82659.38,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": 88233.69,
+    "category": "revenue",
+    "counterparty": "حوالة واردة فنادق الريادة"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 56039.46,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": 130908.7,
+    "category": "revenue",
+    "counterparty": "TRF IN OMAR ALGHAMDI / حوالة واردة عمر الغامدي"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": 102986.46,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - فنادق الريادة"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": -68056.06,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -94067.27,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 105965.38,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - شركة الموارد"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -59452.41,
+    "category": "opex",
+    "counterparty": "حوالة صادرة - نوى للجملة"
+   },
+   {
+    "date": "2026-01-31",
+    "amount": -83663.16,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 884835 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": -70347.6,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 131997.11,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": -78270.91,
+    "category": "opex",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -64446.21,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 129344.33,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - ريم الشمري"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": 53487.65,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": -94237.22,
+    "category": "opex",
+    "counterparty": "TRF OUT SUNDUS MATERIALS / سندس للمواد - حوالة صادرة"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -74049.07,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 129968 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": 102918.06,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -96698.52,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 86317.88,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -72798.1,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -72209.9,
+    "category": "opex",
+    "counterparty": "حوالة صادرة - فنار للمعدات"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 54985.45,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": 33353.26,
+    "category": "revenue",
+    "counterparty": "TRF IN NASSER ALDOSARI / حوالة واردة ناصر الدوسري"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 101160.48,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - فنادق الريادة"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 36364.87,
+    "category": "revenue",
+    "counterparty": "SARIE CR OMAR ALGHAMDI 809189 / عمر الغامدي - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": -78335.58,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 326304 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 68252.89,
+    "category": "revenue",
+    "counterparty": "TRF IN SAHL EXPRESS / حوالة واردة سهل إكسبرس"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": 116510.85,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -89865.73,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 66635.57,
+    "category": "revenue",
+    "counterparty": "TRF IN ALRIYADA HOTELS / حوالة واردة فنادق الريادة"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 154700.69,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALRIYADA HOTELS 922544 / فنادق الريادة - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -63946.02,
+    "category": "opex",
+    "counterparty": "EJAR RENT 870167 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -74855.81,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -84435.54,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": 54583.07,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 94045.71,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فهد العتيبي"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": 100965.41,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Al-Riyada Hotels / فنادق الريادة - حوالة واردة"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": -75919.56,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-05-22",
+    "amount": -84765.69,
+    "category": "opex",
+    "counterparty": "EJAR RENT 377081 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-24",
+    "amount": -73596.61,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 64842.19,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": -66099.74,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": 75163.62,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": -64178.82,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 95229.87,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فيصل الزهراني"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": -74756.15,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 116691.24,
+    "category": "revenue",
+    "counterparty": "حوالة واردة ناصر الدوسري"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 76046.82,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -95935.49,
+    "category": "opex",
+    "counterparty": "TRF OUT FANAR EQUIPMENT / فنار للمعدات - حوالة صادرة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": 105332.07,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -68363.84,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -65380.56,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": 72618.2,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-05",
+    "amount": 88005.93,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": 33134.52,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فيصل الزهراني"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -75690.3,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 28854.49,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": 93857.84,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 25329.02,
+    "category": "revenue",
+    "counterparty": "SARIE CR KHALID ALHARBI 717821 / خالد الحربي - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -70580.87,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "Financing instalment - Sample Bank (simulated) / البنك التجريبي - قسط تمويل"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -51876.07,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -71136.63,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": -61340.51,
+    "category": "opex",
+    "counterparty": "EJAR RENT 375739 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 89106.61,
+    "category": "revenue",
+    "counterparty": "TRF IN ALMAWARED CO / حوالة واردة شركة الموارد"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -66805.26,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": 123592.19,
+    "category": "revenue",
+    "counterparty": "SARIE CR NASSER ALDOSARI 436780 / ناصر الدوسري - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "LOAN REPAY SAMPLE BANK SIMULA / سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": 101377.2,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Faisal Al-Zahrani / فيصل الزهراني - حوالة واردة"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": 56824,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALSAFWA RESTAURANT 695743 / مطاعم الصفوة - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -86681.5,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 775132 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": 76005.56,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Al-Riyada Hotels / فنادق الريادة - حوالة واردة"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -86408.82,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": 46326.03,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": -78155.61,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 48880.01,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 77619.3,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -73778.47,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "LOAN REPAY SAMPLE BANK SIMULA / سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 70531.22,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 92337.88,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -79077.8,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": 126129.99,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": -68759.76,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 126187.65,
+    "category": "revenue",
+    "counterparty": "حوالة واردة خالد الحربي"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": -88299.81,
+    "category": "opex",
+    "counterparty": "EJAR RENT 135678 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-10-18",
+    "amount": -82958.88,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 72598.22,
+    "category": "revenue",
+    "counterparty": "SARIE CR AREEJ CAFES 988791 / مقاهي أريج - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": 53158.04,
+    "category": "revenue",
+    "counterparty": "SARIE CR KHALID ALHARBI 424275 / خالد الحربي - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -4000,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -81488.55,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": 38926.1,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALUFUQ SCHOOLS 216667 / مدارس الأفق - تحويل سريع وارد"
+   }
+  ],
+  "notes": [
+   "The Balance column in the printed statement does not reconcile with the debit and credit columns: the first line (2025-11-03 salaries debit of 81,078.74 from opening 72,446.20) would give -8,632.54, which is the printed balance, and later running balances also follow the printed figures, so the arithmetic is internally consistent only if the printed balances are taken as given. Printed balance after the last line is 1,120,211.20 and matches the closing balance, but the sequence of entries shows many large credits and debits that the analyst should verify against source bank data.",
+   "Statement shows debits and credits in separate columns; the printed balance column is also presented. Recorded amounts follow the debit/credit columns as printed.",
+   "Owner Nora Al-Subaie does not appear as a counterparty on any line; no owner_funds entries were identified.",
+   "Several inflows and outflows are labelled with the same counterparties repeatedly (for example Al-Riyada Hotels, Omar Alghamdi, Khalid Alharbi), which an analyst may wish to confirm as customers versus related parties.",
+   "Balance column does not follow the debit/credit amounts on several lines (for example 2026-02-10 POS settlement recorded as a debit, and 2026-03-14 rent and transfer lines), so the running balance cannot be fully reconciled to the transactions shown."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8130,
+  "output_tokens": 7551,
+  "latency_s": 21.82,
+  "cached": false
+ }
+}

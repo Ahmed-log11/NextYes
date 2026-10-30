@@ -1,0 +1,30 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 733226.25,
+  "transactions": [
+   {
+    "date": "2026-10-29",
+    "amount": -49201.49,
+    "balance": null,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": [
+   "The page shows a single transaction line (telecom bill payment, 49201.49 out) with no column headers, running balance or transaction table, so the direction is inferred from the Arabic description and placement; the running balance for this line is not printed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2559,
+  "output_tokens": 311,
+  "latency_s": 1.81,
+  "cached": false
+ }
+}

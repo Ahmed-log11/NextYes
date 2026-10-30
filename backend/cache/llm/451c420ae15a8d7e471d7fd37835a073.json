@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Sahab Logistics",
+  "cr_number": "1055254262",
+  "owner_name": "Faisal Al-Zahrani",
+  "owner_name_ar": "فيصل الزهراني",
+  "issue_date": "2023-10-30",
+  "expiry_date": "2026-12-28",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1659,
+  "output_tokens": 243,
+  "latency_s": 2.46,
+  "cached": false
+ }
+}

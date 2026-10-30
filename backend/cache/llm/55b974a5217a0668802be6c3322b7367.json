@@ -1,0 +1,250 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 211240.68,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": 23851.33,
+    "balance": 235092.01,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": -84403.19,
+    "balance": 150688.82,
+    "category": "opex",
+    "counterparty": "WPS salary Nov"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -58525.5,
+    "balance": 92163.32,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": 79176.66,
+    "balance": 171339.98,
+    "category": "revenue",
+    "counterparty": "Saad Alqahtani"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 81642.94,
+    "balance": 252982.92,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 67395.75,
+    "balance": 320378.67,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": -75039.43,
+    "balance": 245339.24,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 24925.69,
+    "balance": 270264.93,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": -64144.08,
+    "balance": 206120.85,
+    "category": "opex",
+    "counterparty": "SADAD electricity"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 75207.63,
+    "balance": 281328.48,
+    "category": "revenue",
+    "counterparty": "Saad Alqahtani"
+   },
+   {
+    "date": "2025-12-02",
+    "amount": 56803.91,
+    "balance": 338132.39,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 74131.55,
+    "balance": 412263.94,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 76171.08,
+    "balance": 488435.02,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 80911.02,
+    "balance": 569346.04,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": -67392.0,
+    "balance": 501954.04,
+    "category": "opex",
+    "counterparty": "Salaries Dec"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 26471.93,
+    "balance": 528425.97,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": -75784.44,
+    "balance": 452641.53,
+    "category": "opex",
+    "counterparty": "Ejar rent"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -79790.12,
+    "balance": 372851.41,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 56510.51,
+    "balance": 429361.92,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": -74204.44,
+    "balance": 355157.48,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 61800.32,
+    "balance": 416957.8,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": -60926.17,
+    "balance": 356031.63,
+    "category": "opex",
+    "counterparty": "Payroll employee salaries"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": 77989.56,
+    "balance": 434021.19,
+    "category": "revenue",
+    "counterparty": "Reem Alshammari"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -63125.76,
+    "balance": 370895.43,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -69887.99,
+    "balance": 301007.44,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": 65462.24,
+    "balance": 366469.68,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": -62780.58,
+    "balance": 303689.1,
+    "category": "opex",
+    "counterparty": "Electricity and telecom"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 115247.88,
+    "balance": 418936.98,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 39791.01,
+    "balance": 458727.99,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 67766.44,
+    "balance": 526494.43,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -57342.12,
+    "balance": 469152.31,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 69051.92,
+    "balance": 538204.23,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   }
+  ],
+  "notes": [
+   "Period end 2026-10-30 is printed on the statement, but the transactions run only to 2026-02-11; the period end appears to be a typo or the statement is incomplete.",
+   "Closing balance is not printed on page 1; it is left null for later pages.",
+   "Large round-trip pattern: several incoming transfers are from individuals (Saad Alqahtani, Reem Alshammari) and treated as revenue as customers; confirm they are not owner-related.",
+   "Rent paid to business premises on 2025-11-06 (58,525.50) and Ejar rent 2025-12-22 (75,784.44) and 2026-01-13 (63,125.76): monthly rent is high relative to other outflows; verify against lease."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4520,
+  "output_tokens": 2207,
+  "latency_s": 7.26,
+  "cached": false
+ }
+}

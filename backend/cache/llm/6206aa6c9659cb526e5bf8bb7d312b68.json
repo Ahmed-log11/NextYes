@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Watan Contracting",
+  "cr_number": "1011842328",
+  "owner_name": "Saad Al-Qahtani",
+  "owner_name_ar": "سعد القحطاني",
+  "issue_date": "2014-11-29",
+  "expiry_date": "2026-08-12",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1639,
+  "output_tokens": 240,
+  "latency_s": 2.37,
+  "cached": false
+ }
+}

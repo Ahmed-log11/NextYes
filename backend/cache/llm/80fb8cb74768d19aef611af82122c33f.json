@@ -1,0 +1,26 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Demo Trade Supplier (simulated) / مورد تجاري تجريبي",
+    "facility_type": "Trade credit / ائتمان تجاري",
+    "monthly_instalment": null,
+    "outstanding": 59918.69,
+    "status": "default"
+   }
+  ],
+  "notes": [
+   "Single facility shown: trade credit from Demo Trade Supplier, in default at 90+ days past due, outstanding 59918.69."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1666,
+  "output_tokens": 218,
+  "latency_s": 1.34,
+  "cached": false
+ }
+}

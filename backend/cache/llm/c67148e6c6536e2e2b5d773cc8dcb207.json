@@ -1,0 +1,798 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 140146.22,
+  "closing_balance": 750366.45,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 49427.2,
+    "balance": 189573.42,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -46059.36,
+    "balance": 143514.06,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": -43584.85,
+    "balance": 99929.21,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": 49328.81,
+    "balance": 149258.02,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": -51973.51,
+    "balance": 97284.51,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 26038.97,
+    "balance": 123323.48,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-11-21",
+    "amount": 55499.68,
+    "balance": 178823.16,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 54605.34,
+    "balance": 233428.5,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -57107.68,
+    "balance": 176320.82,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 115241.27,
+    "balance": 291562.09,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2025-12-02",
+    "amount": -123922.03,
+    "balance": 167640.06,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": 43284.63,
+    "balance": 210924.69,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 53396.91,
+    "balance": 264321.6,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 74090.06,
+    "balance": 338411.66,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 147132.06,
+    "balance": 485543.72,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": -123877.37,
+    "balance": 361666.35,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": -82002.4,
+    "balance": 279663.95,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 156639.7,
+    "balance": 436303.65,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": -132537.2,
+    "balance": 303766.45,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 21752.37,
+    "balance": 325518.82,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -24357.02,
+    "balance": 301161.8,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -23356.98,
+    "balance": 277804.82,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": -27695.37,
+    "balance": 250109.45,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": 32455.95,
+    "balance": 282565.4,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -23318.83,
+    "balance": 259246.57,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 13577.06,
+    "balance": 272823.63,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 27781.13,
+    "balance": 300604.76,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 21133.49,
+    "balance": 321738.25,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": 16627.67,
+    "balance": 338365.92,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 15418.37,
+    "balance": 353784.29,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 27865.83,
+    "balance": 381650.12,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 34665.79,
+    "balance": 416315.91,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": -37877.76,
+    "balance": 378438.15,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": 45751.14,
+    "balance": 424189.29,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -37796.5,
+    "balance": 386392.79,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": -25294.73,
+    "balance": 361098.06,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": -34137.21,
+    "balance": 326960.85,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": 19371.2,
+    "balance": 346332.05,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": 15765.26,
+    "balance": 362097.31,
+    "category": "personal",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -21675.41,
+    "balance": 340421.9,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-03-15",
+    "amount": -20562.8,
+    "balance": 319859.1,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": -25040.1,
+    "balance": 294819.0,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": 48039.8,
+    "balance": 342858.8,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": 27309.56,
+    "balance": 370168.36,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": 18585.38,
+    "balance": 388753.74,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -25527.89,
+    "balance": 363225.85,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 102448.52,
+    "balance": 465674.37,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -170479.34,
+    "balance": 295195.03,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": 92954.85,
+    "balance": 388149.88,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": -143617.86,
+    "balance": 244532.02,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 126356.48,
+    "balance": 370888.5,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": 147572.65,
+    "balance": 518461.15,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -121750.06,
+    "balance": 396711.09,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": -114560.34,
+    "balance": 282150.75,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 51130.89,
+    "balance": 333281.64,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": 130136.61,
+    "balance": 463418.25,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 113740.72,
+    "balance": 577158.97,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": 44943.28,
+    "balance": 622102.25,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": 144529.06,
+    "balance": 766631.31,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -70741.77,
+    "balance": 695889.54,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -108776.4,
+    "balance": 587113.14,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": 91288.96,
+    "balance": 678402.1,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -90789.7,
+    "balance": 587612.4,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 40497.98,
+    "balance": 628110.38,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -97702.13,
+    "balance": 530408.25,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -39009.23,
+    "balance": 491399.02,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يونيو"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": 66731.22,
+    "balance": 558130.24,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 43987.76,
+    "balance": 602118.0,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 56376.04,
+    "balance": 658494.04,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -41578.74,
+    "balance": 616915.3,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": -48400.3,
+    "balance": 568515.0,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -48925.53,
+    "balance": 519589.47,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 43204.98,
+    "balance": 562794.45,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": -100351.17,
+    "balance": 462443.28,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": 41381.76,
+    "balance": 503825.04,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": -81119.36,
+    "balance": 422705.68,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 50509.19,
+    "balance": 473214.87,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -80745.68,
+    "balance": 392469.19,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": 80524.28,
+    "balance": 472993.47,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 79882.59,
+    "balance": 552876.06,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": -66877.79,
+    "balance": 485998.27,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 70999.24,
+    "balance": 556997.51,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": 65702.94,
+    "balance": 622700.45,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": 34763.23,
+    "balance": 657463.68,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": 29634.84,
+    "balance": 687098.52,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -27243.94,
+    "balance": 659854.58,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -22261.26,
+    "balance": 637593.32,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -21044.3,
+    "balance": 616549.02,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 23075.07,
+    "balance": 639624.09,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": 22826.86,
+    "balance": 662450.95,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -22764.3,
+    "balance": 639686.65,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 113241.25,
+    "balance": 752927.9,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 96777.87,
+    "balance": 849705.77,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -111813.81,
+    "balance": 737891.96,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 50810.51,
+    "balance": 788702.47,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 94953.08,
+    "balance": 883655.55,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -99747.46,
+    "balance": 783908.09,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-22",
+    "amount": 117096.36,
+    "balance": 901004.45,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": -145870.76,
+    "balance": 755133.69,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -118781.37,
+    "balance": 636352.32,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 90020.93,
+    "balance": 726373.25,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 40759.93,
+    "balance": 767133.18,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 33545.6,
+    "balance": 800678.78,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": -33115.97,
+    "balance": 767562.81,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 15412.22,
+    "balance": 782975.03,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": 26818.4,
+    "balance": 809793.43,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -35095.84,
+    "balance": 774697.59,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": 39263.85,
+    "balance": 813961.44,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": -31600.27,
+    "balance": 782361.17,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -31994.72,
+    "balance": 750366.45,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   }
+  ],
+  "notes": [
+   "Statement period runs 2025-11-01 to 2026-10-30, about 12 months, yet the document has no first-line gap or stated period-end issue; the page 3 closing balance is 750366.45 and matches the last printed running balance.",
+   "Transfers in from Faisal Al-Zahrani (the owner, per the commercial registration) on 2025-12-04 appear as revenue in the text, but this is a transfer from the owner, so it should be owner_funds; recorded as printed category per rule review needed.",
+   "Two 'مدى' settlements dated 2026-07-28 and 2026-07-30 and two POS settlements on 2026-09-02 are large relative to surrounding activity; worth checking against POS statements.",
+   "A salary line on 2026-06-03 is labelled 'رواتب حماية الأجور يونيو' (WPS payroll), consistent with other salary lines.",
+   "Several large outgoing transfers to supplier companies (فنار للمعدات, سندس للمواد) recur with irregular amounts; their scale relative to inflows merits review.",
+   "Page 1 of the document has the Debit and Credit columns in a right-to-left layout; amounts were assigned by the printed Credit (دائن) and Debit (مدين) columns and checked against running balance movements."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7406,
+  "output_tokens": 6794,
+  "latency_s": 19.39,
+  "cached": false
+ }
+}

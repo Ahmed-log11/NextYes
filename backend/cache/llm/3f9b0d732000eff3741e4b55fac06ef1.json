@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Sanad Line Food Supplies",
+  "cr_number": "1078818874",
+  "owner_name": "Fahad Al-Otaibi",
+  "owner_name_ar": "فهد العتيبي",
+  "issue_date": "2021-02-28",
+  "expiry_date": "2027-12-18",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1663,
+  "output_tokens": 246,
+  "latency_s": 1.7,
+  "cached": false
+ }
+}

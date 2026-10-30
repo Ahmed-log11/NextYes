@@ -1,0 +1,312 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-06-13",
+    "amount": -47301.39,
+    "balance": 592155.09,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": -72881.66,
+    "balance": 519273.43,
+    "category": "opex",
+    "counterparty": "Sundus Materials"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": 50355.41,
+    "balance": 569628.84,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": -55955.24,
+    "balance": 513673.6,
+    "category": "opex",
+    "counterparty": "SADAD Electricity 511314"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 118999.55,
+    "balance": 632673.15,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": 74259.45,
+    "balance": 706932.6,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -4300.0,
+    "balance": 702632.6,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 39684.55,
+    "balance": 742317.15,
+    "category": "revenue",
+    "counterparty": "Nasser Al-Dosari"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": -53447.46,
+    "balance": 688869.69,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 73519.16,
+    "balance": 762388.85,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": 64178.27,
+    "balance": 826567.12,
+    "category": "revenue",
+    "counterparty": "Bayt Alkhair Markets"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -59993.19,
+    "balance": 766573.93,
+    "category": "opex",
+    "counterparty": "Ejar rent platform 571411"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -65272.94,
+    "balance": 701300.99,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 45002.1,
+    "balance": 746303.09,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -4300.0,
+    "balance": 742003.09,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 22578.93,
+    "balance": 764582.02,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": 67136.99,
+    "balance": 831719.01,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-07-31",
+    "amount": -73775.31,
+    "balance": 757943.7,
+    "category": "opex",
+    "counterparty": "SADAD Telecom 443915"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 65418.98,
+    "balance": 823362.68,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": -76423.12,
+    "balance": 746939.56,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": -55754.07,
+    "balance": 691185.49,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 48329.59,
+    "balance": 739515.08,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 70110.56,
+    "balance": 809625.64,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": -75542.1,
+    "balance": 734083.54,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": -51484.31,
+    "balance": 682599.23,
+    "category": "opex",
+    "counterparty": "Electricity and telecom"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -4300.0,
+    "balance": 678299.23,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": 28112.33,
+    "balance": 706411.56,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 75982.39,
+    "balance": 782393.95,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 32446.15,
+    "balance": 814840.1,
+    "category": "revenue",
+    "counterparty": "Omar Al-Ghamdi"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 80826.36,
+    "balance": 895666.46,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-09-04",
+    "amount": -90728.18,
+    "balance": 804938.28,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 85884.12,
+    "balance": 890822.4,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -91329.92,
+    "balance": 799492.48,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": 112005.63,
+    "balance": 911498.11,
+    "category": "revenue",
+    "counterparty": "Khalid Al-Harbi"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": -60889.52,
+    "balance": 850608.59,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 93083.89,
+    "balance": 943692.48,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -4300.0,
+    "balance": 939392.48,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": -57838.58,
+    "balance": 881553.9,
+    "category": "opex",
+    "counterparty": "SADAD Telecom"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 129319.81,
+    "balance": 1010873.71,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": -68796.2,
+    "balance": 942077.51,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 50668.83,
+    "balance": 992746.34,
+    "category": "personal",
+    "counterparty": "Fahad Al-Otaibi"
+   }
+  ],
+  "notes": [
+   "Page 3 of 4 only: opening and closing balances, account type and period dates are not on this page.",
+   "Several lines have no transaction-type description, so counterparty names are taken from the Arabic or English text printed on each line.",
+   "Transfer of 50,668.83 on 2026-10-12 to Fahad Al-Otaibi (a person, not a company) is recorded as personal; the document shows it as an incoming credit, so its sign is positive but it is an inbound transfer from a named individual and should be checked with the applicant."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4560,
+  "output_tokens": 2597,
+  "latency_s": 7.85,
+  "cached": false
+ }
+}

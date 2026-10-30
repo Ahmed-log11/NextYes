@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 470500,
+  "overdue_90_plus": 271100,
+  "notes": [
+   "The 90+ days total (271100) is about 58% of total outstanding, a heavy concentration in the oldest bucket.",
+   "The printed Total row does not match the sum of the customer rows: customer totals add to about 470,500 but the 90+ column sums to about 271,100 only if recomputed; the printed 90+ total should be checked against the customer-level 90+ figures before relying on it."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1747,
+  "output_tokens": 243,
+  "latency_s": 2.18,
+  "cached": false
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Tamr Medical Clinic",
+  "cr_number": "1085485298",
+  "owner_name": "Reem Al-Shammari",
+  "owner_name_ar": "ريم الشمري",
+  "issue_date": "2020-05-30",
+  "expiry_date": "2026-07-20",
+  "status_active": true,
+  "notes": [
+   "Commercial registration expires 2026-07-20; renewal should be confirmed before the loan term extends past that date."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1649,
+  "output_tokens": 278,
+  "latency_s": 2.98,
+  "cached": false
+ }
+}

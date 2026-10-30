@@ -1,0 +1,39 @@
+{
+ "document": "tax_compliance",
+ "fields": {
+  "einvoicing_integrated": true,
+  "vat_returns": [
+   {
+    "period": "Q2 2026",
+    "due_date": "2026-07-31",
+    "filed_date": "2026-08-31"
+   },
+   {
+    "period": "Q1 2026",
+    "due_date": "2026-04-30",
+    "filed_date": "2026-05-20"
+   },
+   {
+    "period": "Q4 2025",
+    "due_date": "2026-01-31",
+    "filed_date": "2026-01-19"
+   },
+   {
+    "period": "Q3 2025",
+    "due_date": "2025-10-31",
+    "filed_date": "2025-10-28"
+   }
+  ],
+  "notes": [
+   "Q2 2026 VAT return shows a filed date of 2026-08-31, which is after its 2026-07-31 due date; the Q1 2026 return was also filed late (due 2026-04-30, filed 2026-05-20)."
+  ]
+ },
+ "record": {
+  "document": "tax_compliance",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1672,
+  "output_tokens": 317,
+  "latency_s": 2.1,
+  "cached": false
+ }
+}

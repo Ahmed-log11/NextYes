@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 345100.0,
+  "overdue_90_plus": 140000.0,
+  "notes": [
+   "90+ day bucket is 140,000.00 of 345,100.00 total (about 41%), concentrated in the 90+ column across all customers.",
+   "Customer row totals do not all reconcile visually with bucket sums; the Total row is recorded as printed and was not recomputed."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 211,
+  "latency_s": 2.13,
+  "cached": false
+ }
+}

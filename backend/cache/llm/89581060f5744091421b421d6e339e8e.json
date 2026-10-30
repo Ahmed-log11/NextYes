@@ -1,0 +1,22 @@
+{
+ "document": "income_statement",
+ "fields": {
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "revenue": 2951300,
+  "operating_expenses": 2423017.3,
+  "notes": [
+   "Period end 2026-10-30 is in the future relative to a typical submission; the period is labelled as management accounts, so confirm the period dates with the applicant.",
+   "Document is marked as a simulated document for a hackathon demo, not a real record; treat as unverified.",
+   "Operating profit of 528,282.70 SAR is printed on the document and matches revenue minus operating expenses; it was not recorded as a separate field."
+  ]
+ },
+ "record": {
+  "document": "income_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1334,
+  "output_tokens": 279,
+  "latency_s": 2.03,
+  "cached": false
+ }
+}

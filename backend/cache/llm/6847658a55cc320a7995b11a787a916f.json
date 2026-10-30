@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 531200,
+  "overdue_90_plus": 49000,
+  "notes": [
+   "Customer rows sum to 531,200.00 ... check: 119,507.44 + 161,248.38 + 122,907.18 + 127,537.00 = 531,200.00, consistent with the Total row.",
+   "Al-Mawared Co. has the largest balance (161,248.38) and 6,725.64 in 90+ days, relatively low aged exposure compared with other customers."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1642,
+  "output_tokens": 241,
+  "latency_s": 1.69,
+  "cached": false
+ }
+}

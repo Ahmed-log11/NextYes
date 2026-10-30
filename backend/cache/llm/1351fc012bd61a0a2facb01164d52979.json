@@ -1,0 +1,250 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 152819.17,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": 46005.19,
+    "balance": 198824.36,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": 35877.4,
+    "balance": 234701.76,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": -56836.3,
+    "balance": 177865.46,
+    "category": "opex",
+    "counterparty": "WPS salary protection Nov"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 42528.71,
+    "balance": 220394.17,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -55661.56,
+    "balance": 164732.61,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -58548.05,
+    "balance": 106184.56,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 62491.23,
+    "balance": 168675.79,
+    "category": "revenue",
+    "counterparty": "Najoom Catering"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": -44794.99,
+    "balance": 123880.8,
+    "category": "opex",
+    "counterparty": "Electricity bill payment"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 38781.72,
+    "balance": 162662.52,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools fast transfer"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": 37215.75,
+    "balance": 199878.27,
+    "category": "revenue",
+    "counterparty": "Mada settlement"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": -60311.64,
+    "balance": 139566.63,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 56711.99,
+    "balance": 196278.62,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": 56517.21,
+    "balance": 252795.83,
+    "category": "revenue",
+    "counterparty": "Faisal Al-Zahrani"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": 37698.62,
+    "balance": 290494.45,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": -55893.97,
+    "balance": 234600.48,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": 31915.6,
+    "balance": 266516.08,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": -45482.47,
+    "balance": 221033.61,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": -65811.02,
+    "balance": 155222.59,
+    "category": "opex",
+    "counterparty": "Electricity bill payment"
+   },
+   {
+    "date": "2025-12-21",
+    "amount": 53316.71,
+    "balance": 208539.3,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": 40939.87,
+    "balance": 249479.17,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-06",
+    "amount": -49482.29,
+    "balance": 199996.88,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": 48310.05,
+    "balance": 248306.93,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -45922.87,
+    "balance": 202384.06,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 53435.01,
+    "balance": 255819.07,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 38894.51,
+    "balance": 294713.58,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 25644.98,
+    "balance": 320358.56,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -41940.5,
+    "balance": 278418.06,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": -49760.24,
+    "balance": 228657.82,
+    "category": "opex",
+    "counterparty": "Telecom bill payment"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 38940.07,
+    "balance": 267597.89,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants fast transfer"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 22675.38,
+    "balance": 290273.27,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -51937.4,
+    "balance": 238335.87,
+    "category": "opex",
+    "counterparty": "Salary transfer"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 69663.11,
+    "balance": 307998.98,
+    "category": "revenue",
+    "counterparty": "Turki Al-Mutairi"
+   }
+  ],
+  "notes": [
+   "Statement period runs to 2026-10-30, which is after the other dates on this page; period end may be a typo and should be confirmed against the other pages.",
+   "The page has a 2025-11-01 start with an opening balance of 152819.17, and the first running balance (198824.36) is consistent with a 46005.19 credit, so the opening balance reconciles.",
+   "Transfer of 69663.11 from Turki Al-Mutairi (individual) is recorded as revenue; if this person is the owner (Omar Al-Ghamdi) it should be owner_funds. Confirm the counterparty's identity."
+  ],
+  "notes_placeholder": "x"
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4029,
+  "output_tokens": 2169,
+  "latency_s": 7.15,
+  "cached": false
+ }
+}

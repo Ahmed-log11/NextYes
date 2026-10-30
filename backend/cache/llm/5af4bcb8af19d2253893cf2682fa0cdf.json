@@ -1,0 +1,21 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 294000,
+  "overdue_90_plus": 130400,
+  "notes": [
+   "Document is marked as a simulated document for a hackathon demo, not a real record.",
+   "Sum of customer Total column (294000) does not appear to match the Total row sum; customer totals add to about 294000 but verify against the ledger.",
+   "90+ bucket is 130400 of 294000 total, about 44% of receivables overdue 90+ days."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1551,
+  "output_tokens": 228,
+  "latency_s": 2.01,
+  "cached": false
+ }
+}

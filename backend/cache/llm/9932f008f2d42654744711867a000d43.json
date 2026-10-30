@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Durrat Food Supplies",
+  "cr_number": "1090259375",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2014-10-30",
+  "expiry_date": "2027-05-27",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1656,
+  "output_tokens": 242,
+  "latency_s": 2.0,
+  "cached": false
+ }
+}

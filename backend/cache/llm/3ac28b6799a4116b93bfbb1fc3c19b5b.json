@@ -1,0 +1,40 @@
+{
+ "document": "tax_compliance",
+ "fields": {
+  "einvoicing_integrated": false,
+  "vat_returns": [
+   {
+    "period": "Q2 2026",
+    "due_date": "2026-07-31",
+    "filed_date": "2026-07-17"
+   },
+   {
+    "period": "Q1 2026",
+    "due_date": "2026-04-30",
+    "filed_date": "2026-06-06"
+   },
+   {
+    "period": "Q4 2025",
+    "due_date": "2026-01-31",
+    "filed_date": "2026-01-23"
+   },
+   {
+    "period": "Q3 2025",
+    "due_date": "2025-10-31",
+    "filed_date": "2025-10-13"
+   }
+  ],
+  "notes": [
+   "Q1 2026 VAT return was filed 2026-06-06, about five weeks after its 2026-04-30 due date.",
+   "Business is not integrated with e-invoicing per the tax authority portal extract."
+  ]
+ },
+ "record": {
+  "document": "tax_compliance",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1661,
+  "output_tokens": 308,
+  "latency_s": 2.41,
+  "cached": false
+ }
+}

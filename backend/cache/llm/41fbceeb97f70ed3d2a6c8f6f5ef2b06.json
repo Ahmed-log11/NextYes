@@ -1,0 +1,27 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-31",
+  "opening_balance": 226944.91,
+  "closing_balance": 870784.65,
+  "transactions": [],
+  "notes": [
+   "Line dated 2026-10-02 (Employee salaries) shows amount -48 but the printed balance drop is 48,... ; the running balance (761,968.62 after 780,404.01 prior-line balance) implies a debit of 48,435.39, so the amount may be misprinted. Recorded as printed.",
+   "Document period printed as 2025-11-01 to 2026-10-30 but last transaction dated 2026-10-31; period_end recorded as 2026-10-31 to match the transactions.",
+   "Two rows (2025-11-01 POS settlement and others) carry a debit/credit ambiguity only where layout is reversed; amounts were assigned from the running balance movement.",
+   "Inflows from Reem Al-Shammari (the owner) on 2026-02-04 (28,267.74) are classed as revenue in the statement rows only because the transfer label does not mark it as owner funds; it should be reviewed as possible owner_funds.",
+   "Recurring 'Ejar rent platform' and 'Business premises rent' payments; 'Salary transfer' and 'Wage protection salaries' are recorded as opex as printed.",
+   "Transactions to Ramal Packaging and Nawa Wholesale are companies and treated as opex suppliers."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8387,
+  "output_tokens": 7484,
+  "latency_s": 28.23,
+  "cached": false
+ }
+}

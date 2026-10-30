@@ -1,0 +1,831 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 91843.21,
+  "closing_balance": 902163.41,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": -30480.67,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 44337.92,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فنادق الريادة"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": 42416.38,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نورة السبيعي"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": -32768.46,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 19099.04,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - قصر الضيافة"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -40826.68,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 48142.07,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - قصر الضيافة"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 19577.64,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - ماجد الشهري"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 15926.95,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - ماجد الشهري"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -44302.69,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": 32109.08,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -47824.99,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور ديسمبر"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": -35617.65,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 24687.36,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - فنادق الريادة"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": -33923.69,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 59004.48,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 39098.43,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -36571.47,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 41700.65,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -104191.85,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -114676.54,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": 150408.61,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - قصر الضيافة"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 87813.5,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - خالد الحربي"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 76093.98,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": -87498.96,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": 76837.47,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": 72106.22,
+    "category": "revenue",
+    "counterparty": "حوالة واردة قصر الضيافة"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 44440.22,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -91161.75,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": 36977.99,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 52324.47,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 62481.21,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 40222.31,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - سهل إكسبرس"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -59227.57,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -43090.05,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": 17846.21,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": -44211.41,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -50552.07,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 41847.81,
+    "category": "revenue",
+    "counterparty": "حوالة واردة فنادق الريادة"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": 32486.71,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": -38865.44,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مارس"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": 45744.21,
+    "category": "revenue",
+    "counterparty": "حوالة واردة نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -36186.38,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -40242.81,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -40992.17,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 31797.59,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 28987.62,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 60583.87,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": -127943.81,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 113755.87,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فنادق الريادة"
+   },
+   {
+    "date": "2026-04-15",
+    "amount": -137782.19,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 157324.59,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 111567.76,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -168963.81,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -127425.89,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 160027.19,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 175224.59,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - فنادق الريادة"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": -44456.38,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 48647.26,
+    "category": "revenue",
+    "counterparty": "حوالة واردة فيصل الزهراني"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": -64674.59,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": -54774.81,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 76313.14,
+    "category": "revenue",
+    "counterparty": "حوالة واردة فنادق الريادة"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 45560.17,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": 49563.95,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": -47895.72,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 50415.48,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - خالد الحربي"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 39225.35,
+    "category": "revenue",
+    "counterparty": "حوالة واردة قصر الضيافة"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -27698.61,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يونيو"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 36676.43,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": -40420.64,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 45727.15,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": -35381.57,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 22954.95,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -28982.78,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 24616.12,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 42039.31,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 37296.43,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -28009.63,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يوليو"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 54732.34,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -29313.66,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -42255.7,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": -34862.11,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": 37631.92,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": -85561.55,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 102511.06,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 68157.75,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - ماجد الشهري"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -111707.86,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 153317.5,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": -100853.76,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": 44921.63,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 48266.75,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": -128376.93,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 127525.31,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 189273.23,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 60912.53,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -115884.2,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": -90243.84,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -87957.76,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -99998.1,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 109330.6,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": 143783.64,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فنادق الريادة"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 108638.87,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مقاهي أريج"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -93041.54,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أكتوبر"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 147437.25,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - قصر الضيافة"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -97613.34,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 59365.5,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-13",
+    "amount": 127015.55,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - سهل إكسبرس"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -4192.34,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -5507.66,
+    "category": "debt_service",
+    "counterparty": "سداد قرض شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -113498.69,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": 105742.83,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -125087.03,
+    "category": "debt_service",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": [
+   "The printed Balance column does not reconcile with the transaction amounts on several lines (e.g. 2025-11-03 salary transfer, 2026-01-02 rent showing a negative balance of -62,641.48); recorded amounts follow the debit/credit columns as printed.",
+   "Statement period runs to 2026-10-30 but the last transaction is dated 2026-10-31; the line dated 2026-10-31 'سداد فاتورة الاتصالات' (telecom bill) appears in the debit column but is categorized as debt_service in the source only by its label mismatch; recorded as printed.",
+   "Dates on the statement for several transactions are inconsistent with the stated period; the Balance column on the first page does not match the flow of credits and debits.",
+   "Counterparties in the 'Lenders' list include Sample Bank and Demo Finance; the loan debit lines are labelled as loan repayments and installments, consistent with those lenders.",
+   "Owner Fahad Al-Otaibi does not appear as a counterparty on any line; no owner_funds or personal transactions identified."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7984,
+  "output_tokens": 7320,
+  "latency_s": 20.95,
+  "cached": false
+ }
+}

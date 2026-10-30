@@ -1,0 +1,249 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 155233.0,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": -61372.34,
+    "balance": 93860.66,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -68041.15,
+    "balance": 25819.51,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -81968.29,
+    "balance": -56148.78,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": -73871.62,
+    "balance": -130020.4,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 99070.69,
+    "balance": -30949.71,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 47852.9,
+    "balance": 16903.19,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -4300.0,
+    "balance": 12603.19,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": 65463.79,
+    "balance": 78066.98,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 140212.62,
+    "balance": 218279.6,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 108530.63,
+    "balance": 326810.23,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": -71348.8,
+    "balance": 255461.43,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 94202.56,
+    "balance": 349663.99,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 72912.17,
+    "balance": 422576.16,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": -74117.11,
+    "balance": 348459.05,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -4300.0,
+    "balance": 344159.05,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": -71516.97,
+    "balance": 272642.08,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": -85987.62,
+    "balance": 186654.46,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 98854.64,
+    "balance": 285509.1,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -67242.24,
+    "balance": 218266.86,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": 28355.09,
+    "balance": 246621.95,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -71448.23,
+    "balance": 175173.72,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 70630.52,
+    "balance": 245804.24,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 61396.33,
+    "balance": 307200.57,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -78469.18,
+    "balance": 228731.39,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -61864.45,
+    "balance": 166866.94,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 45044.35,
+    "balance": 211911.29,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -4300.0,
+    "balance": 207611.29,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": 73689.48,
+    "balance": 281300.77,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": 65784.23,
+    "balance": 347085.0,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 41100.71,
+    "balance": 388185.71,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 56845.39,
+    "balance": 445031.1,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 65781.46,
+    "balance": 510812.56,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   }
+  ],
+  "notes": [
+   "Period end 2026-10-30 is printed as the statement end, which is after the last transaction date (2026-02-04) and is 12 months from the start; the period may be a typo for 2026-04-30 or similar.",
+   "Page 1 of 4: the closing balance and later transactions are on subsequent pages, so closing_balance is not available here.",
+   "Several opening lines show negative running balances (e.g. -130,020.40 on 2025-11-19) with no overdraft noted on the document."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4354,
+  "output_tokens": 2118,
+  "latency_s": 9.44,
+  "cached": false
+ }
+}

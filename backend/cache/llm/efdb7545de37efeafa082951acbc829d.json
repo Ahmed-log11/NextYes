@@ -1,0 +1,25 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 44369.33,
+  "closing_balance": null,
+  "transactions": [],
+  "notes": [
+   "The first line's balance (-91,533.10) is negative after a 135,902.43 debit from an opening balance of 44,369.33, and the sequence of printed balances is inconsistent with the opening balance and amounts; the running balance column appears to be misread or the printed figures do not reconcile.",
+   "Account is titled Personal current account while the business is a commercial registration holder; the statement period runs to 2026-10-30 although only January 2026 lines appear on this page.",
+   "Printed balances are internally inconsistent with the stated debits and credits in several places (e.g., 2025-11-02 and 2025-12-26 lines), so balance sequence should be verified against the source.",
+   "Account holder per registration is Faisal Al-Zahrani; no owner-funds transfers identified on this page."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4335,
+  "output_tokens": 2727,
+  "latency_s": 8.64,
+  "cached": false
+ }
+}

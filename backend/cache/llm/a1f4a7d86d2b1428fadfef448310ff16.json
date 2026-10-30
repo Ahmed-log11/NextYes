@@ -1,0 +1,746 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 138932.17,
+  "closing_balance": 323791.37,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 17013.89,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -20696.38,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -23716.8,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 26787.27,
+    "category": "revenue",
+    "counterparty": "مدى settlement"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": -17298.09,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 19734.06,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 14127.9,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 13439.02,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -25632.73,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 14897.86,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 16365.0,
+    "category": "revenue",
+    "counterparty": "POS card sales deposit"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": -26701.07,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور ديسمبر"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 24694.23,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -20867.66,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": 21258.77,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": -27999.55,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 13873.49,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -19603.72,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 20130.28,
+    "category": "revenue",
+    "counterparty": "POS card sales deposit"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 19178.23,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 25282.13,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 14819.16,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 9832.8,
+    "category": "revenue",
+    "counterparty": "POS card sales deposit"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -17875.24,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يناير"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": -22673.19,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -18277.51,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -23738.86,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 26301.64,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 23964.27,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 28902.58,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": 30797.73,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 14551.38,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 24248.31,
+    "category": "revenue",
+    "counterparty": "POS card sales deposit"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -20114.63,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": -19400.87,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -20044.38,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -21604.12,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -22251.69,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -27747.78,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": 26895.13,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": 16837.6,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -22011.93,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": 26087.05,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 38880.22,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -17557.4,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -21704.8,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 23338.7,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": -25961.52,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": 23062.71,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 7331.86,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": -25946.51,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": 22078.3,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -22877.57,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 18724.53,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": 22563.9,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 13445.77,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": 24981.88,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": -24372.56,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": 25584.8,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -20314.48,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -21607.95,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": 15167.75,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": -18577.01,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 23819.8,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 27687.31,
+    "category": "revenue",
+    "counterparty": "مدى settlement"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 24275.75,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 20217.89,
+    "category": "revenue",
+    "counterparty": "مدى settlement"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": -23284.05,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يونيو"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 27819.05,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -23202.88,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -20935.57,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -14977.5,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -21710.47,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": -18219.11,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 28112.01,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": 20918.2,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": 22809.01,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -19289.71,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 27260.78,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -22439.11,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -21255.55,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 22628.31,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 14905.55,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 11510.97,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": -21609.17,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -17686.16,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 26062.2,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 21392.97,
+    "category": "revenue",
+    "counterparty": "مدى settlement"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -18965.12,
+    "category": "opex",
+    "counterparty": "الاتصالات"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": -20055.29,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور سبتمبر"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": 8475.89,
+    "category": "revenue",
+    "counterparty": "مدى settlement"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": 15027.82,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": -20077.7,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": 27005.43,
+    "category": "revenue",
+    "counterparty": "POS card sales deposit"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -26256.37,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 8478.68,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 23613.4,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -24085.84,
+    "category": "opex",
+    "counterparty": "الكهرباء"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 27198.78,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -22338.13,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أكتوبر"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -23775.51,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 25480.17,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 13489.76,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 20459.62,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 19770.88,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -18072.28,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3100.0,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 28099.57,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -24229.28,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": [
+   "The statement's 'Opening balance' is 138,932.17 but the first running balance (155,946.06) after a 17,013.89 credit implies a starting balance of 138,932.17, which is consistent; however the document's period runs to 2026-10-30 while many dates run through the statement, and the running balance is internally consistent throughout.",
+   "Lender 'Sample Bank (simulated)' / البنك التجريبي appears in debt_service lines; the lender on the credit report is named Sample Bank (simulated) / البنك التجريبي, which matches.",
+   "Transfers from 'فهد العتيبي' (19-12-2025, 19-09-2026) and 'ريم الشمري' / 'تركي المطيري' / 'ماجد الشهري' are recorded as revenue as the counterparties are not the registered owner (Faisal Al-Zahrani).",
+   "Lines dated 2026-06 through 2026-10 are after 2026-06-09 and the statement period is 2025-11-01 to 2026-10-30; the account activity spans nearly 12 months."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7382,
+  "output_tokens": 5947,
+  "latency_s": 17.36,
+  "cached": false
+ }
+}

@@ -1,0 +1,657 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 190966.92,
+  "closing_balance": 883661.32,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": 61993.34,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-11-02",
+    "amount": -83253.83,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": 72240.19,
+    "category": "revenue",
+    "counterparty": "NUJOOM CATERING / نجوم للإعاشة"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": -68040.7,
+    "category": "opex",
+    "counterparty": "EJAR RENT / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": 120125.86,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": -89424.14,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 143740.61,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": -96870.13,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": -101060.55,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 79723.75,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": 74281.15,
+    "category": "revenue",
+    "counterparty": "NORA ALSUBAIE / نورة السبيعي"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -81512.21,
+    "category": "opex",
+    "counterparty": "EJAR RENT / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-17",
+    "amount": 152143.13,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": -84241.05,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": 101451.97,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets / أسواق بيت الخير"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -78830.99,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": -69847.67,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-01-10",
+    "amount": 80752.24,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -73257.2,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": 89118.36,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 84287.84,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa / قصر الضيافة"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -98417.21,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE / نوى للجملة"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": 50082.14,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 69559.42,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": -75460.32,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 67481.1,
+    "category": "revenue",
+    "counterparty": "NUJOOM CATERING / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": -62128.54,
+    "category": "opex",
+    "counterparty": "WPS SALARY FEB / رواتب حماية الأجور فبراير"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 126545.18,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -70727.47,
+    "category": "opex",
+    "counterparty": "EJAR RENT / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 71255.82,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": 102017.9,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -91434.05,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -87180.34,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -71690.62,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 59234.36,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. / شركة الموارد"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": -79631.76,
+    "category": "opex",
+    "counterparty": "EJAR RENT / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": 62509.1,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": -95172.3,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE / نوى للجملة"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 37869.35,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": 81461.07,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 45564.22,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 109861.9,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO / شركة الموارد"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -89737.32,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -77134.18,
+    "category": "opex",
+    "counterparty": "WPS SALARY APR / رواتب حماية الأجور أبريل"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 49981.31,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": 110539.03,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE / أسواق بيت الخير"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": -81569.32,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 31795.06,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa / قصر الضيافة"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 105857.76,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": 64100.54,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 78826.3,
+    "category": "revenue",
+    "counterparty": "QASR ALDIYAFA / قصر الضيافة"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -113332.05,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -102017.25,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 116417.05,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -85460.44,
+    "category": "opex",
+    "counterparty": "WPS SALARY MAY / رواتب حماية الأجور مايو"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -71776.07,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": 32021.29,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE / أسواق بيت الخير"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 37078.94,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE / أسواق بيت الخير"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": 67119.56,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO / شركة الموارد"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -84029.14,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 50424.97,
+    "category": "revenue",
+    "counterparty": "MAJED ALSHEHRI / ماجد الشهري"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 71138.19,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools / مدارس الأفق"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -76055.95,
+    "category": "opex",
+    "counterparty": "SADAD ELEC / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 63306.39,
+    "category": "revenue",
+    "counterparty": "NUJOOM CATERING / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -61429.22,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-06-08",
+    "amount": 88526.52,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 95645.57,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": -68921.36,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -64267.41,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE / نوى للجملة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -91921.21,
+    "category": "opex",
+    "counterparty": "SADAD ELEC / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": 90421.52,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -60256.46,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": 63402.27,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": 52790.7,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": -64567.17,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": -78899.85,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 98153.27,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 127053.76,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": -85783.72,
+    "category": "opex",
+    "counterparty": "SADAD ELEC / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": 89198.39,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": -78542.14,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -79539.74,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": -70442.38,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 121614.4,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": 54971.69,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -78282.14,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 45089.71,
+    "category": "revenue",
+    "counterparty": "Areej Cafes / مقاهي أريج"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": 50925.81,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 67257.08,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. / شركة الموارد"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -79580.5,
+    "category": "opex",
+    "counterparty": "WPS SALARY SEP / رواتب حماية الأجور سبتمبر"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 73030.61,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 65268.81,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-09-14",
+    "amount": 57389.91,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -68578.74,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-22",
+    "amount": -74205.84,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 102453.59,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -87494.12,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 83826.14,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE / أسواق بيت الخير"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 88196.24,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -85752.6,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 71020.24,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-13",
+    "amount": -83635.04,
+    "category": "opex",
+    "counterparty": "EJAR RENT / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": -87843.06,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": -75270.1,
+    "category": "opex",
+    "counterparty": "SADAD ELEC / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 88244.04,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 60813.34,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE / أسواق بيت الخير"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7524,
+  "output_tokens": 6139,
+  "latency_s": 17.35,
+  "cached": false
+ }
+}

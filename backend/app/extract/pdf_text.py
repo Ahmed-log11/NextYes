@@ -92,7 +92,9 @@ def _segment_text(chars: list[dict]) -> str:
 
 
 def _page_lines(page) -> list[str]:
-    chars = sorted(page.chars, key=lambda c: (c["top"], c["x0"]))
+    # vowel marks sit on top of a letter and would break gap measurement; drop them first
+    chars = sorted((c for c in page.chars if not _HARAKAT.fullmatch(c["text"])),
+                   key=lambda c: (c["top"], c["x0"]))
     rows: list[list[dict]] = []
     for c in chars:
         if rows and abs(rows[-1][0]["top"] - c["top"]) < LINE_TOLERANCE:

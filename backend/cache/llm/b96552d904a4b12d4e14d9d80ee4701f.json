@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1800000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.1,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2025-07-30",
+  "financial_statements_attached": true,
+  "notes": [
+   "Profit rate is labelled indicative (هامش الربح الاسترشادي), so the final rate may differ."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1824,
+  "output_tokens": 264,
+  "latency_s": 1.77,
+  "cached": false
+ }
+}

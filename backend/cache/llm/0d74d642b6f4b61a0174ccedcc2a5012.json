@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Bayan Food Supplies",
+  "cr_number": "1069303190",
+  "owner_name": "Fahad Al-Otaibi",
+  "owner_name_ar": "فهد العتيبي",
+  "issue_date": "2020-07-30",
+  "expiry_date": "2027-01-04",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1662,
+  "output_tokens": 247,
+  "latency_s": 6.82,
+  "cached": false
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated) / البنك التجريبي",
+    "facility_type": "Vehicle financing / تمويل مركبات",
+    "monthly_instalment": 2873.59,
+    "outstanding": 43103.85,
+    "status": "regular"
+   },
+   {
+    "lender": "Demo Finance Co. (simulated) / شركة التمويل التجريبية",
+    "facility_type": "Working capital / رأس مال عامل",
+    "monthly_instalment": 2826.41,
+    "outstanding": 56528.2,
+    "status": "regular"
+   },
+   {
+    "lender": "Demo Trade Supplier (simulated) / مورد تجاري تجريبي",
+    "facility_type": "Trade credit / ائتمان تجاري",
+    "monthly_instalment": null,
+    "outstanding": 36845.91,
+    "status": "default"
+   }
+  ],
+  "notes": [
+   "Demo Trade Supplier trade credit is in default, 90+ days past due, with an outstanding balance of 36845.91.",
+   "The report is marked as a simulated document for a hackathon demo, not a real record."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1812,
+  "output_tokens": 420,
+  "latency_s": 2.26,
+  "cached": false
+ }
+}

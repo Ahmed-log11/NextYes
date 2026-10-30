@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1480000,
+  "tenor_months": 48,
+  "annual_profit_rate": 0.088,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2019-02-17",
+  "financial_statements_attached": false,
+  "notes": [
+   "Financial statements are listed as not provided; the application lists bank statement, commercial registration, receivables aging and tax compliance summary as attachments."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1860,
+  "output_tokens": 274,
+  "latency_s": 1.59,
+  "cached": false
+ }
+}

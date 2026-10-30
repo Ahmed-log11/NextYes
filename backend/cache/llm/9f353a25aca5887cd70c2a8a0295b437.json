@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Sanad Line Contracting",
+  "cr_number": "1097792048",
+  "owner_name": "Saad Al-Qahtani",
+  "owner_name_ar": "سعد القحطاني",
+  "issue_date": "2025-02-28",
+  "expiry_date": "2028-03-08",
+  "status_active": true,
+  "notes": [
+   "Certificate is marked as a simulated document."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4077,
+  "output_tokens": 257,
+  "latency_s": 9.44,
+  "cached": false
+ }
+}

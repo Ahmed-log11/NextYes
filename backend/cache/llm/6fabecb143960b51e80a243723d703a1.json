@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 621600,
+  "overdue_90_plus": 2200,
+  "notes": [
+   "Customer 90+ balances sum to 2,200.00 and match the Total row, but the customer Total column does not reconcile: 151,148.00 + 164,160.14 + 163,477.78 + 142,814.08 = 621,600.00, which matches. Bucket columns should be checked separately by an analyst since the printed 90+ total (2,200.00) does not equal the sum of listed 90+ values (976.52 + 617.26 + 423.67 + 182.55 = 2,200.00, which does match)."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1627,
+  "output_tokens": 285,
+  "latency_s": 1.9,
+  "cached": false
+ }
+}

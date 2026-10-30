@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-13",
+    "amount": 38676.28,
+    "balance": 576880.51,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": -61881.72,
+    "balance": 514998.79,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -63950.21,
+    "balance": 451048.58,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 81814.35,
+    "balance": 532862.93,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -54803.05,
+    "balance": 478059.88,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": -60567.76,
+    "balance": 417492.12,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 44887.71,
+    "balance": 462379.83,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": -71655.16,
+    "balance": 390724.67,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": 101924.4,
+    "balance": 492649.07,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 75153.94,
+    "balance": 567803.01,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 129433.95,
+    "balance": 697236.96,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -79870.68,
+    "balance": 617366.28,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": -69377.8,
+    "balance": 547988.48,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -82373.31,
+    "balance": 465615.17,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": -75993.47,
+    "balance": 389621.7,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 69289.45,
+    "balance": 458911.15,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": 75531.62,
+    "balance": 534442.77,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 133825.91,
+    "balance": 668268.68,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -74853.89,
+    "balance": 593414.79,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 102453.02,
+    "balance": 695867.81,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -72040.43,
+    "balance": 623827.38,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 47665.75,
+    "balance": 671493.13,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 69915.3,
+    "balance": 741408.43,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 55591.56,
+    "balance": 796999.99,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": -50295.82,
+    "balance": 746704.17,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": -72369.88,
+    "balance": 674334.29,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -71575.66,
+    "balance": 602758.63,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": -61197.54,
+    "balance": 541561.09,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 83923.25,
+    "balance": 625484.34,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 61804.14,
+    "balance": 687288.48,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -65873.12,
+    "balance": 621415.36,
+    "category": "opex",
+    "counterparty": "WPS SALARY JUN"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": -50155.67,
+    "balance": 571259.69,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 97768.67,
+    "balance": 669028.36,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -46082.14,
+    "balance": 622946.22,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-13",
+    "amount": 53229.77,
+    "balance": 676175.99,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": 63922.13,
+    "balance": 740098.12,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -73142.77,
+    "balance": 666955.35,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": 78779.43,
+    "balance": 745734.78,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": -56703.07,
+    "balance": 689031.71,
+    "category": "opex",
+    "counterparty": "WPS SALARY JUL"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": 82983.18,
+    "balance": 772014.89,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": -65366.17,
+    "balance": 706648.72,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   }
+  ],
+  "notes": [
+   "This page is page 2 of 3; the period, opening and closing balances, and account type are on other pages and are recorded as null.",
+   "Balance continuity holds across every line on this page; the running balances move consistently with the amounts."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4683,
+  "output_tokens": 2490,
+  "latency_s": 7.45,
+  "cached": false
+ }
+}

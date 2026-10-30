@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Murjan Food Supplies",
+  "cr_number": "1020923392",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2021-04-30",
+  "expiry_date": "2028-06-26",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1661,
+  "output_tokens": 245,
+  "latency_s": 2.3,
+  "cached": false
+ }
+}

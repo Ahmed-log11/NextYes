@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Waha Printing & Advertising",
+  "cr_number": "1024434413",
+  "owner_name": "Nora Al-Subaie",
+  "owner_name_ar": "نورة السبيعي",
+  "issue_date": "2018-03-31",
+  "expiry_date": "2026-12-21",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1662,
+  "output_tokens": 246,
+  "latency_s": 2.09,
+  "cached": false
+ }
+}

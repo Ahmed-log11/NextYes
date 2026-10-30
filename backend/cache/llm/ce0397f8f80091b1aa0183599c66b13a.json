@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Rawabi Online Store",
+  "cr_number": "1085594563",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2015-07-31",
+  "expiry_date": "2028-04-01",
+  "status_active": true,
+  "notes": [
+   "Document is footed as a simulated demo record and is not a real registration."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1657,
+  "output_tokens": 265,
+  "latency_s": 1.84,
+  "cached": false
+ }
+}

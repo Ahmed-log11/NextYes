@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 944300,
+  "overdue_90_plus": 19800,
+  "notes": [
+   "Sum of the 90+ column across the six customer rows is about 19,800.00 and matches the Total row, but the bucket totals were not re-verified against each other; the 0-30, 31-60 and 61-90 column totals also appear to tie to their rows.",
+   "Al-Ufuq Schools carries 6,224.08 in the 90+ bucket and 53,657.30 in 61-90, the largest aged exposure relative to its balance of 188,800.00."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1747,
+  "output_tokens": 267,
+  "latency_s": 1.77,
+  "cached": false
+ }
+}

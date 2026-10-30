@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 192600,
+  "overdue_90_plus": 25100,
+  "notes": [
+   "Printed Total row does not reconcile with the customer rows: the five customer totals sum to 192,600.00 only if recomputed from the 90+ column is not checked here; the 90+ column sums to 25,100.00 and the 0-30 column sums to 70,361.82, so the bucket totals should be checked against the source ledger."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1699,
+  "output_tokens": 224,
+  "latency_s": 1.55,
+  "cached": false
+ }
+}

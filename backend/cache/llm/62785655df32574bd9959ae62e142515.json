@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 365900,
+  "overdue_90_plus": 24700,
+  "notes": [
+   "Customer 90+ balances sum to 24,700.00 but the bucket sums of the Total row are consistent; however, the listed customer Total column values sum to 365,900.00 only if recalculated; no discrepancy in the Total row itself."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1751,
+  "output_tokens": 196,
+  "latency_s": 2.04,
+  "cached": false
+ }
+}

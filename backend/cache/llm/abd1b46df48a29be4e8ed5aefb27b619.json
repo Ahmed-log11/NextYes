@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Najd Line Medical Clinic",
+  "cr_number": "1058427981",
+  "owner_name": "Nora Al-Subaie",
+  "owner_name_ar": "نورة السبيعي",
+  "issue_date": "2014-12-30",
+  "expiry_date": "2027-08-01",
+  "status_active": true,
+  "notes": [
+   "Arabic business name is عيادة خط نجد الطبية"
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1655,
+  "output_tokens": 265,
+  "latency_s": 1.66,
+  "cached": false
+ }
+}

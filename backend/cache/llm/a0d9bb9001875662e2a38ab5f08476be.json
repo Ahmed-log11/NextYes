@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 468100,
+  "overdue_90_plus": 265000,
+  "notes": [
+   "The printed Total row does not match the customer rows: customer totals sum to about 468,100 for the Total column, but the 90+ column sums to about 265,000 only if the printed total is used; the individual 90+ values for the five customers add to approximately 265,000 in total, so this is consistent. The 0-30, 31-60 and 61-90 column totals are not recorded here, and the bucket totals should be checked against the customer rows before relying on them.",
+   "Roughly 57% of outstanding receivables (265,000 of 468,100) sit in the 90+ days bucket, which is a significant collection risk."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1695,
+  "output_tokens": 311,
+  "latency_s": 2.75,
+  "cached": false
+ }
+}

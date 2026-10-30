@@ -1,0 +1,249 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 203638.85,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 40105.72,
+    "balance": 243744.57,
+    "category": "revenue",
+    "counterparty": "Mada settlement"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": -44079.68,
+    "balance": 199664.89,
+    "category": "opex",
+    "counterparty": "WPS salary Nov (Hemaya Al-Ojoor)"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 30510.52,
+    "balance": 230175.41,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Bait Al-Khair Markets"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -44417.98,
+    "balance": 185757.43,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 66419.85,
+    "balance": 252177.28,
+    "category": "revenue",
+    "counterparty": "Fast transfer in - Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 38547.43,
+    "balance": 290724.71,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Nasser Al-Dossari"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 47316.48,
+    "balance": 338041.19,
+    "category": "revenue",
+    "counterparty": "Mada settlement"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -4800.0,
+    "balance": 333241.19,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan repayment"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": -51517.92,
+    "balance": 281723.27,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": -37189.92,
+    "balance": 244533.35,
+    "category": "opex",
+    "counterparty": "SADAD electricity bill"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": -44652.92,
+    "balance": 199880.43,
+    "category": "opex",
+    "counterparty": "WPS salary Dec (Hemaya Al-Ojoor)"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -48468.54,
+    "balance": 151411.89,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 53543.49,
+    "balance": 204955.38,
+    "category": "revenue",
+    "counterparty": "Mada settlement"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 51603.07,
+    "balance": 256558.45,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 38965.36,
+    "balance": 295523.81,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": 28009.95,
+    "balance": 323533.76,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Bait Al-Khair Markets"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": -48045.97,
+    "balance": 275487.79,
+    "category": "opex",
+    "counterparty": "Outgoing transfer - Sandus Materials"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": -38502.57,
+    "balance": 236985.22,
+    "category": "opex",
+    "counterparty": "Electricity and telecom"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -4800.0,
+    "balance": 232185.22,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan instalment"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": 53878.13,
+    "balance": 286063.35,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Masarat Trading"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": 38265.39,
+    "balance": 324328.74,
+    "category": "revenue",
+    "counterparty": "Fast transfer in - Najoom Catering"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": 42174.2,
+    "balance": 366502.94,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Masarat Trading"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 20063.46,
+    "balance": 386566.4,
+    "category": "revenue",
+    "counterparty": "Fast transfer in - Masarat Trading"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -43334.2,
+    "balance": 343232.2,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": -39931.44,
+    "balance": 303300.76,
+    "category": "opex",
+    "counterparty": "Ejar rent platform"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -37357.03,
+    "balance": 265943.73,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 31912.11,
+    "balance": 297855.84,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Bait Al-Khair Markets"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 28874.42,
+    "balance": 326730.26,
+    "category": "revenue",
+    "counterparty": "Mada settlement"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -42908.83,
+    "balance": 283821.43,
+    "category": "opex",
+    "counterparty": "Electricity and telecom"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -4800.0,
+    "balance": 279021.43,
+    "category": "debt_service",
+    "counterparty": "Sample Bank loan instalment"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": 44410.42,
+    "balance": 323431.85,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 56149.57,
+    "balance": 379581.42,
+    "category": "revenue",
+    "counterparty": "Fast transfer in - Masarat Trading"
+   }
+  ],
+  "notes": [
+   "Page 1 of 4 only: closing balance and period end are not confirmed on this page; the header period runs to 2026-10-30, which is beyond the transactions shown and needs checking against the other pages.",
+   "Column headers are printed with Balance | Credit | Debit order on this page; amounts were assigned by the Credit/Debit position of each figure.",
+   "Several incoming transfers are from the same counterparties (Masarat Trading, Bait Al-Khair Markets); the Ejar rent platform and Sample Bank instalments recur monthly."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4057,
+  "output_tokens": 2269,
+  "latency_s": 10.36,
+  "cached": false
+ }
+}

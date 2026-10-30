@@ -1,0 +1,902 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 230682.49,
+  "closing_balance": 562240.05,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": -5488.45,
+    "category": "personal",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": -37471.29,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور نوفمبر"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": 53736.95,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": -46543.45,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": -40922.7,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 62946.4,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 46199.95,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": -2039.36,
+    "category": "personal",
+    "counterparty": "رسوم دراسية"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 49916.7,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": -42323.36,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-05",
+    "amount": -41552.55,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 63983.17,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 31725.3,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -38322.42,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -45409.98,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -6840.26,
+    "category": "personal",
+    "counterparty": "تحويل عائلي"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": 43719.82,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": 24303.42,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": -47163.45,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -6500.36,
+    "category": "personal",
+    "counterparty": "سداد بطاقة ائتمانية"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 55668.29,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 46640.24,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-06",
+    "amount": -6080.48,
+    "category": "personal",
+    "counterparty": "سداد بطاقة ائتمانية"
+   },
+   {
+    "date": "2026-01-10",
+    "amount": -38776.93,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يناير"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": -1912.02,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": -43499.31,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 51888.23,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -34281.5,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 27146.07,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 36365.78,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": -34668.66,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-01-31",
+    "amount": 30359.68,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -47445.53,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 41633.17,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -5979.31,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": 28419.73,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -39018.16,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": 15363.57,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": 37064.24,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": 36234.14,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": -38612.33,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": -35503.78,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": 45585.15,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": -5173.86,
+    "category": "personal",
+    "counterparty": "تحويل عائلي"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": 71415.17,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -5953.02,
+    "category": "personal",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 41865.22,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": -39430.96,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -40584.03,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": -38797.72,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": -5500.4,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": 73429.88,
+    "category": "revenue",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": 21689.73,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -44989.69,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 25225.65,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 58335.42,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 29115.82,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -3301.52,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -3264.7,
+    "category": "personal",
+    "counterparty": "سداد بطاقة ائتمانية"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -40520.37,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 55639.91,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -50329.41,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -51014.84,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": 63283.2,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -40172.98,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": -43566.72,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مايو"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": -33681.7,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -40906.8,
+    "category": "opex",
+    "counterparty": "فنار للمعدات"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -5900.03,
+    "category": "personal",
+    "counterparty": "عمر الغامدي"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": 49317.96,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": 14748.75,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": 17088.47,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -37394.18,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 36573.93,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": 50851.58,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": -4427.55,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 29319.31,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": -38096.96,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": -5632.97,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 23499.03,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": -37846.74,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 48850.45,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": -33695.58,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": 34592.4,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -4814.37,
+    "category": "personal",
+    "counterparty": "سعد القحطاني"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -32233.72,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -37150.44,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يوليو"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": 22580.71,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": -33558.85,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 39457.44,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -6446.57,
+    "category": "personal",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -2477.76,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 31511.74,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": -36626.78,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": 35707.16,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": -37052.13,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 15887.1,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": -5417.75,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 38555.85,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 44611,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 50477.63,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -2127.45,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": -29040.43,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أغسطس"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": -4220.15,
+    "category": "personal",
+    "counterparty": "إيجار شقة أغسطس"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 33235.34,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": -40000.42,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 17046.15,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": -37130.53,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": 44129.88,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -42775.62,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -1580.29,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": 46949.17,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": -45012,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": 50666.77,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -2343.61,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -37349.75,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-14",
+    "amount": 27440.93,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -37770.12,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 17977.24,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -40369.33,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -6409.11,
+    "category": "personal",
+    "counterparty": "إيجار شقة سبتمبر"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": 42849.29,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 18316.6,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": -45440.54,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": 46428.44,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -32319.45,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -2785.6,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -35802.74,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -5733.49,
+    "category": "opex",
+    "counterparty": "إيجار شقة أكتوبر"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 23710.76,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-18",
+    "amount": 36907.97,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": 47796.4,
+    "category": "revenue",
+    "counterparty": "فهد العتيبي"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -41515.07,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -5700,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 42456.43,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   }
+  ],
+  "notes": [
+   "Account is titled as a personal current account, while the commercial registration is for a business; business and personal flows are mixed on one account.",
+   "Statement period runs from 2025-11-01 to 2026-10-30, but the last transaction is dated 2026-10-29 and the period includes dates after the stated closing balance date; the document's period and dates should be verified.",
+   "Several transfers are to or from individuals (e.g. تركي المطيري, نورة السبيعي, عمر الغامدي) which may be owner-related; the owner is Khalid Al-Harbi and no transfers from that name appear.",
+   "Statement is marked as a simulated document."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8383,
+  "output_tokens": 7274,
+  "latency_s": 20.55,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Noor Online Store",
+  "cr_number": "1080170248",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2019-03-31",
+  "expiry_date": "2028-03-21",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1656,
+  "output_tokens": 242,
+  "latency_s": 2.19,
+  "cached": false
+ }
+}

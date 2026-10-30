@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Fajr Logistics",
+  "cr_number": "1062091396",
+  "owner_name": "Faisal Al-Zahrani",
+  "owner_name_ar": "فيصل الزهراني",
+  "issue_date": "2021-02-28",
+  "expiry_date": "2027-09-24",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1664,
+  "output_tokens": 246,
+  "latency_s": 7.24,
+  "cached": false
+ }
+}

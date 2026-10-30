@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Waha Contracting",
+  "cr_number": "1028635497",
+  "owner_name": "Majed Al-Shehri",
+  "owner_name_ar": "ماجد الشهري",
+  "issue_date": "2025-07-30",
+  "expiry_date": "2027-08-03",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1645,
+  "output_tokens": 242,
+  "latency_s": 1.76,
+  "cached": false
+ }
+}

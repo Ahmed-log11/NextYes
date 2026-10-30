@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 920000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.083,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2021-08-29",
+  "financial_statements_attached": true,
+  "notes": [
+   "Financial statements are listed among the attachments, but the page shows no figures or review status for them; they should be checked directly."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1851,
+  "output_tokens": 263,
+  "latency_s": 1.76,
+  "cached": false
+ }
+}

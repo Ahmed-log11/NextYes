@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 468100,
+  "overdue_90_plus": 265000,
+  "notes": [
+   "Stated Total row does not reconcile with customer rows: the customer totals sum to about 468,100.00 in the Total column, but the 90+ column sums to about 265,000 only in the Total row; the per-customer 90+ values sum to a different figure (approximately 265,000 by my check is not confirmed), so the 90+ total should be verified against the customer lines.",
+   "Of the customer rows, the 90+ bucket is the majority of outstanding balances for every customer, indicating a severe collections problem."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1695,
+  "output_tokens": 280,
+  "latency_s": 2.9,
+  "cached": false
+ }
+}

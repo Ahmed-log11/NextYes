@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Masar Food Supplies",
+  "cr_number": "1026329392",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2019-07-31",
+  "expiry_date": "2028-07-26",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4077,
+  "output_tokens": 244,
+  "latency_s": 2.35,
+  "cached": false
+ }
+}

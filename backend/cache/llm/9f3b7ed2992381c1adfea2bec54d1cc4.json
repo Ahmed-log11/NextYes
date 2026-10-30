@@ -1,0 +1,129 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 870784.65,
+  "transactions": [
+   {
+    "date": "2026-09-18",
+    "amount": -53174.71,
+    "balance": 909889.03,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": -45995.94,
+    "balance": 863893.09,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3375.71,
+    "balance": 860517.38,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3424.29,
+    "balance": 857093.09,
+    "category": "debt_service",
+    "counterparty": "شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -41738.44,
+    "balance": 815354.65,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": -53386.03,
+    "balance": 761968.62,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -35533.29,
+    "balance": 726435.33,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 53176.42,
+    "balance": 779611.75,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": -45570.64,
+    "balance": 734041.11,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": 73971.66,
+    "balance": 808012.77,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 33391.66,
+    "balance": 841404.43,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3375.71,
+    "balance": 838028.72,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3424.29,
+    "balance": 834604.43,
+    "category": "debt_service",
+    "counterparty": "شركة التمويل التجريبية"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": 93460.26,
+    "balance": 928064.69,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -57280.04,
+    "balance": 870784.65,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": [
+   "This page has no opening balance, period dates or account header, so those fields are null; page 4 of 4 only.",
+   "Running balance on the first line (909,889.03) implies the prior balance was higher than any printed here; the page cannot be reconciled without earlier pages."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3175,
+  "output_tokens": 1089,
+  "latency_s": 4.3,
+  "cached": false
+ }
+}

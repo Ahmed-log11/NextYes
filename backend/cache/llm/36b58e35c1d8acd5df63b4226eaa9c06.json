@@ -1,0 +1,24 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated)",
+    "facility_type": "Vehicle financing",
+    "monthly_instalment": 3100.0,
+    "outstanding": 114700.0,
+    "status": "regular"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1664,
+  "output_tokens": 154,
+  "latency_s": 1.64,
+  "cached": false
+ }
+}

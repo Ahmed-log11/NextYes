@@ -1,0 +1,20 @@
+{
+ "document": "income_statement",
+ "fields": {
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "revenue": 3810700,
+  "operating_expenses": 3079045.6,
+  "notes": [
+   "The stated period ends 2026-10-30, which is later than the current date and a few weeks after the period starts at 2025-11-01; this looks like a forecast or a mis-keyed date, so confirm whether these are actual or projected figures."
+  ]
+ },
+ "record": {
+  "document": "income_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1420,
+  "output_tokens": 220,
+  "latency_s": 1.85,
+  "cached": false
+ }
+}

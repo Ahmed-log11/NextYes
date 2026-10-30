@@ -1,0 +1,33 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated)",
+    "facility_type": "Vehicle financing",
+    "monthly_instalment": 7300.0,
+    "outstanding": 219000.0,
+    "status": "regular"
+   },
+   {
+    "lender": "Demo Trade Supplier (simulated)",
+    "facility_type": "Trade credit",
+    "monthly_instalment": null,
+    "outstanding": 61508.13,
+    "status": "default"
+   }
+  ],
+  "notes": [
+   "Trade credit facility from Demo Trade Supplier is shown as default, 90+ days past due, with an outstanding balance of 61508.13."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1731,
+  "output_tokens": 267,
+  "latency_s": 1.99,
+  "cached": false
+ }
+}

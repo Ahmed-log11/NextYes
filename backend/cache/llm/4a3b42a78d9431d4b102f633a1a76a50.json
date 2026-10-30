@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-17",
+    "amount": -80258.59,
+    "balance": 420950.39,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": -72898.92,
+    "balance": 348051.47,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": 58724.19,
+    "balance": 406775.66,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -70259.41,
+    "balance": 336516.25,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 40299.79,
+    "balance": 376816.04,
+    "category": "revenue",
+    "counterparty": "TRF IN ALSAFWA RESTAURANT / حوالة واردة مطاعم الصفوة"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": 39435.72,
+    "balance": 416251.76,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 86647.77,
+    "balance": 502899.53,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 30206.32,
+    "balance": 533105.85,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": -83734.56,
+    "balance": 449371.29,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": -90509.49,
+    "balance": 358861.8,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 117055.35,
+    "balance": 475917.15,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Al-Riyada Hotels / فنادق الريادة - حوالة واردة"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": -74193.89,
+    "balance": 401723.26,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": 99854.84,
+    "balance": 501578.1,
+    "category": "revenue",
+    "counterparty": "SARIE CR NUJOOM CATERING 131651 / نجوم للإعاشة - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": -72514.06,
+    "balance": 429064.04,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 158010 / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -80995.24,
+    "balance": 348068.8,
+    "category": "opex",
+    "counterparty": "WPS SALARY APR / رواتب حماية الأجور أبريل"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 82854.84,
+    "balance": 430923.64,
+    "category": "revenue",
+    "counterparty": "حوالة واردة شركة الموارد"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 48285.83,
+    "balance": 479209.47,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 47121.52,
+    "balance": 526330.99,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-13",
+    "amount": 75994.34,
+    "balance": 602325.33,
+    "category": "revenue",
+    "counterparty": "SARIE CR NUJOOM CATERING 814283 / نجوم للإعاشة - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": 84671.52,
+    "balance": 686996.85,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Khalid Al-Harbi / خالد الحربي - حوالة واردة"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": -93459.33,
+    "balance": 593537.52,
+    "category": "opex",
+    "counterparty": "EJAR RENT 276537 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": 78771.95,
+    "balance": 672309.47,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -83829.59,
+    "balance": 588479.88,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -100937.84,
+    "balance": 487542.04,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 851750 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 31451.36,
+    "balance": 518993.4,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": -91081.29,
+    "balance": 427912.11,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مايو"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": 108889.85,
+    "balance": 536801.96,
+    "category": "revenue",
+    "counterparty": "Incoming transfer - Al-Safwa Restaurants / مطاعم الصفوة - حوالة واردة"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -76620.92,
+    "balance": 460181.04,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 98901.13,
+    "balance": 559082.17,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -68183.23,
+    "balance": 490898.94,
+    "category": "opex",
+    "counterparty": "TRF OUT RIMAL PACKAGING / رمال للتغليف - حوالة صادرة"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": 85699.34,
+    "balance": 576598.28,
+    "category": "revenue",
+    "counterparty": "TRF IN BAYT ALKHAIR MARKE / حوالة واردة أسواق بيت الخير"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -72854.56,
+    "balance": 503743.72,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 623829 / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": 34058.32,
+    "balance": 537802.04,
+    "category": "revenue",
+    "counterparty": "حوالة واردة أسواق بيت الخير"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": 34346.66,
+    "balance": 572148.7,
+    "category": "revenue",
+    "counterparty": "TRF IN ALMAWARED CO / حوالة واردة شركة الموارد"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 94234.77,
+    "balance": 666383.47,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - فنادق الريادة"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": 75243.94,
+    "balance": 741627.41,
+    "category": "revenue",
+    "counterparty": "TRF IN QASR ALDIYAFA / حوالة واردة قصر الضيافة"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -68748.83,
+    "balance": 672878.58,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 34843.37,
+    "balance": 707721.95,
+    "category": "revenue",
+    "counterparty": "TRF IN REEM ALSHAMMARI / حوالة واردة ريم الشمري"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 64400.45,
+    "balance": 772122.4,
+    "category": "revenue",
+    "counterparty": "SARIE CR NUJOOM CATERING 348062 / نجوم للإعاشة - تحويل سريع وارد"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -88609.96,
+    "balance": 683512.44,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": 46330.81,
+    "balance": 729843.25,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   }
+  ],
+  "notes": [
+   "Page 2 of 3 only: opening and closing balances, period and account type are on other pages and are not recorded here.",
+   "Balance column checked against running totals: consistent on every line except none noted."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4644,
+  "output_tokens": 3030,
+  "latency_s": 8.74,
+  "cached": false
+ }
+}

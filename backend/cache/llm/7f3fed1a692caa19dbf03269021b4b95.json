@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 317300,
+  "overdue_90_plus": 16300,
+  "notes": [
+   "Customer-level 90+ amounts sum to 16,300.00 and the Total row matches, but the bucket columns in the Total row also sum to 317,300.00 only if the customer rows are consistent; the Total row values were recorded as printed."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1747,
+  "output_tokens": 196,
+  "latency_s": 1.48,
+  "cached": false
+ }
+}

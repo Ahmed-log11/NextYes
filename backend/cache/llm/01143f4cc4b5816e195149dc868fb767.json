@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-03",
+    "amount": 23699.25,
+    "balance": 403280.67,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": -42183.18,
+    "balance": 361097.49,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": -32874.93,
+    "balance": 328222.56,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": 46070.48,
+    "balance": 374293.04,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": 37862.48,
+    "balance": 412155.52,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مسارات للتجارة"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -37727.5,
+    "balance": 374428.02,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -4800,
+    "balance": 369628.02,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 42118.22,
+    "balance": 411746.24,
+    "category": "revenue",
+    "counterparty": "حوالة واردة أسواق بيت الخير"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -50904.89,
+    "balance": 360841.35,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -50875.4,
+    "balance": 309965.95,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مارس"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": 35784.03,
+    "balance": 345749.98,
+    "category": "revenue",
+    "counterparty": "حوالة واردة قصر الضيافة"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": -35726.53,
+    "balance": 310023.45,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": 74495.4,
+    "balance": 384518.85,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 29220.39,
+    "balance": 413739.24,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 23535.23,
+    "balance": 437274.47,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": 47964.95,
+    "balance": 485239.42,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": -37477.65,
+    "balance": 447761.77,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": -43665.42,
+    "balance": 404096.35,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -4800,
+    "balance": 399296.35,
+    "category": "debt_service",
+    "counterparty": "قسط تمويل - البنك التجريبي"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 60242.14,
+    "balance": 459538.49,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مدارس الأفق"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": 31180.51,
+    "balance": 490719.0,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 25391.99,
+    "balance": 516110.99,
+    "category": "revenue",
+    "counterparty": "حوالة واردة ريم الشمري"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": -54742.07,
+    "balance": 461368.92,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أبريل"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": -39526.12,
+    "balance": 421842.8,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 28903.47,
+    "balance": 450746.27,
+    "category": "revenue",
+    "counterparty": "حوالة واردة قصر الضيافة"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -4800,
+    "balance": 445946.27,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": 62332.8,
+    "balance": 508279.07,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -49103.23,
+    "balance": 459175.84,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": 36349.09,
+    "balance": 495524.93,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -50926.58,
+    "balance": 444598.35,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 22345.72,
+    "balance": 466944.07,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": 54497.03,
+    "balance": 521441.1,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": -38736.71,
+    "balance": 482704.39,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-18",
+    "amount": 32723.02,
+    "balance": 515427.41,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 45481.38,
+    "balance": 560908.79,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -37853.89,
+    "balance": 523054.9,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": -51394.71,
+    "balance": 471660.19,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -4800,
+    "balance": 466860.19,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 47252.85,
+    "balance": 514113.04,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مطاعم الصفوة"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -32843.19,
+    "balance": 481269.85,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": 48254.33,
+    "balance": 529524.18,
+    "category": "revenue",
+    "counterparty": "حوالة واردة أسواق بيت الخير"
+   }
+  ],
+  "notes": [
+   "Page 2 only: opening and closing balances, account type and period are on other pages and were not recorded.",
+   "Page 2 has no column headers and no year on the dates; dates were read as day-month-year from the printed format."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4142,
+  "output_tokens": 2644,
+  "latency_s": 7.95,
+  "cached": false
+ }
+}

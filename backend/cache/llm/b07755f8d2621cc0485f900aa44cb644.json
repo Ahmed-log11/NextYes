@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Tamr Online Store",
+  "cr_number": "1017215420",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2023-11-30",
+  "expiry_date": "2026-10-24",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1654,
+  "output_tokens": 240,
+  "latency_s": 4.93,
+  "cached": false
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 151262.04,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": 49609.8,
+    "balance": 200871.84,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 79721.73,
+    "balance": 280593.57,
+    "category": "revenue",
+    "counterparty": "Faisal Alzahrani"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": -78229.6,
+    "balance": 202363.97,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 97938.74,
+    "balance": 300302.71,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -126732.73,
+    "balance": 173569.98,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 52265.71,
+    "balance": 225835.69,
+    "category": "revenue",
+    "counterparty": "Najoum Al-Eaasha"
+   },
+   {
+    "date": "2025-11-20",
+    "amount": -126156.89,
+    "balance": 99678.8,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 110857.45,
+    "balance": 210536.25,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 84706.57,
+    "balance": 295242.82,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": -77466.78,
+    "balance": 217776.04,
+    "category": "opex",
+    "counterparty": "Telecom bill (SADAD)"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": -113238.02,
+    "balance": 104538.02,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -88491.24,
+    "balance": 16046.78,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": 123650.33,
+    "balance": 139697.11,
+    "category": "revenue",
+    "counterparty": "Card sales"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": -77992.35,
+    "balance": 61704.76,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": 122297.35,
+    "balance": 184002.11,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurant"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": 110704.46,
+    "balance": 294706.57,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": -105300.39,
+    "balance": 189406.18,
+    "category": "opex",
+    "counterparty": "Telecom bill (SADAD)"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": 91047.86,
+    "balance": 280454.04,
+    "category": "revenue",
+    "counterparty": "Card sales"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 93969.39,
+    "balance": 374423.43,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -67163.44,
+    "balance": 307259.99,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": 59770.4,
+    "balance": 367030.39,
+    "category": "revenue",
+    "counterparty": "Card sales"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": -73891.88,
+    "balance": 293138.51,
+    "category": "opex",
+    "counterparty": "Rent via Ejar platform"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": -70206.77,
+    "balance": 222931.74,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 52227.17,
+    "balance": 275158.91,
+    "category": "revenue",
+    "counterparty": "Card sales"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": 36639.04,
+    "balance": 311797.95,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": -84405.91,
+    "balance": 227392.04,
+    "category": "opex",
+    "counterparty": "Telecom bill (SADAD)"
+   },
+   {
+    "date": "2026-01-31",
+    "amount": 101194.0,
+    "balance": 328586.04,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 47681.96,
+    "balance": 376268.0,
+    "category": "revenue",
+    "counterparty": "Card sales"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 72780.67,
+    "balance": 449048.67,
+    "category": "revenue",
+    "counterparty": "Card sales"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 69616.87,
+    "balance": 518665.54,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -72853.08,
+    "balance": 445812.46,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": 55396.52,
+    "balance": 501208.98,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurant"
+   }
+  ],
+  "notes": [
+   "The period end 2026-10-30 is after the other dates on this page (last transaction 2026-02-16) and about 9 months beyond the stated start; the statement period may be misprinted.",
+   "Page 1 of 3 only; closing balance not shown on this page."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4549,
+  "output_tokens": 1996,
+  "latency_s": 6.14,
+  "cached": false
+ }
+}

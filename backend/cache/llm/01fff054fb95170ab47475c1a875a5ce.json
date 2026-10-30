@@ -1,0 +1,27 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 44369.33,
+  "closing_balance": 1060758.66,
+  "transactions": [],
+  "notes": [
+   "The statement is in the name of a personal current account, while the commercial registration lists a business (Sahab Logistics); account ownership should be verified.",
+   "Opening balance 44,369.33 is followed by a first line that leaves the running balance at -91,533.10 after a 135,902.43 debit, and the balance stays negative for several weeks in Dec 2025 to Jan 2026; the printed balances were recorded as shown.",
+   "Several printed running balances do not reconcile arithmetically with the listed amounts (e.g. 2025-11-02 first line: 44,369.33 less 135,902.43 does not equal -91,533.10), so the balance column is unreliable for those rows.",
+   "Both the 2025-11-02 salary line and the 2025-11-30 utilities line are debits, but the 2025-12-26 utilities line amount of 105,973.13 is listed as a debit with no description in the Arabic-only lines; no other anomalies flagged.",
+   "Owner-named transfers (Faisal Al-Zahrani, 2026-08-04, 28,210.83 credit) classified as owner_funds; two inbound transfers from Reem Al-Shammari are classified differently (2026-07-28 as owner_funds, 2026-10-07 as revenue) and should be reviewed for consistency.",
+   "Credit card payments were classified as 'other' because they do not match a loan or financing repayment on the statement."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 9661,
+  "output_tokens": 7843,
+  "latency_s": 22.26,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Najd Line Food Supplies",
+  "cr_number": "1014519564",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2019-10-30",
+  "expiry_date": "2026-09-15",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1658,
+  "output_tokens": 243,
+  "latency_s": 1.85,
+  "cached": false
+ }
+}

@@ -1,4 +1,4 @@
-.PHONY: install test assess data docs extract-ceiling extract-eval
+.PHONY: install test assess data docs extract-ceiling extract-eval api
 
 install:
 	cd backend && pip install -e ".[dev]"
@@ -25,3 +25,7 @@ extract-ceiling:
 
 extract-eval:
 	cd backend && python -m app.extract.evaluate --split dev --level all --reader haiku
+
+# The HTTP API for the web app: http://127.0.0.1:8000/docs
+api:
+	cd backend && uvicorn app.api.main:app --reload

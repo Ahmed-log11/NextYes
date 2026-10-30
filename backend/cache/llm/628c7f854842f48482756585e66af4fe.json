@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Masar Logistics",
+  "cr_number": "1019292511",
+  "owner_name": "Faisal Al-Zahrani",
+  "owner_name_ar": "فيصل الزهراني",
+  "issue_date": "2019-05-31",
+  "expiry_date": "2027-08-22",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4077,
+  "output_tokens": 245,
+  "latency_s": 3.48,
+  "cached": false
+ }
+}

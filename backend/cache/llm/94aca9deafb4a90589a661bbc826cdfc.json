@@ -1,0 +1,249 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 102126.84,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-07",
+    "amount": -2838.5,
+    "balance": 99288.34,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 35764.51,
+    "balance": 135052.85,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -4871.27,
+    "balance": 130181.58,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 61168.19,
+    "balance": 191349.77,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 79493.35,
+    "balance": 270843.12,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": -57696.44,
+    "balance": 213146.68,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": -44747.11,
+    "balance": 168399.57,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 29072.95,
+    "balance": 197472.52,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": 61401.0,
+    "balance": 258873.52,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -48555.06,
+    "balance": 210318.46,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": -52912.99,
+    "balance": 157405.47,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": -4699.37,
+    "balance": 152706.1,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 30950.52,
+    "balance": 183656.62,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 55055.04,
+    "balance": 238711.66,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 47397.53,
+    "balance": 286109.19,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 35639.09,
+    "balance": 321748.28,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -1928.77,
+    "balance": 319819.51,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -69339.7,
+    "balance": 250479.81,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -3922.77,
+    "balance": 246557.04,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": -43074.95,
+    "balance": 203482.09,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": -47166.93,
+    "balance": 156315.16,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-21",
+    "amount": 41137.62,
+    "balance": 197452.78,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": 67720.2,
+    "balance": 265172.98,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -52734.02,
+    "balance": 212438.96,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": 107290.59,
+    "balance": 319729.55,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": -55643.71,
+    "balance": 264085.84,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-10",
+    "amount": -45455.0,
+    "balance": 218630.84,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": -5366.08,
+    "balance": 213264.76,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 91619.52,
+    "balance": 304884.28,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 43934.24,
+    "balance": 348818.52,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": -47872.3,
+    "balance": 300946.22,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 36355.65,
+    "balance": 337301.87,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   }
+  ],
+  "notes": [
+   "The statement period runs to 2026-10-30, a full year, yet the transactions stop at 2026-01-25; the period end and the page count (page 1 of 4) suggest the statement is incomplete or the period end is misstated.",
+   "The account is a personal current account, while the header lists a commercial business with business rent and payroll; the business is running its revenue and costs through a personal account.",
+   "Large recurring personal-category outflows (school fees, home rent, family transfer) sit alongside business revenue in the same account."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4245,
+  "output_tokens": 2019,
+  "latency_s": 6.98,
+  "cached": false
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 748768.4,
+  "transactions": [
+   {
+    "date": "2026-09-01",
+    "amount": -38963.8,
+    "balance": 667921.4,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 65692.12,
+    "balance": 733613.52,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": 69078.94,
+    "balance": 802692.46,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -6262.93,
+    "balance": 796429.53,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": 31259.77,
+    "balance": 827689.3,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -62927.75,
+    "balance": 764761.55,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -5511.45,
+    "balance": 759250.1,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 55032.99,
+    "balance": 814283.09,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": -57550.4,
+    "balance": 756732.69,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": -62118.05,
+    "balance": 694614.64,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -3197.4,
+    "balance": 691417.24,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": -53164.2,
+    "balance": 638253.04,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 48992.15,
+    "balance": 687245.19,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -5015.85,
+    "balance": 682229.34,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": 27716.33,
+    "balance": 709945.67,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": 66435.93,
+    "balance": 776381.6,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-10-19",
+    "amount": 44813.55,
+    "balance": 821195.15,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": 44278.6,
+    "balance": 865473.75,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 54763.44,
+    "balance": 920237.19,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": -61737.48,
+    "balance": 858499.71,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -5364.99,
+    "balance": 853134.72,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -51219.75,
+    "balance": 801914.97,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -53146.57,
+    "balance": 748768.4,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "Page 4 of 4 only: opening balance and period start are not on this page, and the account holder and account type are not shown.",
+   "The first line's balance (667,921.40) is after a 38,963.80 debit, so the balance before it is not on this page and the page cannot be fully reconciled to an opening balance."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3588,
+  "output_tokens": 1471,
+  "latency_s": 4.81,
+  "cached": false
+ }
+}

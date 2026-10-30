@@ -1,0 +1,818 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 98690.23,
+  "closing_balance": 1073349.91,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": 73219.18,
+    "balance": 171909.41,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 84851.04,
+    "balance": 256760.45,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 62649.2,
+    "balance": 319409.65,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": -78805.4,
+    "balance": 240604.25,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -77141.7,
+    "balance": 163462.55,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 51882.38,
+    "balance": 215344.93,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": -86829.1,
+    "balance": 128515.83,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 32462.1,
+    "balance": 160977.93,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 81536.1,
+    "balance": 242514.03,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -66890.4,
+    "balance": 175623.63,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": 106127.9,
+    "balance": 281751.53,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": 61512.25,
+    "balance": 343263.78,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -90405.81,
+    "balance": 252857.97,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": 42712.78,
+    "balance": 295570.75,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 45751.61,
+    "balance": 341322.36,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-12-21",
+    "amount": -71922.39,
+    "balance": 269399.97,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 153295.46,
+    "balance": 422695.43,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -89767.12,
+    "balance": 332928.31,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": -75834.08,
+    "balance": 257094.23,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -88873.97,
+    "balance": 168220.26,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 81868.55,
+    "balance": 250088.81,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 72560.63,
+    "balance": 322649.44,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 107318.38,
+    "balance": 429967.82,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 27394.56,
+    "balance": 457362.38,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": -78988.65,
+    "balance": 378373.73,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 65198.76,
+    "balance": 443572.49,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": 49159.12,
+    "balance": 492731.61,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": -89939.68,
+    "balance": 402791.93,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-31",
+    "amount": -65401.2,
+    "balance": 337390.73,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": -74631.64,
+    "balance": 262759.09,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 72030.6,
+    "balance": 334789.69,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -91378.01,
+    "balance": 243411.68,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 67373.75,
+    "balance": 310785.43,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 47553.74,
+    "balance": 358339.17,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": 77442.46,
+    "balance": 435781.63,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": 99099.45,
+    "balance": 534881.08,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": -61389.69,
+    "balance": 473491.39,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -63764.16,
+    "balance": 409727.23,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -85371.79,
+    "balance": 324355.44,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -63003.08,
+    "balance": 261352.36,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 59080.73,
+    "balance": 320433.09,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": 98331.87,
+    "balance": 418764.96,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": -82674.57,
+    "balance": 336090.39,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": -68764.86,
+    "balance": 267325.53,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": 103117.95,
+    "balance": 370443.48,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": 113769.45,
+    "balance": 484212.93,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -79743.86,
+    "balance": 404469.07,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 32378.41,
+    "balance": 436847.48,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 37426.47,
+    "balance": 474273.95,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": -100511.88,
+    "balance": 373762.07,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": -76531.19,
+    "balance": 297230.88,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 106953.23,
+    "balance": 404184.11,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 77198.4,
+    "balance": 481382.51,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": -73705.67,
+    "balance": 407676.84,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 55095.88,
+    "balance": 462772.72,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 103547.61,
+    "balance": 566320.33,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 104502.3,
+    "balance": 670822.63,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": 57710.8,
+    "balance": 728533.43,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 105515.29,
+    "balance": 834048.72,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 47120.18,
+    "balance": 881168.9,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -68652.33,
+    "balance": 812516.57,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": -79558.86,
+    "balance": 732957.71,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 77151.43,
+    "balance": 810109.14,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": -75029.07,
+    "balance": 735080.07,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": -90751.74,
+    "balance": 644328.33,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": -74071.55,
+    "balance": 570256.78,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 52635.81,
+    "balance": 622892.59,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 73873.66,
+    "balance": 696766.25,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 99629.17,
+    "balance": 796395.42,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 74295.42,
+    "balance": 870690.84,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": -86775.95,
+    "balance": 783914.89,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -64115.11,
+    "balance": 719799.78,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 82965.94,
+    "balance": 802765.72,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -82140.79,
+    "balance": 720624.93,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": 55878.46,
+    "balance": 776503.39,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 111569.48,
+    "balance": 888072.87,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 39921.74,
+    "balance": 927994.61,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -77013.7,
+    "balance": 850980.91,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -68717.08,
+    "balance": 782263.83,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -65541.58,
+    "balance": 716722.25,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": 78517.22,
+    "balance": 795239.47,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": 66913.1,
+    "balance": 862152.57,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-26",
+    "amount": -71320.44,
+    "balance": 790832.13,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": 87822.87,
+    "balance": 878655.0,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -75476.88,
+    "balance": 803178.12,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": -60666.15,
+    "balance": 742511.97,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 24815.95,
+    "balance": 767327.92,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 54022.98,
+    "balance": 821350.9,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 71999.35,
+    "balance": 893350.25,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 64094.6,
+    "balance": 957444.85,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": 58144.25,
+    "balance": 1015589.1,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -81454.06,
+    "balance": 934135.04,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": -71483.81,
+    "balance": 862651.23,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": -65405.01,
+    "balance": 797246.22,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": 117117.82,
+    "balance": 914364.04,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 57588.08,
+    "balance": 971952.12,
+    "category": "owner_funds",
+    "counterparty": "Owner capital injection"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -90031.03,
+    "balance": 881921.09,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": -77823.98,
+    "balance": 804097.11,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": -84336.48,
+    "balance": 719760.63,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 68354.19,
+    "balance": 788114.82,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": 40104.75,
+    "balance": 828219.57,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": 75595.16,
+    "balance": 903814.73,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-22",
+    "amount": 95328.08,
+    "balance": 999142.81,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": -75507.22,
+    "balance": 923635.59,
+    "category": "opex",
+    "counterparty": "Payroll"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 33628.52,
+    "balance": 957264.11,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-10-13",
+    "amount": 104691.48,
+    "balance": 1061955.59,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": 74650.78,
+    "balance": 1136606.37,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": 32794.24,
+    "balance": 1169400.61,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": -85808.16,
+    "balance": 1083592.45,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": 68111.56,
+    "balance": 1151704.01,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": -67399.23,
+    "balance": 1084304.78,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": -69978.29,
+    "balance": 1014326.49,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 59023.42,
+    "balance": 1073349.91,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   }
+  ],
+  "notes": [
+   "Column layout inconsistency: the Debit and Credit amounts on the printed statement appear under the wrong headers for many lines in the table (for example the 2025-11-03 incoming transfer is printed in the Debit column); amounts were recorded by direction of balance movement, which reconciles with the printed running balances.",
+   "Statement period runs to 2026-10-30 and includes transactions dated after the 2026 cut-off implied by other documents; the closing balance matches the last printed running balance.",
+   "Account balance grows from about 98,690 to about 1,073,350 over the period with no loan repayments visible; the only owner funds entry is a single capital injection of 57,588.08 on 2026-09-04.",
+   "Printed amounts in the Debit/Credit columns do not match the running balance direction for many lines in the statement; recorded signs follow the balance movement."
+  ],
+  "notes_placeholder": "ignore"
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8553,
+  "output_tokens": 6464,
+  "latency_s": 25.85,
+  "cached": false
+ }
+}

@@ -1,0 +1,26 @@
+﻿dev-031 / realistic ┬╖ bank layout: classic ┬╖ Arabic-only share 0.25 ┬╖ owner: Nora Al-Subaie
+lines: read 107, statement 107 ┬╖ calls {'calls': 7, 'cache_hits': 7, 'input_tokens': 17372, 'output_tokens': 8191, 'live_latency_s': 0}
+
+confusion (rows = true category, columns = reader's choice):
+                      opex     revenue
+opex                    48            
+revenue                             59
+
+wrong lines: 3
+  2025-11-27     +64,854.44  true revenue      read revenue -64,854.44     | SARIE CR MASARAT TRADING 453143
+  2026-07-08     +19,159.89  true revenue      read revenue -19,159.89     | ╪¬╪│┘ê┘è╪⌐ ┘à╪»┘ë
+  2026-07-14     +29,986.63  true revenue      read revenue -29,986.63     | SARIE CR ALRIYADA HOTELS 304893
+
+revenue by month (read vs true):
+  2025-11      130,391.12      260,100.00  diff -129,708.88
+  2025-12      287,600.00      287,600.00  
+  2026-01      249,200.00      249,200.00  
+  2026-02      255,600.00      255,600.00  
+  2026-03      276,100.00      276,100.00  
+  2026-04      276,600.00      276,600.00  
+  2026-05      249,700.00      249,700.00  
+  2026-06      222,900.00      222,900.00  
+  2026-07      124,706.96      223,000.00  diff -98,293.04
+  2026-08      226,700.00      226,700.00  
+  2026-09      275,900.00      275,900.00  
+  2026-10      251,900.00      251,900.00  

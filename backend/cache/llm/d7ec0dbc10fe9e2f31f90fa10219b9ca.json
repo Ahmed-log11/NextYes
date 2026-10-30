@@ -1,0 +1,687 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 56743.81,
+  "closing_balance": 573094.21,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": -52731.09,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور نوفمبر"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": -36748.26,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": 50829.49,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": -52416.32,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 46743.14,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. / شركة الموارد"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 23117.67,
+    "category": "revenue",
+    "counterparty": "Nora Al-Subaie / نورة السبيعي"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 43642.72,
+    "category": "revenue",
+    "counterparty": "Masarat Trading / مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": 39154.03,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": -49206.93,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 162120 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 33612.95,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": 62442.59,
+    "category": "revenue",
+    "counterparty": "TRF IN AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": -41919.43,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": -46772.65,
+    "category": "opex",
+    "counterparty": "EJAR RENT 138501 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": 27131.84,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -55356.21,
+    "category": "other",
+    "counterparty": "TRF OUT NAWA WHOLESALE / نوى للجملة"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": 17724.12,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 32704.29,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": -51084.31,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 51725.03,
+    "category": "revenue",
+    "counterparty": "TRF IN ALMAWARED CO / شركة الموارد"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 50372.13,
+    "category": "revenue",
+    "counterparty": "SARIE CR NUJOOM CATERING 693575 / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 21336.74,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 63210.27,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": -32744.82,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": -51896.43,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -50428.76,
+    "category": "other",
+    "counterparty": "TRF OUT FANAR EQUIPMENT / فنار للمعدات"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 23748.93,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": 68878.98,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 34125.08,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -35237.79,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -49938.17,
+    "category": "opex",
+    "counterparty": "WPS SALARY FEB / رواتب حماية الأجور فبراير"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 48989.2,
+    "category": "revenue",
+    "counterparty": "TRF IN NUJOOM CATERING / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 49297.38,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 19214.05,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALMAWARED CO 565752 / شركة الموارد"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -35887.89,
+    "category": "opex",
+    "counterparty": "EJAR RENT 530379 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": -53665.89,
+    "category": "other",
+    "counterparty": "TRF OUT FANAR EQUIPMENT / فنار للمعدات"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": -41696.85,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": 58289.61,
+    "category": "revenue",
+    "counterparty": "SARIE CR FAHAD ALOTAIBI 910021 / فهد العتيبي"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": 49009.76,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -52200.47,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مارس"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 57480.48,
+    "category": "revenue",
+    "counterparty": "SARIE CR NUJOOM CATERING 731875 / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": 45075.96,
+    "category": "revenue",
+    "counterparty": "TRF IN ALRIYADA HOTELS / فنادق الريادة"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": -42261.94,
+    "category": "opex",
+    "counterparty": "EJAR RENT 464352 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -44840.52,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": 25140.88,
+    "category": "revenue",
+    "counterparty": "SARIE CR QASR ALDIYAFA 692691 / قصر الضيافة"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 58581.77,
+    "category": "revenue",
+    "counterparty": "TRF IN ALRIYADA HOTELS / فنادق الريادة"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": 42120.91,
+    "category": "revenue",
+    "counterparty": "Majed Al-Shehri / ماجد الشهري"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": -44787.47,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": 61139.76,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 35216.06,
+    "category": "revenue",
+    "counterparty": "TRF IN NUJOOM CATERING / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -46740.65,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 53003.55,
+    "category": "revenue",
+    "counterparty": "SARIE CR AREEJ CAFES 402143 / مقاهي أريج"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 25218.93,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -54601.76,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -41612.25,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 54921.7,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -42022.34,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 960559 / سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 54513.51,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 39248.82,
+    "category": "revenue",
+    "counterparty": "حوالة واردة شركة الموارد"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": 20807.14,
+    "category": "revenue",
+    "counterparty": "TRF IN AREEJ CAFES / مقاهي أريج"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": -50856.5,
+    "category": "opex",
+    "counterparty": "Salaries transfer / تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": 42171.69,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. / شركة الموارد"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": -52452.53,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 50553.79,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co. / شركة الموارد"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -38099.29,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -38490.88,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": 15905.05,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 37489.35,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -44550.3,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": 36756.92,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering / نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -35624.04,
+    "category": "opex",
+    "counterparty": "EJAR RENT 382902 / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 46246.95,
+    "category": "revenue",
+    "counterparty": "POS settlement / تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -36792.84,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -45844.82,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": 81506.78,
+    "category": "revenue",
+    "counterparty": "SARIE CR MASARAT TRADING 493800 / مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -40778.16,
+    "category": "opex",
+    "counterparty": "WPS SALARY JUL / رواتب حماية الأجور يوليو"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": 15296.98,
+    "category": "revenue",
+    "counterparty": "Faisal Al-Zahrani / فيصل الزهراني"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": 37874.6,
+    "category": "revenue",
+    "counterparty": "SARIE CR QASR ALDIYAFA 722973 / قصر الضيافة"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 47658.32,
+    "category": "revenue",
+    "counterparty": "SARIE CR MASARAT TRADING 247700 / مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": -44023.01,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -29786.31,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": 42625.02,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": -43388.52,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 52545.08,
+    "category": "revenue",
+    "counterparty": "Saad Al-Qahtani / سعد القحطاني"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": -38747.34,
+    "category": "opex",
+    "counterparty": "WPS SALARY AUG / رواتب حماية الأجور أغسطس"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -37985.41,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 49209.25,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": 32975.72,
+    "category": "revenue",
+    "counterparty": "TRF IN ALRIYADA HOTELS / فنادق الريادة"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 45001.84,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - فيصل الزهراني"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": -48464.48,
+    "category": "opex",
+    "counterparty": "Supplier payments / مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 29740.01,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 42973.18,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": -35922.17,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 962258 / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": -52712.86,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries / رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 45239.57,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL / تسوية مدى"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": 62136.48,
+    "category": "revenue",
+    "counterparty": "TRF IN MASARAT TRADING / مسارات للتجارة"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": 61298.15,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa / قصر الضيافة"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 70325.8,
+    "category": "revenue",
+    "counterparty": "حوالة واردة شركة الموارد"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -47038.19,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": -42046.31,
+    "category": "other",
+    "counterparty": "TRF OUT SUNDUS MATERIALS / سندس للمواد"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": -50836.64,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 131361 / سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 55680.44,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALRIYADA HOTELS 162457 / فنادق الريادة"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 37884.02,
+    "category": "revenue",
+    "counterparty": "TRF IN ALRIYADA HOTELS / فنادق الريادة"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 17863.51,
+    "category": "revenue",
+    "counterparty": "Card sales deposit / إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": -41720.69,
+    "category": "opex",
+    "counterparty": "WPS SALARY OCT / رواتب حماية الأجور أكتوبر"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": -47655.28,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises / إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": 41951.64,
+    "category": "revenue",
+    "counterparty": "TRF IN OMAR ALGHAMDI / حوالة واردة عمر الغامدي"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": -39071.5,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 52513.45,
+    "category": "revenue",
+    "counterparty": "SARIE CR ALRIYADA HOTELS 798012 / فنادق الريادة"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": 22406.94,
+    "category": "revenue",
+    "counterparty": "TRF IN QASR ALDIYAFA / حوالة واردة قصر الضيافة"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -55562.33,
+    "category": "opex",
+    "counterparty": "Utilities and telecom / كهرباء واتصالات"
+   }
+  ],
+  "notes": [
+   "Column layout inconsistent: the Debit and Credit headers do not line up with the amounts printed, and the printed running Balance does not reconcile with the transaction amounts (e.g. 56,743.81 opening less 52,731.09 gives 4,012.72 only if the debit is applied, but the next line's balance of -32,735.54 implies different sign handling). Recorded amounts follow the printed debit/credit column placement as best read; the balance column was not used.",
+   "Period runs 2025-11-01 to 2026-10-30, a full year that extends into the future relative to typical statement dates; verify the statement's date range.",
+   "Owner Reem Al-Shammari appears nowhere in the transaction lines; no owner_funds entries were identified.",
+   "Recurring outflows labelled as transfers to Nawa Wholesale (2025-12-15), Fanar Equipment (2026-01-11 and 2026-02-15) and Sundus Materials (2026-09-23) were categorised as other, since their nature is not clear from the statement.",
+   "Transfers from individuals (Nora Al-Subaie, Fahad Alotaibi, Majed Al-Shehri, Faisal Al-Zahrani, Saad Al-Qahtani, Omar Alghamdi) were treated as customer revenue; none match the owner's name."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7763,
+  "output_tokens": 6839,
+  "latency_s": 22.77,
+  "cached": false
+ }
+}

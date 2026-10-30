@@ -1,0 +1,37 @@
+{
+ "document": "tax_compliance",
+ "fields": {
+  "einvoicing_integrated": true,
+  "vat_returns": [
+   {
+    "period": "Q2 2026",
+    "due_date": "2026-07-31",
+    "filed_date": "2026-07-14"
+   },
+   {
+    "period": "Q1 2026",
+    "due_date": "2026-04-30",
+    "filed_date": "2026-04-11"
+   },
+   {
+    "period": "Q4 2025",
+    "due_date": "2026-01-31",
+    "filed_date": "2026-01-29"
+   },
+   {
+    "period": "Q3 2025",
+    "due_date": "2025-10-31",
+    "filed_date": "2025-10-22"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "tax_compliance",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1676,
+  "output_tokens": 252,
+  "latency_s": 1.69,
+  "cached": false
+ }
+}

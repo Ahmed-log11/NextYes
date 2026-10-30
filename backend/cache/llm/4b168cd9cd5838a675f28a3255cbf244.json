@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Murjan Logistics",
+  "cr_number": "1032439239",
+  "owner_name": "Omar Al-Ghamdi",
+  "owner_name_ar": "عمر الغامدي",
+  "issue_date": "2019-03-01",
+  "expiry_date": "2027-06-13",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1661,
+  "output_tokens": 245,
+  "latency_s": 1.74,
+  "cached": false
+ }
+}

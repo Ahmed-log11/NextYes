@@ -3,6 +3,7 @@
 # Modelled on publicly stated criteria; not any one company's internal policy.
 id: digital_lender_invoice
 name: Digital lender · invoice-backed financing
+name_ar: ممول رقمي · تمويل مقابل الفواتير
 description: >
   Shorter history required and no collateral, but a minimum revenue and a
   stricter view on overdue receivables. The ready threshold (70) is our own

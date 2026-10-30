@@ -1,0 +1,829 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 44369.33,
+  "closing_balance": 1060758.66,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": -135902.43,
+    "balance": -91533.1,
+    "category": "opex",
+    "counterparty": "WPS salary - رواتب حماية الأجور نوفمبر"
+   },
+   {
+    "date": "2025-11-02",
+    "amount": -4482.43,
+    "balance": -96015.53,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 167640.42,
+    "balance": 71624.89,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -1858.87,
+    "balance": 69766.02,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 93510.92,
+    "balance": 163276.94,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -113948.77,
+    "balance": 49328.17,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": 84685.27,
+    "balance": 134013.44,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - سهل إكسبرس"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -97588.7,
+    "balance": 36424.74,
+    "category": "opex",
+    "counterparty": "حوالة صادرة - رمال للتغليف"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 117396.49,
+    "balance": 153821.23,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نجوم للإعاشة"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 102966.9,
+    "balance": 256788.13,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": -124204.7,
+    "balance": 132583.43,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -2039.13,
+    "balance": 130544.3,
+    "category": "personal",
+    "counterparty": "إيجار شقة ديسمبر"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -129514.02,
+    "balance": 1030.28,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور ديسمبر"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": 202857.67,
+    "balance": 203887.95,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مطاعم الصفوة"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": -130036.27,
+    "balance": 73851.68,
+    "category": "debt_service",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -147354.68,
+    "balance": -73503.0,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -105973.13,
+    "balance": -179476.13,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": 59664.42,
+    "balance": -119811.71,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -6395.62,
+    "balance": -126207.33,
+    "category": "personal",
+    "counterparty": "رسوم دراسية"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 191381.5,
+    "balance": 65174.17,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - شركة الموارد"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 161796.41,
+    "balance": 226970.58,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": 87455.64,
+    "balance": 314426.22,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-06",
+    "amount": -3860.86,
+    "balance": 310565.36,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": 98237.27,
+    "balance": 408802.63,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": -93712.74,
+    "balance": 315089.89,
+    "category": "personal",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 128755.38,
+    "balance": 443845.27,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 89794.73,
+    "balance": 533640.0,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": 89587.82,
+    "balance": 623227.82,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -118389.37,
+    "balance": 504838.45,
+    "category": "debt_service",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -121009.42,
+    "balance": 383829.03,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": -3840.56,
+    "balance": 379988.47,
+    "category": "personal",
+    "counterparty": "تحويل عائلي"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": -4649.71,
+    "balance": 375338.76,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": -116125.37,
+    "balance": 259213.39,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 45469.16,
+    "balance": 304682.55,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -89716.95,
+    "balance": 214965.6,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -6069.74,
+    "balance": 208895.86,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 47285.05,
+    "balance": 256180.91,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 173752.35,
+    "balance": 429933.26,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - شركة الموارد"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": -116771.7,
+    "balance": 313161.56,
+    "category": "debt_service",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": 105766.41,
+    "balance": 418927.97,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مطاعم الصفوة"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -116355.62,
+    "balance": 302572.35,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -129558.03,
+    "balance": 173014.32,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": 44210.75,
+    "balance": 217225.07,
+    "category": "revenue",
+    "counterparty": "حوالة واردة نجوم للإعاشة"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": 172085.44,
+    "balance": 389310.51,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -5888.42,
+    "balance": 383422.09,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -4853.64,
+    "balance": 378568.45,
+    "category": "personal",
+    "counterparty": "تحويل عائلي"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -127256.0,
+    "balance": 251312.45,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مارس"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -3759.33,
+    "balance": 247553.12,
+    "category": "personal",
+    "counterparty": "رسوم دراسية"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 103419.02,
+    "balance": 350972.14,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - شركة الموارد"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 83026.91,
+    "balance": 433999.05,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -114265.77,
+    "balance": 319733.28,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -4096.44,
+    "balance": 315636.84,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -110291.59,
+    "balance": 205345.25,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": -128910.94,
+    "balance": 76434.31,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 148876.5,
+    "balance": 225310.81,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -4558.92,
+    "balance": 220751.89,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": 80268.2,
+    "balance": 301020.09,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 161509.37,
+    "balance": 462529.46,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مسارات للتجارة"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -125746.7,
+    "balance": 336782.76,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أبريل"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -5406.3,
+    "balance": 331376.46,
+    "category": "personal",
+    "counterparty": "رسوم دراسية"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 85859.02,
+    "balance": 417235.48,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - عمر الغامدي"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 213638.44,
+    "balance": 630873.92,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": -5435.51,
+    "balance": 625438.41,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -124842.72,
+    "balance": 500595.69,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 237030.08,
+    "balance": 737625.77,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 87272.46,
+    "balance": 824898.23,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -160011.83,
+    "balance": 664886.4,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -109024.15,
+    "balance": 555862.25,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 41239.73,
+    "balance": 597101.98,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 96511.35,
+    "balance": 693613.33,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": -115617.08,
+    "balance": 577996.25,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": -115333.86,
+    "balance": 462662.39,
+    "category": "debt_service",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -94543.0,
+    "balance": 368119.39,
+    "category": "other",
+    "counterparty": "حوالة صادرة - فنار للمعدات"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -92789.73,
+    "balance": 275329.66,
+    "category": "other",
+    "counterparty": "تحويل سريع وارد - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 119598.62,
+    "balance": 394928.28,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 103189.81,
+    "balance": 498118.09,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 96470.76,
+    "balance": 594588.85,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": -132489.46,
+    "balance": 647678.85,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": -2782.49,
+    "balance": 644896.36,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": -5535.71,
+    "balance": 639360.65,
+    "category": "personal",
+    "counterparty": "حوالة صادرة - تركي المطيري"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -124349.52,
+    "balance": 515011.13,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يونيو"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": -90121.34,
+    "balance": 424889.79,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": -1963.64,
+    "balance": 422926.15,
+    "category": "personal",
+    "counterparty": "سداد بطاقة شخصية"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -6006.28,
+    "balance": 416919.87,
+    "category": "personal",
+    "counterparty": "حوالة صادرة - خالد الحربي"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 78508.18,
+    "balance": 495428.05,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - أسواق بيت الخير"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 178634.7,
+    "balance": 674062.75,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 108593.29,
+    "balance": 782656.04,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 177063.83,
+    "balance": 959719.87,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -113399.13,
+    "balance": 846320.74,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -124282.41,
+    "balance": 722038.33,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -2880.16,
+    "balance": 719158.17,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -4949.89,
+    "balance": 714208.28,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": -67374.05,
+    "balance": 781582.33,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": -2792.96,
+    "balance": 778789.37,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -95345.52,
+    "balance": 683443.85,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يوليو"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": 56814.87,
+    "balance": 740258.72,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 135849.47,
+    "balance": 876108.19,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - نورة السبيعي"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -107135.23,
+    "balance": 768972.96,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": -115918.91,
+    "balance": 653054.05,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -110761.94,
+    "balance": 542292.11,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": 129836.89,
+    "balance": 672129.0,
+    "category": "revenue",
+    "counterparty": "تحويل سريع وارد - شركة الموارد"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": 125324.72,
+    "balance": 797453.72,
+    "category": "revenue",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 28210.83,
+    "balance": 825664.55,
+    "category": "revenue",
+    "counterparty": "حوالة واردة فيصل الزهراني"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 146777.31,
+    "balance": 972441.86,
+    "category": "owner_funds",
+    "counterparty": "تسوية نقاط البيع"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": -124571.36,
+    "balance": 847870.5,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور أغسطس"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": -98951.78,
+    "balance": 748918.72,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": -4413.18,
+    "balance": 744505.54,
+    "category": "personal",
+    "counterparty": "رسوم مدرسية"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": -109004.89,
+    "balance": 635500.65,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 118233.65,
+    "balance": 753734.3,
+    "category": "revenue",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": -124372.47,
+    "balance": 629361.83,
+    "category": "opex",
+    "counterparty": "تحويل سريع وارد - سهل إكسبرس"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 107874.51,
+    "balance": 737236.34,
+    "category": "revenue",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-08-21",
+    "amount": 123433.62,
+    "balance": 860669.96,
+    "category": "revenue",
+    "counterparty": "إيداع مبيعات البطاقات"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": 52180.91,
+    "balance": 912850.87,
+    "category": "revenue",
+    "counterparty": "حوالة واردة مسارات للتجارة"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -6853.3,
+    "balance": 905997.57,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - مطاعم الصفوة"
+   },
+   {
+    "date": "2026-08-26",
+    "amount": -7000.0,
+    "balance": 898997.57,
+    "category": "personal",
+    "counterparty": "إيجار سكن"
+   }
+  ],
+  "notes": [
+   "Transcription of this statement was attempted from scanned images and some line amounts/balances were hard to read; the transaction list could not be fully verified against the printed running balances, so the figures should be checked against the original.",
+   "Statement is in the name of the business but the account type printed is Personal current account; the account has large recurring personal and owner-level activity."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 13662,
+  "output_tokens": 7024,
+  "latency_s": 21.77,
+  "cached": false
+ }
+}

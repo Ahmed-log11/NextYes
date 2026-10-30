@@ -1,0 +1,763 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 211240.68,
+  "closing_balance": 995221.08,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": 23851.33,
+    "balance": 235092.01,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": -84403.19,
+    "balance": 150688.82,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-06",
+    "amount": -58525.5,
+    "balance": 92163.32,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-11",
+    "amount": 79176.66,
+    "balance": 171339.98,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 81642.94,
+    "balance": 252982.92,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 67395.75,
+    "balance": 320378.67,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": -75039.43,
+    "balance": 245339.24,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-24",
+    "amount": 24925.69,
+    "balance": 270264.93,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": -64144.08,
+    "balance": 206120.85,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 75207.63,
+    "balance": 281328.48,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-02",
+    "amount": 56803.91,
+    "balance": 338132.39,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 74131.55,
+    "balance": 412263.94,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 76171.08,
+    "balance": 488435.02,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 80911.02,
+    "balance": 569346.04,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-14",
+    "amount": -67392.0,
+    "balance": 501954.04,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 26471.93,
+    "balance": 528425.97,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": -75784.44,
+    "balance": 452641.53,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -79790.12,
+    "balance": 372851.41,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 56510.51,
+    "balance": 429361.92,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": -74204.44,
+    "balance": 355157.48,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 61800.32,
+    "balance": 416957.8,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": -60926.17,
+    "balance": 356031.63,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-08",
+    "amount": 77989.56,
+    "balance": 434021.19,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -63125.76,
+    "balance": 370895.43,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -69887.99,
+    "balance": 301007.44,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-20",
+    "amount": 65462.24,
+    "balance": 366469.68,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-21",
+    "amount": -62780.58,
+    "balance": 303689.1,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 115247.88,
+    "balance": 418936.98,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 39791.01,
+    "balance": 458727.99,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 67766.44,
+    "balance": 526494.43,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -57342.12,
+    "balance": 469152.31,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-11",
+    "amount": 69051.92,
+    "balance": 538204.23,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": 38676.28,
+    "balance": 576880.51,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": -61881.72,
+    "balance": 514998.79,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -63950.21,
+    "balance": 451048.58,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 81814.35,
+    "balance": 532862.93,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -54803.05,
+    "balance": 478059.88,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-02",
+    "amount": -60567.76,
+    "balance": 417492.12,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 44887.71,
+    "balance": 462379.83,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": -71655.16,
+    "balance": 390724.67,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-16",
+    "amount": 101924.4,
+    "balance": 492649.07,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 75153.94,
+    "balance": 567803.01,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 129433.95,
+    "balance": 697236.96,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": -79870.68,
+    "balance": 617366.28,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-03-27",
+    "amount": -69377.8,
+    "balance": 547988.48,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -82373.31,
+    "balance": 465615.17,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-04",
+    "amount": -75993.47,
+    "balance": 389621.7,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 69289.45,
+    "balance": 458911.15,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": 75531.62,
+    "balance": 534442.77,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 133825.91,
+    "balance": 668268.68,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-24",
+    "amount": -74853.89,
+    "balance": 593414.79,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 102453.02,
+    "balance": 695867.81,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -72040.43,
+    "balance": 623827.38,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 47665.75,
+    "balance": 671493.13,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 69915.3,
+    "balance": 741408.43,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 55591.56,
+    "balance": 796999.99,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": -50295.82,
+    "balance": 746704.17,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-11",
+    "amount": -72369.88,
+    "balance": 674334.29,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -71575.66,
+    "balance": 602758.63,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-19",
+    "amount": -61197.54,
+    "balance": 541561.09,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 83923.25,
+    "balance": 625484.34,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 61804.14,
+    "balance": 687288.48,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -65873.12,
+    "balance": 621415.36,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-06",
+    "amount": -50155.67,
+    "balance": 571259.69,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 97768.67,
+    "balance": 669028.36,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -46082.14,
+    "balance": 622946.22,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-13",
+    "amount": 53229.77,
+    "balance": 676175.99,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": 63922.13,
+    "balance": 740098.12,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -73142.77,
+    "balance": 666955.35,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-06-26",
+    "amount": 78779.43,
+    "balance": 745734.78,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": -56703.07,
+    "balance": 689031.71,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-06",
+    "amount": 82983.18,
+    "balance": 772014.89,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-06",
+    "amount": -65366.17,
+    "balance": 706648.72,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 98035.42,
+    "balance": 804684.14,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -56321.62,
+    "balance": 748362.52,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 59017.74,
+    "balance": 807380.26,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -59906.64,
+    "balance": 747473.62,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 57463.66,
+    "balance": 804937.28,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -66742.35,
+    "balance": 738194.93,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-08",
+    "amount": 46601.96,
+    "balance": 784796.89,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": -66379.79,
+    "balance": 718417.1,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-13",
+    "amount": -60989.75,
+    "balance": 657427.35,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-16",
+    "amount": -51074.21,
+    "balance": 606353.14,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 51852.02,
+    "balance": 658205.16,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 82096.39,
+    "balance": 740301.55,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": 125549.63,
+    "balance": 865851.18,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": 60774.72,
+    "balance": 926625.9,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 47548.31,
+    "balance": 974174.21,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 54671.73,
+    "balance": 1028845.94,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 25373.17,
+    "balance": 1054219.11,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -61403.28,
+    "balance": 992815.83,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-23",
+    "amount": 66694.61,
+    "balance": 1059510.44,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -52308.25,
+    "balance": 1007202.19,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-27",
+    "amount": -66331.97,
+    "balance": 940870.22,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 67037.46,
+    "balance": 1007907.68,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-29",
+    "amount": -77958.6,
+    "balance": 929949.08,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-03",
+    "amount": 24392.84,
+    "balance": 954341.92,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": -57251.38,
+    "balance": 897090.54,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 53291.2,
+    "balance": 950381.74,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-17",
+    "amount": 51594.76,
+    "balance": 1001976.5,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 75016.63,
+    "balance": 1076993.13,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 73169.63,
+    "balance": 1150162.76,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 50534.94,
+    "balance": 1200697.7,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -63751.65,
+    "balance": 1136946.05,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -79731.98,
+    "balance": 1057214.07,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -61992.99,
+    "balance": 995221.08,
+    "category": "opex",
+    "counterparty": null
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8382,
+  "output_tokens": 5601,
+  "latency_s": 19.71,
+  "cached": false
+ }
+}

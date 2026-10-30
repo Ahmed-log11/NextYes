@@ -1,0 +1,964 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 91843.21,
+  "closing_balance": 902163.41,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": -30480.67,
+    "balance": 61362.54,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 44337.92,
+    "balance": 105700.46,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": 42416.38,
+    "balance": 148116.84,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": -32768.46,
+    "balance": 115348.38,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 19099.04,
+    "balance": 134447.42,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -40826.68,
+    "balance": 93620.74,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -4192.34,
+    "balance": 89428.4,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -5507.66,
+    "balance": 83920.74,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 48142.07,
+    "balance": 132062.81,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 19577.64,
+    "balance": 151640.45,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": 15926.95,
+    "balance": 167567.4,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -44302.69,
+    "balance": 123264.71,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": 32109.08,
+    "balance": 155373.79,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -47824.99,
+    "balance": 107548.8,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": -35617.65,
+    "balance": 71931.15,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 24687.36,
+    "balance": 96618.51,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": -33923.69,
+    "balance": 62694.82,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 59004.48,
+    "balance": 121699.3,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 39098.43,
+    "balance": 160797.73,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -4192.34,
+    "balance": 156605.39,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -5507.66,
+    "balance": 151097.73,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": -36571.47,
+    "balance": 114526.26,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": 41700.65,
+    "balance": 156226.91,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -104191.85,
+    "balance": 52035.06,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": -114676.54,
+    "balance": -62641.48,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-01-08",
+    "amount": 150408.61,
+    "balance": 87767.13,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 87813.5,
+    "balance": 175580.63,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 76093.98,
+    "balance": 251674.61,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": -87498.96,
+    "balance": 164175.65,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": 76837.47,
+    "balance": 241013.12,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": 72106.22,
+    "balance": 313119.34,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -4192.34,
+    "balance": 308927.0,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -5507.66,
+    "balance": 303419.34,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 44440.22,
+    "balance": 347859.56,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -91161.75,
+    "balance": 256697.81,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": 36977.99,
+    "balance": 293675.8,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 52324.47,
+    "balance": 346000.27,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 62481.21,
+    "balance": 408481.48,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": 40222.31,
+    "balance": 448703.79,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -59227.57,
+    "balance": 389476.22,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -43090.05,
+    "balance": 346386.17,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": 17846.21,
+    "balance": 364232.38,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": -44211.41,
+    "balance": 320020.97,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -50552.07,
+    "balance": 269468.9,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -4192.34,
+    "balance": 265276.56,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -5507.66,
+    "balance": 259768.9,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 41847.81,
+    "balance": 301616.71,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": 32486.71,
+    "balance": 334103.42,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": -38865.44,
+    "balance": 295237.98,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": 45744.21,
+    "balance": 340982.19,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -36186.38,
+    "balance": 304795.81,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -40242.81,
+    "balance": 264553.0,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -40992.17,
+    "balance": 223560.83,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 31797.59,
+    "balance": 255358.42,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 28987.62,
+    "balance": 284346.04,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 60583.87,
+    "balance": 344929.91,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -4192.34,
+    "balance": 340737.57,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -5507.66,
+    "balance": 335229.91,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": -127943.81,
+    "balance": 207286.1,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": 113755.87,
+    "balance": 321041.97,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-04-15",
+    "amount": -137782.19,
+    "balance": 183259.78,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 157324.59,
+    "balance": 340584.37,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 111567.76,
+    "balance": 452152.13,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -168963.81,
+    "balance": 283188.32,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -127425.89,
+    "balance": 155762.43,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 160027.19,
+    "balance": 315789.62,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -4192.34,
+    "balance": 311597.28,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -5507.66,
+    "balance": 306089.62,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 175224.59,
+    "balance": 481314.21,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": -44456.38,
+    "balance": 436857.83,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 48647.26,
+    "balance": 485505.09,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": -64674.59,
+    "balance": 420830.5,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": -54774.81,
+    "balance": 366055.69,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 76313.14,
+    "balance": 442368.83,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 45560.17,
+    "balance": 487929.0,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": 49563.95,
+    "balance": 537492.95,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": -47895.72,
+    "balance": 489597.23,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 50415.48,
+    "balance": 540012.71,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -4192.34,
+    "balance": 535820.37,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -5507.66,
+    "balance": 530312.71,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 39225.35,
+    "balance": 569538.06,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -27698.61,
+    "balance": 541839.45,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 36676.43,
+    "balance": 578515.88,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": -40420.64,
+    "balance": 538095.24,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 45727.15,
+    "balance": 583822.39,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": -35381.57,
+    "balance": 548440.82,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 22954.95,
+    "balance": 571395.77,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -28982.78,
+    "balance": 542412.99,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 24616.12,
+    "balance": 567029.11,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -4192.34,
+    "balance": 562836.77,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -5507.66,
+    "balance": 557329.11,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 42039.31,
+    "balance": 599368.42,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 37296.43,
+    "balance": 636664.85,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -28009.63,
+    "balance": 608655.22,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 54732.34,
+    "balance": 663387.56,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -29313.66,
+    "balance": 634073.9,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -42255.7,
+    "balance": 591818.2,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -4192.34,
+    "balance": 587625.86,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -5507.66,
+    "balance": 582118.2,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": -34862.11,
+    "balance": 547256.09,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": 37631.92,
+    "balance": 584888.01,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": -85561.55,
+    "balance": 499326.46,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 102511.06,
+    "balance": 601837.52,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 68157.75,
+    "balance": 669995.27,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -111707.86,
+    "balance": 558287.41,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 153317.5,
+    "balance": 711604.91,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": -100853.76,
+    "balance": 610751.15,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": 44921.63,
+    "balance": 655672.78,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -4192.34,
+    "balance": 651480.44,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -5507.66,
+    "balance": 645972.78,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 48266.75,
+    "balance": 694239.53,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": -128376.93,
+    "balance": 565862.6,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 127525.31,
+    "balance": 693387.91,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 189273.23,
+    "balance": 882661.14,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 60912.53,
+    "balance": 943573.67,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -115884.2,
+    "balance": 827689.47,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": -90243.84,
+    "balance": 737445.63,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -87957.76,
+    "balance": 649487.87,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -99998.1,
+    "balance": 549489.77,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 109330.6,
+    "balance": 658820.37,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": 143783.64,
+    "balance": 802604.01,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -4192.34,
+    "balance": 798411.67,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -5507.66,
+    "balance": 792904.01,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 108638.87,
+    "balance": 901542.88,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -93041.54,
+    "balance": 808501.34,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 147437.25,
+    "balance": 955938.59,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -97613.34,
+    "balance": 858325.25,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 59365.5,
+    "balance": 917690.75,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-10-13",
+    "amount": 127015.55,
+    "balance": 1044706.3,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -4192.34,
+    "balance": 1040513.96,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -5507.66,
+    "balance": 1035006.3,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -113498.69,
+    "balance": 921507.61,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": 105742.83,
+    "balance": 1027250.44,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -125087.03,
+    "balance": 902163.41,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "The statement lists Debit and Credit columns in the same order as the printed row values; the amounts were recorded by the sign implied by each line's balance movement, as the printed columns are shifted relative to the header on several rows (e.g., 2025-11-03 payroll and POS lines).",
+   "Running balance goes negative on 2026-01-02 (-62,641.48) after a large payroll and rent payment, which is a liquidity red flag.",
+   "Payroll, rent, utilities and supplier outflows rise sharply in April 2026 and August to October 2026 relative to earlier months, and the closing balance of 902,163.41 is far above the opening balance, which is inconsistent with the business's pattern and should be verified against source records.",
+   "Statement period runs to 2026-10-30 but the last transaction is dated 2026-10-31; the period end does not match the final line date."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 10006,
+  "output_tokens": 7805,
+  "latency_s": 22.79,
+  "cached": false
+ }
+}

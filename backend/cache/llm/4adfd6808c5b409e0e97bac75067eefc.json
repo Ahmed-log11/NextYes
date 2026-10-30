@@ -1,0 +1,41 @@
+{
+ "document": "tax_compliance",
+ "fields": {
+  "einvoicing_integrated": true,
+  "vat_returns": [
+   {
+    "period": "Q2 2026",
+    "due_date": "2026-07-31",
+    "filed_date": "2026-07-27"
+   },
+   {
+    "period": "Q1 2026",
+    "due_date": "2026-04-30",
+    "filed_date": "2026-04-28"
+   },
+   {
+    "period": "Q4 2025",
+    "due_date": "2026-01-31",
+    "filed_date": "2026-01-27"
+   },
+   {
+    "period": "Q3 2025",
+    "due_date": "2025-10-31",
+    "filed_date": "2025-10-22"
+   }
+  ],
+  "notes": [
+   "Document is marked as a simulated hackathon demo, not a real record; treat as unverified.",
+   "E-invoicing shown as Integrated (Phase 2); all four VAT returns filed before their due dates.",
+   "Document lists business name Al-Nakheel Food Supplies, Arabic name and commercial registration 1031040713; no tax registration number or issue date shown."
+  ]
+ },
+ "record": {
+  "document": "tax_compliance",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1588,
+  "output_tokens": 371,
+  "latency_s": 2.27,
+  "cached": false
+ }
+}

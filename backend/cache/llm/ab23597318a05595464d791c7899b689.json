@@ -1,0 +1,791 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 176572.76,
+  "closing_balance": 1220358.55,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": -130198.17,
+    "balance": 46374.59,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": 83852.72,
+    "balance": 130227.31,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": 35787.88,
+    "balance": 166015.19,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -87156.62,
+    "balance": 78858.57,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 100300.48,
+    "balance": 179159.05,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": -99095.8,
+    "balance": 80063.25,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": 66895.0,
+    "balance": 146958.25,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -120129.41,
+    "balance": 26828.84,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 121552.41,
+    "balance": 148381.25,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": 117611.51,
+    "balance": 265992.76,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 134956.46,
+    "balance": 400949.22,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -103738.99,
+    "balance": 297210.23,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": 197941.54,
+    "balance": 495151.77,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -104378.77,
+    "balance": 390773.0,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 118163.65,
+    "balance": 508936.65,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": 90238.35,
+    "balance": 599175.0,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -130330.04,
+    "balance": 468844.96,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": -110831.2,
+    "balance": 358013.76,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": -88404.02,
+    "balance": 269609.74,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 107173.63,
+    "balance": 376783.37,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 103745.9,
+    "balance": 480529.27,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-01-16",
+    "amount": -91642.79,
+    "balance": 388886.48,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -118858.64,
+    "balance": 270027.84,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": -131117.55,
+    "balance": 138910.29,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 70943.69,
+    "balance": 209853.98,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 146276.65,
+    "balance": 356130.63,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 89960.13,
+    "balance": 446090.76,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 65771.79,
+    "balance": 511862.55,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": -89172.9,
+    "balance": 422689.65,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -96074.87,
+    "balance": 326614.78,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -92092.48,
+    "balance": 234522.3,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 77134.1,
+    "balance": 311656.4,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 89182.0,
+    "balance": 400838.4,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": 82405.97,
+    "balance": 483244.37,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": 61132.07,
+    "balance": 544376.44,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 91874.07,
+    "balance": 636250.51,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -110684.75,
+    "balance": 525565.76,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": 72345.35,
+    "balance": 597911.11,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -108987.77,
+    "balance": 488923.34,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": -99320.95,
+    "balance": 389602.39,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -99316.61,
+    "balance": 290285.78,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 110662.8,
+    "balance": 400948.58,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": 104073.79,
+    "balance": 505022.37,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -121816.67,
+    "balance": 383205.7,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 106614.1,
+    "balance": 489819.8,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": 60821.27,
+    "balance": 550641.07,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 62882.69,
+    "balance": 613523.76,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -83103.64,
+    "balance": 530420.12,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -116925.27,
+    "balance": 413494.85,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": 141964.41,
+    "balance": 555459.26,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": 87278.91,
+    "balance": 642738.17,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 148857.23,
+    "balance": 791595.4,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 56684.64,
+    "balance": 848280.04,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -116840.91,
+    "balance": 731439.13,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -114979.18,
+    "balance": 616459.95,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": 85514.81,
+    "balance": 701974.76,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": -89653.96,
+    "balance": 612320.8,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 80029.82,
+    "balance": 692350.62,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": -102302.56,
+    "balance": 590048.06,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": 94653.31,
+    "balance": 684701.37,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": 71765.29,
+    "balance": 756466.66,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-05-19",
+    "amount": -109599.35,
+    "balance": 646867.31,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": 66395.78,
+    "balance": 713263.09,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -104646.13,
+    "balance": 608616.96,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 113512.24,
+    "balance": 722129.2,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 63043.56,
+    "balance": 785172.76,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -108020.32,
+    "balance": 677152.44,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": -86893.88,
+    "balance": 590258.56,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-06-08",
+    "amount": -113845.17,
+    "balance": 476413.39,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-13",
+    "amount": 126961.9,
+    "balance": 603375.29,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": 91794.3,
+    "balance": 695169.59,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": 147525.1,
+    "balance": 842694.69,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": -87897.63,
+    "balance": 754797.06,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": 111618.7,
+    "balance": 866415.76,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -115280.4,
+    "balance": 751135.36,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-07-05",
+    "amount": 83376.72,
+    "balance": 834512.08,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": 118679.67,
+    "balance": 953191.75,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-07-08",
+    "amount": -69563.49,
+    "balance": 883628.26,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": -92104.84,
+    "balance": 791523.42,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 150702.11,
+    "balance": 942225.53,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": -100452.27,
+    "balance": 841773.26,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 101941.5,
+    "balance": 943714.76,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": 133668.31,
+    "balance": 1077383.07,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": -84104.43,
+    "balance": 993278.64,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 80762.61,
+    "balance": 1074041.25,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -89823.04,
+    "balance": 984218.21,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": 126839.89,
+    "balance": 1111058.1,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": 45628.26,
+    "balance": 1156686.36,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -108802.87,
+    "balance": 1047883.49,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": 65700.93,
+    "balance": 1113584.42,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": -92927.66,
+    "balance": 1020656.76,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 40510.33,
+    "balance": 1061167.09,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 38885.85,
+    "balance": 1100052.94,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 130264.62,
+    "balance": 1230317.56,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -128626.06,
+    "balance": 1101691.5,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 90925.02,
+    "balance": 1192616.52,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -99117.36,
+    "balance": 1093499.16,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -80734.08,
+    "balance": 1012765.08,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 141449.84,
+    "balance": 1154214.92,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": -94487.5,
+    "balance": 1059727.42,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 43464.34,
+    "balance": 1103191.76,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": 30517.79,
+    "balance": 1133709.55,
+    "category": "owner_funds",
+    "counterparty": "Owner capital injection"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -96811.67,
+    "balance": 1036897.88,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 155746.9,
+    "balance": 1192644.78,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": -102857.47,
+    "balance": 1089787.31,
+    "category": "opex",
+    "counterparty": "Rent - business premises"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": 55584.71,
+    "balance": 1145372.02,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 159427.95,
+    "balance": 1304799.97,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-10-17",
+    "amount": -108079.22,
+    "balance": 1196720.75,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 138940.44,
+    "balance": 1335661.19,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": -115302.64,
+    "balance": 1220358.55,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8467,
+  "output_tokens": 6268,
+  "latency_s": 18.42,
+  "cached": false
+ }
+}

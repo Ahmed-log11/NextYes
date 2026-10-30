@@ -1,0 +1,186 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 1060758.66,
+  "transactions": [
+   {
+    "date": "2026-09-02",
+    "amount": -94249.62,
+    "balance": 811747.95,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور سبتمبر"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 149029.53,
+    "balance": 960777.48,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 133746.12,
+    "balance": 1094523.6,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-04",
+    "amount": -112505.99,
+    "balance": 982017.61,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": -3258.32,
+    "balance": 978759.29,
+    "category": "personal",
+    "counterparty": "Reem Alshammari"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": -140367.01,
+    "balance": 838392.28,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -6357.3,
+    "balance": 832034.98,
+    "category": "personal",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-15",
+    "amount": -5709.48,
+    "balance": 826325.5,
+    "category": "personal",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-20",
+    "amount": 113055.8,
+    "balance": 939381.3,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": -124521.98,
+    "balance": 814859.32,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": 126632.43,
+    "balance": 941491.75,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 43736.12,
+    "balance": 985227.87,
+    "category": "revenue",
+    "counterparty": "Nasser Aldosari"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": 166550.35,
+    "balance": 1151778.22,
+    "category": "revenue",
+    "counterparty": "Nora Al-Subaie"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -5007.57,
+    "balance": 1146770.65,
+    "category": "personal",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -98691.75,
+    "balance": 1048078.9,
+    "category": "opex",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 53765.8,
+    "balance": 1101844.7,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": -5636.87,
+    "balance": 1096207.83,
+    "category": "personal",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-15",
+    "amount": -145608.65,
+    "balance": 950599.18,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": 138846.39,
+    "balance": 1089445.57,
+    "category": "revenue",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-16",
+    "amount": -95963.62,
+    "balance": 993481.95,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": -116719.78,
+    "balance": 876762.17,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -5440.97,
+    "balance": 871321.2,
+    "category": "personal",
+    "counterparty": null
+   },
+   {
+    "date": "2026-10-28",
+    "amount": 189437.46,
+    "balance": 1060758.66,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   }
+  ],
+  "notes": [
+   "Page 4 only: the opening balance, account type and period dates are not on this page, so they are left null.",
+   "Transfers from Reem Alshammari (3,258.32 out on 2026-09-04) and the 'ريم الشمري' transfer in on 2026-10-07 share a name; the outgoing one is categorised as personal because it goes to an individual.",
+   "The 2026-09-02 salary line (94,249.62) is dated before the first date on this page, and its running balance of 811,747.95 cannot be checked against the preceding page."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3641,
+  "output_tokens": 1513,
+  "latency_s": 5.26,
+  "cached": false
+ }
+}

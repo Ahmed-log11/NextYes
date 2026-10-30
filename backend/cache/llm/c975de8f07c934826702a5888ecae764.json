@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 6570000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.081,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2019-03-31",
+  "financial_statements_attached": false,
+  "notes": [
+   "Requested amount of SAR 6,570,000 is large for an online store and no financial statements were provided; analyst should review business financials before assessing repayment capacity.",
+   "Kafalah guarantee is listed as approved with certificate attached, but the attachments list does not include a Kafalah certificate."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1852,
+  "output_tokens": 322,
+  "latency_s": 2.28,
+  "cached": false
+ }
+}

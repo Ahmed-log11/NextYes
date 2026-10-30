@@ -1,0 +1,27 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 185145.84,
+  "closing_balance": 602231.34,
+  "transactions": [],
+  "notes": [
+   "Statement period runs from 2025-11-01 to 2026-10-30 and the document contains no transactions after 2026-10-29; the stated period end is 2026-10-30 as printed.",
+   "Statement shows no transactions for the owner Omar Al-Ghamdi; the account carries no owner_funds entries.",
+   "Transactions dated after the 2026-02 period appear in a sequence where the printed year runs past the commercial registration date; dates recorded exactly as printed.",
+   "Rent paid to an individual-looking platform (Ejar) is treated as business rent per the document's own label; 'Home rent' is not identified on this statement.",
+   "Two payments to Sample Bank loan appear with differing labels (قسط تمويل vs سداد قرض) for the same counterparty; both recorded as debt_service.",
+   "Revenue from 'حوالة واردة' transfers of individuals (e.g. فهد العتيبي, تركي المطيري, نورة السبيعي, ناصر الدوسري, فيصل الزهراني, ماجد الشهري, سعد القحطاني) are recorded as revenue as customer payments; they are not identified as owner transfers."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8361,
+  "output_tokens": 7606,
+  "latency_s": 22.61,
+  "cached": false
+ }
+}

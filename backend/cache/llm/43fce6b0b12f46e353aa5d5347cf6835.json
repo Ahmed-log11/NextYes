@@ -1,0 +1,283 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 804306.04,
+  "transactions": [
+   {
+    "date": "2026-06-29",
+    "amount": -78823.64,
+    "balance": 651019.61,
+    "category": "opex",
+    "counterparty": "FANAR EQUIPMENT"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -64301.57,
+    "balance": 586718.04,
+    "category": "opex",
+    "counterparty": "TELECOM (SADAD 270695)"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": 45695.12,
+    "balance": 632413.16,
+    "category": "revenue",
+    "counterparty": "QASR ALDIYAFA"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 108165.19,
+    "balance": 740578.35,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": -88188.35,
+    "balance": 652390.0,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -63465.73,
+    "balance": 588924.27,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": 112355.17,
+    "balance": 701279.44,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO"
+   },
+   {
+    "date": "2026-07-23",
+    "amount": -88347.19,
+    "balance": 612932.25,
+    "category": "opex",
+    "counterparty": "SUNDUS MATERIALS"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -59966.73,
+    "balance": 552965.52,
+    "category": "opex",
+    "counterparty": "TELECOM (SADAD 952425)"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 82584.52,
+    "balance": 635550.04,
+    "category": "revenue",
+    "counterparty": "BAYT ALKHAIR MARKE"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 82370.22,
+    "balance": 717920.26,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -81832.74,
+    "balance": 636087.52,
+    "category": "opex",
+    "counterparty": "WPS salary August"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": 83652.63,
+    "balance": 719740.15,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 50279.42,
+    "balance": 770019.57,
+    "category": "revenue",
+    "counterparty": "MAJED ALSHEHRI"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -83139.6,
+    "balance": 686879.97,
+    "category": "opex",
+    "counterparty": "EJAR RENT 887609"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 64731.46,
+    "balance": 751611.43,
+    "category": "revenue",
+    "counterparty": "RIM ALSHAMRI"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 48788.53,
+    "balance": 800399.96,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-08-22",
+    "amount": 57777.74,
+    "balance": 858177.7,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": -69470.16,
+    "balance": 788707.54,
+    "category": "opex",
+    "counterparty": "RIMAL PACKAGING"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": -98893.5,
+    "balance": 689814.04,
+    "category": "opex",
+    "counterparty": "Telecom"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -79695.94,
+    "balance": 610118.1,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": -95119.81,
+    "balance": 514998.29,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -75926.28,
+    "balance": 439072.01,
+    "category": "opex",
+    "counterparty": "SUNDUS MATERIALS"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 133672.12,
+    "balance": 572744.13,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -85173.97,
+    "balance": 487570.16,
+    "category": "opex",
+    "counterparty": "Electricity and telecom"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 115648.75,
+    "balance": 603218.91,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 69438.19,
+    "balance": 672657.1,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 71840.94,
+    "balance": 744498.04,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": -85769.66,
+    "balance": 658728.38,
+    "category": "opex",
+    "counterparty": "WPS salary October"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 124951.25,
+    "balance": 783679.63,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 78314.57,
+    "balance": 861994.2,
+    "category": "revenue",
+    "counterparty": "ALRIYADA HOTELS"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 45513.26,
+    "balance": 907507.46,
+    "category": "revenue",
+    "counterparty": "MADA POS settlement"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -104906.6,
+    "balance": 802600.86,
+    "category": "opex",
+    "counterparty": "Business premises rent"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": 81183.01,
+    "balance": 883783.87,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-10-15",
+    "amount": -86139.18,
+    "balance": 797644.69,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-17",
+    "amount": 97237.91,
+    "balance": 894882.6,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -90576.56,
+    "balance": 804306.04,
+    "category": "opex",
+    "counterparty": "ELECTRICITY (SADAD 690215)"
+   }
+  ],
+  "notes": [
+   "Page 3 of 3 only: opening balance, period start and end, account type and owner-name matching cannot be confirmed from this page alone.",
+   "Balance check: the printed running balances are consistent line to line on this page, and the closing balance matches the last running balance."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4532,
+  "output_tokens": 2282,
+  "latency_s": 7.23,
+  "cached": false
+ }
+}

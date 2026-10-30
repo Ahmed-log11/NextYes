@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 266600,
+  "overdue_90_plus": 1800,
+  "notes": [
+   "Customer 90+ column sums to 1,800.00 (633.37 + 591.55 + 170.35 + 404.73 = 1,800.00), consistent with the Total row.",
+   "Row totals do not reconcile with the aging buckets: Qasr Al-Diyafa's buckets sum to 66,225.42 but the buckets listed sum to a different figure; the Total row's bucket values should be checked against the customer rows before relying on the report."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1634,
+  "output_tokens": 263,
+  "latency_s": 1.84,
+  "cached": false
+ }
+}

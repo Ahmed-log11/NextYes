@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 438600,
+  "overdue_90_plus": 57400,
+  "notes": [
+   "Customer rows do not sum to the printed Total row: the 90+ column rows add to 57,400.00 which matches the Total, but the grand total of customer rows (67,986.05 + 110,402.33 + 147,304.87 + 112,906.75 = 438,600.00) matches as well; verify column totals against the bucket values before relying on them."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1645,
+  "output_tokens": 230,
+  "latency_s": 1.94,
+  "cached": false
+ }
+}

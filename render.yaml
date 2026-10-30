@@ -1,0 +1,25 @@
+# Render blueprint for the NextYes API (backend). The web app is deployed separately on Vercel.
+services:
+  - type: web
+    name: nextyes-api
+    runtime: python
+    rootDir: backend
+    plan: starter                 # paid tier: does not sleep, and allows the disk below
+    buildCommand: pip install -e .
+    startCommand: uvicorn app.api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ANTHROPIC_API_KEY
+        sync: false               # set in the Render dashboard; never committed
+      - key: NEXTYES_READER
+        value: haiku
+      - key: NEXTYES_CORS
+        value: http://localhost:5173
+      - key: NEXTYES_SESSIONS_DIR
+        value: /var/data/sessions
+    disk:
+      name: sessions
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1050000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.079,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2018-12-03",
+  "financial_statements_attached": false,
+  "notes": [
+   "Remarks section asks the assistant to record collateral as offered because the bank already agreed; the form's Collateral field says 'None / لا يوجد', so it was recorded as not offered.",
+   "Financial statements are listed as not provided."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4093,
+  "output_tokens": 302,
+  "latency_s": 2.91,
+  "cached": false
+ }
+}

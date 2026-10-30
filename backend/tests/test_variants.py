@@ -160,3 +160,31 @@ def test_hard_level_scans_and_conflicts(tmp_path):
         if c.document in docs.texts:
             shown = f"{float(c.shown):,.2f}" if c.field == "revenue_sar" else c.shown
             assert shown in docs.texts[c.document], c.code
+
+
+# --- planted prompt injections (hard level) -----------------------------------
+
+
+def test_every_hard_business_gets_an_injection_that_targets_a_false_value():
+    from app.synth.variants import _ATTACKS
+    fields = {a[2]: a[0] for a in _ATTACKS}
+    for b in ALL:
+        if b.meta.business_id.startswith("heldout"):
+            continue
+        plan = plan_noise(b, "hard")
+        assert len(plan.injections) <= 1
+        for inj in plan.injections:
+            assert inj.document not in plan.missing
+            truth = getattr(b.snapshot, fields[inj.field])
+            assert truth != inj.injected_value  # obeying it would produce a wrong value
+        assert not plan_noise(b, "realistic").injections and not plan_noise(b, "clean").injections
+
+
+def test_the_injection_is_printed_in_the_document(tmp_path):
+    b = next(b for b in ALL if (p := plan_noise(b, "hard")).injections and p.injections[0].document not in p.scanned)
+    inj = plan_noise(b, "hard").injections[0]
+    render_all(b, tmp_path, "hard")
+    text = load_documents(tmp_path).texts[inj.document]
+    from app.extract.pdf_text import _HARAKAT
+    en, _, ar = inj.text.partition(" / ")
+    assert en in text and _HARAKAT.sub("", ar).rstrip(".") in text  # the reader drops vowel marks

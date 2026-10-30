@@ -1,0 +1,67 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 323791.37,
+  "transactions": [
+   {
+    "date": "2026-10-23",
+    "amount": 20459.62,
+    "balance": 321322.48,
+    "category": "revenue",
+    "counterparty": "شركة الموارد"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 19770.88,
+    "balance": 341093.36,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -18072.28,
+    "balance": 323021.08,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3100.0,
+    "balance": 319921.08,
+    "category": "debt_service",
+    "counterparty": "سداد قرض البنك التجريبي"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 28099.57,
+    "balance": 348020.65,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -24229.28,
+    "balance": 323791.37,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   }
+  ],
+  "notes": [
+   "Page 4 of 4 only: the opening balance, account type and period dates are not on this page.",
+   "Running balance check: the printed balances are consistent with each line's amount, and the last balance matches the printed closing balance of 323791.37.",
+   "The transfer in from ماجد الشهري (28,099.57 on 2026-10-27) is recorded as revenue because the name does not match the owner. Confirm the payer is a customer."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2823,
+  "output_tokens": 651,
+  "latency_s": 2.87,
+  "cached": false
+ }
+}

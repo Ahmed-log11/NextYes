@@ -1,0 +1,910 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 50668.9,
+  "closing_balance": 665749.85,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": -68578.92,
+    "balance": -17910.02,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-03",
+    "amount": 42072.38,
+    "balance": 24162.36,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 50187.41,
+    "balance": 74349.77,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": 31848.22,
+    "balance": 106197.99,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 84364.93,
+    "balance": 190562.92,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": -61804.98,
+    "balance": 128757.94,
+    "category": "opex",
+    "counterparty": "EJAR RENT / إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": 40694.98,
+    "balance": 169452.92,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": -44385.71,
+    "balance": 125067.21,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -7100.0,
+    "balance": 117967.21,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 37932.08,
+    "balance": 155899.29,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -55197.49,
+    "balance": 100701.8,
+    "category": "opex",
+    "counterparty": "Telecom bill"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 52567.91,
+    "balance": 153269.71,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 33192.28,
+    "balance": 186461.99,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -63726.39,
+    "balance": 122735.6,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": -66407.87,
+    "balance": 56327.73,
+    "category": "opex",
+    "counterparty": "EJAR RENT 284993"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 59157.62,
+    "balance": 115485.35,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": 50849.53,
+    "balance": 166334.88,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2025-12-20",
+    "amount": -50991.9,
+    "balance": 115342.98,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-23",
+    "amount": 56556.69,
+    "balance": 171899.67,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -7100.0,
+    "balance": 164799.67,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": 49675.97,
+    "balance": 214475.64,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-12-31",
+    "amount": -60775.84,
+    "balance": 153699.8,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 27872.68,
+    "balance": 181572.48,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-01-10",
+    "amount": -49205.84,
+    "balance": 132366.64,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": -49722.31,
+    "balance": 82644.33,
+    "category": "opex",
+    "counterparty": "EJAR RENT 692277"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": -51230.99,
+    "balance": 31413.34,
+    "category": "opex",
+    "counterparty": "RIMAL PACKAGING"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": 32013.08,
+    "balance": 63426.42,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -43202.26,
+    "balance": 20224.16,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 45284.53,
+    "balance": 65508.69,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 45819.43,
+    "balance": 111328.12,
+    "category": "revenue",
+    "counterparty": "REEM ALSHAMMARI"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -7100.0,
+    "balance": 104228.12,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-01-29",
+    "amount": 46985.49,
+    "balance": 151213.61,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-01-30",
+    "amount": 43424.79,
+    "balance": 194638.4,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -46641.01,
+    "balance": 147997.39,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 55339.64,
+    "balance": 203337.03,
+    "category": "revenue",
+    "counterparty": "QASR ALDIYAFA"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": -57223.83,
+    "balance": 146113.2,
+    "category": "opex",
+    "counterparty": "EJAR RENT 343335"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -53452.89,
+    "balance": 92660.31,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": 64646.41,
+    "balance": 157306.72,
+    "category": "revenue",
+    "counterparty": "QASR ALDIYAFA"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": 59894.05,
+    "balance": 217200.77,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES"
+   },
+   {
+    "date": "2026-02-15",
+    "amount": 17814.61,
+    "balance": 235015.38,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -44374.07,
+    "balance": 190641.31,
+    "category": "opex",
+    "counterparty": "Telecom bill"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -7100.0,
+    "balance": 183541.31,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 24766.27,
+    "balance": 208307.58,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 29339.02,
+    "balance": 237646.6,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 58451.6,
+    "balance": 296098.2,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": -64470.39,
+    "balance": 231627.81,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -59570.79,
+    "balance": 172057.02,
+    "category": "opex",
+    "counterparty": "EJAR RENT"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": -51440.54,
+    "balance": 120616.48,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 78007.76,
+    "balance": 198624.24,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 115677.61,
+    "balance": 314301.85,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": 38563.03,
+    "balance": 352864.88,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -7100.0,
+    "balance": 345764.88,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -57368.98,
+    "balance": 288395.9,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 50346.55,
+    "balance": 338742.45,
+    "category": "revenue",
+    "counterparty": "SAHL EXPRESS"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 70013.58,
+    "balance": 408756.03,
+    "category": "revenue",
+    "counterparty": "SAHL EXPRESS"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 54751.68,
+    "balance": 463507.71,
+    "category": "revenue",
+    "counterparty": "FAISAL ALZAHRANI"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": -49336.87,
+    "balance": 414170.84,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-04-15",
+    "amount": 61262.64,
+    "balance": 475433.48,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 52769.29,
+    "balance": 528202.77,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -74349.08,
+    "balance": 453853.69,
+    "category": "opex",
+    "counterparty": "EJAR RENT 538216"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -62668.54,
+    "balance": 391185.15,
+    "category": "opex",
+    "counterparty": "FANAR EQUIPMENT"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 22056.26,
+    "balance": 413241.41,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": -62916.71,
+    "balance": 350324.7,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -7100.0,
+    "balance": 343224.7,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": 49103.48,
+    "balance": 392328.18,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": 76633.5,
+    "balance": 468961.68,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": 53768.58,
+    "balance": 522730.26,
+    "category": "revenue",
+    "counterparty": "Omar Al-Ghamdi"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -43463.56,
+    "balance": 479266.7,
+    "category": "opex",
+    "counterparty": "WPS SALARY MAY"
+   },
+   {
+    "date": "2026-05-19",
+    "amount": 31722.09,
+    "balance": 510988.79,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": -54183.02,
+    "balance": 456805.77,
+    "category": "opex",
+    "counterparty": "EJAR RENT 361736"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -59530.86,
+    "balance": 397274.91,
+    "category": "opex",
+    "counterparty": "FANAR EQUIPMENT"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -59412.96,
+    "balance": 337861.95,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -7100.0,
+    "balance": 330761.95,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 59172.35,
+    "balance": 389934.3,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": 17117.63,
+    "balance": 407051.93,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -45835.59,
+    "balance": 361216.34,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور يونيو"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 47594.87,
+    "balance": 408811.21,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 38148.4,
+    "balance": 446959.61,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 52476.4,
+    "balance": 499436.01,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": 58972.93,
+    "balance": 558408.94,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": 21289.77,
+    "balance": 579698.71,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": -36337.84,
+    "balance": 543360.87,
+    "category": "opex",
+    "counterparty": "EJAR RENT 905794"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": -53020.29,
+    "balance": 490340.58,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": -53521.88,
+    "balance": 436818.7,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -7100.0,
+    "balance": 429718.7,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": 32942.52,
+    "balance": 462661.22,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -58604.7,
+    "balance": 404056.52,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": 45422.83,
+    "balance": 449479.35,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 36735.16,
+    "balance": 486214.51,
+    "category": "revenue",
+    "counterparty": "تسوية مدى"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": 53073.56,
+    "balance": 539288.07,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": -55904.87,
+    "balance": 483383.2,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 29279.78,
+    "balance": 512662.98,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -42907.08,
+    "balance": 469755.9,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": 52246.15,
+    "balance": 522002.05,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -7100.0,
+    "balance": 514902.05,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": -42593.05,
+    "balance": 472309.0,
+    "category": "opex",
+    "counterparty": "SADAD ELEC"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -39509.72,
+    "balance": 432799.28,
+    "category": "opex",
+    "counterparty": "WPS SALARY AUG"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": 53336.93,
+    "balance": 486136.21,
+    "category": "revenue",
+    "counterparty": "MASARAT TRADING"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 67104.75,
+    "balance": 553240.96,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 54744.85,
+    "balance": 607985.81,
+    "category": "owner_funds",
+    "counterparty": "KHALID ALHARBI"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -55471.87,
+    "balance": 552513.94,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": -49801.12,
+    "balance": 502712.82,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 34946.75,
+    "balance": 537659.57,
+    "category": "revenue",
+    "counterparty": "QASR ALDIYAFA"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 25764.02,
+    "balance": 563423.59,
+    "category": "revenue",
+    "counterparty": "QASR ALDIYAFA"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -60914.09,
+    "balance": 502509.5,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -7100.0,
+    "balance": 495409.5,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": 42534.3,
+    "balance": 537943.8,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-30",
+    "amount": 33113.25,
+    "balance": 571057.05,
+    "category": "revenue",
+    "counterparty": "Nora Al-Subaie"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 61262.17,
+    "balance": 632319.22,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 60581.07,
+    "balance": 692900.29,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -58988.86,
+    "balance": 633911.43,
+    "category": "opex",
+    "counterparty": "رواتب الموظفين"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 44540.82,
+    "balance": 678452.25,
+    "category": "revenue",
+    "counterparty": "Nora Al-Subaie"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 108215.94,
+    "balance": 786668.19,
+    "category": "revenue",
+    "counterparty": "SAHL EXPRESS"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -56416.4,
+    "balance": 730251.79,
+    "category": "opex",
+    "counterparty": "إيجار مقر المنشأة"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -51514.31,
+    "balance": 678737.48,
+    "category": "opex",
+    "counterparty": "NAWA WHOLESALE"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -53035.03,
+    "balance": 625702.45,
+    "category": "opex",
+    "counterparty": "سداد فاتورة الاتصالات"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -7100.0,
+    "balance": 618602.45,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": 89749.58,
+    "balance": 708352.03,
+    "category": "revenue",
+    "counterparty": "SAHL EXPRESS"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -43310.75,
+    "balance": 665041.28,
+    "category": "opex",
+    "counterparty": "Salaries transfer"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": 53991.09,
+    "balance": 719032.37,
+    "category": "revenue",
+    "counterparty": "AREEJ CAFES"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 81401.19,
+    "balance": 800433.56,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": -65125.09,
+    "balance": 735308.47,
+    "category": "opex",
+    "counterparty": "إيجار عبر منصة إيجار"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -45400.17,
+    "balance": 689908.3,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": 47458.14,
+    "balance": 737366.44,
+    "category": "revenue",
+    "counterparty": "SAAD ALQAHTANI"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -64516.59,
+    "balance": 672849.85,
+    "category": "opex",
+    "counterparty": "كهرباء واتصالات"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -7100.0,
+    "balance": 665749.85,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) loan repayment"
+   }
+  ],
+  "notes": [
+   "The first line's printed balance (-17,910.02) is negative and does not follow from the opening balance of 50,668.90 less the debit of 68,578.92 with the printed opening; the printed running balances are copied as shown.",
+   "Transfers in from individuals (e.g. Majid Al-Shehri, Nasser Al-Dosari, Reem Al-Shammari, Faisal Al-Zahrani, Omar Al-Ghamdi, Khalid Al-Harbi) are recorded as printed; the 2026-08-04 transfer from KHALID ALHARBI, the owner, is recorded as owner_funds.",
+   "Several debit lines carry a Debit amount that the printed balance column does not reconcile with; running balances were copied exactly as printed.",
+   "Statement period is listed as 2025-11-01 to 2026-10-30 but the last transaction is dated 2026-10-25 and the closing balance is printed as 665,749.85.",
+   "Some transactions are not in the period's order in the printed table; all lines were recorded in the order printed.",
+   "The 2026-07-13 MADA transfer line has no English description; recorded as printed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 9324,
+  "output_tokens": 7658,
+  "latency_s": 21.71,
+  "cached": false
+ }
+}

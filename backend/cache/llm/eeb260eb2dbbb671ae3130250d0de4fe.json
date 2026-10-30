@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1580000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.074,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2019-07-31",
+  "financial_statements_attached": false,
+  "notes": [
+   "Financial statements are not provided, though the application lists them as an attachment field.",
+   "Profit rate is indicative only (7.4% per year)."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1842,
+  "output_tokens": 272,
+  "latency_s": 1.79,
+  "cached": false
+ }
+}

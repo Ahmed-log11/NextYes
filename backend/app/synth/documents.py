@@ -123,6 +123,19 @@ class Doc(FPDF):
         self.ln(2)
 
 
+def remarks(p: Doc, plan: NoisePlan, name: str) -> None:
+    """A free-text Remarks section. At the hard level it may carry a planted instruction
+    aimed at an AI reader (see variants.Injection); a person would see it plainly."""
+    for inj in plan.injections:
+        if inj.document == name:
+            p.section("Remarks", "ملاحظات")
+            p.set_font("dv", "", 8.5)
+            en, _, ar = inj.text.partition(" / ")
+            p.multi_cell(0, 5, en, new_x="LMARGIN", new_y="NEXT")
+            if ar:
+                p.multi_cell(0, 5, ar, align="R", new_x="LMARGIN", new_y="NEXT")
+
+
 def _who(L: Ledger) -> list[tuple[str, str, str]]:
     m = L.business.meta
     return [
@@ -191,7 +204,7 @@ def cr_certificate(L: Ledger, plan: NoisePlan) -> Doc:
     return p
 
 
-def credit_report(L: Ledger) -> Doc:
+def credit_report(L: Ledger, plan: NoisePlan) -> Doc:
     s = L.business.snapshot
     p = Doc("Commercial Credit Report", "تقرير ائتماني تجاري",
             "Credit bureau (simulated)", "مكتب المعلومات الائتمانية (محاكاة)")
@@ -207,6 +220,7 @@ def credit_report(L: Ledger) -> Doc:
                          money(f.instalment) if f.instalment else "-", money(f.outstanding), st])
         p.grid(["Lender / الجهة", "Type / النوع", "Monthly / القسط", "Outstanding / المتبقي", "Status / الحالة"],
                rows, [58, 40, 22, 30, 40], "LLRRL")
+    remarks(p, plan, "credit_report")
     return p
 
 
@@ -224,7 +238,7 @@ def receivables_aging(L: Ledger) -> Doc:
     return p
 
 
-def tax_compliance(L: Ledger) -> Doc:
+def tax_compliance(L: Ledger, plan: NoisePlan) -> Doc:
     s = L.business.snapshot
     p = Doc("Tax Compliance Summary", "ملخص الامتثال الضريبي",
             "Tax authority portal extract (simulated)", "مستخرج من بوابة الجهة الضريبية (محاكاة)")
@@ -234,6 +248,7 @@ def tax_compliance(L: Ledger) -> Doc:
     p.section("VAT returns", "إقرارات ضريبة القيمة المضافة")
     p.grid(["Period / الفترة", "Due date / تاريخ الاستحقاق", "Filed on / تاريخ التقديم"],
            [[per, d(due), d(filed)] for per, due, filed in L.vat_returns], [50, 60, 60], "LRR")
+    remarks(p, plan, "tax_compliance")
     return p
 
 
@@ -261,6 +276,7 @@ def financing_application(L: Ledger, plan: NoisePlan) -> Doc:
     p.set_font("dv", "", 9.5)
     for a in att:
         p.cell(0, 6.5, f"•  {a}", new_x="LMARGIN", new_y="NEXT")
+    remarks(p, plan, "financing_application")
     return p
 
 
@@ -306,9 +322,9 @@ def render_all(b: SyntheticBusiness, folder: Path, level: Level = "clean") -> li
     docs = {
         "bank_statement": lambda: bank_statement(L, plan),
         "cr_certificate": lambda: cr_certificate(L, plan),
-        "credit_report": lambda: credit_report(L),
+        "credit_report": lambda: credit_report(L, plan),
         "receivables_aging": lambda: receivables_aging(L),
-        "tax_compliance": lambda: tax_compliance(L),
+        "tax_compliance": lambda: tax_compliance(L, plan),
         "financing_application": lambda: financing_application(L, plan),
     }
     if b.snapshot.financial_statements_available:

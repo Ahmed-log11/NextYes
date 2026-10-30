@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Tamr Medical Clinic",
+  "cr_number": "1022509402",
+  "owner_name": "Reem Al-Shammari",
+  "owner_name_ar": "ريم الشمري",
+  "issue_date": "2016-04-30",
+  "expiry_date": "2028-07-18",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1646,
+  "output_tokens": 242,
+  "latency_s": 1.64,
+  "cached": false
+ }
+}

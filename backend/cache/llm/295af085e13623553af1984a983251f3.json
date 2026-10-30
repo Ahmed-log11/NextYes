@@ -1,0 +1,865 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 243306.22,
+  "closing_balance": 1012067.22,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": -90794.56,
+    "balance": 152511.66,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -124260.25,
+    "balance": 28251.41,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": -123698.85,
+    "balance": -95447.44,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -79400.34,
+    "balance": -174847.78,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 69999.23,
+    "balance": -104848.55,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 67920.82,
+    "balance": -36927.73,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 207278.63,
+    "balance": 170350.9,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -13900.0,
+    "balance": 156450.9,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": 158601.32,
+    "balance": 315052.22,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-12-03",
+    "amount": -93487.65,
+    "balance": 221564.57,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": 80384.68,
+    "balance": 301949.25,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": 75611.0,
+    "balance": 377560.25,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2025-12-05",
+    "amount": -91507.22,
+    "balance": 286053.03,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-12-08",
+    "amount": 80509.21,
+    "balance": 366562.24,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2025-12-08",
+    "amount": -121135.18,
+    "balance": 245427.06,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-21",
+    "amount": 87716.51,
+    "balance": 333143.57,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -13900.0,
+    "balance": 319243.57,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 88819.18,
+    "balance": 408062.75,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 84859.42,
+    "balance": 492922.17,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2025-12-28",
+    "amount": -107126.95,
+    "balance": 385795.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-06",
+    "amount": 47021.87,
+    "balance": 432817.09,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-01-08",
+    "amount": -96148.53,
+    "balance": 336668.56,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -120295.99,
+    "balance": 216372.57,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": 138752.95,
+    "balance": 355125.52,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": 51135.04,
+    "balance": 406260.56,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": -83707.13,
+    "balance": 322553.43,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": -92770.35,
+    "balance": 229783.08,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 138887.21,
+    "balance": 368670.29,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -13900.0,
+    "balance": 354770.29,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": 97602.93,
+    "balance": 452373.22,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 64824.34,
+    "balance": 517197.56,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 54007.59,
+    "balance": 571205.15,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-03",
+    "amount": -117240.61,
+    "balance": 453964.54,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -92408.99,
+    "balance": 361555.55,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 89541.37,
+    "balance": 451096.92,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": 59916.42,
+    "balance": 511013.34,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 91661.01,
+    "balance": 602674.35,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": 122849.27,
+    "balance": 725523.62,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": -115312.23,
+    "balance": 610211.39,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": -75762.17,
+    "balance": 534449.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -13900.0,
+    "balance": 520549.22,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": 168999.81,
+    "balance": 689549.03,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -105951.4,
+    "balance": 583597.63,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": 113357.54,
+    "balance": 696955.17,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -95130.18,
+    "balance": 601824.99,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": 108088.29,
+    "balance": 709913.28,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": -108373.38,
+    "balance": 601539.9,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -107454.04,
+    "balance": 494085.86,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -13900.0,
+    "balance": 480185.86,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": 111854.36,
+    "balance": 592040.22,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -82578.23,
+    "balance": 509461.99,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 170368.36,
+    "balance": 679830.35,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 51640.38,
+    "balance": 731470.73,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": -90774.03,
+    "balance": 640696.7,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": 105806.97,
+    "balance": 746503.67,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": -120718.79,
+    "balance": 625784.88,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 52375.85,
+    "balance": 678160.73,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": 103608.44,
+    "balance": 781769.17,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -107482.95,
+    "balance": 674286.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -13900.0,
+    "balance": 660386.22,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": 96742.35,
+    "balance": 757128.57,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": -96728.99,
+    "balance": 660399.58,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": -95547.77,
+    "balance": 564851.81,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-05-17",
+    "amount": 81162.63,
+    "balance": 646014.44,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-18",
+    "amount": -98283.28,
+    "balance": 547731.16,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-05-24",
+    "amount": 92542.04,
+    "balance": 640273.2,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -13900.0,
+    "balance": 626373.2,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-05-27",
+    "amount": 52605.82,
+    "balance": 678979.02,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-05-27",
+    "amount": -62853.96,
+    "balance": 616125.06,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": 102747.16,
+    "balance": 718872.22,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": 55251.22,
+    "balance": 774123.44,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-06-13",
+    "amount": 81098.71,
+    "balance": 855222.15,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 93355.45,
+    "balance": 948577.6,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": 61656.29,
+    "balance": 1010233.89,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": -89247.6,
+    "balance": 920986.29,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": 50496.56,
+    "balance": 971482.85,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": 45441.77,
+    "balance": 1016924.62,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -84221.95,
+    "balance": 932702.67,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -13900.0,
+    "balance": 918802.67,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -85230.82,
+    "balance": 833571.85,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -62758.63,
+    "balance": 770813.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 72909.81,
+    "balance": 843723.03,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": 85004.0,
+    "balance": 928727.03,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -60551.63,
+    "balance": 868175.4,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-07-06",
+    "amount": 76445.75,
+    "balance": 944621.15,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": -70167.1,
+    "balance": 874454.05,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": -68132.83,
+    "balance": 806321.22,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": 86493.24,
+    "balance": 892814.46,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": 35247.2,
+    "balance": 928061.66,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": -96711.44,
+    "balance": 831350.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -13900.0,
+    "balance": 817450.22,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 112460.97,
+    "balance": 929911.19,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": 95060.41,
+    "balance": 1024971.6,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": -87594.7,
+    "balance": 937376.9,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": -90773.52,
+    "balance": 846603.38,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": 100170.06,
+    "balance": 946773.44,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": 94208.56,
+    "balance": 1040982.0,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": -79269.38,
+    "balance": 961712.62,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": -75939.4,
+    "balance": 885773.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -13900.0,
+    "balance": 871873.22,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 65127.7,
+    "balance": 937000.92,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": -96263.61,
+    "balance": 840737.31,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": 134188.58,
+    "balance": 974925.89,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -88431.65,
+    "balance": 886494.24,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": -109566.0,
+    "balance": 776928.24,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -113683.74,
+    "balance": 663244.5,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": 41751.88,
+    "balance": 704996.38,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -13900.0,
+    "balance": 691096.38,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 132351.71,
+    "balance": 823448.09,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-29",
+    "amount": 118080.13,
+    "balance": 941528.22,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -93071.59,
+    "balance": 848456.63,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 128531.89,
+    "balance": 976988.52,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": -115694.15,
+    "balance": 861294.37,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": -96175.67,
+    "balance": 765118.7,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 107055.5,
+    "balance": 872174.2,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 51704.88,
+    "balance": 923879.08,
+    "category": "revenue",
+    "counterparty": "Areej Cafes"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -13900.0,
+    "balance": 909979.08,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated) financing instalment"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": 132659.94,
+    "balance": 1042639.02,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 76747.79,
+    "balance": 1119386.81,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": -107319.59,
+    "balance": 1012067.22,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "The printed running balance on the first lines goes negative (from -95,447.44 on 2025-11-09 to -174,847.78 on 2025-11-10) and is inconsistent with the opening balance of 243,306.22 and the debit/credit amounts; the balance column appears to be misaligned or misread on early lines, so the early balances are not reliable.",
+   "The statement period runs to 2026-10-30 but the last transaction is 2026-10-28 and the closing balance of 1,012,067.22 does not match the last printed running balance of 1,012,067.22 on that line only if the sequence is accepted; the document also lists dates in the future relative to a typical statement date, so the period should be checked against the source.",
+   "Account holder is listed with commercial registration; no transfers to or from the owner Majed Al-Shehri appear on the statement."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 9112,
+  "output_tokens": 7023,
+  "latency_s": 20.55,
+  "cached": false
+ }
+}

@@ -1,0 +1,59 @@
+dev-018 / realistic · bank layout: classic · Arabic-only share 0.25 · owner: Faisal Al-Zahrani
+lines: read 105, statement 137 · calls {'calls': 11, 'cache_hits': 11, 'input_tokens': 36232, 'output_tokens': 18540, 'live_latency_s': 0}
+
+confusion (rows = true category, columns = reader's choice):
+                      opex owner_funds    personal     revenue
+opex                    37                                    
+owner_funds                          1                        
+personal                                        23            
+revenue                              1                      43
+
+wrong lines as the model read them: 137 · after the Python fixes (direction from balance, owner rule): 33
+lines still wrong after the fixes:
+  2025-11-02    -135,902.43  true opex         read MISSING                | WPS SALARY NOV
+  2025-11-02      -4,482.43  true personal     read MISSING                | SCHOOL FEES 182437
+  2025-11-07    +167,640.42  true revenue      read MISSING                | SARIE CR SAHL EXPRESS 380300
+  2025-11-07      -1,858.87  true personal     read MISSING                | SCHOOL FEES 497447
+  2025-11-08     +93,510.92  true revenue      read MISSING                | Card sales deposit
+  2025-11-10    -113,948.77  true opex         read MISSING                | EJAR RENT 319594
+  2025-11-11     +84,685.27  true revenue      read MISSING                | Incoming transfer - Saad Al-Qahtani
+  2025-11-16     -97,588.70  true opex         read MISSING                | TRF OUT FANAR EQUIPMENT
+  2025-11-27    +117,396.49  true revenue      read MISSING                | SARIE CR NUJOOM CATERING 237614
+  2025-11-27    +102,966.90  true revenue      read MISSING                | MADA POS SETTL
+  2025-11-30    -124,204.70  true opex         read MISSING                | Utilities and telecom
+  2025-12-09      -2,039.13  true personal     read MISSING                | Home rent
+  2025-12-13    -129,514.02  true opex         read MISSING                | Payroll - employee salaries
+  2025-12-20    +202,857.67  true revenue      read MISSING                | تحويل سريع وارد - مطاعم الصفوة
+  2025-12-23    -130,036.27  true opex         read MISSING                | Rent payment - business premises
+  2025-12-26    -147,354.68  true opex         read MISSING                | Supplier payments
+  2025-12-26    -105,973.13  true opex         read MISSING                | كهرباء واتصالات
+  2025-12-28     +59,664.42  true revenue      read MISSING                | TRF IN BAYT ALKHAIR MARKE
+  2025-12-30      -6,395.62  true personal     read MISSING                | School fees
+  2025-12-31    +191,381.50  true revenue      read MISSING                | SARIE CR ALMAWARED CO 801960
+  2025-12-31    +161,796.41  true revenue      read MISSING                | TRF IN MASARAT TRADING
+  2026-01-03     +87,455.64  true revenue      read MISSING                | حوالة واردة مسارات للتجارة
+  2026-01-06      -3,860.86  true personal     read MISSING                | SCHOOL FEES 795784
+  2026-01-14     +98,237.27  true revenue      read MISSING                | TRF IN BAYT ALKHAIR MARKE
+  2026-01-16     -93,712.74  true opex         read MISSING                | Salaries transfer
+  2026-01-18    +128,755.38  true revenue      read MISSING                | SARIE CR MASARAT TRADING 373000
+  2026-01-18     +89,794.73  true revenue      read MISSING                | TRF IN MASARAT TRADING
+  2026-01-18     +89,587.82  true revenue      read MISSING                | تسوية مدى
+  2026-01-22    -118,389.37  true opex         read MISSING                | EJAR RENT 199474
+  2026-01-22    -121,009.42  true opex         read MISSING                | TRF OUT RIMAL PACKAGING
+  2026-01-23      -3,840.56  true personal     read MISSING                | حوالة صادرة - عمر الغامدي
+  2026-01-26      -4,649.71  true personal     read MISSING                | إيجار سكن
+  2026-07-28    +129,836.89  true revenue      read owner_funds            | TRF IN REEM ALSHAMMARI
+
+revenue by month (read vs true):
+  2025-11            0.00      566,200.00  diff -566,200.00
+  2025-12            0.00      615,700.00  diff -615,700.00
+  2026-01       45,469.16      539,300.00  diff -493,830.84
+  2026-02      543,100.00      543,100.00  
+  2026-03      577,100.00      577,100.00  
+  2026-04      623,800.00      623,800.00  
+  2026-05      549,800.00      549,800.00  
+  2026-06      542,800.00      542,800.00  
+  2026-07      385,363.11      515,200.00  diff -129,836.89
+  2026-08      548,500.00      548,500.00  
+  2026-09      566,200.00      566,200.00  
+  2026-10      548,600.00      548,600.00  
