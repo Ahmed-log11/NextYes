@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "business_id": "dev-001",
+    "seed": 1001,
+    "name_en": "Al-Fajr Food Supplies",
+    "name_ar": "الفجر لتوريد الأغذية",
+    "sector": "food_supply",
+    "sector_en": "Food & beverage supply",
+    "sector_ar": "توريد أغذية ومشروبات",
+    "city_en": "Makkah",
+    "city_ar": "مكة المكرمة",
+    "planted_issues": []
+  },
+  "snapshot": {
+    "business_id": "dev-001",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-10-07",
+    "operating_months": 146,
+    "monthly_revenue_sar": [
+      355700.0,
+      368500.0,
+      306500.0,
+      305500.0,
+      347000.0,
+      370800.0,
+      328000.0,
+      296200.0,
+      279900.0,
+      316700.0,
+      332400.0,
+      339400.0
+    ],
+    "operating_margin": 0.18,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 539900.0,
+    "receivables_overdue_90d_sar": 1500.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1030000.0,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.095
+    }
+  }
+}

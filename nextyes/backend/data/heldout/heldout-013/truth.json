@@ -1,0 +1,18 @@
+{
+  "commercial_bank_sme": {
+    "ready": false,
+    "score": 87.0,
+    "blockers": [
+      "EINVOICING",
+      "ACCOUNTS_MIXED"
+    ]
+  },
+  "digital_lender_invoice": {
+    "ready": false,
+    "score": 85.7,
+    "blockers": [
+      "EINVOICING",
+      "ACCOUNTS_MIXED"
+    ]
+  }
+}

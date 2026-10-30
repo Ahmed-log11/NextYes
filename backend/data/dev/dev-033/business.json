@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "business_id": "dev-033",
+    "seed": 1033,
+    "name_en": "Al-Bayan Printing & Advertising",
+    "name_ar": "البيان للطباعة والإعلان",
+    "sector": "print_ads",
+    "sector_en": "Printing and advertising",
+    "sector_ar": "طباعة ودعاية وإعلان",
+    "city_en": "Makkah",
+    "city_ar": "مكة المكرمة",
+    "planted_issues": [
+      "RECEIVABLES_OVERDUE",
+      "REVENUE_LOW"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-033",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-08-21",
+    "operating_months": 104,
+    "monthly_revenue_sar": [
+      119000.0,
+      114700.0,
+      99100.0,
+      111200.0,
+      111400.0,
+      118400.0,
+      107600.0,
+      101000.0,
+      89500.0,
+      101300.0,
+      116400.0,
+      109400.0
+    ],
+    "operating_margin": 0.196,
+    "existing_monthly_debt_service_sar": 3100.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 398600.0,
+    "receivables_overdue_90d_sar": 147600.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 490000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.104
+    }
+  }
+}

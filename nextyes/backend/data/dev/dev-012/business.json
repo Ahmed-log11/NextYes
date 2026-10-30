@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "business_id": "dev-012",
+    "seed": 1012,
+    "name_en": "Al-Rawabi Online Store",
+    "name_ar": "الروابي للتجارة الإلكترونية",
+    "sector": "ecommerce",
+    "sector_en": "E-commerce retail",
+    "sector_ar": "تجارة إلكترونية",
+    "city_en": "Dammam",
+    "city_ar": "الدمام",
+    "planted_issues": [
+      "NO_SECURITY"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-012",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-04-01",
+    "operating_months": 135,
+    "monthly_revenue_sar": [
+      475100.0,
+      447700.0,
+      343800.0,
+      344500.0,
+      373200.0,
+      417700.0,
+      359000.0,
+      349400.0,
+      348800.0,
+      387600.0,
+      390600.0,
+      427200.0
+    ],
+    "operating_margin": 0.14,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 762800.0,
+    "receivables_overdue_90d_sar": 55100.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1300000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.081
+    }
+  }
+}

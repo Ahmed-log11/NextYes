@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "business_id": "dev-004",
+    "seed": 1004,
+    "name_en": "Al-Murjan Logistics",
+    "name_ar": "المرجان للخدمات اللوجستية",
+    "sector": "logistics",
+    "sector_en": "Logistics and delivery",
+    "sector_ar": "خدمات لوجستية وتوصيل",
+    "city_en": "Jeddah",
+    "city_ar": "جدة",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-004",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-04-29",
+    "operating_months": 45,
+    "monthly_revenue_sar": [
+      234900.0,
+      546500.0,
+      116700.0,
+      159700.0,
+      109700.0,
+      650600.0,
+      435000.0,
+      210300.0,
+      389000.0,
+      110300.0,
+      562900.0,
+      155800.0
+    ],
+    "operating_margin": 0.154,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 438600.0,
+    "receivables_overdue_90d_sar": 57400.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1280000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.09
+    }
+  }
+}

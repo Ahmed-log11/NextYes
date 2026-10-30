@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "business_id": "dev-013",
+    "seed": 1013,
+    "name_en": "Najd Line Logistics",
+    "name_ar": "خط نجد للخدمات اللوجستية",
+    "sector": "logistics",
+    "sector_en": "Logistics and delivery",
+    "sector_ar": "خدمات لوجستية وتوصيل",
+    "city_en": "Madinah",
+    "city_ar": "المدينة المنورة",
+    "planted_issues": [
+      "HISTORY_SHORT"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-013",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-03-25",
+    "operating_months": 14,
+    "monthly_revenue_sar": [
+      526000.0,
+      541300.0,
+      518100.0,
+      467500.0,
+      517400.0,
+      520300.0,
+      489400.0,
+      477900.0,
+      454700.0,
+      452600.0,
+      485500.0,
+      509700.0
+    ],
+    "operating_margin": 0.17,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 804200.0,
+    "receivables_overdue_90d_sar": 14800.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1930000.0,
+      "tenor_months": 48,
+      "annual_profit_rate": 0.075
+    }
+  }
+}

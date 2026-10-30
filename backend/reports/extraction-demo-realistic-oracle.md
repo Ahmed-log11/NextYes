@@ -1,0 +1,36 @@
+# Extraction — demo / realistic / oracle
+
+Businesses: 3 · snapshots built: 2
+
+| Measure | Result |
+|---|---|
+| Field accuracy (all fields) | 100% (n=46) |
+| Verdict agreement — commercial_bank_sme | 100% (n=2) |
+| Verdict agreement — digital_lender_invoice | 100% (n=2) |
+| Missing documents requested exactly | 100% (n=3) |
+| Conflict recall | n/a |
+| Conflict false alarms | 0 |
+| Tokens in / out | 0 / 0 |
+| Model calls (cache hits) | 19 (0) |
+| Live latency | 0.0 s |
+
+## Field accuracy
+
+| Field | Accuracy |
+|---|---|
+| cr_active | 100% (n=3) |
+| cr_expiry | 100% (n=3) |
+| operating_months | 100% (n=3) |
+| monthly_revenue_sar | 100% (n=3) |
+| operating_margin | 100% (n=3) |
+| separate_business_account | 100% (n=3) |
+| existing_monthly_debt_service_sar | 100% (n=3) |
+| has_active_defaults | 100% (n=3) |
+| receivables_outstanding_sar | 100% (n=2) |
+| receivables_overdue_90d_sar | 100% (n=2) |
+| einvoicing_compliant | 100% (n=3) |
+| vat_filed_on_time | 100% (n=3) |
+| financial_statements_available | 100% (n=3) |
+| collateral_available | 100% (n=3) |
+| kafalah_guarantee | 100% (n=3) |
+| request | 100% (n=3) |

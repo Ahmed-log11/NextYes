@@ -1,0 +1,17 @@
+{
+  "commercial_bank_sme": {
+    "ready": true,
+    "score": 95.7,
+    "blockers": [
+      "RECEIVABLES_OVERDUE"
+    ]
+  },
+  "digital_lender_invoice": {
+    "ready": false,
+    "score": 76.2,
+    "blockers": [
+      "REVENUE_LOW",
+      "RECEIVABLES_OVERDUE"
+    ]
+  }
+}

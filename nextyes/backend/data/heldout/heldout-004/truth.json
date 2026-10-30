@@ -1,0 +1,18 @@
+{
+  "commercial_bank_sme": {
+    "ready": true,
+    "score": 87.0,
+    "blockers": [
+      "CASHFLOW_VOLATILE",
+      "ACCOUNTS_MIXED"
+    ]
+  },
+  "digital_lender_invoice": {
+    "ready": true,
+    "score": 85.7,
+    "blockers": [
+      "CASHFLOW_VOLATILE",
+      "ACCOUNTS_MIXED"
+    ]
+  }
+}

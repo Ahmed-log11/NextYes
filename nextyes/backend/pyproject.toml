@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nextyes-backend"
+version = "0.1.0"
+description = "Funding-readiness agent: from financing rejection to approval"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.7",
+    "pyyaml>=6.0",
+    "fpdf2>=2.8",
+    "uharfbuzz>=0.39",
+    "pdfplumber>=0.11",
+    "pypdfium2>=4.30",
+    "pillow>=10.0",
+    "anthropic>=0.40",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

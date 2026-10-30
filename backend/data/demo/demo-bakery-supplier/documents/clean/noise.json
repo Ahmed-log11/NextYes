@@ -1,0 +1,13 @@
+{
+  "business_id": "demo-bakery-supplier",
+  "level": "clean",
+  "wording_pool": "dev",
+  "bank_format": "classic",
+  "arabic_only_share": 0.0,
+  "person_customer_share": 0.0,
+  "owner_en": "Omar Al-Ghamdi",
+  "owner_ar": "عمر الغامدي",
+  "missing": [],
+  "scanned": [],
+  "conflicts": []
+}

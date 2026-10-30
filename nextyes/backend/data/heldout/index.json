@@ -1,0 +1,239 @@
+[
+  {
+    "business_id": "heldout-000",
+    "name_en": "Al-Waha Online Store",
+    "planted_issues": [],
+    "ready": {
+      "commercial_bank_sme": true,
+      "digital_lender_invoice": true
+    }
+  },
+  {
+    "business_id": "heldout-001",
+    "name_en": "Al-Bayan Food Supplies",
+    "planted_issues": [],
+    "ready": {
+      "commercial_bank_sme": true,
+      "digital_lender_invoice": true
+    }
+  },
+  {
+    "business_id": "heldout-002",
+    "name_en": "Al-Rawabi Online Store",
+    "planted_issues": [
+      "DSCR_LOW",
+      "VAT_LATE"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-003",
+    "name_en": "Al-Waha Medical Clinic",
+    "planted_issues": [
+      "HISTORY_SHORT",
+      "STATEMENTS_MISSING"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": true
+    }
+  },
+  {
+    "business_id": "heldout-004",
+    "name_en": "Al-Nakheel Logistics",
+    "planted_issues": [
+      "ACCOUNTS_MIXED",
+      "CASHFLOW_VOLATILE"
+    ],
+    "ready": {
+      "commercial_bank_sme": true,
+      "digital_lender_invoice": true
+    }
+  },
+  {
+    "business_id": "heldout-005",
+    "name_en": "Al-Waha Online Store",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "CR_EXPIRING",
+      "RECEIVABLES_OVERDUE"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-006",
+    "name_en": "Al-Qimma Food Supplies",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "CR_EXPIRING"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-007",
+    "name_en": "Al-Murjan Online Store",
+    "planted_issues": [
+      "EINVOICING",
+      "RECEIVABLES_OVERDUE"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-008",
+    "name_en": "Ruya Medical Clinic",
+    "planted_issues": [
+      "CR_INVALID",
+      "DSCR_LOW"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-009",
+    "name_en": "Sanad Line Online Store",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "REVENUE_LOW"
+    ],
+    "ready": {
+      "commercial_bank_sme": true,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-010",
+    "name_en": "Al-Murjan Food Supplies",
+    "planted_issues": [
+      "NO_SECURITY",
+      "REVENUE_LOW"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-011",
+    "name_en": "Watan Medical Clinic",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "HISTORY_SHORT"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-012",
+    "name_en": "Al-Nakheel Online Store",
+    "planted_issues": [
+      "CR_EXPIRING",
+      "NO_SECURITY"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-013",
+    "name_en": "Al-Nakheel Online Store",
+    "planted_issues": [
+      "ACCOUNTS_MIXED",
+      "EINVOICING"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-014",
+    "name_en": "Al-Bayan Online Store",
+    "planted_issues": [
+      "CR_INVALID",
+      "RECEIVABLES_OVERDUE",
+      "STATEMENTS_MISSING"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-015",
+    "name_en": "Durrat Printing & Advertising",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "VAT_LATE"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-016",
+    "name_en": "Al-Bayan Logistics",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "CR_INVALID",
+      "NO_SECURITY"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-017",
+    "name_en": "Durrat Medical Clinic",
+    "planted_issues": [
+      "HISTORY_SHORT",
+      "REVENUE_LOW"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-018",
+    "name_en": "Al-Masar Online Store",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "RECEIVABLES_OVERDUE"
+    ],
+    "ready": {
+      "commercial_bank_sme": false,
+      "digital_lender_invoice": false
+    }
+  },
+  {
+    "business_id": "heldout-019",
+    "name_en": "Al-Rawabi Logistics",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "VAT_LATE"
+    ],
+    "ready": {
+      "commercial_bank_sme": true,
+      "digital_lender_invoice": true
+    }
+  }
+]

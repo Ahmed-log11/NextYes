@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "business_id": "dev-015",
+    "seed": 1015,
+    "name_en": "Sanad Line Food Supplies",
+    "name_ar": "خط السند لتوريد الأغذية",
+    "sector": "food_supply",
+    "sector_en": "Food & beverage supply",
+    "sector_ar": "توريد أغذية ومشروبات",
+    "city_en": "Madinah",
+    "city_ar": "المدينة المنورة",
+    "planted_issues": [
+      "VAT_LATE"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-015",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-03-01",
+    "operating_months": 110,
+    "monthly_revenue_sar": [
+      340400.0,
+      358000.0,
+      298400.0,
+      299500.0,
+      338500.0,
+      357800.0,
+      324700.0,
+      289000.0,
+      271500.0,
+      313600.0,
+      304900.0,
+      314400.0
+    ],
+    "operating_margin": 0.192,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 442400.0,
+    "receivables_overdue_90d_sar": 20100.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": false,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1320000.0,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.094
+    }
+  }
+}

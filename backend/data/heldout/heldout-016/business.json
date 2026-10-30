@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "business_id": "heldout-016",
+    "seed": 9016,
+    "name_en": "Al-Bayan Logistics",
+    "name_ar": "البيان للخدمات اللوجستية",
+    "sector": "logistics",
+    "sector_en": "Logistics and delivery",
+    "sector_ar": "خدمات لوجستية وتوصيل",
+    "city_en": "Makkah",
+    "city_ar": "مكة المكرمة",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "CR_INVALID",
+      "NO_SECURITY"
+    ]
+  },
+  "snapshot": {
+    "business_id": "heldout-016",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2026-09-20",
+    "operating_months": 46,
+    "monthly_revenue_sar": [
+      275000.0,
+      853400.0,
+      397200.0,
+      172800.0,
+      905300.0,
+      403200.0,
+      861100.0,
+      703900.0,
+      249300.0,
+      828600.0,
+      197000.0,
+      196800.0
+    ],
+    "operating_margin": 0.122,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 602000.0,
+    "receivables_overdue_90d_sar": 48100.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1780000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.085
+    }
+  }
+}

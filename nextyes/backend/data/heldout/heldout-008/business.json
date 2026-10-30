@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "business_id": "heldout-008",
+    "seed": 9008,
+    "name_en": "Ruya Medical Clinic",
+    "name_ar": "عيادة رؤية الطبية",
+    "sector": "clinic",
+    "sector_en": "Medical clinic",
+    "sector_ar": "عيادة طبية",
+    "city_en": "Tabuk",
+    "city_ar": "تبوك",
+    "planted_issues": [
+      "CR_INVALID",
+      "DSCR_LOW"
+    ]
+  },
+  "snapshot": {
+    "business_id": "heldout-008",
+    "as_of": "2026-10-30",
+    "cr_active": false,
+    "cr_expiry": "2027-05-27",
+    "operating_months": 64,
+    "monthly_revenue_sar": [
+      328900.0,
+      346200.0,
+      326100.0,
+      323800.0,
+      310700.0,
+      302900.0,
+      303100.0,
+      307800.0,
+      292600.0,
+      304400.0,
+      327700.0,
+      342500.0
+    ],
+    "operating_margin": 0.266,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 552800.0,
+    "receivables_overdue_90d_sar": 51600.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 5550000.0,
+      "tenor_months": 48,
+      "annual_profit_rate": 0.07
+    }
+  }
+}

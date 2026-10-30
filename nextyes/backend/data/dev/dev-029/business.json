@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "business_id": "dev-029",
+    "seed": 1029,
+    "name_en": "Najd Line Medical Clinic",
+    "name_ar": "عيادة خط نجد الطبية",
+    "sector": "clinic",
+    "sector_en": "Medical clinic",
+    "sector_ar": "عيادة طبية",
+    "city_en": "Madinah",
+    "city_ar": "المدينة المنورة",
+    "planted_issues": [
+      "NO_SECURITY",
+      "RECEIVABLES_OVERDUE"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-029",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-08-01",
+    "operating_months": 142,
+    "monthly_revenue_sar": [
+      416800.0,
+      433700.0,
+      395900.0,
+      393100.0,
+      415100.0,
+      406100.0,
+      389600.0,
+      393300.0,
+      341800.0,
+      370900.0,
+      411700.0,
+      417000.0
+    ],
+    "operating_margin": 0.229,
+    "existing_monthly_debt_service_sar": 4000.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 470500.0,
+    "receivables_overdue_90d_sar": 271100.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1280000.0,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.084
+    }
+  }
+}

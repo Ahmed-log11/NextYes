@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "business_id": "demo-online-store",
+    "seed": 502,
+    "name_en": "Najd Line Online Store",
+    "name_ar": "خط نجد للتجارة الإلكترونية",
+    "sector": "ecommerce",
+    "sector_en": "E-commerce retail",
+    "sector_ar": "تجارة إلكترونية",
+    "city_en": "Khobar",
+    "city_ar": "الخبر",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "EINVOICING",
+      "HISTORY_SHORT"
+    ]
+  },
+  "snapshot": {
+    "business_id": "demo-online-store",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-11-23",
+    "operating_months": 16,
+    "monthly_revenue_sar": [
+      179600.0,
+      788400.0,
+      680500.0,
+      178300.0,
+      189200.0,
+      721100.0,
+      138200.0,
+      597500.0,
+      126500.0,
+      520200.0,
+      136200.0,
+      216300.0
+    ],
+    "operating_margin": 0.225,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 581100.0,
+    "receivables_overdue_90d_sar": 75400.0,
+    "einvoicing_compliant": false,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1660000.0,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.108
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "split": "demo",
+  "level": "clean",
+  "reader": "oracle",
+  "summary": {
+    "businesses": 3,
+    "field_accuracy_overall": [
+      1.0,
+      48
+    ],
+    "field_accuracy": {
+      "cr_active": [
+        1.0,
+        3
+      ],
+      "cr_expiry": [
+        1.0,
+        3
+      ],
+      "operating_months": [
+        1.0,
+        3
+      ],
+      "monthly_revenue_sar": [
+        1.0,
+        3
+      ],
+      "operating_margin": [
+        1.0,
+        3
+      ],
+      "separate_business_account": [
+        1.0,
+        3
+      ],
+      "existing_monthly_debt_service_sar": [
+        1.0,
+        3
+      ],
+      "has_active_defaults": [
+        1.0,
+        3
+      ],
+      "receivables_outstanding_sar": [
+        1.0,
+        3
+      ],
+      "receivables_overdue_90d_sar": [
+        1.0,
+        3
+      ],
+      "einvoicing_compliant": [
+        1.0,
+        3
+      ],
+      "vat_filed_on_time": [
+        1.0,
+        3
+      ],
+      "financial_statements_available": [
+        1.0,
+        3
+      ],
+      "collateral_available": [
+        1.0,
+        3
+      ],
+      "kafalah_guarantee": [
+        1.0,
+        3
+      ],
+      "request": [
+        1.0,
+        3
+      ]
+    },
+    "verdict_agreement": {
+      "commercial_bank_sme": [
+        1.0,
+        3
+      ],
+      "digital_lender_invoice": [
+        1.0,
+        3
+      ]
+    },
+    "snapshots_built": 3,
+    "missing_documents_exact": [
+      1.0,
+      3
+    ],
+    "conflict_recall": [
+      null,
+      0
+    ],
+    "conflict_false_alarms": 0,
+    "failed_checks": {},
+    "usage": {
+      "calls": 20.0,
+      "cache_hits": 0.0,
+      "input_tokens": 0.0,
+      "output_tokens": 0.0,
+      "live_latency_s": 0.0
+    }
+  },
+  "businesses": [
+    {
+      "business_id": "demo-bakery-supplier",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 0.0,
+        "input_tokens": 0.0,
+        "output_tokens": 0.0,
+        "live_latency_s": 0.0
+      },
+      "notes": []
+    },
+    {
+      "business_id": "demo-contractor",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "usage": {
+        "calls": 6.0,
+        "cache_hits": 0.0,
+        "input_tokens": 0.0,
+        "output_tokens": 0.0,
+        "live_latency_s": 0.0
+      },
+      "notes": []
+    },
+    {
+      "business_id": "demo-online-store",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 0.0,
+        "input_tokens": 0.0,
+        "output_tokens": 0.0,
+        "live_latency_s": 0.0
+      },
+      "notes": []
+    }
+  ]
+}

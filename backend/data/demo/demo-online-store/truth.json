@@ -1,0 +1,19 @@
+{
+  "commercial_bank_sme": {
+    "ready": false,
+    "score": 73.9,
+    "blockers": [
+      "HISTORY_SHORT",
+      "EINVOICING",
+      "CASHFLOW_VOLATILE"
+    ]
+  },
+  "digital_lender_invoice": {
+    "ready": false,
+    "score": 81.0,
+    "blockers": [
+      "EINVOICING",
+      "CASHFLOW_VOLATILE"
+    ]
+  }
+}

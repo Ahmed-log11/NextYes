@@ -6,4 +6,6 @@ __pycache__/
 .env
 node_modules/
 dist/
-data/heldout/
+# Regenerate with `make docs`; demo documents are committed
+backend/data/dev/*/documents/
+backend/data/heldout/*/documents/

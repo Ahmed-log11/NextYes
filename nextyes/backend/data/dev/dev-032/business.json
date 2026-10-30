@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "business_id": "dev-032",
+    "seed": 1032,
+    "name_en": "Najd Line Logistics",
+    "name_ar": "خط نجد للخدمات اللوجستية",
+    "sector": "logistics",
+    "sector_en": "Logistics and delivery",
+    "sector_ar": "خدمات لوجستية وتوصيل",
+    "city_en": "Abha",
+    "city_ar": "أبها",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "STATEMENTS_MISSING",
+      "VAT_LATE"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-032",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-12-11",
+    "operating_months": 39,
+    "monthly_revenue_sar": [
+      384600.0,
+      405900.0,
+      366300.0,
+      372200.0,
+      358900.0,
+      406900.0,
+      373800.0,
+      360000.0,
+      331300.0,
+      359000.0,
+      385500.0,
+      359700.0
+    ],
+    "operating_margin": 0.149,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": true,
+    "receivables_outstanding_sar": 617300.0,
+    "receivables_overdue_90d_sar": 21000.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": false,
+    "financial_statements_available": false,
+    "separate_business_account": true,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1800000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.106
+    }
+  }
+}

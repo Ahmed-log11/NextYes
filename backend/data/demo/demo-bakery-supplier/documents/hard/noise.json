@@ -1,0 +1,32 @@
+{
+  "business_id": "demo-bakery-supplier",
+  "level": "hard",
+  "wording_pool": "dev",
+  "bank_format": "classic",
+  "arabic_only_share": 0.35,
+  "person_customer_share": 0.25,
+  "owner_en": "Omar Al-Ghamdi",
+  "owner_ar": "عمر الغامدي",
+  "missing": [],
+  "scanned": [
+    "credit_report"
+  ],
+  "conflicts": [
+    {
+      "code": "APP_OPERATING_SINCE",
+      "document": "financing_application",
+      "field": "operating_since",
+      "shown": "2021-09-03",
+      "truth": "2022-11-29",
+      "authoritative_document": "cr_certificate"
+    },
+    {
+      "code": "INCOME_REVENUE_INFLATED",
+      "document": "income_statement",
+      "field": "revenue_sar",
+      "shown": "3464885.52",
+      "truth": "2951300.00",
+      "authoritative_document": "bank_statement"
+    }
+  ]
+}

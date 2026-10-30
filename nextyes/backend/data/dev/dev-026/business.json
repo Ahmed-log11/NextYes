@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "business_id": "dev-026",
+    "seed": 1026,
+    "name_en": "Al-Bayan Food Supplies",
+    "name_ar": "البيان لتوريد الأغذية",
+    "sector": "food_supply",
+    "sector_en": "Food & beverage supply",
+    "sector_ar": "توريد أغذية ومشروبات",
+    "city_en": "Tabuk",
+    "city_ar": "تبوك",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "REVENUE_LOW"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-026",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-01-25",
+    "operating_months": 30,
+    "monthly_revenue_sar": [
+      132300.0,
+      132200.0,
+      121200.0,
+      116900.0,
+      130400.0,
+      146100.0,
+      126600.0,
+      107000.0,
+      110700.0,
+      115700.0,
+      125100.0,
+      120400.0
+    ],
+    "operating_margin": 0.214,
+    "existing_monthly_debt_service_sar": 7300.0,
+    "has_active_defaults": true,
+    "receivables_outstanding_sar": 317300.0,
+    "receivables_overdue_90d_sar": 16300.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 430000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.089
+    }
+  }
+}

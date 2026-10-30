@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "business_id": "dev-024",
+    "seed": 1024,
+    "name_en": "Al-Masar Food Supplies",
+    "name_ar": "المسار لتوريد الأغذية",
+    "sector": "food_supply",
+    "sector_en": "Food & beverage supply",
+    "sector_ar": "توريد أغذية ومشروبات",
+    "city_en": "Tabuk",
+    "city_ar": "تبوك",
+    "planted_issues": [
+      "STATEMENTS_MISSING"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-024",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-07-26",
+    "operating_months": 87,
+    "monthly_revenue_sar": [
+      287100.0,
+      302000.0,
+      241400.0,
+      251800.0,
+      290700.0,
+      311200.0,
+      270400.0,
+      235600.0,
+      249700.0,
+      256800.0,
+      274600.0,
+      272600.0
+    ],
+    "operating_margin": 0.199,
+    "existing_monthly_debt_service_sar": 7100.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 244300.0,
+    "receivables_overdue_90d_sar": 22600.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": false,
+    "separate_business_account": true,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1580000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.074
+    }
+  }
+}

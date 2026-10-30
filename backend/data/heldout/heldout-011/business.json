@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "business_id": "heldout-011",
+    "seed": 9011,
+    "name_en": "Watan Medical Clinic",
+    "name_ar": "عيادة وطن الطبية",
+    "sector": "clinic",
+    "sector_en": "Medical clinic",
+    "sector_ar": "عيادة طبية",
+    "city_en": "Khobar",
+    "city_ar": "الخبر",
+    "planted_issues": [
+      "CASHFLOW_VOLATILE",
+      "HISTORY_SHORT"
+    ]
+  },
+  "snapshot": {
+    "business_id": "heldout-011",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-10-24",
+    "operating_months": 9,
+    "monthly_revenue_sar": [
+      146000.0,
+      581600.0,
+      260200.0,
+      621500.0,
+      268100.0,
+      130600.0,
+      193400.0,
+      189200.0,
+      169900.0,
+      490100.0,
+      148600.0,
+      139900.0
+    ],
+    "operating_margin": 0.26,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 251800.0,
+    "receivables_overdue_90d_sar": 20900.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1310000.0,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.07
+    }
+  }
+}

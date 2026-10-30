@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "business_id": "dev-011",
+    "seed": 1011,
+    "name_en": "Al-Noor Online Store",
+    "name_ar": "النور للتجارة الإلكترونية",
+    "sector": "ecommerce",
+    "sector_en": "E-commerce retail",
+    "sector_ar": "تجارة إلكترونية",
+    "city_en": "Madinah",
+    "city_ar": "المدينة المنورة",
+    "planted_issues": [
+      "ACTIVE_DEFAULTS",
+      "DSCR_LOW",
+      "STATEMENTS_MISSING"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-011",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-03-21",
+    "operating_months": 91,
+    "monthly_revenue_sar": [
+      480400.0,
+      473800.0,
+      367600.0,
+      335600.0,
+      377500.0,
+      422800.0,
+      376000.0,
+      350200.0,
+      368000.0,
+      372800.0,
+      401800.0,
+      400900.0
+    ],
+    "operating_margin": 0.239,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": true,
+    "receivables_outstanding_sar": 418700.0,
+    "receivables_overdue_90d_sar": 33600.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": false,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 6570000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.081
+    }
+  }
+}

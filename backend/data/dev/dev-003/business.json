@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "business_id": "dev-003",
+    "seed": 1003,
+    "name_en": "Tamr Logistics",
+    "name_ar": "تمر للخدمات اللوجستية",
+    "sector": "logistics",
+    "sector_en": "Logistics and delivery",
+    "sector_ar": "خدمات لوجستية وتوصيل",
+    "city_en": "Khobar",
+    "city_ar": "الخبر",
+    "planted_issues": []
+  },
+  "snapshot": {
+    "business_id": "dev-003",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-05-30",
+    "operating_months": 70,
+    "monthly_revenue_sar": [
+      605300.0,
+      638900.0,
+      573000.0,
+      560000.0,
+      553500.0,
+      636600.0,
+      578700.0,
+      571400.0,
+      540100.0,
+      554100.0,
+      578900.0,
+      588400.0
+    ],
+    "operating_margin": 0.138,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 944300.0,
+    "receivables_overdue_90d_sar": 19800.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1730000.0,
+      "tenor_months": 48,
+      "annual_profit_rate": 0.071
+    }
+  }
+}

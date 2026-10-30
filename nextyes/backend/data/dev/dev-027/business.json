@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "business_id": "dev-027",
+    "seed": 1027,
+    "name_en": "Al-Fajr Food Supplies",
+    "name_ar": "الفجر لتوريد الأغذية",
+    "sector": "food_supply",
+    "sector_en": "Food & beverage supply",
+    "sector_ar": "توريد أغذية ومشروبات",
+    "city_en": "Jeddah",
+    "city_ar": "جدة",
+    "planted_issues": [
+      "RECEIVABLES_OVERDUE"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-027",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-12-13",
+    "operating_months": 76,
+    "monthly_revenue_sar": [
+      352200.0,
+      371000.0,
+      320500.0,
+      297100.0,
+      351400.0,
+      381100.0,
+      318900.0,
+      293700.0,
+      297500.0,
+      306100.0,
+      322100.0,
+      328000.0
+    ],
+    "operating_margin": 0.199,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 607300.0,
+    "receivables_overdue_90d_sar": 317500.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 2000000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.074
+    }
+  }
+}

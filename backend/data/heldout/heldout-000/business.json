@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "business_id": "heldout-000",
+    "seed": 9000,
+    "name_en": "Al-Waha Online Store",
+    "name_ar": "الواحة للتجارة الإلكترونية",
+    "sector": "ecommerce",
+    "sector_en": "E-commerce retail",
+    "sector_ar": "تجارة إلكترونية",
+    "city_en": "Khobar",
+    "city_ar": "الخبر",
+    "planted_issues": []
+  },
+  "snapshot": {
+    "business_id": "heldout-000",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2028-03-28",
+    "operating_months": 121,
+    "monthly_revenue_sar": [
+      558500.0,
+      552100.0,
+      427700.0,
+      380800.0,
+      433900.0,
+      505800.0,
+      460400.0,
+      398700.0,
+      433200.0,
+      421400.0,
+      479400.0,
+      477300.0
+    ],
+    "operating_margin": 0.164,
+    "existing_monthly_debt_service_sar": 5200.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 596700.0,
+    "receivables_overdue_90d_sar": 32800.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": false,
+    "kafalah_guarantee": true,
+    "request": {
+      "amount_sar": 1860000.0,
+      "tenor_months": 48,
+      "annual_profit_rate": 0.093
+    }
+  }
+}

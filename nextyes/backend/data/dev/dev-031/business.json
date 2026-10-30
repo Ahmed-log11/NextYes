@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "business_id": "dev-031",
+    "seed": 1031,
+    "name_en": "Al-Waha Printing & Advertising",
+    "name_ar": "الواحة للطباعة والإعلان",
+    "sector": "print_ads",
+    "sector_en": "Printing and advertising",
+    "sector_ar": "طباعة ودعاية وإعلان",
+    "city_en": "Riyadh",
+    "city_ar": "الرياض",
+    "planted_issues": [
+      "CR_EXPIRING",
+      "VAT_LATE"
+    ]
+  },
+  "snapshot": {
+    "business_id": "dev-031",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2026-12-21",
+    "operating_months": 103,
+    "monthly_revenue_sar": [
+      260100.0,
+      287600.0,
+      249200.0,
+      255600.0,
+      276100.0,
+      276600.0,
+      249700.0,
+      222900.0,
+      223000.0,
+      226700.0,
+      275900.0,
+      251900.0
+    ],
+    "operating_margin": 0.221,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 449700.0,
+    "receivables_overdue_90d_sar": 46600.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": false,
+    "financial_statements_available": true,
+    "separate_business_account": true,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 1050000.0,
+      "tenor_months": 36,
+      "annual_profit_rate": 0.089
+    }
+  }
+}

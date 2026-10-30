@@ -1,0 +1,16 @@
+{
+  "commercial_bank_sme": {
+    "ready": true,
+    "score": 95.7,
+    "blockers": [
+      "VAT_LATE"
+    ]
+  },
+  "digital_lender_invoice": {
+    "ready": false,
+    "score": 85.7,
+    "blockers": [
+      "REVENUE_LOW"
+    ]
+  }
+}

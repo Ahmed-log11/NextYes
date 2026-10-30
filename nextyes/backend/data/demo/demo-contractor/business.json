@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "business_id": "demo-contractor",
+    "seed": 501,
+    "name_en": "Watan Contracting",
+    "name_ar": "وطن للمقاولات",
+    "sector": "construction",
+    "sector_en": "Construction contracting",
+    "sector_ar": "مقاولات",
+    "city_en": "Madinah",
+    "city_ar": "المدينة المنورة",
+    "planted_issues": [
+      "ACCOUNTS_MIXED",
+      "DSCR_LOW",
+      "STATEMENTS_MISSING"
+    ]
+  },
+  "snapshot": {
+    "business_id": "demo-contractor",
+    "as_of": "2026-10-30",
+    "cr_active": true,
+    "cr_expiry": "2027-08-13",
+    "operating_months": 54,
+    "monthly_revenue_sar": [
+      560600.0,
+      543400.0,
+      504200.0,
+      510400.0,
+      544100.0,
+      500200.0,
+      488300.0,
+      406300.0,
+      400600.0,
+      474500.0,
+      520900.0,
+      532700.0
+    ],
+    "operating_margin": 0.132,
+    "existing_monthly_debt_service_sar": 0.0,
+    "has_active_defaults": false,
+    "receivables_outstanding_sar": 870500.0,
+    "receivables_overdue_90d_sar": 102000.0,
+    "einvoicing_compliant": true,
+    "vat_filed_on_time": true,
+    "financial_statements_available": false,
+    "separate_business_account": false,
+    "collateral_available": true,
+    "kafalah_guarantee": false,
+    "request": {
+      "amount_sar": 4710000.0,
+      "tenor_months": 60,
+      "annual_profit_rate": 0.075
+    }
+  }
+}
