@@ -1,0 +1,18 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [],
+  "notes": [
+   "The report lists no credit facilities for Watan Contracting, so there are no outstanding balances, instalments or defaults to assess."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4062,
+  "output_tokens": 127,
+  "latency_s": 2.56,
+  "cached": false
+ }
+}

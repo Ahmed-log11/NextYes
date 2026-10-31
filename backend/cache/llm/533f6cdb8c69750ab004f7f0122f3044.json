@@ -1,0 +1,761 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 136258.57,
+  "closing_balance": 820062.67,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": 85541.96,
+    "balance": 221800.53,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 37041.6,
+    "balance": 258842.13,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة نوفمبر"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": 64345.68,
+    "balance": 323187.81,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -77599.27,
+    "balance": 245588.54,
+    "category": "opex",
+    "counterparty": "Mudad payroll"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": 55722.63,
+    "balance": 301311.17,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 78585.3,
+    "balance": 379896.47,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2025-11-19",
+    "amount": 66262.83,
+    "balance": 446159.3,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -98751.22,
+    "balance": 347408.08,
+    "category": "opex",
+    "counterparty": "Warehouse lease instalment"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -82586.47,
+    "balance": 264821.61,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -59975.54,
+    "balance": 204846.07,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": -68102.2,
+    "balance": 136743.87,
+    "category": "opex",
+    "counterparty": "Mudad payroll"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 95995.68,
+    "balance": 232739.55,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 62657.57,
+    "balance": 295397.12,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": -74828.19,
+    "balance": 220568.93,
+    "category": "opex",
+    "counterparty": "Shop rent DEC"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": 32459.22,
+    "balance": 253028.15,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -88569.49,
+    "balance": 164458.66,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": 44669.23,
+    "balance": 209127.89,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2025-12-17",
+    "amount": 62006.44,
+    "balance": 271134.33,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": 71211.86,
+    "balance": 342346.19,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2025-12-21",
+    "amount": -72187.12,
+    "balance": 270159.07,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 74560.28,
+    "balance": 344719.35,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": 63171.17,
+    "balance": 407890.52,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 88247.96,
+    "balance": 496138.48,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": -57930.43,
+    "balance": 438208.05,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": -60479.82,
+    "balance": 377728.23,
+    "category": "opex",
+    "counterparty": "Shop rent JAN"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": 29735.91,
+    "balance": 407464.14,
+    "category": "revenue",
+    "counterparty": "POS BATCH 227771"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": -52828.71,
+    "balance": 354635.43,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -64056.74,
+    "balance": 290578.69,
+    "category": "opex",
+    "counterparty": "Business line bill 600350"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": 30184.68,
+    "balance": 320763.37,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -48406.35,
+    "balance": 272357.02,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 50171.21,
+    "balance": 322528.23,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 85897.11,
+    "balance": 408425.34,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": 54534.32,
+    "balance": 462959.66,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": 24649.16,
+    "balance": 487608.82,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -50498.81,
+    "balance": 437110.01,
+    "category": "opex",
+    "counterparty": "Warehouse lease instalment"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -64969.39,
+    "balance": 372140.62,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": 47248.2,
+    "balance": 419388.82,
+    "category": "revenue",
+    "counterparty": "Terminal sales FEB"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": -52162.95,
+    "balance": 367225.87,
+    "category": "opex",
+    "counterparty": "Business line bill 460932"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 108024.26,
+    "balance": 475250.13,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": 88643.55,
+    "balance": 563893.68,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -67641.25,
+    "balance": 496252.43,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -59005.67,
+    "balance": 437246.76,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 58548.73,
+    "balance": 495795.49,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -61954.09,
+    "balance": 433841.4,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": 33632.76,
+    "balance": 467474.16,
+    "category": "revenue",
+    "counterparty": "Terminal sales MAR"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -75499.69,
+    "balance": 391974.47,
+    "category": "opex",
+    "counterparty": "Business line bill 510689"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 32050.7,
+    "balance": 424025.17,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 94160.28,
+    "balance": 518185.45,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 55327.55,
+    "balance": 573513.0,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": -64299.43,
+    "balance": 509213.57,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-04-06",
+    "amount": 119053.84,
+    "balance": 628267.41,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": -73543.7,
+    "balance": 554723.71,
+    "category": "opex",
+    "counterparty": "Shop rent APR"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 99258.33,
+    "balance": 653982.04,
+    "category": "revenue",
+    "counterparty": "POS BATCH 868321"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -76386.87,
+    "balance": 577595.17,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -88469.4,
+    "balance": 489125.77,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": -64085.41,
+    "balance": 425040.36,
+    "category": "opex",
+    "counterparty": "Mudad payroll"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": -47803.21,
+    "balance": 377237.15,
+    "category": "opex",
+    "counterparty": "Warehouse lease instalment"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 63573.64,
+    "balance": 440810.79,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-05-24",
+    "amount": 72360.46,
+    "balance": 513171.25,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": -70227.92,
+    "balance": 442943.33,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": 91797.7,
+    "balance": 534741.03,
+    "category": "revenue",
+    "counterparty": "Terminal sales MAY"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": 89968.2,
+    "balance": 624709.23,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -79350.56,
+    "balance": 545358.67,
+    "category": "opex",
+    "counterparty": "Business line bill 651353"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 77041.26,
+    "balance": 622399.93,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 68917.51,
+    "balance": 691317.44,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -54466.5,
+    "balance": 636850.94,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -63072.94,
+    "balance": 573778.0,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": -54983.77,
+    "balance": 518794.23,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 91593.29,
+    "balance": 610387.52,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": 50747.94,
+    "balance": 661135.46,
+    "category": "revenue",
+    "counterparty": "Terminal sales JUN"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -64747.69,
+    "balance": 596387.77,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 76169.68,
+    "balance": 672557.45,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": -67089.65,
+    "balance": 605467.8,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 83097.36,
+    "balance": 688565.16,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-07-14",
+    "amount": -59171.13,
+    "balance": 629394.03,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": 63177.71,
+    "balance": 692571.74,
+    "category": "revenue",
+    "counterparty": "Terminal sales JUL"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": 71655.25,
+    "balance": 764226.99,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -65787.82,
+    "balance": 698439.17,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -49995.7,
+    "balance": 648443.47,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": 50715.49,
+    "balance": 699158.96,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": -59568.62,
+    "balance": 639590.34,
+    "category": "opex",
+    "counterparty": "Mudad payroll"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": -49892.8,
+    "balance": 589697.54,
+    "category": "opex",
+    "counterparty": "إيجار المحل أغسطس"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": 31295.41,
+    "balance": 620992.95,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 56434.23,
+    "balance": 677427.18,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": -66964.03,
+    "balance": 610463.15,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 67955.15,
+    "balance": 678418.3,
+    "category": "revenue",
+    "counterparty": "خالد الحربي"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 66173.9,
+    "balance": 744592.2,
+    "category": "revenue",
+    "counterparty": "POS BATCH 392840"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": 34625.82,
+    "balance": 779218.02,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": -76400.15,
+    "balance": 702817.87,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": 85089.48,
+    "balance": 787907.35,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": -81598.3,
+    "balance": 706309.05,
+    "category": "opex",
+    "counterparty": "Mudad payroll"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -57901.97,
+    "balance": 648407.08,
+    "category": "opex",
+    "counterparty": "Warehouse lease instalment"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": 66475.5,
+    "balance": 714882.58,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة"
+   },
+   {
+    "date": "2026-09-14",
+    "amount": 116650.23,
+    "balance": 831532.81,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring credit"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 65084.79,
+    "balance": 896617.6,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-09-22",
+    "amount": -58584.81,
+    "balance": 838032.79,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": -76220.82,
+    "balance": 761811.97,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-10-01",
+    "amount": -52358.99,
+    "balance": 709452.98,
+    "category": "opex",
+    "counterparty": "Mudad payroll"
+   },
+   {
+    "date": "2026-10-02",
+    "amount": 40328.48,
+    "balance": 749781.46,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -79575.81,
+    "balance": 670205.65,
+    "category": "opex",
+    "counterparty": "Warehouse lease instalment"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -78247.27,
+    "balance": 591958.38,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": -60667.23,
+    "balance": 531291.15,
+    "category": "opex",
+    "counterparty": "Business line bill 729801"
+   },
+   {
+    "date": "2026-10-18",
+    "amount": 101728.54,
+    "balance": 633019.69,
+    "category": "revenue",
+    "counterparty": "ناصر الدوسري"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": 138734.99,
+    "balance": 771754.68,
+    "category": "revenue",
+    "counterparty": "Terminal sales OCT"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": 48307.99,
+    "balance": 820062.67,
+    "category": "revenue",
+    "counterparty": "POS BATCH 919538"
+   }
+  ],
+  "notes": [
+   "The statement's printed amount columns were copied as they appear in the Credit/Debit layout; the printed running balances reconcile with the transaction amounts as recorded.",
+   "Printed period is 2025-11-01 to 2026-10-30 with transactions to 2026-10-21 and a closing balance of 820062.67; the statement is simulated.",
+   "Several transfers are from individuals (ناصر الدوسري, عمر الغامدي, خالد الحربي) and are recorded as revenue since the owner is Turki Al-Mutairi; they are customer-type credits and should be verified.",
+   "Balance rises sharply in the final months with no corresponding outflow of debt service; the statement shows no loan or financing repayments in the period."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7918,
+  "output_tokens": 6082,
+  "latency_s": 17.15,
+  "cached": false
+ }
+}

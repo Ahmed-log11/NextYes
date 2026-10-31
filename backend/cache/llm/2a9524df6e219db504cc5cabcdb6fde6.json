@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 488900,
+  "overdue_90_plus": 219600,
+  "notes": [
+   "The 90+ bucket is 219,600.00 of 488,900.00 total, about 45% of receivables, which is a significant concentration of old balances.",
+   "Customer rows do not sum to the Total row: the 90+ column rows add to 219,611.29 (vs 219,600.00 printed), and the grand total of customer rows is 488,896.10 approx (vs 488,900.00 printed); worth reconciling with the accounting system."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1741,
+  "output_tokens": 259,
+  "latency_s": 1.83,
+  "cached": false
+ }
+}

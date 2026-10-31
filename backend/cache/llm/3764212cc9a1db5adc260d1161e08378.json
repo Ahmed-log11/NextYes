@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Sanad Line Online Store",
+  "cr_number": "1050971302",
+  "owner_name": "Nasser Al-Dosari",
+  "owner_name_ar": "ناصر الدوسري",
+  "issue_date": "2019-07-31",
+  "expiry_date": "2028-05-17",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1660,
+  "output_tokens": 244,
+  "latency_s": 1.87,
+  "cached": false
+ }
+}

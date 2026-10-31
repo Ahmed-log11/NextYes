@@ -1,0 +1,31 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 733226.25,
+  "transactions": [
+   {
+    "date": "2026-10-29",
+    "amount": -49201.49,
+    "balance": 733226.25,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 715233"
+   }
+  ],
+  "notes": [
+   "Page 4 of 4 only; header fields (account type, period, opening balance) are not on this page.",
+   "Only one transaction line on this page; its printed amount is shown without a debit/credit column, so the sign (money out) was inferred from the description (electricity bill payment)."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2568,
+  "output_tokens": 325,
+  "latency_s": 1.75,
+  "cached": false
+ }
+}

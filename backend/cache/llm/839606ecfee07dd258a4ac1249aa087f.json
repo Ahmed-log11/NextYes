@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 2460000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.086,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2025-05-31",
+  "financial_statements_attached": false,
+  "notes": [
+   "Financial statements not provided; the application lists them as not attached.",
+   "Requested amount is large relative to a business operating since 2025-05-31 (under one year at application)."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1842,
+  "output_tokens": 280,
+  "latency_s": 1.81,
+  "cached": false
+ }
+}

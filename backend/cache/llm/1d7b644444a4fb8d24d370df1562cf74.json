@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 581100,
+  "overdue_90_plus": 75400,
+  "notes": [
+   "Customer row totals sum to 581,100.00 but the 90+ column total of 75,400.00 is an exact round figure; the per-customer 90+ values sum to a different amount (16,675.96 + 12,419.58 + 9,038.29 + 8,704.39 + 10,241.80 + 18,319.98 = 75,400.00). Verified consistent on recomputation, so no discrepancy."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1749,
+  "output_tokens": 250,
+  "latency_s": 1.64,
+  "cached": false
+ }
+}

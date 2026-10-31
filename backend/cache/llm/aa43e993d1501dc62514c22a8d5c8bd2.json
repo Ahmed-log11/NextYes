@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Waha Online Store",
+  "cr_number": "1045361680",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2015-10-30",
+  "expiry_date": "2026-12-07",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1656,
+  "output_tokens": 242,
+  "latency_s": 3.3,
+  "cached": false
+ }
+}

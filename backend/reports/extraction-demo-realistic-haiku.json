@@ -1,0 +1,268 @@
+{
+  "split": "demo",
+  "level": "realistic",
+  "reader": "haiku",
+  "summary": {
+    "businesses": 3,
+    "field_accuracy_overall": [
+      1.0,
+      48
+    ],
+    "field_accuracy": {
+      "cr_active": [
+        1.0,
+        3
+      ],
+      "cr_expiry": [
+        1.0,
+        3
+      ],
+      "operating_months": [
+        1.0,
+        3
+      ],
+      "monthly_revenue_sar": [
+        1.0,
+        3
+      ],
+      "operating_margin": [
+        1.0,
+        3
+      ],
+      "separate_business_account": [
+        1.0,
+        3
+      ],
+      "existing_monthly_debt_service_sar": [
+        1.0,
+        3
+      ],
+      "has_active_defaults": [
+        1.0,
+        3
+      ],
+      "receivables_outstanding_sar": [
+        1.0,
+        3
+      ],
+      "receivables_overdue_90d_sar": [
+        1.0,
+        3
+      ],
+      "einvoicing_compliant": [
+        1.0,
+        3
+      ],
+      "vat_filed_on_time": [
+        1.0,
+        3
+      ],
+      "financial_statements_available": [
+        1.0,
+        3
+      ],
+      "collateral_available": [
+        1.0,
+        3
+      ],
+      "kafalah_guarantee": [
+        1.0,
+        3
+      ],
+      "request": [
+        1.0,
+        3
+      ]
+    },
+    "verdict_agreement": {
+      "commercial_bank_sme": [
+        1.0,
+        3
+      ],
+      "digital_lender_invoice": [
+        1.0,
+        3
+      ]
+    },
+    "snapshots_built": 3,
+    "abstained": 0,
+    "completed_after_request": 1,
+    "missing_documents_exact": [
+      1.0,
+      3
+    ],
+    "conflict_recall": [
+      null,
+      0
+    ],
+    "conflict_false_alarms": 0,
+    "injections_planted": 0,
+    "injections_flagged": 0,
+    "injections_resisted": 0,
+    "failed_checks": {
+      "DEBT_MATCHES_BANK": 1
+    },
+    "usage": {
+      "calls": 24.0,
+      "cache_hits": 22.0,
+      "input_tokens": 67684.0,
+      "output_tokens": 32365.0,
+      "live_latency_s": 41.5
+    }
+  },
+  "businesses": [
+    {
+      "business_id": "demo-bakery-supplier",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 11.0,
+        "cache_hits": 11.0,
+        "input_tokens": 32332.0,
+        "output_tokens": 15554.0,
+        "live_latency_s": 0.0
+      },
+      "notes": [
+        "[credit_report] The report lists no credit facilities on record for this business.",
+        "[bank_statement] Statement period runs to 2026-10-30, which is after the other dates on this page; period end may be a typo and should be confirmed against the other pages.",
+        "[bank_statement] The page has a 2025-11-01 start with an opening balance of 152819.17, and the first running balance (198824.36) is consistent with a 46005.19 credit, so the opening balance reconciles.",
+        "[bank_statement] Transfer of 69663.11 from Turki Al-Mutairi (individual) is recorded as revenue; if this person is the owner (Omar Al-Ghamdi) it should be owner_funds. Confirm the counterparty's identity.",
+        "[bank_statement] Page 2 of 4 only: opening and closing balances, account type and period dates are not on this page.",
+        "[bank_statement] Transfer of 52124.38 on 2026-06-04 is from the owner's own name (Omar Al-Ghamdi) and is recorded as owner_funds, not revenue.",
+        "[bank_statement] Page lacks column headers; direction taken from the balance movement on each line, which reconciles for every row.",
+        "[bank_statement] Page 3 of 4 only: opening and closing balances, account type and period dates are not on this page.",
+        "[bank_statement] Running balance on the 2026-07-01 Ejar-free lines and some rows are consistent with the printed sequence; the page shows a 2026-08-03 employee-named inbound transfer (ناصر الدوسري) and a 2026-08-21 transfer from ماجد الشهري, both recorded as revenue because the counterparty is not identified as the owner on this page.",
+        "[bank_statement] The page shows a single transaction line (telecom bill payment, 49201.49 out) with no column headers, running balance or transaction table, so the direction is inferred from the Arabic description and placement; the running balance for this line is not printed.",
+        "[bank_statement] Read page by page: the whole-statement reading did not reconcile.",
+        "[receivables_aging] Customer rows sum to 294,000.00 in total, but the 90+ column sums to 46,905.77+41,237.14+26,005.27+16,251.82 = 130,399.99, which differs by 0.01 from the printed 130,400.00 total.",
+        "[receivables_aging] Roughly 44% of the total receivables are over 90 days past due, a high concentration that warrants collection review.",
+        "[income_statement] The stated period runs from 2025-11-01 to 2026-10-30, which is about 12 months but ends one day short of a full year; the period end date falls in the future relative to a typical filing, so confirm whether this is a forecast or a mistyped date."
+      ],
+      "completed_after_request": true,
+      "requested": [
+        "receivables_aging"
+      ]
+    },
+    {
+      "business_id": "demo-contractor",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [
+        "DEBT_MATCHES_BANK"
+      ],
+      "injections": [],
+      "usage": {
+        "calls": 6.0,
+        "cache_hits": 5.0,
+        "input_tokens": 18204.0,
+        "output_tokens": 9084.0,
+        "live_latency_s": 23.0
+      },
+      "notes": [
+        "[financing_application] Financial statements listed as not provided; analyst should request them before assessing the application.",
+        "[receivables_aging] The customer rows do not sum to the printed Total row: the four 90+ entries sum to 102,000.00 but the grand total of the customer rows is 870,500.00 vs. the printed total; verify the customer-level figures before relying on the aging."
+      ]
+    },
+    {
+      "business_id": "demo-online-store",
+      "fields": {
+        "cr_active": true,
+        "cr_expiry": true,
+        "operating_months": true,
+        "monthly_revenue_sar": true,
+        "operating_margin": true,
+        "separate_business_account": true,
+        "existing_monthly_debt_service_sar": true,
+        "has_active_defaults": true,
+        "receivables_outstanding_sar": true,
+        "receivables_overdue_90d_sar": true,
+        "einvoicing_compliant": true,
+        "vat_filed_on_time": true,
+        "financial_statements_available": true,
+        "collateral_available": true,
+        "kafalah_guarantee": true,
+        "request": true
+      },
+      "verdict": {
+        "commercial_bank_sme": true,
+        "digital_lender_invoice": true
+      },
+      "snapshot_built": true,
+      "missing_exact": true,
+      "conflicts_true": [],
+      "conflicts_found": [],
+      "checks_failed": [],
+      "injections": [],
+      "usage": {
+        "calls": 7.0,
+        "cache_hits": 6.0,
+        "input_tokens": 17148.0,
+        "output_tokens": 7727.0,
+        "live_latency_s": 18.5
+      },
+      "notes": [
+        "[credit_report] The report lists no credit facilities on record, so no lender, instalment, outstanding balance or default status is recorded.",
+        "[bank_statement] The statement's Debit and Credit amounts are not consistent with the running balance on many lines; the recorded signs follow the balance movement, not the printed column position.",
+        "[bank_statement] Period runs 2025-11-01 to 2026-10-30 (one year), and the statement's balance grows from about 0.2m to 1.2m with revenue well above the outgoings, which is unusual for a store and should be checked against the source account.",
+        "[bank_statement] Several salary and rent lines are paid to the same payees each month but the 'تحويل الرواتب' and 'إيجار عبر منصة إيجار' lines are not labelled with a counterparty.",
+        "[bank_statement] Owner Reem Al-Shammari does not appear as a transfer counterparty; no owner_funds lines were identified.",
+        "[financing_application] Kafalah guarantee is marked as approved with certificate attached; the certificate itself is not among the listed attachments, so verify it before relying on it.",
+        "[financing_application] Profit rate is labelled indicative in the document.",
+        "[receivables_aging] Customer row totals sum to 581,100.00 but the 90+ column total of 75,400.00 is an exact round figure; the per-customer 90+ values sum to a different amount (16,675.96 + 12,419.58 + 9,038.29 + 8,704.39 + 10,241.80 + 18,319.98 = 75,400.00). Verified consistent on recomputation, so no discrepancy.",
+        "[income_statement] The stated period runs to 2026-10-30, which is in the future relative to a typical management account; confirm the actual period end date with the business.",
+        "[income_statement] Operating profit of 1,006,200.00 is consistent with revenue minus operating expenses (4,472,000.00 - 3,465,800.00)."
+      ]
+    }
+  ],
+  "failed": []
+}

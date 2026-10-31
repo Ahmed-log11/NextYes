@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Watan Contracting",
+  "cr_number": "1094412520",
+  "owner_name": "Nasser Al-Dosari",
+  "owner_name_ar": "ناصر الدوسري",
+  "issue_date": "2022-04-30",
+  "expiry_date": "2027-08-13",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1645,
+  "output_tokens": 241,
+  "latency_s": 1.81,
+  "cached": false
+ }
+}

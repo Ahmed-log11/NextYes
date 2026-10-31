@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* NextYes palette. Blue is the brand; teal only ever means "fixed / approved". */
+@theme {
+  --color-night: #071A2B;
+  --color-night-2: #0C2740;
+  --color-night-3: #123352;
+  --color-line-dark: #1E3E5E;
+  --color-blue: #2F5BEA;
+  --color-blue-2: #5B80FF;
+  --color-blue-soft: #E6ECFD;
+  --color-teal: #12B39A;
+  --color-teal-soft: #DDF5F0;
+  --color-amber: #F2A93B;
+  --color-amber-soft: #FDF1DC;
+  --color-coral: #E5484D;
+  --color-coral-soft: #FCE5E6;
+  --color-porcelain: #EEF2F8;
+  --color-ink: #0D1B2A;
+  --color-muted: #5D6B7B;
+  --color-line: #DCE2EA;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "IBM Plex Sans Arabic", "Inter", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-sans); color: var(--color-ink); background: var(--color-night); -webkit-font-smoothing: antialiased; }
+html[lang="ar"] body { font-family: var(--font-arabic); }
+.display { font-optical-sizing: auto; letter-spacing: -0.035em; }
+html[lang="ar"] .display { letter-spacing: 0; }
+
+/* faint engineering grid used on dark surfaces */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+@keyframes pulse-node { 0%, 100% { opacity: .4; } 50% { opacity: .8; } }
+@keyframes float-y { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes fill-bar { from { width: 0; } to { width: 100%; } }
+@keyframes drawer-in { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: none; } }
+[dir="rtl"] aside { --dir: -1; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes dash { to { stroke-dashoffset: -40; } }
+.flow-dash { stroke-dasharray: 4 8; animation: dash 1.6s linear infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .flow-dash, .animate-float { animation: none !important; }
+}

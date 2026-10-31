@@ -151,7 +151,8 @@ def _payload(svc: JourneyService, journey_id: str) -> dict[str, Any]:
 @app.get("/api/health")
 def health(request: Request) -> dict[str, Any]:
     svc = _svc(request)
-    return {"ok": True, "reader": _reader_kind(), "brain": getattr(svc.brain, "name", "?")}
+    from ..agent.agent_planner import PLANNER
+    return {"ok": True, "reader": _reader_kind(), "brain": getattr(svc.brain, "name", "?"), "planner": PLANNER}
 
 
 @app.get("/api/businesses")
@@ -194,6 +195,16 @@ def evaluation() -> list[dict[str, Any]]:
         rep = json.loads(f.read_text(encoding="utf-8"))
         out.append({"report": f.stem, "split": rep["split"], "level": rep["level"], "reader": rep["reader"],
                     "summary": rep["summary"]})
+    return out
+
+
+@app.get("/api/planner-evaluation")
+def planner_evaluation() -> list[dict[str, Any]]:
+    """Agent planner vs rule planner (reports/planner-*.json from app.agent.evaluate_planner)."""
+    out = []
+    for f in sorted(REPORT_DIR.glob("planner-*.json")):
+        rep = json.loads(f.read_text(encoding="utf-8"))
+        out.append({"report": f.stem, "split": rep["split"], "brain": rep["brain"], "summary": rep["summary"]})
     return out
 
 

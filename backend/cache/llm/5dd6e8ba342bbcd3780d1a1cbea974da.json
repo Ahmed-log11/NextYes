@@ -1,0 +1,33 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated) / البنك التجريبي",
+    "facility_type": "Vehicle financing / تمويل مركبات",
+    "monthly_instalment": 4300.0,
+    "outstanding": 154800.0,
+    "status": "regular"
+   },
+   {
+    "lender": "Demo Trade Supplier (simulated) / مورد تجاري تجريبي",
+    "facility_type": "Trade credit / ائتمان تجاري",
+    "monthly_instalment": null,
+    "outstanding": 75601.07,
+    "status": "default"
+   }
+  ],
+  "notes": [
+   "Trade credit facility from Demo Trade Supplier is 90+ days past due (default) with an outstanding balance of 75601.07, which is a material adverse item for this business."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1728,
+  "output_tokens": 317,
+  "latency_s": 1.9,
+  "cached": false
+ }
+}

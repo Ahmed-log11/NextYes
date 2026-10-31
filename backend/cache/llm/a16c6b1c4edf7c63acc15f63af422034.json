@@ -1,0 +1,1038 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 176972.16,
+  "closing_balance": 860621.15,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": -5900.95,
+    "balance": 171071.21,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 124314.12,
+    "balance": 295385.33,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": -4867.98,
+    "balance": 290517.35,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": 158900.73,
+    "balance": 449418.08,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -128638.95,
+    "balance": 320779.13,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": 91650.38,
+    "balance": 412429.51,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": 52913.89,
+    "balance": 465343.4,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": -119431.1,
+    "balance": 345912.3,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": -1668.48,
+    "balance": 344243.82,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -145094.27,
+    "balance": 199149.55,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": -93436.48,
+    "balance": 105713.07,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": 132820.88,
+    "balance": 238533.95,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-02",
+    "amount": -123428.47,
+    "balance": 115105.48,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": -3287.55,
+    "balance": 111817.93,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": -121903.57,
+    "balance": -10085.64,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -103580.42,
+    "balance": -113666.06,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": 152656.65,
+    "balance": 38990.59,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -4121.45,
+    "balance": 34869.14,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": 104776.43,
+    "balance": 139645.57,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-17",
+    "amount": -122758.74,
+    "balance": 16886.83,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2025-12-24",
+    "amount": 153488.47,
+    "balance": 170375.3,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": 132478.45,
+    "balance": 302853.75,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-06",
+    "amount": -95041.06,
+    "balance": 207812.69,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": 89317.79,
+    "balance": 297130.48,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -105042.79,
+    "balance": 192087.69,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 45491.25,
+    "balance": 237578.94,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": -122543.88,
+    "balance": 115035.06,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": 121064.09,
+    "balance": 236099.15,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-19",
+    "amount": -5950.52,
+    "balance": 230148.63,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": 40474.65,
+    "balance": 270623.28,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": -115017.87,
+    "balance": 155605.41,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 104756.5,
+    "balance": 260361.91,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -5335.13,
+    "balance": 255026.78,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": 103095.72,
+    "balance": 358122.5,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": -136763.72,
+    "balance": 221358.78,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 96488.51,
+    "balance": 317847.29,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -103075.78,
+    "balance": 214771.51,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -3733.97,
+    "balance": 211037.54,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 126514.76,
+    "balance": 337552.3,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": 70161.13,
+    "balance": 407713.43,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-21",
+    "amount": 102744.51,
+    "balance": 510457.94,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-02-21",
+    "amount": -3708.67,
+    "balance": 506749.27,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": 73616.95,
+    "balance": 580366.22,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": 40874.14,
+    "balance": 621240.36,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -83310.63,
+    "balance": 537929.73,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -119877.07,
+    "balance": 418052.66,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -102885.73,
+    "balance": 315166.93,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": -6321.87,
+    "balance": 308845.06,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -107079.67,
+    "balance": 201765.39,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": -109312.15,
+    "balance": 92453.24,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": 99796.35,
+    "balance": 192249.59,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": 71882.79,
+    "balance": 264132.38,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-03-15",
+    "amount": 83813.18,
+    "balance": 347945.56,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": 85824.3,
+    "balance": 433769.86,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 99036.4,
+    "balance": 532806.26,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-03-18",
+    "amount": -5784.51,
+    "balance": 527021.75,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 103746.98,
+    "balance": 630768.73,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-03-22",
+    "amount": -153001.25,
+    "balance": 477767.48,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -130096.13,
+    "balance": 347671.35,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": -2632.5,
+    "balance": 345038.85,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": 99038.9,
+    "balance": 444077.75,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-04-09",
+    "amount": 68853.18,
+    "balance": 512930.93,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -90150.33,
+    "balance": 422780.6,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-04-10",
+    "amount": -102588.12,
+    "balance": 320192.48,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": 73651.25,
+    "balance": 393843.73,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 91868.12,
+    "balance": 485711.85,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": -3272.78,
+    "balance": 482439.07,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": 89817.13,
+    "balance": 572256.2,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": 76971.42,
+    "balance": 649227.62,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -111339.02,
+    "balance": 537888.6,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -2495.27,
+    "balance": 535393.33,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": 106498.01,
+    "balance": 641891.34,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": 99264.14,
+    "balance": 741155.48,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": 98753.85,
+    "balance": 839909.33,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": 90306.26,
+    "balance": 930215.59,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-05-18",
+    "amount": -1572.54,
+    "balance": 928643.05,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-05-22",
+    "amount": 35414.53,
+    "balance": 964057.58,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -93957.84,
+    "balance": 870099.74,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -4695.82,
+    "balance": 865403.92,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -117816.26,
+    "balance": 747587.66,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-05-27",
+    "amount": -2063.43,
+    "balance": 745524.23,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": 58063.21,
+    "balance": 803587.44,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -101855.31,
+    "balance": 701732.13,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -110214.99,
+    "balance": 591517.14,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -85501.91,
+    "balance": 506015.23,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": 65963.16,
+    "balance": 571978.39,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 67835.47,
+    "balance": 639813.86,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-08",
+    "amount": 76058.63,
+    "balance": 715872.49,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-06-13",
+    "amount": -98133.96,
+    "balance": 617738.53,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": 74034.66,
+    "balance": 691773.19,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-06-14",
+    "amount": -3350.44,
+    "balance": 688422.75,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 46680.77,
+    "balance": 735103.52,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 75727.31,
+    "balance": 810830.83,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -73683.07,
+    "balance": 737147.76,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-06-26",
+    "amount": -1937.97,
+    "balance": 735209.79,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -95349.46,
+    "balance": 639860.33,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -2549.43,
+    "balance": 637310.9,
+    "category": "personal",
+    "counterparty": "Family transfer"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": -1931.72,
+    "balance": 635379.18,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": 118580.23,
+    "balance": 753959.41,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": -1845.86,
+    "balance": 752113.55,
+    "category": "personal",
+    "counterparty": "Personal card payment"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": -93080.96,
+    "balance": 659032.59,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": -2539.26,
+    "balance": 656493.33,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 77608.98,
+    "balance": 734102.31,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-07-23",
+    "amount": -88268.54,
+    "balance": 645833.77,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 99115.94,
+    "balance": 744949.71,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 52441.22,
+    "balance": 797390.93,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-26",
+    "amount": -88725.32,
+    "balance": 708665.61,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-07-30",
+    "amount": 52853.63,
+    "balance": 761519.24,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-07-31",
+    "amount": -77645.98,
+    "balance": 683873.26,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -6935.33,
+    "balance": 676937.93,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": -90143.63,
+    "balance": 586794.3,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": 111084.87,
+    "balance": 697879.17,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": 72606.08,
+    "balance": 770485.25,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": 89892.34,
+    "balance": 860377.59,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": 56885.02,
+    "balance": 917262.61,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 66183.24,
+    "balance": 983445.85,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -83218.79,
+    "balance": 900227.06,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-08-19",
+    "amount": 77848.45,
+    "balance": 978075.51,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": -128542.16,
+    "balance": 849533.35,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-08-26",
+    "amount": -109961.42,
+    "balance": 739571.93,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": -1689.36,
+    "balance": 737882.57,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": -1883.09,
+    "balance": 735999.48,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -120079.07,
+    "balance": 615920.41,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": 54114.84,
+    "balance": 670035.25,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 80596.91,
+    "balance": 750632.16,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": 100533.26,
+    "balance": 851165.42,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -109844.62,
+    "balance": 741320.8,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -3915.55,
+    "balance": 737405.25,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": 118045.12,
+    "balance": 855450.37,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": -104267.12,
+    "balance": 751183.25,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-09-23",
+    "amount": -3010.09,
+    "balance": 748173.16,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": -117950.39,
+    "balance": 630222.77,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 75353.28,
+    "balance": 705576.05,
+    "category": "revenue",
+    "counterparty": "Nujoom Catering"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 92256.59,
+    "balance": 797832.64,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -118094.76,
+    "balance": 679737.88,
+    "category": "opex",
+    "counterparty": "Payroll - employee salaries"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 135374.69,
+    "balance": 815112.57,
+    "category": "revenue",
+    "counterparty": "Sahl Express"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": -139541.17,
+    "balance": 675571.4,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-10-13",
+    "amount": 143300.39,
+    "balance": 818871.79,
+    "category": "revenue",
+    "counterparty": "Al-Mawared Co."
+   },
+   {
+    "date": "2026-10-20",
+    "amount": 49050.93,
+    "balance": 867922.72,
+    "category": "revenue",
+    "counterparty": "Bayt Al-Khair Markets"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": 122165.68,
+    "balance": 990088.4,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 82808.31,
+    "balance": 1072896.71,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -108088.41,
+    "balance": 964808.3,
+    "category": "opex",
+    "counterparty": "Supplier payments"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -2124.82,
+    "balance": 962683.48,
+    "category": "personal",
+    "counterparty": "School fees"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -5403.07,
+    "balance": 957280.41,
+    "category": "personal",
+    "counterparty": "Home rent"
+   },
+   {
+    "date": "2026-10-31",
+    "amount": -96659.26,
+    "balance": 860621.15,
+    "category": "opex",
+    "counterparty": "Utilities and telecom"
+   }
+  ],
+  "notes": [
+   "x"
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 10008,
+  "output_tokens": 8038,
+  "latency_s": 22.06,
+  "cached": false
+ }
+}

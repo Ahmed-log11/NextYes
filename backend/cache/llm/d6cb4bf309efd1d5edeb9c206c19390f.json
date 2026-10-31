@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 510600,
+  "overdue_90_plus": 18000,
+  "notes": [
+   "The 90+ column does not sum to the printed Total: customer 90+ figures add to 18,000.00 (3006.71+4998.52+2598.35+7396.42 = 18000.00), which matches the Total row, but the customer Total column adds to 510,600.00 only if the row totals are summed; the per-customer row totals sum to 510,600.00 and the bucket totals sum to the same figure, so the layout is internally consistent. Verify the 0-30 to 61-90 columns against the source system before relying on bucket-level figures."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1649,
+  "output_tokens": 292,
+  "latency_s": 1.89,
+  "cached": false
+ }
+}

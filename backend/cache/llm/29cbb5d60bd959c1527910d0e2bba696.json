@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Najd Line Online Store",
+  "cr_number": "1069235404",
+  "owner_name": "Reem Al-Shammari",
+  "owner_name_ar": "ريم الشمري",
+  "issue_date": "2025-06-30",
+  "expiry_date": "2027-11-23",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1654,
+  "output_tokens": 240,
+  "latency_s": 6.83,
+  "cached": false
+ }
+}

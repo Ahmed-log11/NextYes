@@ -12,16 +12,22 @@ from __future__ import annotations
 
 import argparse
 import json
-from typing import Callable
+from typing import Any, Callable
 
 from pydantic import BaseModel
 
 from ..engine import FinancialSnapshot, assess, load_policy
-from .models import PlanStep
+from .models import Plan, PlanStep
 from .planner import build_plan, validate_plan
 from .simulator import advance_month, start_step
 
 Approver = Callable[[PlanStep], bool]
+# (snapshot, lender, steps so far, first step number, month) -> (plan, how it was chosen or None)
+PlanFn = Callable[[FinancialSnapshot, str, list[PlanStep], int, int], tuple[Plan, Any]]
+
+
+def rules_planner(s: FinancialSnapshot, policy_id: str, steps: list[PlanStep], first_id: int, month: int):
+    return build_plan(s, policy_id, steps, first_id=first_id), None
 MAX_JOURNEY_MONTHS = 12
 
 
@@ -42,6 +48,7 @@ class Trace(BaseModel):
     steps: list[PlanStep]
     checkpoints: list[Checkpoint]
     final_snapshot: FinancialSnapshot
+    planning: list[Any] = []      # how each plan was chosen (agent planner only)
 
 
 def approve_all(step: PlanStep) -> bool:
@@ -49,8 +56,8 @@ def approve_all(step: PlanStep) -> bool:
 
 
 def run_journey(s: FinancialSnapshot, policy_id: str, approve: Approver = approve_all,
-                max_months: int = MAX_JOURNEY_MONTHS) -> Trace:
-    start_policy, month, steps, checkpoints = policy_id, 0, [], []
+                max_months: int = MAX_JOURNEY_MONTHS, plan_fn: PlanFn = rules_planner) -> Trace:
+    start_policy, month, steps, checkpoints, planning = policy_id, 0, [], [], []
 
     def check() -> bool:
         a = assess(s, load_policy(policy_id))
@@ -60,7 +67,8 @@ def run_journey(s: FinancialSnapshot, policy_id: str, approve: Approver = approv
 
     def finish(outcome: str) -> Trace:
         return Trace(business_id=s.business_id, start_policy=start_policy, final_policy=policy_id,
-                     outcome=outcome, months=month, steps=steps, checkpoints=checkpoints, final_snapshot=s)
+                     outcome=outcome, months=month, steps=steps, checkpoints=checkpoints, final_snapshot=s,
+                     planning=planning)
 
     while True:
         if check():
@@ -68,9 +76,11 @@ def run_journey(s: FinancialSnapshot, policy_id: str, approve: Approver = approv
         if month >= max_months:
             return finish("out_of_time")
 
-        plan = build_plan(s, policy_id, steps, first_id=len(steps) + 1)
+        plan, report = plan_fn(s, policy_id, steps, len(steps) + 1, month)
+        if report is not None:
+            planning.append(report)
         issues = validate_plan(plan, s, steps)
-        if issues:  # the deterministic planner must always pass its own validator
+        if issues:  # whichever planner made it, a plan must pass the validator
             raise RuntimeError(f"invalid plan for {s.business_id}: {issues}")
 
         for st in plan.steps:

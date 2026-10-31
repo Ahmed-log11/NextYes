@@ -2,8 +2,8 @@
 
 `build_plan` is deterministic: for each blocker it picks the first applicable remedy
 from the catalog, and it chooses the lender the business can be ready for soonest.
-It is the baseline the language-model planner (Chunk 4c) is compared against, and
-its fallback.
+It is the baseline the agent's own planning (agent_planner.py) is compared against,
+and its fallback.
 
 `validate_plan` checks ANY plan, including one written by a model: every hard
 blocker covered, only known and allowed remedies, the right executor for each step,
@@ -69,6 +69,25 @@ def _step(step_id: str, r: Remedy, codes: list[str], s: FinancialSnapshot, p: Po
                     detail=r.detail(s, p, prm), params=prm, duration_months=r.duration(s, p, prm))
 
 
+def switch_step(step_id: str, s: FinancialSnapshot, current_policy: str, target: str,
+                est: dict[str, int | None]) -> PlanStep:
+    """The step that moves the application to another lender, with the reason in both languages."""
+    p, cur = load_policy(target), load_policy(current_policy)
+    months, before = est.get(target), est.get(current_policy)
+    soon_en = "now" if not months else f"in about {months} month{'s' if months > 1 else ''}"
+    soon_ar = "الآن" if not months else f"خلال نحو {months} {'شهر' if months == 1 else 'أشهر'}"
+    if before is None:
+        reason_en = f"ready {soon_en}; the current lender is out of reach within {MAX_MONTHS} months"
+        reason_ar = f"جاهزة {soon_ar}؛ والممول الحالي غير ممكن خلال {MAX_MONTHS} شهرًا"
+    else:
+        reason_en, reason_ar = f"ready {soon_en} instead of {before} months", f"جاهزة {soon_ar} بدلًا من {before} أشهر"
+    params = {"policy_id": target, "from_policy": current_policy,
+              "to_name_en": p.name, "to_name_ar": p.name_ar or p.name,
+              "from_name_en": cur.name, "from_name_ar": cur.name_ar or cur.name,
+              "reason_en": reason_en, "reason_ar": reason_ar}
+    return _step(step_id, CATALOG["SWITCH_LENDER"], [], s, p, params)
+
+
 def build_plan(s: FinancialSnapshot, current_policy: str, existing: list[PlanStep] | None = None,
                first_id: int = 1) -> Plan:
     """Steps for the blockers not already covered by an open step in `existing`."""
@@ -81,20 +100,7 @@ def build_plan(s: FinancialSnapshot, current_policy: str, existing: list[PlanSte
     n = first_id
 
     if target != current_policy:
-        cur = load_policy(current_policy)
-        months, before = est[target], est[current_policy]
-        soon_en = "now" if months == 0 else f"in about {months} month{'s' if months > 1 else ''}"
-        soon_ar = "الآن" if months == 0 else f"خلال نحو {months} {'شهر' if months == 1 else 'أشهر'}"
-        if before is None:
-            reason_en = f"ready {soon_en}; the current lender is out of reach within {MAX_MONTHS} months"
-            reason_ar = f"جاهزة {soon_ar}؛ والممول الحالي غير ممكن خلال {MAX_MONTHS} شهرًا"
-        else:
-            reason_en, reason_ar = f"ready {soon_en} instead of {before} months", f"جاهزة {soon_ar} بدلًا من {before} أشهر"
-        params = {"policy_id": target, "from_policy": current_policy,
-                  "to_name_en": p.name, "to_name_ar": p.name_ar or p.name,
-                  "from_name_en": cur.name, "from_name_ar": cur.name_ar or cur.name,
-                  "reason_en": reason_en, "reason_ar": reason_ar}
-        steps.append(_step(f"s{n}", CATALOG["SWITCH_LENDER"], [], s, p, params))
+        steps.append(switch_step(f"s{n}", s, current_policy, target, est))
         n += 1
 
     covered = {c for st in existing if st.status in OPEN for c in st.fixes}
@@ -137,7 +143,11 @@ def validate_plan(plan: Plan, s: FinancialSnapshot, existing: list[PlanStep] | N
         return [PlanIssue(code="UNKNOWN_LENDER", message=f"No lender policy {plan.policy_id}")]
     p = load_policy(plan.policy_id)
 
+    refused = {st.remedy for st in (existing or []) if st.status == "declined"}
     for st in plan.steps:
+        if st.remedy in refused:
+            issues.append(PlanIssue(code="DECLINED_BY_OWNER", message=f"{st.step_id}: the owner already declined {st.remedy}"))
+            continue
         if st.remedy in FORBIDDEN:
             issues.append(PlanIssue(code="FORBIDDEN_STEP", message=f"{st.step_id}: {FORBIDDEN[st.remedy]}"))
             continue

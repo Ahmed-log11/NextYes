@@ -63,6 +63,8 @@ backend/
     remedies.py   what fixes each blocker, who does it (agent / approve / owner / wait / advisor), its effect
     simulator.py  one month passes: dates, history, revenue window, step effects
     planner.py    deterministic plan + lender matching; validate_plan checks ANY plan (incl. a model's)
+    agent_planner.py  the agent's own plan (Sonnet, tools = remedies), validated, then judged against the rule plan by the simulator
+    evaluate_planner.py  agent planner vs rule planner on a split (approve-all and owner-declines-one scenarios)
     runner.py     a whole journey without a model; python -m app.agent.runner <business_id>
     brain.py      Sonnet explains / answers / analyses declines; Haiku + rules screen manipulation; template fallback
     graph.py      the LangGraph journey: consent -> extract -> diagnose -> plan -> approvals / months -> submit
@@ -121,7 +123,7 @@ consent -> extract -> diagnose -> plan -> await_owner --approve / decline / adva
 
 The journey is a LangGraph graph (`docs/journey_graph.mmd`). It pauses wherever a person acts: consent, uploading a missing document, approving prepared steps, letting a month pass, and the final go before anything reaches a lender. State is checkpointed in SQLite, so a journey survives restarts and spans simulated months.
 
-The model never routes the graph or decides readiness. Plans come from the deterministic planner and must pass `validate_plan`; Sonnet explains them, answers the owner and analyses a decline, grounded only in the journey state. Every owner message is screened first; requests to mislead the lender (hide a debt, inflate revenue, alter a document) are refused with a lawful alternative and logged. Every action is in the audit log (`events`), which is also the UI timeline. Without an API key the template brain gives the same kinds of answer, so the demo never depends on the network.
+The model never routes the graph or decides readiness. Sonnet proposes a plan from the remedies menu; it must pass `validate_plan` (one retry with the issues as feedback), then the simulator plays it and the rule planner's plan forward and the better one runs (ties go to the agent; `NEXTYES_PLANNER=rules` turns the agent planner off). Each choice is logged (`plan.chosen`, `journey.planning`). Sonnet also explains plans, answers the owner and analyses a decline, grounded only in the journey state. Every owner message is screened first; requests to mislead the lender (hide a debt, inflate revenue, alter a document) are refused with a lawful alternative and logged. Every action is in the audit log (`events`), which is also the UI timeline. Without an API key the template brain gives the same kinds of answer, so the demo never depends on the network.
 
 The lender decides on the business's true data, the agent on what it extracted: a misreading can lead to a decline, which the agent analyses and fixes (tested).
 

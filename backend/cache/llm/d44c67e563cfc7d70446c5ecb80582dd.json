@@ -1,0 +1,18 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [],
+  "notes": [
+   "The report shows no credit facilities on record for this business."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1578,
+  "output_tokens": 102,
+  "latency_s": 1.02,
+  "cached": false
+ }
+}

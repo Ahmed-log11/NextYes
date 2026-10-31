@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Waha Medical Clinic",
+  "cr_number": "1012131559",
+  "owner_name": "Nora Al-Subaie",
+  "owner_name_ar": "نورة السبيعي",
+  "issue_date": "2025-05-31",
+  "expiry_date": "2028-03-18",
+  "status_active": true,
+  "notes": [
+   "Document is marked as a simulated hackathon demo rather than a real registry record."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1653,
+  "output_tokens": 270,
+  "latency_s": 2.19,
+  "cached": false
+ }
+}

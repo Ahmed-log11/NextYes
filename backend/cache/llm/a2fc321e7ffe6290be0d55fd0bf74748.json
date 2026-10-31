@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1310000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.07,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2026-01-29",
+  "financial_statements_attached": true,
+  "notes": [
+   "Operating since 2026-01-29, a very recent start date for a requested SAR 1,310,000 facility; analyst should verify operating history against the 12-month bank statement listed as attached."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1824,
+  "output_tokens": 288,
+  "latency_s": 1.76,
+  "cached": false
+ }
+}

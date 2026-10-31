@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Ruya Medical Clinic",
+  "cr_number": "1023649403",
+  "owner_name": "Nora Al-Subaie",
+  "owner_name_ar": "نورة السبيعي",
+  "issue_date": "2021-06-30",
+  "expiry_date": "2027-05-27",
+  "status_active": false,
+  "notes": [
+   "Certificate status is Suspended (موقوف), not Active."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1653,
+  "output_tokens": 263,
+  "latency_s": 2.21,
+  "cached": false
+ }
+}

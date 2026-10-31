@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1010000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.104,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2022-11-29",
+  "financial_statements_attached": true,
+  "notes": [
+   "Attachment list includes financial statements, bank statement (12 months), receivables aging, and tax compliance summary, but the attachments themselves were not provided with this document; only the application page was reviewed.",
+   "Kafalah guarantee is stated as approved with certificate attached; the certificate itself is not in this document and should be verified."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1837,
+  "output_tokens": 331,
+  "latency_s": 1.86,
+  "cached": false
+ }
+}

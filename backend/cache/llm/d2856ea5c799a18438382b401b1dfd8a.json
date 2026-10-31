@@ -1,0 +1,23 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Nakheel Online Store",
+  "cr_number": "1057618949",
+  "owner_name": "Turki Al-Mutairi",
+  "owner_name_ar": "تركي المطيري",
+  "issue_date": "2019-08-30",
+  "expiry_date": "2026-11-19",
+  "status_active": true,
+  "notes": [
+   "Document is marked as a simulated hackathon demo, not a real registry record."
+  ]
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1657,
+  "output_tokens": 268,
+  "latency_s": 2.01,
+  "cached": false
+ }
+}

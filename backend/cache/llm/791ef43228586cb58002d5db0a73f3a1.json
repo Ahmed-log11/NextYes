@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Bayan Food Supplies",
+  "cr_number": "1027079660",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2017-11-29",
+  "expiry_date": "2027-11-09",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1663,
+  "output_tokens": 245,
+  "latency_s": 1.8,
+  "cached": false
+ }
+}

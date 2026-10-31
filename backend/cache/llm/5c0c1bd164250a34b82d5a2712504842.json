@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Qimma Food Supplies",
+  "cr_number": "1022080518",
+  "owner_name": "Fahad Al-Otaibi",
+  "owner_name_ar": "فهد العتيبي",
+  "issue_date": "2022-11-29",
+  "expiry_date": "2027-01-07",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1660,
+  "output_tokens": 247,
+  "latency_s": 1.66,
+  "cached": false
+ }
+}

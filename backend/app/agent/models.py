@@ -140,6 +140,7 @@ class JourneyState(BaseModel):
     history: list[AssessmentView] = Field(default_factory=list)
     steps: list[PlanStep] = Field(default_factory=list)
     plan_summary: Text | None = None
+    planning: list[dict[str, Any]] = Field(default_factory=list)  # each time a plan was made: agent vs rules, who won
     application: dict[str, Any] | None = None
     submissions: list[dict[str, Any]] = Field(default_factory=list)  # lender decisions
 

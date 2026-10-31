@@ -1,0 +1,31 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated) / البنك التجريبي",
+    "facility_type": "Vehicle financing / تمويل مركبات",
+    "monthly_instalment": 2645.18,
+    "outstanding": 44968.06,
+    "status": "regular"
+   },
+   {
+    "lender": "Demo Finance Co. (simulated) / شركة التمويل التجريبية",
+    "facility_type": "Working capital / رأس مال عامل",
+    "monthly_instalment": 1854.82,
+    "outstanding": 22257.84,
+    "status": "regular"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1725,
+  "output_tokens": 263,
+  "latency_s": 1.59,
+  "cached": false
+ }
+}

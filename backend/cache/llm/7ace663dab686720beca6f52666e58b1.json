@@ -1,0 +1,18 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [],
+  "notes": [
+   "The report lists no credit facilities on record, so no lender, instalment, outstanding balance or default status is recorded."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1582,
+  "output_tokens": 122,
+  "latency_s": 1.61,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Murjan Food Supplies",
+  "cr_number": "1042960692",
+  "owner_name": "Fahad Al-Otaibi",
+  "owner_name_ar": "فهد العتيبي",
+  "issue_date": "2021-11-29",
+  "expiry_date": "2027-06-17",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1666,
+  "output_tokens": 247,
+  "latency_s": 1.91,
+  "cached": false
+ }
+}

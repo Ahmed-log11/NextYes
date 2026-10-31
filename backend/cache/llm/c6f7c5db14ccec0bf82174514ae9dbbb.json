@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 650000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.076,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2022-06-30",
+  "financial_statements_attached": true,
+  "notes": [
+   "Kafalah guarantee is marked approved with certificate attached, but the certificate itself is not among the listed attachments; verify before relying on it."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1837,
+  "output_tokens": 273,
+  "latency_s": 1.59,
+  "cached": false
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-07",
+    "amount": 20964.31,
+    "balance": 328963.29,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": -48457.14,
+    "balance": 280506.15,
+    "category": "opex",
+    "counterparty": "EJAR RENT 137398"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 68318.08,
+    "balance": 348824.23,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": 32611.49,
+    "balance": 381435.72,
+    "category": "revenue",
+    "counterparty": "ALUFUQ SCHOOLS 534101"
+   },
+   {
+    "date": "2026-02-20",
+    "amount": -45001.52,
+    "balance": 336434.2,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين (supplier payment)"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": 33943.01,
+    "balance": 370377.21,
+    "category": "revenue",
+    "counterparty": "SAAD ALQAHTANI 499100"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -39739.44,
+    "balance": 330637.77,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 471792"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": 40802.02,
+    "balance": 371439.79,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": 46602.25,
+    "balance": 418042.04,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -45693.9,
+    "balance": 372348.14,
+    "category": "opex",
+    "counterparty": "رواتب حماية الأجور مارس (WPS salary)"
+   },
+   {
+    "date": "2026-03-15",
+    "amount": 55085.96,
+    "balance": 427434.1,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 44676.76,
+    "balance": 472110.86,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 27913.96,
+    "balance": 500024.82,
+    "category": "revenue",
+    "counterparty": "MADA POS SETTL"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": -72398.32,
+    "balance": 427626.5,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -46735.12,
+    "balance": 380891.38,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين (supplier payment)"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -54461.76,
+    "balance": 326429.62,
+    "category": "opex",
+    "counterparty": "SADAD TELECOM 273185"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 52019.05,
+    "balance": 378448.67,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO 754718"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": 51028.97,
+    "balance": 429477.64,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 20806.82,
+    "balance": 450284.46,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": -51938.71,
+    "balance": 398345.75,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب (salary transfer)"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": 47409.34,
+    "balance": 445755.09,
+    "category": "revenue",
+    "counterparty": "حوالة واردة - فهد العتيبي"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": -66258.23,
+    "balance": 379496.86,
+    "category": "opex",
+    "counterparty": "EJAR RENT 722190"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -62636.91,
+    "balance": 316859.95,
+    "category": "opex",
+    "counterparty": "مدفوعات الموردين (supplier payment)"
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 47503.54,
+    "balance": 364363.49,
+    "category": "revenue",
+    "counterparty": "ALSAFWA RESTAURANT 551510"
+   },
+   {
+    "date": "2026-04-22",
+    "amount": -57912.95,
+    "balance": 306450.54,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 983089"
+   },
+   {
+    "date": "2026-04-24",
+    "amount": 54292.86,
+    "balance": 360743.4,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 69758.47,
+    "balance": 430501.87,
+    "category": "revenue",
+    "counterparty": "ALRIYADA HOTELS 301666"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": 24449.51,
+    "balance": 454951.38,
+    "category": "revenue",
+    "counterparty": "POS settlement"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": -46831.3,
+    "balance": 408120.08,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب (salary transfer)"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": -37676.49,
+    "balance": 370443.59,
+    "category": "opex",
+    "counterparty": "EJAR RENT 760654"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": 75102.69,
+    "balance": 445546.28,
+    "category": "revenue",
+    "counterparty": "ALRIYADA HOTELS 452020"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": 44144.01,
+    "balance": 489690.29,
+    "category": "revenue",
+    "counterparty": "Card sales deposit"
+   },
+   {
+    "date": "2026-05-22",
+    "amount": 55249.61,
+    "balance": 544939.9,
+    "category": "revenue",
+    "counterparty": "NUJOOM CATERING 301826"
+   },
+   {
+    "date": "2026-05-22",
+    "amount": -56656.83,
+    "balance": 488283.07,
+    "category": "opex",
+    "counterparty": "SUNDUS MATERIALS (TRF OUT)"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": -53330.28,
+    "balance": 434952.79,
+    "category": "opex",
+    "counterparty": "SADAD ELEC 565256"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 37954.18,
+    "balance": 472906.97,
+    "category": "revenue",
+    "counterparty": "ALMAWARED CO (TRF IN)"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": 42800.93,
+    "balance": 515707.9,
+    "category": "revenue",
+    "counterparty": "خالد الحربي (incoming transfer)"
+   },
+   {
+    "date": "2026-06-02",
+    "amount": -40595.96,
+    "balance": 475111.94,
+    "category": "opex",
+    "counterparty": "تحويل الرواتب (salary transfer)"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": 52124.38,
+    "balance": 527236.32,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي (incoming transfer)"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": -46767.59,
+    "balance": 480468.73,
+    "category": "opex",
+    "counterparty": "Rent payment - business premises"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": 24778.86,
+    "balance": 505247.59,
+    "category": "revenue",
+    "counterparty": "تركي المطيري (incoming transfer)"
+   }
+  ],
+  "notes": [
+   "Incoming transfer dated 2026-06-04 from عمر الغامدي (Omar Al-Ghamdi), the business owner per the commercial registration; recorded as revenue per the line's description, but it may be an owner capital injection and should be verified.",
+   "Page 2 of 4 only: opening and closing balances, period dates and account type are not shown on this page."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4413,
+  "output_tokens": 2632,
+  "latency_s": 7.9,
+  "cached": false
+ }
+}

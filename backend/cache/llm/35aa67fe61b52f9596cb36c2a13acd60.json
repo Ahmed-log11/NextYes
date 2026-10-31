@@ -1,0 +1,20 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 152819.17,
+  "closing_balance": 733226.25,
+  "transactions": [],
+  "notes": []
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8550,
+  "output_tokens": 6652,
+  "latency_s": 19.35,
+  "cached": false
+ }
+}

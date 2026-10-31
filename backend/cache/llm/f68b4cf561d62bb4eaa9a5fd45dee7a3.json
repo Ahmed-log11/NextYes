@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 556200,
+  "overdue_90_plus": 15600,
+  "notes": [
+   "Customer 90+ day balances sum to 15,600.00 across the four customers, consistent with the Total row; customer totals sum to 556,200.00."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1644,
+  "output_tokens": 167,
+  "latency_s": 1.22,
+  "cached": false
+ }
+}

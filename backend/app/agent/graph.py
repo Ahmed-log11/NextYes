@@ -37,7 +37,8 @@ from ..extract.assemble import extract
 from ..extract.llm import Reader
 from .brain import GUARDRAIL_KIND, MANIPULATION, Brain, detect_lang
 from .models import AssessmentView, Assignee, BlockerView, ChatMessage, JourneyState, Text
-from .planner import build_plan, validate_plan
+from .agent_planner import describe, make_plan
+from .planner import validate_plan
 from .remedies import CATALOG
 from .simulator import advance_month, start_step
 
@@ -59,6 +60,7 @@ class Context:
     docs_folder: Callable[[str], Path]             # journey_id -> its working copy of the documents
     source_folder: Callable[[str, str], Path]      # (business_id, level) -> original documents
     auto_fetch: bool = True                        # pull missing documents from their source
+    planner: str | None = None                     # agent | rules (default: NEXTYES_PLANNER, else agent)
 
 
 # Where the agent can pull each document itself, with the owner's consent. SIMULATED here
@@ -98,10 +100,15 @@ def view(a: Assessment, month: int) -> AssessmentView:
 
 def _think(j: JourneyState, ctx: Context, method: str, *args: Any) -> Any:
     """Call the brain and charge its token use to THIS journey (the brain is shared)."""
+    return _charged(j, ctx, method, lambda: getattr(ctx.brain, method)(*args))
+
+
+def _charged(j: JourneyState, ctx: Context, method: str, fn: Callable[[], Any]) -> Any:
     usage = getattr(ctx.brain, "usage", None)
     before = dict(usage) if usage else {}
-    ctx.brain.last_error = None if hasattr(ctx.brain, "last_error") else None
-    out = getattr(ctx.brain, method)(*args)
+    if hasattr(ctx.brain, "last_error"):
+        ctx.brain.last_error = None
+    out = fn()
     for k, v in (usage or {}).items():
         j.usage[f"brain_{k}"] = j.usage.get(f"brain_{k}", 0) + v - before.get(k, 0)
     err = getattr(ctx.brain, "last_error", None)
@@ -252,7 +259,12 @@ def make_nodes(ctx: Context) -> dict[str, Callable[[GState], Command]]:
     def plan(state: GState) -> Command:
         j, t = _load(state)
         s = _snap(j)
-        p = build_plan(s, j.policy_id, j.steps, first_id=len(j.steps) + 1)
+        p, report = _charged(j, ctx, "propose_plan", lambda: make_plan(
+            s, j.policy_id, j.steps, first_id=len(j.steps) + 1, brain=ctx.brain, month=j.month, planner=ctx.planner))
+        if report.rules is not None:  # two plans were compared: say whose plan runs and why
+            line = describe(report)
+            j.log("agent", "plan.chosen", line.en, line.ar, **report.model_dump(mode="json"))
+            j.planning.append({"month": j.month, **report.model_dump(mode="json")})
         issues = validate_plan(p, s, j.steps)
         if issues:  # never act on an invalid plan
             j.stage = "escalated"

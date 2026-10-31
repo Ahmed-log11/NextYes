@@ -72,6 +72,8 @@ The criteria are very technical, so the plan is: strong business story + measure
 
 Sources used for policies: Lendo — Business financing requirements in Saudi Arabia; Qoyod — SME financing in Saudi Arabia 2026.
 
+- **Agent planner + web app (31 Oct)** `backend/app/agent/agent_planner.py`: at every planning round Sonnet gets every lender's open reasons with evidence and the remedy menu (executor, effect, months, max affordable amount) and submits a plan through a tool; `validate_plan` checks it (now also rejects a remedy the owner declined), one retry with the issues; then `project()` plays both the agent's and the rule planner's plan forward and the better one runs (ready, then fewer months, then fewer owner actions, then higher final score; ties go to the agent). Without a key, or with `NEXTYES_PLANNER=rules`, only the rule planner runs. Main gain: when the owner declines a step (e.g. Kafalah), the rule planner stops (`owner_declined`) while the agent can switch to the lender that does not need it. `evaluate_planner.py` measures it (reports/planner-<split>-claude.*), `/api/planner-evaluation` serves it. `frontend/` (React + Vite + Tailwind, EN/AR): landing, business journey with readiness map (map / cards) and "how this plan was chosen", bank credit desk, results dashboard from the real reports. Tests: 583.
+
 ## 5. What is next
 
 

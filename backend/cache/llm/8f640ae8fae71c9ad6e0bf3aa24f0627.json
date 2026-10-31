@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Durrat Printing & Advertising",
+  "cr_number": "1093177540",
+  "owner_name": "Khalid Al-Harbi",
+  "owner_name_ar": "خالد الحربي",
+  "issue_date": "2017-06-30",
+  "expiry_date": "2028-09-03",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1658,
+  "output_tokens": 244,
+  "latency_s": 1.77,
+  "cached": false
+ }
+}

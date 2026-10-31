@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 4710000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.075,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2020-06-15",
+  "financial_statements_attached": false,
+  "notes": [
+   "Financial statements listed as not provided; the application has no audited or management accounts to support the requested amount.",
+   "Profit rate is described as indicative (هامش الربح الاسترشادي), so the final rate is not confirmed."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1856,
+  "output_tokens": 299,
+  "latency_s": 1.88,
+  "cached": false
+ }
+}
