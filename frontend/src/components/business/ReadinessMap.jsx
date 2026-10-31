@@ -101,7 +101,7 @@ export function NodeBody({ node, t, lang }) {
         <div className="line-clamp-2 text-[13px] font-semibold leading-snug text-white">{node.title}</div>
         <div className="mt-1.5 flex items-center gap-2">
           <span className={`rounded px-1.5 py-0.5 text-[10.5px] font-semibold ${STATUS_TONE[node.status]}`}>{label(STATUS, node.status, lang)}</span>
-          <span className="truncate text-[11px] text-white/45">{label(EXECUTORS, node.executor, lang)}</span>
+          {node.status !== "declined" && <span className="truncate text-[11px] text-white/45">{label(EXECUTORS, node.executor, lang)}</span>}
         </div>
       </div>
     );

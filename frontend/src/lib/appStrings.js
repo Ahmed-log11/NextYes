@@ -97,7 +97,7 @@ export const APP = {
     planning: {
       title: "How this plan was chosen", month: "month",
       agent: "Agent's plan (Claude)", rules: "Rule-based plan", used: "in use",
-      readyIn: "ready in", months: "month(s)", ownerActions: "steps for you", notReady: "not ready within 12 months", noPlan: "no valid plan",
+      readyIn: "ready in", months: "month(s)", ownerActions: "steps for you", score: "final score", notReady: "not ready within 12 months", noPlan: "no valid plan",
       reasoning: "The agent's reasoning", issues: "Rejected by the validator",
       note: "Both plans are checked by the rules and played forward month by month; the better one runs. The bank's decision is still the rule engine's.",
       badgeAgent: "Planned by the agent · verified", badgeRules: "Rule-based plan",
@@ -201,7 +201,7 @@ export const APP = {
     planning: {
       title: "كيف اختيرت هذي الخطة", month: "الشهر",
       agent: "خطة الوكيل (Claude)", rules: "الخطة المبنية على القواعد", used: "المستخدمة",
-      readyIn: "جاهزة خلال", months: "شهر", ownerActions: "خطوات عليك", notReady: "غير جاهزة خلال 12 شهرًا", noPlan: "لا توجد خطة صالحة",
+      readyIn: "جاهزة خلال", months: "شهر", ownerActions: "خطوات عليك", score: "الدرجة النهائية", notReady: "غير جاهزة خلال 12 شهرًا", noPlan: "لا توجد خطة صالحة",
       reasoning: "تفكير الوكيل", issues: "رفضها الفاحص",
       note: "الخطتين تنفحص بالقواعد وتنحاكى شهرًا بشهر، والأفضل هي اللي تتنفذ. وقرار البنك يبقى لمحرك القواعد.",
       badgeAgent: "خطة الوكيل · متحقق منها", badgeRules: "خطة القواعد",

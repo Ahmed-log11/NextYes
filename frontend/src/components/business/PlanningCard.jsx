@@ -21,7 +21,7 @@ function Outcome({ title, p, win, t }) {
       </div>
       {p ? (
         <p className="mt-1 text-[13px] text-muted">
-          {p.ready ? `${P.readyIn} ${p.months} ${P.months} · ${p.owner_actions} ${P.ownerActions}` : P.notReady}
+          {p.ready ? `${P.readyIn} ${p.months} ${P.months} · ${p.owner_actions} ${P.ownerActions} · ${P.score} ${Math.round(p.score)}` : P.notReady}
         </p>
       ) : <p className="mt-1 text-[13px] text-muted">{P.noPlan}</p>}
     </div>
