@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 490000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.098,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2022-02-10",
+  "financial_statements_attached": false,
+  "notes": [
+   "Financial statements listed as not provided; the application relies on the 12-month bank statement and other attachments."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1850,
+  "output_tokens": 259,
+  "latency_s": 1.48,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Durrat Medical Clinic",
+  "cr_number": "1052440150",
+  "owner_name": "Reem Al-Shammari",
+  "owner_name_ar": "ريم الشمري",
+  "issue_date": "2025-12-30",
+  "expiry_date": "2028-06-15",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1650,
+  "output_tokens": 242,
+  "latency_s": 1.48,
+  "cached": false
+ }
+}

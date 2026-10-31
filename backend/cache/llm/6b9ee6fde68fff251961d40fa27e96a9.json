@@ -1,0 +1,40 @@
+{
+ "document": "tax_compliance",
+ "fields": {
+  "einvoicing_integrated": true,
+  "vat_returns": [
+   {
+    "period": "Q2 2026",
+    "due_date": "2026-07-31",
+    "filed_date": "2026-07-17"
+   },
+   {
+    "period": "Q1 2026",
+    "due_date": "2026-04-30",
+    "filed_date": "2026-04-13"
+   },
+   {
+    "period": "Q4 2025",
+    "due_date": "2026-01-31",
+    "filed_date": "2026-01-28"
+   },
+   {
+    "period": "Q3 2025",
+    "due_date": "2025-10-31",
+    "filed_date": "2025-11-27"
+   }
+  ],
+  "notes": [
+   "Q3 2025 VAT return was filed 2025-11-27, after its 2025-10-31 due date (late filing).",
+   "Document is labelled as a simulated hackathon demo, not a real record; figures should be verified with the tax authority before reliance."
+  ]
+ },
+ "record": {
+  "document": "tax_compliance",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1674,
+  "output_tokens": 322,
+  "latency_s": 1.74,
+  "cached": false
+ }
+}

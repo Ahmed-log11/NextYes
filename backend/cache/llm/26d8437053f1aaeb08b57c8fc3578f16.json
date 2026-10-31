@@ -1,0 +1,248 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 192133.72,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-03",
+    "amount": 56082.37,
+    "balance": 248216.09,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة نوفمبر"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": -46499.92,
+    "balance": 201716.17,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد نوفمبر"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": -42111.02,
+    "balance": 159605.15,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 60596.93,
+    "balance": 220202.08,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": -54215.74,
+    "balance": 165986.34,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 22010.86,
+    "balance": 187997.2,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مقاهي أريج"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 22928.05,
+    "balance": 210925.25,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فنادق الريادة"
+   },
+   {
+    "date": "2025-11-22",
+    "amount": -55054.72,
+    "balance": 155870.53,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 46970.72,
+    "balance": 202841.25,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -4300.0,
+    "balance": 198541.25,
+    "category": "debt_service",
+    "counterparty": "قسط مرابحة البنك التجريبي"
+   },
+   {
+    "date": "2025-11-26",
+    "amount": 36011.07,
+    "balance": 234552.32,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": -53318.0,
+    "balance": 181234.32,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 39089.76,
+    "balance": 220324.08,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -51563.08,
+    "balance": 168761.0,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -52429.88,
+    "balance": 116331.12,
+    "category": "opex",
+    "counterparty": "دفعة للمورد رمال للتغليف"
+   },
+   {
+    "date": "2025-12-21",
+    "amount": -42592.94,
+    "balance": 73738.18,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 113233.19,
+    "balance": 186971.37,
+    "category": "revenue",
+    "counterparty": "مستلم من مقاهي أريج"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -4300.0,
+    "balance": 182671.37,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": 42881.57,
+    "balance": 225552.94,
+    "category": "revenue",
+    "counterparty": "مستلم من عمر الغامدي"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": 51895.48,
+    "balance": 277448.42,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 51106.24,
+    "balance": 328554.66,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 34736.16,
+    "balance": 363290.82,
+    "category": "revenue",
+    "counterparty": "مستلم من قصر الضيافة"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 22151.78,
+    "balance": 385442.6,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يناير"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": -38924.27,
+    "balance": 346518.33,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد يناير"
+   },
+   {
+    "date": "2026-01-10",
+    "amount": 25157.5,
+    "balance": 371675.83,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من نجوم للإعاشة"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": -46827.44,
+    "balance": 324848.39,
+    "category": "opex",
+    "counterparty": "إيجار المحل يناير"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": 37175.15,
+    "balance": 362023.54,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يناير"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -45506.78,
+    "balance": 316516.76,
+    "category": "opex",
+    "counterparty": "دفعة للمورد سندس للمواد"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 53273.17,
+    "balance": 369789.93,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من فنادق الريادة"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -4300.0,
+    "balance": 365489.93,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": -49633.91,
+    "balance": 315856.02,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 40154.78,
+    "balance": 356010.8,
+    "category": "revenue",
+    "counterparty": "146513 دفعة نقاط بيع"
+   }
+  ],
+  "notes": [
+   "The statement period runs to 2026-10-30, which is after the other dates on this page; the page shows transactions only up to 2026-02-02. The period end is as printed.",
+   "Page 1 of 4: closing balance and later transactions are on subsequent pages."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4055,
+  "output_tokens": 2161,
+  "latency_s": 6.84,
+  "cached": false
+ }
+}

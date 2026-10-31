@@ -1,0 +1,79 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 659805.42,
+  "transactions": [
+   {
+    "date": "2026-10-16",
+    "amount": 28195.86,
+    "balance": 689574.85,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": -38056.3,
+    "balance": 651518.55,
+    "category": "opex",
+    "counterparty": "إيجار المحل أكتوبر"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": -50894.34,
+    "balance": 600624.21,
+    "category": "opex",
+    "counterparty": "دفعة للمورد رمال للتغليف"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 27258.96,
+    "balance": 627883.17,
+    "category": "revenue",
+    "counterparty": "مستلم من فنادق الريادة"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -4300.0,
+    "balance": 623583.17,
+    "category": "debt_service",
+    "counterparty": "قسط مرابحة البنك التجريبي"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": -34753.93,
+    "balance": 588829.24,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 50415.69,
+    "balance": 639244.93,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 20560.49,
+    "balance": 659805.42,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فنادق الريادة"
+   }
+  ],
+  "notes": [
+   "Page 4 only: opening balance and period dates are not on this page; the first line's running balance (689574.85) is after a credit of 28195.86, so the prior balance is not shown here."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2878,
+  "output_tokens": 713,
+  "latency_s": 2.97,
+  "cached": false
+ }
+}

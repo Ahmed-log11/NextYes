@@ -1,0 +1,312 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-06-07",
+    "amount": -38189.8,
+    "balance": 415756.56,
+    "category": "opex",
+    "counterparty": "إيجار المحل يونيو"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": -44453.38,
+    "balance": 371303.18,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": 69676.01,
+    "balance": 440979.19,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -4300.0,
+    "balance": 436679.19,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": 69462.23,
+    "balance": 506141.42,
+    "category": "revenue",
+    "counterparty": "مقاهي أريج"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -30376.1,
+    "balance": 475765.32,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": 36502.6,
+    "balance": 512267.92,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -41948.05,
+    "balance": 470319.87,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": 36712.47,
+    "balance": 507032.34,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يوليو"
+   },
+   {
+    "date": "2026-07-11",
+    "amount": 29864.99,
+    "balance": 536897.33,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -30378.16,
+    "balance": 506519.17,
+    "category": "opex",
+    "counterparty": "إيجار المحل يوليو"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": -45096.49,
+    "balance": 461422.68,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": 55900.38,
+    "balance": 517323.06,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 24212.37,
+    "balance": 541535.43,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 50309.79,
+    "balance": 591845.22,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -4300.0,
+    "balance": 587545.22,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-07-31",
+    "amount": -41950.3,
+    "balance": 545594.92,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -40397.16,
+    "balance": 505197.76,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أغسطس"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": -52140.72,
+    "balance": 453057.04,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 42012.5,
+    "balance": 495069.54,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": 51455.68,
+    "balance": 546525.22,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة أغسطس"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": 30559.51,
+    "balance": 577084.73,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": 52007.02,
+    "balance": 629091.75,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": -40307.83,
+    "balance": 588783.92,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": -41898.29,
+    "balance": 546885.63,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-08-18",
+    "amount": 39965.29,
+    "balance": 586850.92,
+    "category": "revenue",
+    "counterparty": "781614 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -4300.0,
+    "balance": 582550.92,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-09-01",
+    "amount": 29939.0,
+    "balance": 612489.92,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": 26122.65,
+    "balance": 638612.57,
+    "category": "revenue",
+    "counterparty": "ريم الشمري"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": -47337.64,
+    "balance": 591274.93,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد سبتمبر"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": -49980.36,
+    "balance": 541294.57,
+    "category": "opex",
+    "counterparty": "إيجار المحل سبتمبر"
+   },
+   {
+    "date": "2026-09-09",
+    "amount": 35842.97,
+    "balance": 577137.54,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -47497.61,
+    "balance": 529639.93,
+    "category": "opex",
+    "counterparty": "نوى للجملة"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": 64589.58,
+    "balance": 594229.51,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة سبتمبر"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": -45056.69,
+    "balance": 549172.82,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": 46185.83,
+    "balance": 595358.65,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -4300.0,
+    "balance": 591058.65,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 32019.97,
+    "balance": 623078.62,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": 21055.96,
+    "balance": 644134.58,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 67313.04,
+    "balance": 711447.62,
+    "category": "revenue",
+    "counterparty": "858802 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -50068.63,
+    "balance": 661378.99,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   }
+  ],
+  "notes": [
+   "Page 3 of 4 only: period, opening and closing balances, and account type are not shown on this page.",
+   "Transfers from 'فيصل الزهراني' and 'ريم الشمري' are from individuals; they are recorded as revenue because the owner is Fahad Al-Otaibi and these are not shown as owner transfers. Analyst should confirm they are customers.",
+   "Recurring 'قسط إيجار المستودع' and 'إيجار المحل' rent payments and 'دفعة رواتب' salary lines appear alongside a 'Sample Bank' style debt line; only the 'البنك التجريبي' debt payments are classed as debt service."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4157,
+  "output_tokens": 2656,
+  "latency_s": 8.41,
+  "cached": false
+ }
+}

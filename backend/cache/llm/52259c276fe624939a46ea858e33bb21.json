@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 475000,
+  "overdue_90_plus": 600,
+  "notes": [
+   "The Total row does not reconcile with the customer rows: the customer 'Total' column sums to about 475,000 only in aggregate, but the bucket totals do not match the row sums (e.g., 0-30 column sums to about 164,253 but the customer rows add to a different figure), so the Total row cannot be verified against the detail.",
+   "Roughly 60% of the outstanding balance sits in the 0-30 and 31-60 buckets, but 61-90 days is large (175,058.19), signalling slowing collections on several customers."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1687,
+  "output_tokens": 287,
+  "latency_s": 2.2,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Bayan Logistics",
+  "cr_number": "1036653398",
+  "owner_name": "Faisal Al-Zahrani",
+  "owner_name_ar": "فيصل الزهراني",
+  "issue_date": "2022-12-30",
+  "expiry_date": "2026-09-20",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1665,
+  "output_tokens": 246,
+  "latency_s": 1.73,
+  "cached": false
+ }
+}

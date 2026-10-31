@@ -1,0 +1,23 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1380000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.104,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2015-05-20",
+  "financial_statements_attached": true,
+  "notes": [
+   "The Kafalah guarantee line has overlapping Arabic text, so the wording is partly unreadable; the English line reads 'Kafalah guarantee approved, certificate attached'."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4093,
+  "output_tokens": 288,
+  "latency_s": 2.06,
+  "cached": false
+ }
+}

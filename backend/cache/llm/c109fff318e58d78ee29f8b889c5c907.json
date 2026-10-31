@@ -1,0 +1,21 @@
+{
+ "document": "income_statement",
+ "fields": {
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "revenue": 4152908.69,
+  "operating_expenses": 2954868,
+  "notes": [
+   "The period runs from 2025-11-01 to 2026-10-30, which is about a full year but ends one day short of a 12-month period; the end date may be a typo and should be confirmed.",
+   "The period end date is in the future relative to a typical submission date, so these figures may be projections rather than actual results; confirm whether they are actuals or forecasts."
+  ]
+ },
+ "record": {
+  "document": "income_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1422,
+  "output_tokens": 254,
+  "latency_s": 1.86,
+  "cached": false
+ }
+}

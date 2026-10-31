@@ -9,8 +9,8 @@ const LEVELS = ["clean", "realistic", "hard"];
 const LENDER = "commercial_bank_sme";
 const pct = (x) => `${(x * 100).toFixed(x >= 0.995 && x < 1 ? 1 : 0)}%`;
 
-function summarise(reports) {
-  const rows = LEVELS.map((lv) => reports.find((r) => r.split === "dev" && r.reader === "haiku" && r.level === lv)).filter(Boolean);
+function summarise(reports, split = "dev") {
+  const rows = LEVELS.map((lv) => reports.find((r) => r.split === split && r.reader === "haiku" && r.level === lv)).filter(Boolean);
   if (!rows.length) return null;
   const per = rows.map((r) => {
     const s = r.summary;
@@ -51,6 +51,7 @@ export default function Results() {
   useEffect(() => { api.evaluation().then(setReports).catch(() => setReports([])); }, []);
   useEffect(() => { api.plannerEvaluation().then(setPlanner).catch(() => setPlanner([])); }, []);
   const s = useMemo(() => (reports ? summarise(reports) : null), [reports]);
+  const h = useMemo(() => (reports ? summarise(reports, "heldout") : null), [reports]);
 
   return (
     <AppShell switcher={false}>
@@ -60,9 +61,11 @@ export default function Results() {
 
         {reports && !s && <p className="mt-6 rounded-xl bg-porcelain p-4 text-muted">{R.noData}</p>}
         {!reports && <div className="mt-6 h-56 animate-pulse rounded-3xl bg-white" />}
+        {h && <HeldOut h={h} />}
         {s && (
           <>
-            <div className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_1fr]">
+            <h2 className="mt-10 text-[18px] font-semibold">{R.devTitle}</h2>
+            <div className="mt-3 grid gap-5 lg:grid-cols-[1.1fr_1fr]">
               <div className="relative overflow-hidden rounded-3xl bg-night p-7 text-white">
                 <div className="grid-bg pointer-events-none absolute inset-0 opacity-50" />
                 <div className="pointer-events-none absolute -bottom-24 h-64 w-[480px] rounded-full bg-teal/25 blur-[90px] end-0" />
@@ -154,6 +157,45 @@ function PlannerSection({ reports }) {
         <div className="grid gap-3">
           <Tile big={valid} of={rounds} title={P.valid} sub="validate_plan" />
           <Tile big={rescued} of={declinedRules} title={P.rescued} sub={P.rescuedNote} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HeldOut({ h }) {
+  const { t } = useLang();
+  const R = t.app.results;
+  const decided = h.per.reduce((a, r) => a + r.decided, 0);
+  return (
+    <div className="relative mt-6 overflow-hidden rounded-3xl bg-night p-7 text-white">
+      <div className="grid-bg pointer-events-none absolute inset-0 opacity-50" />
+      <div className="pointer-events-none absolute -top-24 h-64 w-[520px] rounded-full bg-blue/25 blur-[90px] end-0" />
+      <div className="relative grid gap-6 lg:grid-cols-[1fr_1.2fr] lg:items-center">
+        <div>
+          <p className="text-[13px] font-semibold text-blue-2">{R.heldKicker}</p>
+          <p className="display mt-2 text-[80px] font-bold leading-none">{decided - h.wrong}<span className="text-[34px] text-white/45"> / {decided}</span></p>
+          <p className="mt-2 text-[17px] font-semibold">{R.heldDecisions}</p>
+          <p className="mt-3 max-w-[460px] text-[14px] leading-relaxed text-white/65">
+            <b className="text-white">{h.abstained}</b> {R.abstained}. {R.heldNote}
+          </p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {h.per.map((r) => (
+            <div key={r.level} className="rounded-2xl border border-line-dark bg-white/[.04] p-4">
+              <p className="text-[13px] text-white/55">{t.app.start.levels[r.level]}</p>
+              <p className="display mt-1 text-[28px] font-bold">{r.decided - r.wrong} / {r.decided}</p>
+              <p className="text-[12.5px] text-white/55">{R.figures}: {pct(r.figures)} · {R.stopped}: {r.abstained}</p>
+            </div>
+          ))}
+          <div className="rounded-2xl border border-line-dark bg-white/[.04] p-4">
+            <p className="text-[13px] text-white/55">{R.conflicts}</p>
+            <p className="display mt-1 text-[28px] font-bold">{h.conflictsFound} / {h.conflictsN}</p>
+          </div>
+          <div className="rounded-2xl border border-line-dark bg-white/[.04] p-4">
+            <p className="text-[13px] text-white/55">{R.missing}</p>
+            <p className="display mt-1 text-[28px] font-bold">{h.missingFound} / {h.missingN}</p>
+          </div>
         </div>
       </div>
     </div>

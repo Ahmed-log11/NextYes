@@ -1,0 +1,312 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-01-17",
+    "amount": -51211.2,
+    "balance": 203917.22,
+    "category": "opex",
+    "counterparty": "إيجار المحل يناير"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -34274.14,
+    "balance": 169643.08,
+    "category": "opex",
+    "counterparty": "دفعة للمورد نوى للجملة"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 78817.35,
+    "balance": 248460.43,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من قصر الضيافة"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 57440.0,
+    "balance": 305900.43,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من سعد القحطاني"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -44703.67,
+    "balance": 261196.76,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3500.0,
+    "balance": 257696.76,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 47110.34,
+    "balance": 304807.1,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -1567.75,
+    "balance": 303239.35,
+    "category": "personal",
+    "counterparty": "حوالة إلى ناصر الدوسري"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 29739.06,
+    "balance": 332978.41,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 37521.55,
+    "balance": 370499.96,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -2836.23,
+    "balance": 367663.73,
+    "category": "other",
+    "counterparty": "تسوية البطاقة الائتمانية"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 31557.23,
+    "balance": 399220.96,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": -34352.32,
+    "balance": 364868.64,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 24590.74,
+    "balance": 389459.38,
+    "category": "revenue",
+    "counterparty": "مستلم من قصر الضيافة"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -5594.87,
+    "balance": 383864.51,
+    "category": "personal",
+    "counterparty": "حوالة إلى ريم الشمري"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -47774.35,
+    "balance": 336090.16,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -42245.26,
+    "balance": 293844.9,
+    "category": "opex",
+    "counterparty": "دفعة للمورد سندس للمواد"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3500.0,
+    "balance": 290344.9,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 36981.08,
+    "balance": 327325.98,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -37063.07,
+    "balance": 290262.91,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -6540.11,
+    "balance": 283722.8,
+    "category": "personal",
+    "counterparty": "حوالة إلى سعد القحطاني"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 41820.75,
+    "balance": 325543.55,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من قصر الضيافة"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": 31650.33,
+    "balance": 357193.88,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": 48904.7,
+    "balance": 406098.58,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -34436.15,
+    "balance": 371662.43,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد مارس"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": 17040.25,
+    "balance": 388702.68,
+    "category": "revenue",
+    "counterparty": "989559 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -54492.8,
+    "balance": 334209.88,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -6611.97,
+    "balance": 327597.91,
+    "category": "personal",
+    "counterparty": "عقد إيجار سكني"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 63122.21,
+    "balance": 390720.12,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من شركة الموارد"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -52519.08,
+    "balance": 338201.04,
+    "category": "opex",
+    "counterparty": "دفعة للمورد نوى للجملة"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3500.0,
+    "balance": 334701.04,
+    "category": "debt_service",
+    "counterparty": "قسط مرابحة البنك التجريبي"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 37761.76,
+    "balance": 372462.8,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -45505.37,
+    "balance": 326957.43,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 37771.16,
+    "balance": 364728.59,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 60256.56,
+    "balance": 424985.15,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2026-04-06",
+    "amount": -60412.16,
+    "balance": 364572.99,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 49741.99,
+    "balance": 414314.98,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -6645.02,
+    "balance": 407669.96,
+    "category": "other",
+    "counterparty": "تسوية البطاقة الائتمانية"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": 49439.93,
+    "balance": 457109.89,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من شركة الموارد"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 78690.36,
+    "balance": 535800.25,
+    "category": "revenue",
+    "counterparty": "581872 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": -38413.88,
+    "balance": 497386.37,
+    "category": "opex",
+    "counterparty": "إيجار المحل أبريل"
+   }
+  ],
+  "notes": [
+   "Page 2 has no header; opening/closing balances, account type and period are not on this page, so they are left null.",
+   "Payments labelled 'تسوية البطاقة الائتمانية' (credit card settlement) are categorised 'other' as the card owner is not shown on this page.",
+   "Transaction 'عقد إيجار سكني' (residential lease) of 6611.97 is classified personal, as home rent."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4165,
+  "output_tokens": 2736,
+  "latency_s": 8.16,
+  "cached": false
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Masar Online Store",
+  "cr_number": "1079722580",
+  "owner_name": "Nasser Al-Dosari",
+  "owner_name_ar": "ناصر الدوسري",
+  "issue_date": "2017-01-29",
+  "expiry_date": "2028-01-17",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1657,
+  "output_tokens": 244,
+  "latency_s": 1.52,
+  "cached": false
+ }
+}

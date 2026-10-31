@@ -1,0 +1,44 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": 654335.42,
+  "closing_balance": 593512.84,
+  "transactions": [
+   {
+    "date": "2026-10-25",
+    "amount": -3500.0,
+    "balance": 654335.42,
+    "category": "debt_service",
+    "counterparty": "قسط مرابحة البنك التجريبي / Sample Bank financing instalment"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -58895.47,
+    "balance": 595439.95,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال / business line bill"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -1927.11,
+    "balance": 593512.84,
+    "category": "other",
+    "counterparty": "تسوية البطاقة الائتمانية / credit card settlement"
+   }
+  ],
+  "notes": [
+   "Opening balance of 654,335.42 is the balance printed on the first line on this page, not a separate statement opening balance; the page has no header with period dates or account details."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 2670,
+  "output_tokens": 437,
+  "latency_s": 2.12,
+  "cached": false
+ }
+}

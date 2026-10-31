@@ -1,0 +1,21 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 1310000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.07,
+  "collateral_offered": true,
+  "kafalah_guarantee": false,
+  "operating_since": "2024-05-17",
+  "financial_statements_attached": true,
+  "notes": []
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1824,
+  "output_tokens": 228,
+  "latency_s": 1.52,
+  "cached": false
+ }
+}

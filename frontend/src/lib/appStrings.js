@@ -64,7 +64,11 @@ export const APP = {
       CHECKS: { BALANCE_RECONCILES: "Statement adds up to the closing balance", TWELVE_MONTHS_COVERED: "Twelve months covered", DEBT_MATCHES_BANK: "Debt on the credit report matches the bank", NO_EMBEDDED_INSTRUCTIONS: "No instructions hidden in the documents" },
     },
     results: {
-      title: "Does it work?", sub: "Measured on 40 development businesses, each read at three paperwork levels with the real model (Claude Haiku). The data is synthetic; the numbers are what the agent actually did.",
+      heldKicker: "Held-out test: 20 businesses never used in development, run once, no tuning afterwards",
+      heldDecisions: "lending decisions matched the truth exactly (decision and every reason)",
+      heldNote: "In the one mismatch, monthly revenue was misread, so the list of reasons differed.",
+      devTitle: "Development set: what we measured while building",
+      title: "Does it work?", sub: "Every number below is computed from the evaluation reports of real model runs (Claude Haiku reads, Claude Sonnet plans). The businesses and documents are synthetic, so the true answer is known and every figure and decision can be scored.",
       wrong: "wrong lending decisions", journeys: "journeys", abstained: "times the agent stopped and sent the file to a person because a statement didn't add up, instead of guessing",
       byLevel: "By paperwork level", level: "Level", figures: "Figures read correctly", decisions: "Decisions matching the truth", stopped: "Sent to a person",
       tasks: "What the agent had to get right", missing: "Missing documents identified exactly", missingS: "journeys finished after the agent requested the missing file",
@@ -88,7 +92,7 @@ export const APP = {
         rules: "Rules", agent: "Agent", none: "Run python -m app.agent.evaluate_planner to fill this section.",
         rescuedNote: "In the others, the declined step was the only fix at both lenders; the agent said so and named what would unblock it.",
       },
-      note: "A separate set of 20 businesses is held out for one final run.",
+      note: "The held-out set was run once, after development ended; nothing was changed after seeing it.",
     },
     planning: {
       title: "How this plan was chosen", month: "month",
@@ -164,7 +168,11 @@ export const APP = {
       CHECKS: { BALANCE_RECONCILES: "الكشف يطابق الرصيد الختامي", TWELVE_MONTHS_COVERED: "يغطي اثني عشر شهرًا", DEBT_MATCHES_BANK: "الديون في تقرير الائتمان تطابق البنك", NO_EMBEDDED_INSTRUCTIONS: "لا أوامر مخفية في المستندات" },
     },
     results: {
-      title: "هل يشتغل فعلًا؟", sub: "قسناه على 40 منشأة تطوير، كل وحدة قُرئت بثلاث مستويات صعوبة بالنموذج الحقيقي (Claude Haiku). البيانات محاكاة، والأرقام هي اللي سواه الوكيل فعلًا.",
+      heldKicker: "الاختبار المحجوز: 20 منشأة ما استُخدمت في التطوير، تشغّلت مرة وحدة بدون أي تعديل بعدها",
+      heldDecisions: "قرار تمويل طابق الحقيقة تمامًا (القرار وكل الأسباب)",
+      heldNote: "في الحالة الوحيدة المختلفة، انقرأت الإيرادات الشهرية غلط، فاختلفت قائمة الأسباب.",
+      devTitle: "مجموعة التطوير: اللي قسناه أثناء البناء",
+      title: "هل يشتغل فعلًا؟", sub: "كل رقم هنا محسوب من تقارير تشغيل حقيقي للنماذج (Claude Haiku يقرأ، وClaude Sonnet يخطط). المنشآت والمستندات محاكاة، فالإجابة الصحيحة معروفة، وكل رقم وقرار ينقاس.",
       wrong: "قرارات تمويل غلط", journeys: "رحلة", abstained: "مرات وقف فيها الوكيل وحوّل الملف لإنسان لأن الكشف ما تطابق، بدل ما يخمّن",
       byLevel: "حسب صعوبة المستندات", level: "المستوى", figures: "أرقام قُرئت صح", decisions: "قرارات تطابق الحقيقة", stopped: "حُوّل لإنسان",
       tasks: "وش لازم يضبطه الوكيل", missing: "المستندات الناقصة اكتُشفت بدقة", missingS: "رحلة اكتملت بعد ما طلب الوكيل الملف الناقص",
@@ -188,7 +196,7 @@ export const APP = {
         rules: "القواعد", agent: "الوكيل", none: "شغّل python -m app.agent.evaluate_planner لتعبئة هذا القسم.",
         rescuedNote: "في الباقي، الخطوة المرفوضة كانت الحل الوحيد عند البنكين؛ والوكيل وضّح هذا وقال وش اللي يفتح الطريق.",
       },
-      note: "فيه 20 منشأة محجوزة لتشغيل نهائي واحد.",
+      note: "المجموعة المحجوزة تشغّلت مرة وحدة بعد ما خلص التطوير، وما تغيّر شي بعد ما شفنا نتائجها.",
     },
     planning: {
       title: "كيف اختيرت هذي الخطة", month: "الشهر",

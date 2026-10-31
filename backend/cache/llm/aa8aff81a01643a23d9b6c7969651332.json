@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 323900.0,
+  "overdue_90_plus": 113700.0,
+  "notes": [
+   "90+ day bucket is 113700.00, about 35% of total outstanding; Al-Ufuq Schools and Qasr Al-Diyafa carry the largest 90+ balances (9538.13 and 59969.66 respectively is not the largest; Qasr Al-Diyafa 59969.66 is the largest single 90+ exposure), so collection risk is concentrated.",
+   "Document footer marks it as a simulated demo, not a real record; figures were recorded as printed."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 278,
+  "latency_s": 2.61,
+  "cached": false
+ }
+}

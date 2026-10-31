@@ -1,0 +1,16 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [],
+  "notes": []
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1584,
+  "output_tokens": 86,
+  "latency_s": 0.96,
+  "cached": false
+ }
+}

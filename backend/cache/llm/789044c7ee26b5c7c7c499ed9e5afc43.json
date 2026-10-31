@@ -1,0 +1,26 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Demo Trade Supplier (simulated)",
+    "facility_type": "Trade credit",
+    "monthly_instalment": null,
+    "outstanding": 73021.78,
+    "status": "default"
+   }
+  ],
+  "notes": [
+   "Only facility listed is a trade credit line with a supplier, shown as Default, 90+ days past due, with an outstanding balance of 73021.78 and no monthly instalment shown."
+  ]
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4062,
+  "output_tokens": 210,
+  "latency_s": 3.91,
+  "cached": false
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 670000,
+  "tenor_months": 60,
+  "annual_profit_rate": 0.108,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2025-12-30",
+  "financial_statements_attached": true,
+  "notes": [
+   "Kafalah guarantee is marked approved with certificate attached, but the certificate itself is not in the document; verify before relying on it.",
+   "Operating since 2025-12-30 is a short trading history relative to a 12-month bank statement and a 60-month tenor request."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1835,
+  "output_tokens": 312,
+  "latency_s": 1.69,
+  "cached": false
+ }
+}

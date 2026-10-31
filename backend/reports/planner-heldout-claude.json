@@ -1,0 +1,1816 @@
+{
+ "split": "heldout",
+ "brain": "claude",
+ "summary": {
+  "approve_all": {
+   "rules": {
+    "outcomes": {
+     "ready": 19,
+     "not_reachable": 1
+    },
+    "ready": 19,
+    "journeys": 20,
+    "mean_months_when_ready": 0.63,
+    "mean_owner_steps": 1.25
+   },
+   "agent": {
+    "outcomes": {
+     "ready": 19,
+     "not_reachable": 1
+    },
+    "ready": 19,
+    "journeys": 20,
+    "mean_months_when_ready": 0.63,
+    "mean_owner_steps": 0.95
+   },
+   "agent_rounds": {
+    "compared": 17,
+    "verdicts": {
+     "better": 10,
+     "same": 5,
+     "worse": 2
+    },
+    "valid_first_try": 17,
+    "valid_after_feedback": 0,
+    "plan_used": 14
+   },
+   "different_outcome": []
+  },
+  "decline_one": {
+   "rules": {
+    "outcomes": {
+     "ready": 12,
+     "owner_declined": 7,
+     "not_reachable": 1
+    },
+    "ready": 12,
+    "journeys": 20,
+    "mean_months_when_ready": 0.67,
+    "mean_owner_steps": 0.8
+   },
+   "agent": {
+    "outcomes": {
+     "ready": 11,
+     "owner_declined": 8,
+     "not_reachable": 1
+    },
+    "ready": 11,
+    "journeys": 20,
+    "mean_months_when_ready": 0.64,
+    "mean_owner_steps": 0.7
+   },
+   "agent_rounds": {
+    "compared": 25,
+    "verdicts": {
+     "better": 12,
+     "same": 11,
+     "worse": 2
+    },
+    "valid_first_try": 25,
+    "valid_after_feedback": 0,
+    "plan_used": 14
+   },
+   "different_outcome": [
+    {
+     "business_id": "heldout-014",
+     "rules": "ready",
+     "agent": "owner_declined",
+     "agent_lender": "commercial_bank_sme"
+    }
+   ]
+  },
+  "usage": {
+   "calls": 42,
+   "input_tokens": 45320,
+   "output_tokens": 10539
+  }
+ },
+ "journeys": [
+  {
+   "business_id": "heldout-000",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   }
+  },
+  {
+   "business_id": "heldout-001",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   }
+  },
+  {
+   "business_id": "heldout-002",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Lowering the request to SAR 1,474,000 fixes the only hard problem, repayment coverage, and it takes effect immediately with a single click from you. The score then goes above the bank's 75 threshold even with the late VAT filing still open. So you can stay with your current bank, with no switch and no 3-month wait."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RESIZE_REQUEST"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RESIZE_REQUEST"
+     ],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Lowering the request to SAR 1,474,000 fixes the only hard problem, repayment coverage, and it takes effect immediately with a single click from you. The score then goes above the bank's 75 threshold even with the late VAT filing still open. So you can stay with your current bank, with no switch and no 3-month wait."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 85.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 82.6,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Neither lender can be approved without fixing the repayment-coverage (DSCR) problem. The only remedy for it is lowering the request, which you declined, and I can't use a declined remedy, so I'm proposing no steps. If you reconsider, the digital lender is the quickest route: one approval to lower the request to about SAR 1.47M would clear its only open issue right away."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-003",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice-backed lender already scores 100 against a threshold of 70 and has no open reasons, so the business can apply now with nothing for you to do. Staying with the commercial bank would mean waiting about 7 months to reach 24 months of operating history, which is a hard requirement."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice-backed lender already scores 100 against a threshold of 70 and has no open reasons, so the business can apply now with nothing for you to do. Staying with the commercial bank would mean waiting about 7 months to reach 24 months of operating history, which is a hard requirement."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-004",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   }
+  },
+  {
+   "business_id": "heldout-005",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": [
+      {
+       "source": "rules",
+       "why": "the rule plan projects a better outcome than the agent's plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank is already your current lender and needs only two steps. These fix its two hard blockers: the defaulted facility and the commercial registration that expires soon. Once both are fixed, the score is well above the 75 threshold even with the overdue receivables still open, so collection isn't needed. Readiness should take about 1 month."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": [
+      {
+       "source": "rules",
+       "why": "the rule plan projects a better outcome than the agent's plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank is already your current lender and needs only two steps. These fix its two hard blockers: the defaulted facility and the commercial registration that expires soon. Once both are fixed, the score is well above the 75 threshold even with the overdue receivables still open, so collection isn't needed. Readiness should take about 1 month."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Your commercial registration expires in 7 days. That blocks both lenders, and renewing it is the only fix. You declined that renewal, so I can't add it, and I can't make any lender ready without it. The commercial bank is the closest option, because the renewal is its only blocker and your score of 95.7 is already above its 75 threshold. If you approve the one-click renewal, you can apply there right away."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-006",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": [
+      {
+       "source": "rules",
+       "why": "the rule plan projects a better outcome than the agent's plan",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 90.5,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender has only one open hard reason, the active default. Its score (85.7) is already above its threshold (70), so settling the default is the only step. This needs about 1 month and one action from you. The commercial bank would also need the default settled, plus a CR renewal."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": [
+      {
+       "source": "rules",
+       "why": "the rule plan projects a better outcome than the agent's plan",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 90.5,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender has only one open hard reason, the active default. Its score (85.7) is already above its threshold (70), so settling the default is the only step. This needs about 1 month and one action from you. The commercial bank would also need the default settled, plus a CR renewal."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only open issue at either lender is that your commercial registration expires in 38 days. The only fix for it is RENEW_CR, which you declined, and no other remedy is listed, so I can't build a plan that clears this blocker. I've stayed with your current bank and added no steps. If you approve the one-click renewal, your score is already 95.7 against a threshold of 75, and you would be ready right away."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-007",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank is where you already are. Its only hard blocker is e-invoicing, and fixing it takes about 1 month and one step from you. Your score is already 87 against a threshold of 75, so the overdue receivables don't need a step and you can apply sooner."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank is where you already are. Its only hard blocker is e-invoicing, and fixing it takes about 1 month and one step from you. Your score is already 87 against a threshold of 75, so the overdue receivables don't need a step and you can apply sooner."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-008",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Both lenders have the same two hard blockers and the same two fixes, so there is no gain from switching and you can stay with your current bank. Lowering the request to about SAR 2.94M brings repayment coverage within what your cash flow can service, and renewing the commercial registration (about 1 month) clears the second blocker. Both need only your one-click approval."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RESIZE_REQUEST"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RESIZE_REQUEST"
+     ],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Both lenders have the same two hard blockers and the same two fixes, so there is no gain from switching and you can stay with your current bank. Lowering the request to about SAR 2.94M brings repayment coverage within what your cash flow can service, and renewing the commercial registration (about 1 month) clears the second blocker. Both need only your one-click approval."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 82.6,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 82.6,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only blocker at either lender is the repayment coverage (DSCR 0.64 against the 1.2 needed). The only remedy for it is lowering the request to about SAR 2.88M, and you declined that, so I can't build a plan that clears this hard reason. I've left the steps empty instead of going against your decision. If you reconsider the smaller amount, the commercial bank would get you ready right away with a single approval. The bank is also the lender you're already with, so you wouldn't need to switch."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-009",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   }
+  },
+  {
+   "business_id": "heldout-010",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank already scores 91.3 against a 75 threshold. Its only open issue is the missing security, and a Kafalah guarantee fixes that in about a month with one owner approval. The digital lender can't be fixed: its revenue requirement has no remedy available."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [
+      "ADD_KAFALAH"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [
+      "ADD_KAFALAH"
+     ],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank already scores 91.3 against a 75 threshold. Its only open issue is the missing security, and a Kafalah guarantee fixes that in about a month with one owner approval. The digital lender can't be fixed: its revenue requirement has no remedy available."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 82.6,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 82.6,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "I can't build a plan that gets you ready. The commercial bank's only hard blocker is missing security, and the only fix is a Kafalah guarantee, which you declined. The digital lender needs SAR 2,000,000 in annual revenue against your SAR 1,283,200, and I have no remedy for that. If you reconsider Kafalah (one click from you, about 1 month), you would pass the bank's threshold with a score of 91.3 against 75."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-011",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 3,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 3,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 3,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 3,
+        "score": 90.5,
+        "owner_actions": 2,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender needs only 12 months of history, so the business is about 3 months away, compared with about 15 months at the current bank. Its score of 81 is already above the 70 threshold, so the owner doesn't need to steady revenue and has nothing to do except wait."
+      },
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 2,
+        "score": 90.5,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": true,
+        "months": 2,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only hard reason is the short operating history. That fix (WAIT_HISTORY) is already running and should finish in about 2 months. The score is 81 against a threshold of 70, so you don't need to steady your monthly revenue, and you have nothing to do except wait."
+      },
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 90.5,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only hard blocker is the 11 months of history. The WAIT_HISTORY step already running will fix it in about 1 month, so nothing new is needed. Your score of 81 is already above the 70 threshold, so you don't have to fix the irregular revenue, which would take about 9 months and need your effort."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 3,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 3,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 3,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 3,
+        "score": 90.5,
+        "owner_actions": 2,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender needs only 12 months of history, so the business is about 3 months away, compared with about 15 months at the current bank. Its score of 81 is already above the 70 threshold, so the owner doesn't need to steady revenue and has nothing to do except wait."
+      },
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 2,
+        "score": 90.5,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": true,
+        "months": 2,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only hard reason is the short operating history. That fix (WAIT_HISTORY) is already running and should finish in about 2 months. The score is 81 against a threshold of 70, so you don't need to steady your monthly revenue, and you have nothing to do except wait."
+      },
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 90.5,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only hard blocker is the 11 months of history. The WAIT_HISTORY step already running will fix it in about 1 month, so nothing new is needed. Your score of 81 is already above the 70 threshold, so you don't have to fix the irregular revenue, which would take about 9 months and need your effort."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-012",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender has only one open issue, the commercial registration that expires soon. One-click approval of the renewal fixes it right away, and its score of 95.2 is well above the 70 threshold. The commercial bank would also need a Kafalah guarantee, which takes about a month and adds another step."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan is valid and projects the same outcome as the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender has only one open issue, the commercial registration that expires soon. One-click approval of the renewal fixes it right away, and its score of 95.2 is well above the 70 threshold. The commercial bank would also need a Kafalah guarantee, which takes about a month and adds another step."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 90.5,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 90.5,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only open issue is the expired commercial registration (11 days overdue). It is a hard blocker, and the only remedy that fixes it is RENEW_CR, which you declined. I can't add that step or switch lenders, so I've submitted no steps. Approving the one-click renewal would take the score from 90.5 to a ready state straight away, so please reconsider it."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-013",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "E-invoicing is the only hard blocker, and connecting it takes about 1 month. After that, the bank score should be well above the 75 threshold even without the separate business account, so staying with the current bank needs only one step from you."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "OPEN_BUSINESS_ACCOUNT"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "E-invoicing is the only hard blocker, and connecting it takes about 1 month. After that, the bank score should be well above the 75 threshold even without the separate business account, so staying with the current bank needs only one step from you."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-014",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 91.3,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank's only hard blocker is the invalid commercial registration. Renewing it takes one month and needs one owner approval. The score is already 82.6, above the 75 threshold, and rises once the registration is fixed, so the soft issues need no steps. The digital lender would take longer and need more steps, because it also treats the overdue receivables as a hard blocker."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "PREPARE_STATEMENTS"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 91.3,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 100.0,
+        "owner_actions": 2,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank's only hard blocker is the invalid commercial registration. Renewing it takes one month and needs one owner approval. The score is already 82.6, above the 75 threshold, and rises once the registration is fixed, so the soft issues need no steps. The digital lender would take longer and need more steps, because it also treats the overdue receivables as a hard blocker."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "Your commercial registration is inactive, and that blocks both lenders. The only fix is renewing it, which you declined, so I can't make either lender ready. I've stayed with the commercial bank and added the steps that don't need renewal: collecting the overdue invoices and preparing your management accounts. These raise your score, but the bank still won't approve until the registration is renewed. Renewal takes about 1 month and needs one click from you."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-015",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The active default is the only hard blocker, and settling it takes about 1 month. Once it is cleared, the commercial bank's score is well above its 75 threshold even with the late VAT filing still open. We stay with the current lender, so there is no switch and only one step for the owner."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The active default is the only hard blocker, and settling it takes about 1 month. Once it is cleared, the commercial bank's score is well above its 75 threshold even with the late VAT filing still open. We stay with the current lender, so there is no switch and only one step for the owner."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-016",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 3,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 90.5,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 90.5,
+        "owner_actions": 3,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender has only one hard blocker, the expired commercial registration. Its score of 81 is already above the 70 threshold, so one click to approve the renewal gets you ready now. The bank would also need a Kafalah guarantee, which takes about a month, and steadier revenue, which takes about 9 months."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "owner_declined",
+     "months": null,
+     "lender": "digital_lender_invoice",
+     "owner_steps": 2,
+     "declined": [
+      "RENEW_CR"
+     ],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 0,
+        "score": 90.5,
+        "owner_actions": 2,
+        "steps": 2
+       },
+       "rules": {
+        "ready": true,
+        "months": 0,
+        "score": 90.5,
+        "owner_actions": 3,
+        "steps": 3
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The digital invoice lender has only one hard blocker, the expired commercial registration. Its score of 81 is already above the 70 threshold, so one click to approve the renewal gets you ready now. The bank would also need a Kafalah guarantee, which takes about a month, and steadier revenue, which takes about 9 months."
+      },
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 81.0,
+        "owner_actions": 0,
+        "steps": 0
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 90.5,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The only way to clear the blocking issue, an expired commercial registration (71 days overdue), is to renew it. You declined that step, so I can't include it, and the application can't be approved until the registration is renewed. Your score of 81 is already above the 70 threshold, so the revenue-steadying step isn't needed. If you approve the renewal, which takes one click and no waiting time, you would be ready right away."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-017",
+   "approve_all": {
+    "rules": {
+     "outcome": "not_reachable",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "not_reachable",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": [
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 1
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank has only one open reason, short operating history. Waiting covers it, and your score of 91.3 is already above the 75 threshold. The digital lender would be ready sooner (2 months), but its SAR 2,000,000 revenue requirement has no remedy, so that hard reason can't be fixed. Waiting about 14 months is longer than the 12-month target, but it is the only route that covers every hard reason."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "not_reachable",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "not_reachable",
+     "months": null,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": [
+      {
+       "source": "rules",
+       "why": "neither plan reaches the threshold; the rule plan was kept",
+       "agent": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 1
+       },
+       "rules": {
+        "ready": false,
+        "months": null,
+        "score": 91.3,
+        "owner_actions": 0,
+        "steps": 1
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank has only one open reason, short operating history. Waiting covers it, and your score of 91.3 is already above the 75 threshold. The digital lender would be ready sooner (2 months), but its SAR 2,000,000 revenue requirement has no remedy, so that hard reason can't be fixed. Waiting about 14 months is longer than the 12-month target, but it is the only route that covers every hard reason."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-018",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank already scores 82.6, above its 75 threshold. The only thing blocking approval is the active default, which is a hard reason. Settling it takes about 1 month and is the only step the owner has to do. The overdue receivables are a soft reason and the score doesn't need them fixed, so I left them out. This is faster than the digital lender, which would need the overdue receivables cleared first (3 months)."
+      }
+     ]
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 1,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 1,
+     "declined": [],
+     "planning": [
+      {
+       "source": "agent",
+       "why": "the agent's plan projects a better outcome than the rule plan",
+       "agent": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 1
+       },
+       "rules": {
+        "ready": true,
+        "months": 1,
+        "score": 95.7,
+        "owner_actions": 1,
+        "steps": 2
+       },
+       "agent_issues": [],
+       "attempts": 1,
+       "reasoning": "The commercial bank already scores 82.6, above its 75 threshold. The only thing blocking approval is the active default, which is a hard reason. Settling it takes about 1 month and is the only step the owner has to do. The overdue receivables are a soft reason and the score doesn't need them fixed, so I left them out. This is faster than the digital lender, which would need the overdue receivables cleared first (3 months)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "business_id": "heldout-019",
+   "approve_all": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   },
+   "decline_one": {
+    "rules": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    },
+    "agent": {
+     "outcome": "ready",
+     "months": 0,
+     "lender": "commercial_bank_sme",
+     "owner_steps": 0,
+     "declined": [],
+     "planning": []
+    }
+   }
+  }
+ ]
+}

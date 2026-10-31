@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 251800.0,
+  "overdue_90_plus": 20900.0,
+  "notes": [
+   "The Total row's buckets (0-30, 31-60, 61-90, 90+) do not sum to the total outstanding of 251800.00 as printed; the 0-30 bucket total is 80161.79, 31-60 is 77639.92, 61-90 is 73098.29 and 90+ is 20900.00, which add to 251800.00 only approximately, so the row sums should be checked against the accounting system.",
+   "Customer rows do not all add to the Total row: the per-customer totals sum to a figure that differs from 251800.00, so the Total row may not reconcile to the customer detail."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 312,
+  "latency_s": 2.69,
+  "cached": false
+ }
+}

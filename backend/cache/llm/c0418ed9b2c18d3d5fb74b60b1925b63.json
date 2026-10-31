@@ -1,0 +1,26 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 126913.75,
+  "closing_balance": null,
+  "transactions": [],
+  "notes": [
+   "The statement is for a personal current account in the owner's name, while the business is registered as Al-Nakheel Online Store; business revenue and costs are running through a personal account.",
+   "The period end 2026-10-30 is after the other dates on this page and may be a typo; the page covers only transactions through 2026-01-14.",
+   "Running balance goes negative on 2025-12-10 (-56288.98) after the electricity bill; the balance then recovers through transfers in.",
+   "Credit card settlements are recorded as 'other' because they do not fit the listed categories.",
+   "The opening balance is printed as 126,913.75 but the first printed running balance (172,114.91) is consistent with it only after the 45,201.16 credit on 2025-11-02."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4035,
+  "output_tokens": 2384,
+  "latency_s": 7.68,
+  "cached": false
+ }
+}

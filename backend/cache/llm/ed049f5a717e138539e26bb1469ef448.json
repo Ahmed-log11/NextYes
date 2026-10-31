@@ -1,0 +1,269 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": 354166.91,
+  "transactions": [
+   {
+    "date": "2026-07-01",
+    "amount": 17562.78,
+    "balance": 318021.69,
+    "category": "revenue",
+    "counterparty": "سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -20115.55,
+    "balance": 297906.14,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-07-08",
+    "amount": 21644.85,
+    "balance": 319550.99,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يوليو"
+   },
+   {
+    "date": "2026-07-16",
+    "amount": 38079.0,
+    "balance": 357629.99,
+    "category": "revenue",
+    "counterparty": "496331 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": -22104.68,
+    "balance": 335525.31,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -24062.48,
+    "balance": 311462.83,
+    "category": "opex",
+    "counterparty": "دفعة للمورد رمال للتغليف"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -19349.29,
+    "balance": 292113.54,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-07-26",
+    "amount": 34213.37,
+    "balance": 326326.91,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يوليو"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": 12498.71,
+    "balance": 338825.62,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من قصر الضيافة"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": -9359.4,
+    "balance": 329466.22,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أغسطس"
+   },
+   {
+    "date": "2026-08-09",
+    "amount": -10890.19,
+    "balance": 318576.03,
+    "category": "opex",
+    "counterparty": "إيجار المحل أغسطس"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 8045.93,
+    "balance": 326621.96,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": 11660.56,
+    "balance": 338282.52,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من أسواق بيت الخير"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -9383.03,
+    "balance": 328899.49,
+    "category": "opex",
+    "counterparty": "دفعة للمورد سندس للمواد"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": 11655.2,
+    "balance": 340554.69,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فيصل الزهراني"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": -14450.58,
+    "balance": 326104.11,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": 7254.2,
+    "balance": 333358.31,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من شركة الموارد"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 6285.4,
+    "balance": 339643.71,
+    "category": "revenue",
+    "counterparty": "مستلم من مدارس الأفق"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": 6610.06,
+    "balance": 346253.77,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من شركة الموارد"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 5277.97,
+    "balance": 351531.74,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": -6268.18,
+    "balance": 345263.56,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد سبتمبر"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": 6970.83,
+    "balance": 352234.39,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": -6532.65,
+    "balance": 345701.74,
+    "category": "opex",
+    "counterparty": "إيجار المحل سبتمبر"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 6210.58,
+    "balance": 351912.32,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": -5047.95,
+    "balance": 346864.37,
+    "category": "opex",
+    "counterparty": "دفعة للمورد نوى للجملة"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 5530.56,
+    "balance": 352394.93,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -5652.02,
+    "balance": 346742.91,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 6586.87,
+    "balance": 353329.78,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من أسواق بيت الخير"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": 11418.53,
+    "balance": 364748.31,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": -6370.88,
+    "balance": 358377.43,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أكتوبر"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 5604.92,
+    "balance": 363982.35,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": -6773.76,
+    "balance": 357208.59,
+    "category": "opex",
+    "counterparty": "إيجار المحل أكتوبر"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 8389.68,
+    "balance": 365598.27,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من شركة الموارد"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -6247.14,
+    "balance": 359351.13,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -5184.22,
+    "balance": 354166.91,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   }
+  ],
+  "notes": [
+   "Page 3 only: opening balance, period start and period end are not on this page; the closing balance of 354166.91 is taken from the page's closing line.",
+   "Running balances on this page were not verified against the printed opening balance because it is absent; the arithmetic between consecutive lines is consistent with the printed balances."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3941,
+  "output_tokens": 2351,
+  "latency_s": 7.57,
+  "cached": false
+ }
+}

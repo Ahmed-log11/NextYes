@@ -1,0 +1,971 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 119562.02,
+  "closing_balance": 564040.57,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": 36130.8,
+    "balance": 155692.82,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (internal transfer)"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -80892.11,
+    "balance": 74800.71,
+    "category": "opex",
+    "counterparty": "مدد payroll Nov"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": 104105.63,
+    "balance": 178906.34,
+    "category": "revenue",
+    "counterparty": "POS merchant service"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": -66669.17,
+    "balance": 112237.17,
+    "category": "opex",
+    "counterparty": "shop rent Nov"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": -67029.44,
+    "balance": 45207.73,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 45561.47,
+    "balance": 90769.2,
+    "category": "revenue",
+    "counterparty": "POS merchant service"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 102840.05,
+    "balance": 193609.25,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير (instant transfer)"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": -72701.98,
+    "balance": 120907.27,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 44262.05,
+    "balance": 165169.32,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق (instant transfer)"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -1806.05,
+    "balance": 163363.27,
+    "category": "debt_service",
+    "counterparty": "Sample Bank financing"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -1893.95,
+    "balance": 161469.32,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. financing"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 81376.24,
+    "balance": 242845.56,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير (internal transfer)"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -71593.66,
+    "balance": 171251.9,
+    "category": "opex",
+    "counterparty": "salaries"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 74227.74,
+    "balance": 245479.64,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (internal transfer)"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 66104.9,
+    "balance": 311584.54,
+    "category": "revenue",
+    "counterparty": "عمر الغامدي (received)"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": 52211.63,
+    "balance": 363796.17,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة (received)"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -1806.05,
+    "balance": 361990.12,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -1893.95,
+    "balance": 360096.17,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. facility"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": 54779.49,
+    "balance": 414875.66,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (internal transfer)"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": -67055.2,
+    "balance": 347820.46,
+    "category": "opex",
+    "counterparty": "warehouse rent instalment"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -81701.04,
+    "balance": 266119.42,
+    "category": "opex",
+    "counterparty": "سندس للمواد supplier payment"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -63318.2,
+    "balance": 202801.22,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2026-01-02",
+    "amount": 25934.58,
+    "balance": 228735.8,
+    "category": "revenue",
+    "counterparty": "نورة السبيعي (instant transfer)"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 34894.01,
+    "balance": 263629.81,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (instant transfer)"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -56594.42,
+    "balance": 207035.39,
+    "category": "opex",
+    "counterparty": "مدد payroll Jan"
+   },
+   {
+    "date": "2026-01-06",
+    "amount": -41572.13,
+    "balance": 165463.26,
+    "category": "opex",
+    "counterparty": "shop rent Jan"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": 39255.74,
+    "balance": 204719.0,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق (internal transfer)"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 39302.72,
+    "balance": 244021.72,
+    "category": "revenue",
+    "counterparty": "device sales Jan"
+   },
+   {
+    "date": "2026-01-20",
+    "amount": -59888.12,
+    "balance": 184133.6,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 50062.77,
+    "balance": 234196.37,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (instant transfer)"
+   },
+   {
+    "date": "2026-01-22",
+    "amount": -51999.53,
+    "balance": 182196.84,
+    "category": "opex",
+    "counterparty": "electricity bill"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -1806.05,
+    "balance": 180390.79,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -1893.95,
+    "balance": 178496.84,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. murabaha instalment"
+   },
+   {
+    "date": "2026-01-31",
+    "amount": 53950.18,
+    "balance": 232447.02,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق (instant transfer)"
+   },
+   {
+    "date": "2026-02-01",
+    "amount": 50772.11,
+    "balance": 283219.13,
+    "category": "revenue",
+    "counterparty": "device sales Feb"
+   },
+   {
+    "date": "2026-02-03",
+    "amount": 84650.49,
+    "balance": 367869.62,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (internal transfer)"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -50567.38,
+    "balance": 317302.24,
+    "category": "opex",
+    "counterparty": "salaries"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": 30365.25,
+    "balance": 347667.49,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (instant transfer)"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 38622.62,
+    "balance": 386290.11,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (received)"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -50275.24,
+    "balance": 336014.87,
+    "category": "opex",
+    "counterparty": "warehouse rent instalment"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": 36089.53,
+    "balance": 372104.4,
+    "category": "revenue",
+    "counterparty": "ريم الشمري (received)"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -55155.07,
+    "balance": 316949.33,
+    "category": "opex",
+    "counterparty": "سندس للمواد supplier payment"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -1806.05,
+    "balance": 315143.28,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -1893.95,
+    "balance": 313249.33,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. facility"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": -51553.81,
+    "balance": 261695.52,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 35991.81,
+    "balance": 297687.33,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (received)"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 29187.43,
+    "balance": 326874.76,
+    "category": "revenue",
+    "counterparty": "ماجد الشهري (instant transfer)"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": 59634.05,
+    "balance": 386508.81,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق (instant transfer)"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": -42450.38,
+    "balance": 344058.43,
+    "category": "opex",
+    "counterparty": "salaries"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 35802.91,
+    "balance": 379861.34,
+    "category": "revenue",
+    "counterparty": "device sales Mar"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -62618.47,
+    "balance": 317242.87,
+    "category": "opex",
+    "counterparty": "warehouse rent instalment"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": -59076.47,
+    "balance": 258166.4,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 29280.52,
+    "balance": 287446.92,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 478511)"
+   },
+   {
+    "date": "2026-03-24",
+    "amount": -54452.58,
+    "balance": 232994.34,
+    "category": "opex",
+    "counterparty": "business line telecom"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -1806.05,
+    "balance": 231188.29,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -1893.95,
+    "balance": 229294.34,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. facility"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": 63403.28,
+    "balance": 292697.62,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير (internal transfer)"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": 91768.09,
+    "balance": 384465.71,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 694284)"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -55742.22,
+    "balance": 328723.49,
+    "category": "opex",
+    "counterparty": "salaries April"
+   },
+   {
+    "date": "2026-04-06",
+    "amount": -79067.65,
+    "balance": 249655.84,
+    "category": "opex",
+    "counterparty": "shop rent April"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 96244.71,
+    "balance": 345900.55,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير (internal transfer)"
+   },
+   {
+    "date": "2026-04-13",
+    "amount": 50447.45,
+    "balance": 396348.0,
+    "category": "revenue",
+    "counterparty": "خالد الحربي (instant transfer)"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": 78739.75,
+    "balance": 475087.75,
+    "category": "revenue",
+    "counterparty": "device sales April"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": -70632.32,
+    "balance": 404455.43,
+    "category": "opex",
+    "counterparty": "سندس للمواد supplier payment"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": -68301.41,
+    "balance": 336154.02,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -1806.05,
+    "balance": 334347.97,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -1893.95,
+    "balance": 332454.02,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. murabaha instalment"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": -48332.74,
+    "balance": 284121.28,
+    "category": "opex",
+    "counterparty": "salaries"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": -55960.56,
+    "balance": 228160.72,
+    "category": "opex",
+    "counterparty": "shop rent May"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -56290.22,
+    "balance": 171870.5,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2026-05-18",
+    "amount": 80611.18,
+    "balance": 252481.68,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 212379)"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 47912.73,
+    "balance": 300394.41,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (received)"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": 85141.56,
+    "balance": 385535.97,
+    "category": "owner_funds",
+    "counterparty": "ناصر الدوسري (internal transfer)"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -1806.05,
+    "balance": 383729.92,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -1893.95,
+    "balance": 381835.97,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. facility"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": 35934.53,
+    "balance": 417770.5,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 430694)"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -54821.28,
+    "balance": 362949.22,
+    "category": "opex",
+    "counterparty": "electricity bill"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -57201.79,
+    "balance": 305747.43,
+    "category": "opex",
+    "counterparty": "مدد payroll June"
+   },
+   {
+    "date": "2026-06-04",
+    "amount": 34545.45,
+    "balance": 340292.88,
+    "category": "revenue",
+    "counterparty": "تركي المطيري (received)"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": 18498.04,
+    "balance": 358790.92,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (instant transfer)"
+   },
+   {
+    "date": "2026-06-05",
+    "amount": -53359.2,
+    "balance": 305431.72,
+    "category": "opex",
+    "counterparty": "warehouse rent instalment"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": -40644.27,
+    "balance": 264787.45,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2026-06-15",
+    "amount": -64631.04,
+    "balance": 200156.41,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2026-06-18",
+    "amount": 66432.22,
+    "balance": 266588.63,
+    "category": "revenue",
+    "counterparty": "ريم الشمري (received)"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": 62670.35,
+    "balance": 329258.98,
+    "category": "revenue",
+    "counterparty": "سعد القحطاني (received)"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -1806.05,
+    "balance": 327452.93,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -1893.95,
+    "balance": 325558.98,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. facility"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": 43150.97,
+    "balance": 368709.95,
+    "category": "revenue",
+    "counterparty": "مطاعم الصفوة (internal transfer)"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": 59348.42,
+    "balance": 428058.37,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 549942)"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 63052.46,
+    "balance": 491110.83,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق (received)"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": -52531.03,
+    "balance": 438579.8,
+    "category": "opex",
+    "counterparty": "salaries"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 70871.81,
+    "balance": 509451.61,
+    "category": "revenue",
+    "counterparty": "فيصل الزهراني (instant transfer)"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 36648.08,
+    "balance": 546099.69,
+    "category": "revenue",
+    "counterparty": "device sales July"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": -53155.24,
+    "balance": 492944.45,
+    "category": "opex",
+    "counterparty": "shop rent July"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": -51600.83,
+    "balance": 441343.62,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2026-07-23",
+    "amount": -56391.7,
+    "balance": 384951.92,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 30265.56,
+    "balance": 415217.48,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 995967)"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -1806.05,
+    "balance": 413411.43,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -1893.95,
+    "balance": 411517.48,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. facility"
+   },
+   {
+    "date": "2026-07-29",
+    "amount": 46762.09,
+    "balance": 458279.57,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة (internal transfer)"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": 84686.59,
+    "balance": 542966.16,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق (instant transfer)"
+   },
+   {
+    "date": "2026-08-03",
+    "amount": 30545.3,
+    "balance": 573511.46,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة (received)"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 61953.41,
+    "balance": 635464.87,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (internal transfer)"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -66884.78,
+    "balance": 568580.09,
+    "category": "opex",
+    "counterparty": "مدد payroll August"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 34841.52,
+    "balance": 603421.61,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 979904)"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": -57302.63,
+    "balance": 546118.98,
+    "category": "opex",
+    "counterparty": "shop rent August"
+   },
+   {
+    "date": "2026-08-11",
+    "amount": 55873.18,
+    "balance": 601992.16,
+    "category": "revenue",
+    "counterparty": "device sales August"
+   },
+   {
+    "date": "2026-08-14",
+    "amount": -44595.26,
+    "balance": 557396.9,
+    "category": "opex",
+    "counterparty": "سندس للمواد supplier payment"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": -62415.03,
+    "balance": 494981.87,
+    "category": "opex",
+    "counterparty": "business line telecom"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -1806.05,
+    "balance": 493175.82,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -1893.95,
+    "balance": 491281.87,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. murabaha instalment"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": 72198.45,
+    "balance": 563480.32,
+    "category": "revenue",
+    "counterparty": "device sales September"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -49907.86,
+    "balance": 513572.46,
+    "category": "opex",
+    "counterparty": "salaries"
+   },
+   {
+    "date": "2026-09-11",
+    "amount": 35196.32,
+    "balance": 548768.78,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة (received)"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 72194.24,
+    "balance": 620963.02,
+    "category": "revenue",
+    "counterparty": "merchant service deposit"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": -64921.52,
+    "balance": 556041.5,
+    "category": "opex",
+    "counterparty": "warehouse rent instalment"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": -72576.17,
+    "balance": 483465.33,
+    "category": "opex",
+    "counterparty": "purchases supplier payment"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": 44455.54,
+    "balance": 527920.87,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (received)"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -1806.05,
+    "balance": 526114.82,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -1893.95,
+    "balance": 524220.87,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. murabaha instalment"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": 37365.5,
+    "balance": 561586.37,
+    "category": "revenue",
+    "counterparty": "device sales September"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": -55874.15,
+    "balance": 505712.22,
+    "category": "opex",
+    "counterparty": "water bill"
+   },
+   {
+    "date": "2026-09-27",
+    "amount": 20489.95,
+    "balance": 526202.17,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة (internal transfer)"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": 71403.1,
+    "balance": 597605.27,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة (internal transfer)"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": 41726.82,
+    "balance": 639332.09,
+    "category": "revenue",
+    "counterparty": "POS merchant service (ref 361865)"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": 60326.66,
+    "balance": 699658.75,
+    "category": "revenue",
+    "counterparty": "device sales October"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": 33678.49,
+    "balance": 733337.24,
+    "category": "revenue",
+    "counterparty": "شركة الموارد (received)"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -79808.48,
+    "balance": 653528.76,
+    "category": "opex",
+    "counterparty": "مدد payroll October"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": -62450.5,
+    "balance": 591078.26,
+    "category": "opex",
+    "counterparty": "shop rent October"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": 48282.99,
+    "balance": 639361.25,
+    "category": "revenue",
+    "counterparty": "أسواق بيت الخير (received)"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -63549.63,
+    "balance": 575811.62,
+    "category": "opex",
+    "counterparty": "سندس للمواد supplier payment"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -1806.05,
+    "balance": 574005.57,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -1893.95,
+    "balance": 572111.62,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. murabaha instalment"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 47781.94,
+    "balance": 619893.56,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة (instant transfer)"
+   },
+   {
+    "date": "2026-10-30",
+    "amount": -55852.99,
+    "balance": 564040.57,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   }
+  ],
+  "notes": [
+   "Period runs 2025-11-01 to 2026-10-30, which is about twelve months ending in the future relative to a typical statement date; dates in 2026-07 to 2026-10 may need confirmation against the actual statement period.",
+   "Owner Turki Al-Mutairi's name appears on the register only; the 2026-05-25 inflow from ناصر الدوسري is recorded as owner_funds because it is labelled an internal transfer and the sender is not the owner; confirm the sender's relationship.",
+   "Line 2025-11-05 'فنادق الريادة' and several other inflows are labelled 'internal transfer' (حوالة داخلية) from third-party companies; treated as revenue per their named counterparties, but the label may indicate related-party flows that should be verified.",
+   "Document is marked as a simulated hackathon demo; figures were transcribed from the printed statement."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8631,
+  "output_tokens": 8012,
+  "latency_s": 23.81,
+  "cached": false
+ }
+}

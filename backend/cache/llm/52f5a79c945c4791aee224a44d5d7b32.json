@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 553000.0,
+  "overdue_90_plus": 5100.0,
+  "notes": [
+   "The 90+ column total (5,100.00) is the only long-overdue exposure, about 0.9% of total receivables.",
+   "Column totals do not reconcile with the customer rows: 0-30 bucket lists 184,040.70 total, 31-60 shows 140,028.77, 61-90 shows 223,830.53; these are the printed Total row values and were recorded as shown."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 244,
+  "latency_s": 3.18,
+  "cached": false
+ }
+}

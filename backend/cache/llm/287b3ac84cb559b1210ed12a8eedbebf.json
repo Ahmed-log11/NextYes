@@ -1,0 +1,795 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 194214.97,
+  "closing_balance": 1099412.47,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": 69128.27,
+    "balance": 263343.24,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 621875"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -50893.06,
+    "balance": 212450.18,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2025-11-08",
+    "amount": 42527.42,
+    "balance": 254977.6,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": 50271.74,
+    "balance": 305249.34,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة نوفمبر"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -72151.97,
+    "balance": 233097.37,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": -71012.99,
+    "balance": 162084.38,
+    "category": "opex",
+    "counterparty": "دفعة للمورد نوى للجملة"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": -74401.98,
+    "balance": 87682.4,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": 38798.41,
+    "balance": 126480.81,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2025-11-27",
+    "amount": 73769.56,
+    "balance": 200250.37,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من ماجد الشهري"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": 71904.6,
+    "balance": 272154.97,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 33695.0,
+    "balance": 305849.97,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فيصل الزهراني"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 98617.82,
+    "balance": 404467.79,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة ديسمبر"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 44496.92,
+    "balance": 448964.71,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة ديسمبر"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": -70381.28,
+    "balance": 378583.43,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 55921.37,
+    "balance": 434504.8,
+    "category": "revenue",
+    "counterparty": "مستلم من مطاعم الصفوة"
+   },
+   {
+    "date": "2025-12-18",
+    "amount": -62763.52,
+    "balance": 371741.28,
+    "category": "opex",
+    "counterparty": "إيجار المحل ديسمبر"
+   },
+   {
+    "date": "2025-12-22",
+    "amount": 84957.49,
+    "balance": 456698.77,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 27611.4,
+    "balance": 484310.17,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": -63528.58,
+    "balance": 420781.59,
+    "category": "opex",
+    "counterparty": "دفعة للمورد سندس للمواد"
+   },
+   {
+    "date": "2025-12-29",
+    "amount": -70934.12,
+    "balance": 349847.47,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 45939.4,
+    "balance": 395786.87,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 58715.18,
+    "balance": 454502.05,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يناير"
+   },
+   {
+    "date": "2026-01-11",
+    "amount": -70703.31,
+    "balance": 383798.74,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد يناير"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -52523.92,
+    "balance": 331274.82,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -67972.28,
+    "balance": 263302.54,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-01-13",
+    "amount": -73230.49,
+    "balance": 190072.05,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": 65358.13,
+    "balance": 255430.18,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 746488"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 116222.77,
+    "balance": 371652.95,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يناير"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 54964.52,
+    "balance": 426617.47,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من سعد القحطاني"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -65742.15,
+    "balance": 360875.32,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": 28335.53,
+    "balance": 389210.85,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من سعد القحطاني"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": 75351.89,
+    "balance": 464562.74,
+    "category": "revenue",
+    "counterparty": "مستلم من فنادق الريادة"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": 104725.73,
+    "balance": 569288.47,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-02-22",
+    "amount": 83027.61,
+    "balance": 652316.08,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 366771"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -60625.43,
+    "balance": 591690.65,
+    "category": "opex",
+    "counterparty": "إيجار المحل فبراير"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 49059.24,
+    "balance": 640749.89,
+    "category": "revenue",
+    "counterparty": "مستلم من فنادق الريادة"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -69621.58,
+    "balance": 571128.31,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": -67898.34,
+    "balance": 503229.97,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": -62074.95,
+    "balance": 441155.02,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": 76878.51,
+    "balance": 518033.53,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": -68897.46,
+    "balance": 449136.07,
+    "category": "opex",
+    "counterparty": "تحويل فوري من نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": 43299.4,
+    "balance": 492435.47,
+    "category": "revenue",
+    "counterparty": "إيجار المحل مارس"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": -67314.93,
+    "balance": 425120.54,
+    "category": "opex",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": 28847.3,
+    "balance": 453967.84,
+    "category": "revenue",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 61460.83,
+    "balance": 515428.67,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من شركة الموارد"
+   },
+   {
+    "date": "2026-03-20",
+    "amount": 31665.18,
+    "balance": 547093.85,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-03-21",
+    "amount": -55680.16,
+    "balance": 491413.69,
+    "category": "opex",
+    "counterparty": "حوالة داخلية من سهل إكسبرس"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 85548.78,
+    "balance": 576962.47,
+    "category": "revenue",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 118631.56,
+    "balance": 695594.03,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -54507.89,
+    "balance": 641086.14,
+    "category": "revenue",
+    "counterparty": "مستلم من فنادق الريادة"
+   },
+   {
+    "date": "2026-04-12",
+    "amount": -53269.78,
+    "balance": 587816.36,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أبريل"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": -74174.78,
+    "balance": 513641.58,
+    "category": "opex",
+    "counterparty": "إيجار المحل أبريل"
+   },
+   {
+    "date": "2026-04-15",
+    "amount": 51241.79,
+    "balance": 564883.37,
+    "category": "revenue",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -76742.55,
+    "balance": 488140.82,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 117110.77,
+    "balance": 605251.59,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 46815.88,
+    "balance": 652067.47,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 804382"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": -58071.26,
+    "balance": 593996.21,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 388387"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": -65565.04,
+    "balance": 528431.17,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد مايو"
+   },
+   {
+    "date": "2026-05-08",
+    "amount": -81150.35,
+    "balance": 447280.82,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-05-09",
+    "amount": 76277.24,
+    "balance": 523558.06,
+    "category": "revenue",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 71624.18,
+    "balance": 595182.24,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -65843.35,
+    "balance": 529338.89,
+    "category": "opex",
+    "counterparty": "حوالة داخلية من شركة الموارد"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": 49211.14,
+    "balance": 578550.03,
+    "category": "revenue",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 62994.44,
+    "balance": 641544.47,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة مايو"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": 89093.0,
+    "balance": 730637.47,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -69788.13,
+    "balance": 660849.34,
+    "category": "opex",
+    "counterparty": "حوالة داخلية من سهل إكسبرس"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 103671.61,
+    "balance": 764520.95,
+    "category": "revenue",
+    "counterparty": "دفعة رواتب مدد يونيو"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -60177.22,
+    "balance": 704343.73,
+    "category": "opex",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-06-12",
+    "amount": 76471.76,
+    "balance": 780815.49,
+    "category": "revenue",
+    "counterparty": "إيجار المحل يونيو"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": -61828.08,
+    "balance": 718987.41,
+    "category": "opex",
+    "counterparty": "تحويل فوري من نجوم للإعاشة"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 55044.84,
+    "balance": 774032.25,
+    "category": "revenue",
+    "counterparty": "دفعة للمورد رمال للتغليف"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 84211.79,
+    "balance": 858244.04,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -55741.57,
+    "balance": 802502.47,
+    "category": "opex",
+    "counterparty": "دفعة نقاط بيع 330417"
+   },
+   {
+    "date": "2026-06-29",
+    "amount": -53045.54,
+    "balance": 749456.93,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -60339.18,
+    "balance": 689117.75,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": 78681.86,
+    "balance": 767799.61,
+    "category": "revenue",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-07-09",
+    "amount": 29147.53,
+    "balance": 796947.14,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": -64282.49,
+    "balance": 732664.65,
+    "category": "opex",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-07-15",
+    "amount": 83825.12,
+    "balance": 816489.77,
+    "category": "revenue",
+    "counterparty": "دفعة للمورد رمال للتغليف"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": 65253.28,
+    "balance": 881743.05,
+    "category": "revenue",
+    "counterparty": "مستلم من نجوم للإعاشة"
+   },
+   {
+    "date": "2026-07-20",
+    "amount": 41992.21,
+    "balance": 923735.26,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من سعد القحطاني"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -53980.29,
+    "balance": 869754.97,
+    "category": "opex",
+    "counterparty": "حوالة داخلية من سهل إكسبرس"
+   },
+   {
+    "date": "2026-07-28",
+    "amount": -62132.26,
+    "balance": 807622.71,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -70164.97,
+    "balance": 737457.74,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أغسطس"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": -57664.36,
+    "balance": 679793.38,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": 61457.22,
+    "balance": 741250.6,
+    "category": "revenue",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2026-08-12",
+    "amount": -64005.91,
+    "balance": 677244.69,
+    "category": "opex",
+    "counterparty": "تحويل فوري من تركي المطيري"
+   },
+   {
+    "date": "2026-08-15",
+    "amount": 77884.73,
+    "balance": 755129.42,
+    "category": "revenue",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-08-22",
+    "amount": 91100.47,
+    "balance": 846229.89,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من ماجد الشهري"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": 97257.58,
+    "balance": 943487.47,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من فنادق الريادة"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": -65337.61,
+    "balance": 878149.86,
+    "category": "opex",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 67003.95,
+    "balance": 945153.81,
+    "category": "revenue",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 79509.35,
+    "balance": 1024663.16,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 998046"
+   },
+   {
+    "date": "2026-09-08",
+    "amount": 68961.79,
+    "balance": 1093624.95,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -65037.94,
+    "balance": 1028587.01,
+    "category": "revenue",
+    "counterparty": "مستلم من سهل إكسبرس"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 57323.05,
+    "balance": 1085910.06,
+    "category": "revenue",
+    "counterparty": "إيجار المحل سبتمبر"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -76498.21,
+    "balance": 1009411.85,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": 78001.86,
+    "balance": 1087413.71,
+    "category": "revenue",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": -64996.24,
+    "balance": 1022417.47,
+    "category": "opex",
+    "counterparty": "مستلم من فنادق الريادة"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": 50203.87,
+    "balance": 1072621.34,
+    "category": "revenue",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-10-04",
+    "amount": -59618.17,
+    "balance": 1013003.17,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-05",
+    "amount": 55502.74,
+    "balance": 1068505.91,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أكتوبر"
+   },
+   {
+    "date": "2026-10-08",
+    "amount": 41443.9,
+    "balance": 1109949.81,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 75475.43,
+    "balance": 1185425.24,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فنادق الريادة"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 68596.6,
+    "balance": 1254021.84,
+    "category": "revenue",
+    "counterparty": "مستلم من سهل إكسبرس"
+   },
+   {
+    "date": "2026-10-11",
+    "amount": 50977.46,
+    "balance": 1304999.3,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من سهل إكسبرس"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": -78474.86,
+    "balance": 1226524.44,
+    "category": "opex",
+    "counterparty": "مبيعات الأجهزة أكتوبر"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": -61490.89,
+    "balance": 1165033.55,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -65621.08,
+    "balance": 1099412.47,
+    "category": "opex",
+    "counterparty": "دفعة للمورد نوى للجملة"
+   },
+   {
+    "date": "2026-10-28",
+    "amount": 0,
+    "balance": 1099412.47,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   }
+  ],
+  "notes": [
+   "The statement has been transcribed with errors: row-level amounts, signs and categories do not reconcile to the printed running balances in many places (e.g. the 2026-03-04 row), so the transactions cannot be relied on without a manual re-check against the original.",
+   "Statement period shown on the header runs to 2026-10-30 while the last transaction is dated 2026-10-28; the closing balance printed is 1,099,412.47.",
+   "Page 1 of the statement shows the 2026-03-02 line with a different balance than the sequence implies; the payer and payee labels also appear mismatched against the Debit/Credit columns in several rows."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 10821,
+  "output_tokens": 7014,
+  "latency_s": 31.77,
+  "cached": false
+ }
+}

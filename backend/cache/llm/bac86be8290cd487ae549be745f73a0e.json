@@ -1,0 +1,1134 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "personal",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 126913.75,
+  "closing_balance": 593512.84,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": 45201.16,
+    "balance": 172114.91,
+    "category": "revenue",
+    "counterparty": "Arij Cafes"
+   },
+   {
+    "date": "2025-11-02",
+    "amount": -2228.14,
+    "balance": 169886.77,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -44782.25,
+    "balance": 125104.52,
+    "category": "opex",
+    "counterparty": "November salary payroll"
+   },
+   {
+    "date": "2025-11-05",
+    "amount": -6967.86,
+    "balance": 118136.66,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 48845.72,
+    "balance": 166982.38,
+    "category": "revenue",
+    "counterparty": "Device sales November"
+   },
+   {
+    "date": "2025-11-13",
+    "amount": 33072.14,
+    "balance": 200054.52,
+    "category": "revenue",
+    "counterparty": "Al-Mawarid Company instant transfer"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 45232.38,
+    "balance": 245286.9,
+    "category": "revenue",
+    "counterparty": "Device sales November"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 93196.05,
+    "balance": 338482.95,
+    "category": "revenue",
+    "counterparty": "Arij Cafes"
+   },
+   {
+    "date": "2025-11-20",
+    "amount": 35152.55,
+    "balance": 373635.5,
+    "category": "revenue",
+    "counterparty": "POS settlement 744592"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -63017.07,
+    "balance": 310618.43,
+    "category": "opex",
+    "counterparty": "Shop rent November"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -3500.0,
+    "balance": 307118.43,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility repayment"
+   },
+   {
+    "date": "2025-11-29",
+    "amount": -55014.43,
+    "balance": 252104.0,
+    "category": "opex",
+    "counterparty": "Purchase invoices settlement"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": -71130.85,
+    "balance": 180973.15,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2025-11-30",
+    "amount": -6441.1,
+    "balance": 174532.05,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2025-12-02",
+    "amount": -3614.17,
+    "balance": 170917.88,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": -54233.73,
+    "balance": 116684.15,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": -55749.3,
+    "balance": 60934.85,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2025-12-05",
+    "amount": -51355.21,
+    "balance": 9579.64,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale supplier payment"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": -4854.46,
+    "balance": 4725.18,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2025-12-10",
+    "amount": -61014.16,
+    "balance": -56288.98,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 65747.54,
+    "balance": 9458.56,
+    "category": "revenue",
+    "counterparty": "Al-Mawarid Company"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": 61567.53,
+    "balance": 71026.09,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 41667.74,
+    "balance": 112693.83,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2025-12-17",
+    "amount": -5839.03,
+    "balance": 106854.8,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 68608.14,
+    "balance": 175462.94,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -3500.0,
+    "balance": 171962.94,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2025-12-26",
+    "amount": 48209.05,
+    "balance": 220171.99,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-03",
+    "amount": -35602.79,
+    "balance": 184569.2,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -3009.46,
+    "balance": 181559.74,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2026-01-10",
+    "amount": -3273.97,
+    "balance": 178285.77,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2026-01-12",
+    "amount": 32507.24,
+    "balance": 210793.01,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-14",
+    "amount": 44335.41,
+    "balance": 255128.42,
+    "category": "revenue",
+    "counterparty": "Device sales January"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": -51211.2,
+    "balance": 203917.22,
+    "category": "opex",
+    "counterparty": "Shop rent January"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -34274.14,
+    "balance": 169643.08,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale supplier payment"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 78817.35,
+    "balance": 248460.43,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": 57440.0,
+    "balance": 305900.43,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Saad Al-Qahtani"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -44703.67,
+    "balance": 261196.76,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -3500.0,
+    "balance": 257696.76,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility repayment"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": 47110.34,
+    "balance": 304807.1,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Al-Masarat Trading"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -1567.75,
+    "balance": 303239.35,
+    "category": "personal",
+    "counterparty": "Transfer to Naser Al-Dosari"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 29739.06,
+    "balance": 332978.41,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Masarat Trading"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": 37521.55,
+    "balance": 370499.96,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-02-08",
+    "amount": -2836.23,
+    "balance": 367663.73,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": 31557.23,
+    "balance": 399220.96,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Masarat Trading"
+   },
+   {
+    "date": "2026-02-11",
+    "amount": -34352.32,
+    "balance": 364868.64,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-02-12",
+    "amount": 24590.74,
+    "balance": 389459.38,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-14",
+    "amount": -5594.87,
+    "balance": 383864.51,
+    "category": "personal",
+    "counterparty": "Transfer to Reem Al-Shammari"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": -47774.35,
+    "balance": 336090.16,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-02-23",
+    "amount": -42245.26,
+    "balance": 293844.9,
+    "category": "opex",
+    "counterparty": "Sandus Materials supplier payment"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -3500.0,
+    "balance": 290344.9,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility repayment"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 36981.08,
+    "balance": 327325.98,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": -37063.07,
+    "balance": 290262.91,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": -6540.11,
+    "balance": 283722.8,
+    "category": "personal",
+    "counterparty": "Transfer to Saad Al-Qahtani"
+   },
+   {
+    "date": "2026-03-04",
+    "amount": 41820.75,
+    "balance": 325543.55,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": 31650.33,
+    "balance": 357193.88,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": 48904.7,
+    "balance": 406098.58,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": -34436.15,
+    "balance": 371662.43,
+    "category": "personal",
+    "counterparty": "March salary payroll"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": 17040.25,
+    "balance": 388702.68,
+    "category": "revenue",
+    "counterparty": "POS settlement 989559"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -54492.8,
+    "balance": 334209.88,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-03-10",
+    "amount": -6611.97,
+    "balance": 327597.91,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-03-13",
+    "amount": 63122.21,
+    "balance": 390720.12,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": -52519.08,
+    "balance": 338201.04,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale supplier payment"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -3500.0,
+    "balance": 334701.04,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 37761.76,
+    "balance": 372462.8,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-03-31",
+    "amount": -45505.37,
+    "balance": 326957.43,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 37771.16,
+    "balance": 364728.59,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-04-03",
+    "amount": 60256.56,
+    "balance": 424985.15,
+    "category": "revenue",
+    "counterparty": "Received from Al-Masarat Trading"
+   },
+   {
+    "date": "2026-04-06",
+    "amount": -60412.16,
+    "balance": 364572.99,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 49741.99,
+    "balance": 414314.98,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": -6645.02,
+    "balance": 407669.96,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-04-20",
+    "amount": 49439.93,
+    "balance": 457109.89,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": 78690.36,
+    "balance": 535800.25,
+    "category": "revenue",
+    "counterparty": "POS settlement 581872"
+   },
+   {
+    "date": "2026-04-23",
+    "amount": -38413.88,
+    "balance": 497386.37,
+    "category": "opex",
+    "counterparty": "Shop rent April"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -3500.0,
+    "balance": 493886.37,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -57097.11,
+    "balance": 436789.26,
+    "category": "opex",
+    "counterparty": "Purchase invoices settlement"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": -3686.55,
+    "balance": 433102.71,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -58727.05,
+    "balance": 374375.66,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -2035.36,
+    "balance": 372340.3,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 59216.19,
+    "balance": 431556.49,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 25436.86,
+    "balance": 456993.35,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": -5006.46,
+    "balance": 451986.89,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": -41104.19,
+    "balance": 410882.7,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": 28270.96,
+    "balance": 439153.66,
+    "category": "revenue",
+    "counterparty": "POS settlement 515257"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": 31513.93,
+    "balance": 470667.59,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -3211.73,
+    "balance": 467455.86,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -2276.05,
+    "balance": 465179.81,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": 49110.37,
+    "balance": 514290.18,
+    "category": "revenue",
+    "counterparty": "Received from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-05-20",
+    "amount": -40461.89,
+    "balance": 473828.29,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 41351.69,
+    "balance": 515179.98,
+    "category": "revenue",
+    "counterparty": "Received from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -3500.0,
+    "balance": 511679.98,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -49026.44,
+    "balance": 462653.54,
+    "category": "opex",
+    "counterparty": "Purchase invoices settlement"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -52159.68,
+    "balance": 410493.86,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-06-08",
+    "amount": -2883.98,
+    "balance": 407609.88,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": 53955.94,
+    "balance": 461565.82,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Najoom Catering"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 37033.94,
+    "balance": 498599.76,
+    "category": "revenue",
+    "counterparty": "Received from Najoom Catering"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": -34608.76,
+    "balance": 463991.0,
+    "category": "personal",
+    "counterparty": "June salary payroll"
+   },
+   {
+    "date": "2026-06-17",
+    "amount": -40198.29,
+    "balance": 423792.71,
+    "category": "opex",
+    "counterparty": "Shop rent June"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": 47483.02,
+    "balance": 471275.73,
+    "category": "owner_funds",
+    "counterparty": "Instant transfer from Reem Al-Shammari"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": 29563.13,
+    "balance": 500838.86,
+    "category": "revenue",
+    "counterparty": "Received from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-06-22",
+    "amount": -3759.55,
+    "balance": 497079.31,
+    "category": "personal",
+    "counterparty": "Transfer to Reem Al-Shammari"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": 16272.55,
+    "balance": 513351.86,
+    "category": "revenue",
+    "counterparty": "Device sales June"
+   },
+   {
+    "date": "2026-06-24",
+    "amount": -43292.92,
+    "balance": 470058.94,
+    "category": "opex",
+    "counterparty": "Purchase invoices settlement"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -3500.0,
+    "balance": 466558.94,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -1537.24,
+    "balance": 465021.7,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": -43879.63,
+    "balance": 421142.07,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": 23891.42,
+    "balance": 445033.49,
+    "category": "revenue",
+    "counterparty": "POS settlement 600191"
+   },
+   {
+    "date": "2026-07-01",
+    "amount": -43247.01,
+    "balance": 401786.48,
+    "category": "personal",
+    "counterparty": "July salary payroll"
+   },
+   {
+    "date": "2026-07-02",
+    "amount": -3999.24,
+    "balance": 397787.24,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 34265.43,
+    "balance": 432052.67,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": 26160.97,
+    "balance": 458213.64,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 37518.72,
+    "balance": 495732.36,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": -4632.43,
+    "balance": 491099.93,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": -34351.43,
+    "balance": 456748.5,
+    "category": "opex",
+    "counterparty": "Shop rent July"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": 33664.67,
+    "balance": 490413.17,
+    "category": "revenue",
+    "counterparty": "POS settlement 756952"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": 25427.95,
+    "balance": 515841.12,
+    "category": "revenue",
+    "counterparty": "Received from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -55906.43,
+    "balance": 459934.69,
+    "category": "opex",
+    "counterparty": "Sandus Materials supplier payment"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 71862.26,
+    "balance": 531796.95,
+    "category": "revenue",
+    "counterparty": "Received from Arij Cafes"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -44579.33,
+    "balance": 487217.62,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3500.0,
+    "balance": 483717.62,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility repayment"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": -6680.64,
+    "balance": 477036.98,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -53116.57,
+    "balance": 423920.41,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": 83981.98,
+    "balance": 507902.39,
+    "category": "revenue",
+    "counterparty": "Device sales August"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 70480.22,
+    "balance": 578382.61,
+    "category": "revenue",
+    "counterparty": "Received from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 33639.83,
+    "balance": 612022.44,
+    "category": "revenue",
+    "counterparty": "POS settlement 661930"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -5640.6,
+    "balance": 606381.84,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -44909.08,
+    "balance": 561472.76,
+    "category": "opex",
+    "counterparty": "Shop rent August"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -46195.66,
+    "balance": 515277.1,
+    "category": "opex",
+    "counterparty": "Purchase invoices settlement"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 42197.97,
+    "balance": 557475.07,
+    "category": "revenue",
+    "counterparty": "POS settlement 318542"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3500.0,
+    "balance": 553975.07,
+    "category": "debt_service",
+    "counterparty": "Sample Bank facility repayment"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": -34952.09,
+    "balance": 519022.98,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": -4639.29,
+    "balance": 514383.69,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -36952.93,
+    "balance": 477430.76,
+    "category": "personal",
+    "counterparty": "September salary payroll"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": -47470.37,
+    "balance": 429960.39,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": 41641.22,
+    "balance": 471601.61,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": -42740.43,
+    "balance": 428861.18,
+    "category": "opex",
+    "counterparty": "Fanar Equipment supplier payment"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 50172.33,
+    "balance": 479033.51,
+    "category": "revenue",
+    "counterparty": "Received from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 29382.09,
+    "balance": 508415.6,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -1919.55,
+    "balance": 506496.05,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 61270.2,
+    "balance": 567766.25,
+    "category": "owner_funds",
+    "counterparty": "Instant transfer from Reem Al-Shammari"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": -1914.23,
+    "balance": 565852.02,
+    "category": "personal",
+    "counterparty": "School fees payment"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -54654.87,
+    "balance": 511197.15,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -4360.83,
+    "balance": 506836.32,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3500.0,
+    "balance": 503336.32,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 51234.16,
+    "balance": 554570.48,
+    "category": "revenue",
+    "counterparty": "Received from Al-Safwa Restaurants"
+   },
+   {
+    "date": "2026-10-01",
+    "amount": 40131.09,
+    "balance": 594701.57,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Arij Cafes"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": -3266.8,
+    "balance": 591434.77,
+    "category": "personal",
+    "counterparty": "Credit card settlement"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 52113.36,
+    "balance": 643548.13,
+    "category": "revenue",
+    "counterparty": "POS settlement 276241"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -49439.4,
+    "balance": 594108.73,
+    "category": "opex",
+    "counterparty": "Staff salaries"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -41027.21,
+    "balance": 553081.52,
+    "category": "opex",
+    "counterparty": "Shop rent October"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -6420.73,
+    "balance": 546660.79,
+    "category": "personal",
+    "counterparty": "Residential lease"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": 46617.95,
+    "balance": 592507.4,
+    "category": "revenue",
+    "counterparty": "Received from Al-Masarat Trading"
+   },
+   {
+    "date": "2026-10-18",
+    "amount": 46617.95,
+    "balance": 639125.35,
+    "category": "revenue",
+    "counterparty": "Received from Arij Cafes"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": -40080.92,
+    "balance": 599044.43,
+    "category": "opex",
+    "counterparty": "Fanar Equipment supplier payment"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 40672.31,
+    "balance": 639716.74,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Naser Al-Dosari"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 18118.68,
+    "balance": 657835.42,
+    "category": "revenue",
+    "counterparty": "Instant transfer from Al-Masarat Trading"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -3500.0,
+    "balance": 654335.42,
+    "category": "debt_service",
+    "counterparty": "Sample Bank murabaha instalment"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -58895.47,
+    "balance": 595439.95,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": -1927.11,
+    "balance": 593512.84,
+    "category": "personal",
+    "counterparty": "Transfer to Reem Al-Shammari"
+   }
+  ],
+  "notes": [
+   "Account is a personal current account while the business is a commercial registration; the statement is not a business account.",
+   "Several 'Internal transfer' and 'Instant transfer' credits come from the same named companies and restaurants repeatedly, with some amounts identical in consecutive lines (e.g. 46617.95 on 2026-10-16 and 2026-10-18), which an analyst should verify.",
+   "Dated 2026-10-30 period end and transactions dated to 2026-10-29 are recorded; the statement covers a period extending beyond the current date range of other documents and should be verified against source.",
+   "Transfers from Reem Al-Shammari recorded as owner_funds; the owner per the registration is Turki Al-Mutairi, so the source of these funds is not confirmed as the owner's own.",
+   "Running balance on 2025-12-10 is negative (-56288.98), implying an overdraft that should be noted by the analyst.",
+   "The row on 2025-12-02 shows balance 170917.88 after debit 3614.17 from 174532.05 which is consistent; the first-page header layout is right-to-left with Balance | Credit | Debit columns and was read accordingly."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 9559,
+  "output_tokens": 9306,
+  "latency_s": 28.88,
+  "cached": false
+ }
+}

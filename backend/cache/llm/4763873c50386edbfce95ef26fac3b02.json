@@ -1,0 +1,312 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-21",
+    "amount": -18029.08,
+    "balance": 106751.58,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": 55040.45,
+    "balance": 161792.03,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 854501"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": 21285.02,
+    "balance": 183077.05,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من أسواق بيت الخير"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 22447.46,
+    "balance": 205524.51,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة فبراير"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": 11722.47,
+    "balance": 217246.98,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 974600"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -20671.62,
+    "balance": 196575.36,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد مارس"
+   },
+   {
+    "date": "2026-03-12",
+    "amount": -23864.64,
+    "balance": 172710.72,
+    "category": "opex",
+    "counterparty": "إيجار المحل مارس"
+   },
+   {
+    "date": "2026-03-14",
+    "amount": 13027.54,
+    "balance": 185738.26,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من أسواق بيت الخير"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -22889.72,
+    "balance": 162848.54,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-03-19",
+    "amount": 25140.65,
+    "balance": 187989.19,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2026-03-22",
+    "amount": 27098.81,
+    "balance": 215088.0,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 285513"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 38310.53,
+    "balance": 253398.53,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 485639"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -21124.42,
+    "balance": 232274.11,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": 38127.86,
+    "balance": 270401.97,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 12188.62,
+    "balance": 282590.59,
+    "category": "revenue",
+    "counterparty": "مستلم من قصر الضيافة"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": 17414.76,
+    "balance": 300005.35,
+    "category": "revenue",
+    "counterparty": "مستلم من سهل إكسبرس"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": -29783.11,
+    "balance": 270222.24,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد أبريل"
+   },
+   {
+    "date": "2026-04-11",
+    "amount": -32304.13,
+    "balance": 237918.11,
+    "category": "opex",
+    "counterparty": "إيجار المحل أبريل"
+   },
+   {
+    "date": "2026-04-17",
+    "amount": -24043.3,
+    "balance": 213874.81,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 31162.26,
+    "balance": 245037.07,
+    "category": "owner_funds",
+    "counterparty": "حوالة داخلية من خالد الحربي"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -30759.06,
+    "balance": 214278.01,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 19282.7,
+    "balance": 233560.71,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2026-04-29",
+    "amount": 34023.8,
+    "balance": 267584.51,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-05-01",
+    "amount": -20295.85,
+    "balance": 247288.66,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 22999.75,
+    "balance": 270288.41,
+    "category": "revenue",
+    "counterparty": "دفعة نقاط بيع 289787"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 32829.77,
+    "balance": 303118.18,
+    "category": "owner_funds",
+    "counterparty": "حوالة داخلية من خالد الحربي"
+   },
+   {
+    "date": "2026-05-21",
+    "amount": -25480.96,
+    "balance": 277637.22,
+    "category": "opex",
+    "counterparty": "إيجار المحل مايو"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -24727.2,
+    "balance": 252910.02,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": 31532.46,
+    "balance": 284442.48,
+    "category": "revenue",
+    "counterparty": "مستلم من سهل إكسبرس"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": 28638.02,
+    "balance": 313080.5,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مسارات للتجارة"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -18583.99,
+    "balance": 294496.51,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-06-08",
+    "amount": 5020.22,
+    "balance": 299516.73,
+    "category": "owner_funds",
+    "counterparty": "حوالة داخلية من فهد العتيبي"
+   },
+   {
+    "date": "2026-06-08",
+    "amount": 2685.37,
+    "balance": 302202.1,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة يونيو"
+   },
+   {
+    "date": "2026-06-10",
+    "amount": 2366.05,
+    "balance": 304568.15,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من شركة الموارد"
+   },
+   {
+    "date": "2026-06-11",
+    "amount": -4759.6,
+    "balance": 299808.55,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": 6444.64,
+    "balance": 306253.19,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-06-21",
+    "amount": -3769.35,
+    "balance": 302483.84,
+    "category": "opex",
+    "counterparty": "إيجار المحل يونيو"
+   },
+   {
+    "date": "2026-06-27",
+    "amount": 6027.29,
+    "balance": 308511.13,
+    "category": "owner_funds",
+    "counterparty": "تحويل فوري من فهد العتيبي"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": 3156.43,
+    "balance": 311667.56,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من مدارس الأفق"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": -5622.05,
+    "balance": 306045.51,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-06-30",
+    "amount": -5586.6,
+    "balance": 300458.91,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   }
+  ],
+  "notes": [
+   "Page 2 has no header fields (account type, period, opening/closing balances); these are null and should come from page 1.",
+   "Transfers from Khalid Al-Harbi and Fahad Al-Otaibi are recorded as owner_funds; the owner is Nasser Al-Dosari, so their identity as owner-related should be verified against the account-holder records.",
+   "Several transfers labelled as from individuals (Fahad Al-Otaibi, Khalid Al-Harbi) are treated as owner_funds on the basis of the category rules; confirm they are not customers. Note the 'تحويل فوري من فهد العتيبي' and 'حوالة داخلية من فهد العتيبي' lines sit alongside a personal-transfer pattern."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4106,
+  "output_tokens": 2822,
+  "latency_s": 8.99,
+  "cached": false
+ }
+}

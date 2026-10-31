@@ -1,0 +1,25 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [],
+  "notes": [
+   "Page 3 has no column headers; direction was inferred from the position of each amount relative to the running balance, which moves consistently with the amounts.",
+   "Page 3 contains no period, opening or closing balance fields, so those are left null.",
+   "Credit card settlements (تسوية البطاقة الائتمانية) are recorded as other, since the document does not show whether they are business or personal cards.",
+   "Several large personal-looking outflows appear on this page: school fees and home rent (personal), plus transfers to an individual (حوالة إلى ريم الشمري) which may need review."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4139,
+  "output_tokens": 2783,
+  "latency_s": 8.56,
+  "cached": false
+ }
+}

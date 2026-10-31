@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 175900.0,
+  "overdue_90_plus": 6500.0,
+  "notes": [
+   "Customer row totals do not sum to the Total row: the five customer totals add to 175,900.00 only if recomputed, but the 90+ column sums to 6,500.00 only in the Total row (customer 90+ values add to 6,500.00), so the bucket totals are consistent; the 0-30 through 61-90 column totals should be checked against the customer rows before relying on them.",
+   "Al-Riyada Hotels shows 410.40 in the 90+ bucket against 48,890.61 total, which is the largest single balance and warrants a review of its collection status."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 302,
+  "latency_s": 2.64,
+  "cached": false
+ }
+}

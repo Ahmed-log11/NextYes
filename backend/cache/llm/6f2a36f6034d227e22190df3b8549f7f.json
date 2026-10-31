@@ -1,0 +1,984 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 248820.07,
+  "closing_balance": 517972.84,
+  "transactions": [
+   {
+    "date": "2025-11-01",
+    "amount": 58560.33,
+    "balance": 307380.4,
+    "category": "revenue",
+    "counterparty": "Transfer from Aswaq Bait Al-Khair"
+   },
+   {
+    "date": "2025-11-02",
+    "amount": 34318.79,
+    "balance": 341699.19,
+    "category": "revenue",
+    "counterparty": "Transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-06",
+    "amount": 35211.35,
+    "balance": 376910.54,
+    "category": "revenue",
+    "counterparty": "Transfer from Aswaq Bait Al-Khair"
+   },
+   {
+    "date": "2025-11-11",
+    "amount": 40186.72,
+    "balance": 417097.26,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-11-14",
+    "amount": 74622.81,
+    "balance": 491720.07,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Turki Al-Mutairi"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -54460.99,
+    "balance": 437259.08,
+    "category": "opex",
+    "counterparty": "Workers wages"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": -62009.96,
+    "balance": 375249.12,
+    "category": "opex",
+    "counterparty": "Store rent (Mustawdaa)"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": -47674.58,
+    "balance": 327574.54,
+    "category": "opex",
+    "counterparty": "Payment to Fannar Al-Mawrid for supplies"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -2536.14,
+    "balance": 325038.4,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -1863.86,
+    "balance": 323174.54,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   },
+   {
+    "date": "2025-11-28",
+    "amount": -48149.07,
+    "balance": 275025.47,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2025-12-02",
+    "amount": 40565.6,
+    "balance": 315591.07,
+    "category": "revenue",
+    "counterparty": "December electronics sales"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": 19111.97,
+    "balance": 334703.04,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2025-12-04",
+    "amount": -52566.69,
+    "balance": 282136.35,
+    "category": "opex",
+    "counterparty": "Workers wages"
+   },
+   {
+    "date": "2025-12-05",
+    "amount": -52852.33,
+    "balance": 229284.02,
+    "category": "opex",
+    "counterparty": "Shop rent December"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 27862.75,
+    "balance": 257146.77,
+    "category": "revenue",
+    "counterparty": "Transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 50697.96,
+    "balance": 307844.73,
+    "category": "revenue",
+    "counterparty": "Payment received from Aswaq Bait Al-Khair"
+   },
+   {
+    "date": "2025-12-12",
+    "amount": 58552.47,
+    "balance": 366397.2,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": 36009.25,
+    "balance": 402406.45,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Al-Mawarid Company"
+   },
+   {
+    "date": "2025-12-15",
+    "amount": -49245.6,
+    "balance": 353160.85,
+    "category": "opex",
+    "counterparty": "Purchase invoices payment"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -2536.14,
+    "balance": 350624.71,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - financing instalment"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -1863.86,
+    "balance": 348760.85,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -48802.58,
+    "balance": 299958.27,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -42187.69,
+    "balance": 257770.58,
+    "category": "opex",
+    "counterparty": "Workers wages"
+   },
+   {
+    "date": "2026-01-05",
+    "amount": 20326.41,
+    "balance": 278096.99,
+    "category": "revenue",
+    "counterparty": "Payment from Masarat for Commerce"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 11853.87,
+    "balance": 289950.86,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 276736"
+   },
+   {
+    "date": "2026-01-15",
+    "amount": -36500.74,
+    "balance": 253450.12,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 27425.32,
+    "balance": 280875.44,
+    "category": "revenue",
+    "counterparty": "January electronics sales"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 34947.12,
+    "balance": 315822.56,
+    "category": "revenue",
+    "counterparty": "Payment from Omar Al-Ghamdi"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 28946.3,
+    "balance": 344768.86,
+    "category": "revenue",
+    "counterparty": "Transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": 40700.98,
+    "balance": 385469.84,
+    "category": "revenue",
+    "counterparty": "Payment from Nujoom Al-Aasha"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -2536.14,
+    "balance": 382933.7,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - financing instalment"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -1863.86,
+    "balance": 381069.84,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -27992.5,
+    "balance": 353077.34,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale supplies"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -36829.87,
+    "balance": 316247.47,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-02-05",
+    "amount": -51472.22,
+    "balance": 367719.69,
+    "category": "personal",
+    "counterparty": "Transfer to Khalid Al-Harbi"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": -38683.02,
+    "balance": 329036.67,
+    "category": "opex",
+    "counterparty": "Workers wages"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": -43885.05,
+    "balance": 285151.62,
+    "category": "opex",
+    "counterparty": "Shop rent February"
+   },
+   {
+    "date": "2026-02-21",
+    "amount": 54054.91,
+    "balance": 339206.53,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -2536.14,
+    "balance": 336670.39,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -1863.86,
+    "balance": 334806.53,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - Murabaha instalment"
+   },
+   {
+    "date": "2026-02-26",
+    "amount": 30397.08,
+    "balance": 365203.61,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 720380"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": 30075.79,
+    "balance": 395279.4,
+    "category": "revenue",
+    "counterparty": "Immediate transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-02-27",
+    "amount": -31126.85,
+    "balance": 364152.55,
+    "category": "opex",
+    "counterparty": "Sindis Al-Mawad supplies"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -31389.08,
+    "balance": 332763.47,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-03-01",
+    "amount": -45825.05,
+    "balance": 286938.42,
+    "category": "opex",
+    "counterparty": "Workers wages March"
+   },
+   {
+    "date": "2026-03-02",
+    "amount": -31262.88,
+    "balance": 255675.54,
+    "category": "opex",
+    "counterparty": "Shop rent March"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": 25252.54,
+    "balance": 280928.08,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 198717"
+   },
+   {
+    "date": "2026-03-11",
+    "amount": 34385.72,
+    "balance": 315313.8,
+    "category": "revenue",
+    "counterparty": "Transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-03-15",
+    "amount": 21114.75,
+    "balance": 336428.55,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 605417"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": 24248.85,
+    "balance": 360677.4,
+    "category": "revenue",
+    "counterparty": "March electronics sales"
+   },
+   {
+    "date": "2026-03-16",
+    "amount": -40413.41,
+    "balance": 320263.99,
+    "category": "opex",
+    "counterparty": "Purchase invoices payment"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": 37496.19,
+    "balance": 357760.18,
+    "category": "revenue",
+    "counterparty": "Transfer from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -2536.14,
+    "balance": 355224.04,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -1863.86,
+    "balance": 353360.18,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - Murabaha instalment"
+   },
+   {
+    "date": "2026-03-30",
+    "amount": 28501.95,
+    "balance": 381862.13,
+    "category": "revenue",
+    "counterparty": "Transfer from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-03-30",
+    "amount": -31952.66,
+    "balance": 349909.47,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": -52135.23,
+    "balance": 297774.24,
+    "category": "personal",
+    "counterparty": "Payroll April"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": -54038.28,
+    "balance": 243735.96,
+    "category": "opex",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 20433.73,
+    "balance": 264169.69,
+    "category": "revenue",
+    "counterparty": "Transfer from Aswaq Bait Al-Khair"
+   },
+   {
+    "date": "2026-04-13",
+    "amount": 24472.42,
+    "balance": 288642.11,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-04-13",
+    "amount": -43803.55,
+    "balance": 244838.56,
+    "category": "opex",
+    "counterparty": "Ramal Al-Taghleef supplies"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": 31316.64,
+    "balance": 276155.2,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-04-19",
+    "amount": 76145.14,
+    "balance": 352300.34,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -2536.14,
+    "balance": 349764.2,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -1863.86,
+    "balance": 347900.34,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": 63132.07,
+    "balance": 411032.41,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 309807"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -38369.94,
+    "balance": 372662.47,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-05-03",
+    "amount": 21597.61,
+    "balance": 394260.08,
+    "category": "revenue",
+    "counterparty": "Payment from Al-Mawarid Company"
+   },
+   {
+    "date": "2026-05-05",
+    "amount": -30183.13,
+    "balance": 364076.95,
+    "category": "opex",
+    "counterparty": "Workers wages May"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 60439.8,
+    "balance": 424516.75,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 562079"
+   },
+   {
+    "date": "2026-05-07",
+    "amount": -40222.31,
+    "balance": 384294.44,
+    "category": "opex",
+    "counterparty": "Shop rent May"
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 32830.12,
+    "balance": 417124.56,
+    "category": "revenue",
+    "counterparty": "Payment from Aswaq Bait Al-Khair"
+   },
+   {
+    "date": "2026-05-16",
+    "amount": -40308.65,
+    "balance": 376815.91,
+    "category": "opex",
+    "counterparty": "Purchase invoices payment"
+   },
+   {
+    "date": "2026-05-24",
+    "amount": 34527.85,
+    "balance": 411343.76,
+    "category": "revenue",
+    "counterparty": "Payment from Fahd Al-Otaibi"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": 20904.62,
+    "balance": 432248.38,
+    "category": "revenue",
+    "counterparty": "Payment from Nujoom Al-Aasha"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -2536.14,
+    "balance": 429712.24,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -1863.86,
+    "balance": 427848.38,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - Murabaha instalment"
+   },
+   {
+    "date": "2026-05-28",
+    "amount": -38128.11,
+    "balance": 389720.27,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-06-03",
+    "amount": -35385.58,
+    "balance": 354334.69,
+    "category": "opex",
+    "counterparty": "Payroll June"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": 36461.14,
+    "balance": 390795.83,
+    "category": "revenue",
+    "counterparty": "Sales points settlement 175970"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 40316.29,
+    "balance": 431112.12,
+    "category": "revenue",
+    "counterparty": "Electronics sales June"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": 33862.72,
+    "balance": 464974.84,
+    "category": "revenue",
+    "counterparty": "Immediate transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-06-07",
+    "amount": -40735.78,
+    "balance": 424239.06,
+    "category": "opex",
+    "counterparty": "Shop rent June"
+   },
+   {
+    "date": "2026-06-09",
+    "amount": -29091.98,
+    "balance": 395147.08,
+    "category": "opex",
+    "counterparty": "Purchase invoices payment"
+   },
+   {
+    "date": "2026-06-16",
+    "amount": 27023.62,
+    "balance": 422170.7,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Reem Al-Shamri"
+   },
+   {
+    "date": "2026-06-20",
+    "amount": -40307.66,
+    "balance": 381863.04,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -2536.14,
+    "balance": 379326.9,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -1863.86,
+    "balance": 377463.04,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - Murabaha instalment"
+   },
+   {
+    "date": "2026-06-28",
+    "amount": 28836.23,
+    "balance": 406299.27,
+    "category": "revenue",
+    "counterparty": "Electronics sales June"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": 27027.72,
+    "balance": 433326.99,
+    "category": "revenue",
+    "counterparty": "Electronics sales July"
+   },
+   {
+    "date": "2026-07-03",
+    "amount": -37561.86,
+    "balance": 395765.13,
+    "category": "opex",
+    "counterparty": "Payroll July"
+   },
+   {
+    "date": "2026-07-04",
+    "amount": -32721.74,
+    "balance": 363043.39,
+    "category": "opex",
+    "counterparty": "Shop rent July"
+   },
+   {
+    "date": "2026-07-07",
+    "amount": 25338.34,
+    "balance": 388381.73,
+    "category": "revenue",
+    "counterparty": "Immediate transfer from Masarat for Commerce"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 25634.38,
+    "balance": 414016.11,
+    "category": "revenue",
+    "counterparty": "Electronics sales July"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 32402.93,
+    "balance": 446419.04,
+    "category": "revenue",
+    "counterparty": "Electronics sales July"
+   },
+   {
+    "date": "2026-07-17",
+    "amount": -42870.73,
+    "balance": 403548.31,
+    "category": "opex",
+    "counterparty": "Sindis Al-Mawad supplies"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -36911.47,
+    "balance": 366636.84,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-07-23",
+    "amount": 43936.84,
+    "balance": 410573.68,
+    "category": "revenue",
+    "counterparty": "Payment from Masarat for Commerce"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -2536.14,
+    "balance": 408037.54,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -1863.86,
+    "balance": 406173.68,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - Murabaha instalment"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 17359.79,
+    "balance": 423533.47,
+    "category": "revenue",
+    "counterparty": "Business line invoice refund"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -48678.91,
+    "balance": 374854.56,
+    "category": "opex",
+    "counterparty": "Workers wages August"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": 36713.97,
+    "balance": 411568.53,
+    "category": "revenue",
+    "counterparty": "Internal transfer from Nasser Al-Dosari"
+   },
+   {
+    "date": "2026-08-07",
+    "amount": -32397.95,
+    "balance": 379170.58,
+    "category": "debt_service",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-08-08",
+    "amount": 45804.21,
+    "balance": 424974.79,
+    "category": "revenue",
+    "counterparty": "Payment from Masarat for Commerce"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 36016.58,
+    "balance": 460991.37,
+    "category": "revenue",
+    "counterparty": "Immediate transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": 18351.0,
+    "balance": 479342.37,
+    "category": "revenue",
+    "counterparty": "Shop rent deposit by tenant"
+   },
+   {
+    "date": "2026-08-20",
+    "amount": 29492.49,
+    "balance": 508834.86,
+    "category": "revenue",
+    "counterparty": "Shop rent deposit by tenant"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -36410.0,
+    "balance": 472424.86,
+    "category": "opex",
+    "counterparty": "Business line invoice"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 19843.12,
+    "balance": 492267.98,
+    "category": "revenue",
+    "counterparty": "Payment from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": -37910.34,
+    "balance": 454357.64,
+    "category": "opex",
+    "counterparty": "Purchase invoices payment"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -2536.14,
+    "balance": 451821.5,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -1863.86,
+    "balance": 449957.64,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   },
+   {
+    "date": "2026-08-28",
+    "amount": 28292.6,
+    "balance": 478250.24,
+    "category": "revenue",
+    "counterparty": "Transfer from Nujoom Al-Aasha"
+   },
+   {
+    "date": "2026-09-04",
+    "amount": 41725.79,
+    "balance": 519976.03,
+    "category": "revenue",
+    "counterparty": "Electronics sales September"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": 25494.94,
+    "balance": 545470.97,
+    "category": "revenue",
+    "counterparty": "Electronics sales September"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -39135.23,
+    "balance": 506335.74,
+    "category": "opex",
+    "counterparty": "Payroll September"
+   },
+   {
+    "date": "2026-09-13",
+    "amount": 38606.71,
+    "balance": 544942.45,
+    "category": "revenue",
+    "counterparty": "Payment from Nujoom Al-Aasha"
+   },
+   {
+    "date": "2026-09-14",
+    "amount": 27528.86,
+    "balance": 572471.31,
+    "category": "revenue",
+    "counterparty": "Payment from Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": -35870.72,
+    "balance": 536600.59,
+    "category": "opex",
+    "counterparty": "Shop rent September"
+   },
+   {
+    "date": "2026-09-20",
+    "amount": 33592.48,
+    "balance": 570193.07,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -45057.42,
+    "balance": 525135.65,
+    "category": "opex",
+    "counterparty": "Purchase invoices payment"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": 25851.22,
+    "balance": 550986.87,
+    "category": "revenue",
+    "counterparty": "Payment from Aswaq Bait Al-Khair"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -2536.14,
+    "balance": 548450.73,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -1863.86,
+    "balance": 546586.87,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   },
+   {
+    "date": "2026-09-30",
+    "amount": -48443.83,
+    "balance": 498143.04,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-10-03",
+    "amount": -48980.27,
+    "balance": 449162.77,
+    "category": "opex",
+    "counterparty": "Payroll October"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 58665.18,
+    "balance": 507827.95,
+    "category": "revenue",
+    "counterparty": "Electronics sales October"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 30681.54,
+    "balance": 538509.49,
+    "category": "revenue",
+    "counterparty": "Immediate transfer from Maqahi Areeb"
+   },
+   {
+    "date": "2026-10-12",
+    "amount": -45926.39,
+    "balance": 492583.1,
+    "category": "debt_service",
+    "counterparty": "Warehouse rent instalment"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": -37431.1,
+    "balance": 455152.0,
+    "category": "opex",
+    "counterparty": "Ramal Al-Taghleef supplies"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": -35732.44,
+    "balance": 419419.56,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": 59052.17,
+    "balance": 478471.73,
+    "category": "revenue",
+    "counterparty": "Merchant service deposit"
+   },
+   {
+    "date": "2026-10-22",
+    "amount": 43901.11,
+    "balance": 522372.84,
+    "category": "revenue",
+    "counterparty": "Transfer from Nujoom Al-Aasha"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -2536.14,
+    "balance": 519836.7,
+    "category": "debt_service",
+    "counterparty": "Sample Bank - Murabaha instalment"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -1863.86,
+    "balance": 517972.84,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. - financing settlement"
+   }
+  ],
+  "notes": [
+   "Statement shows the account balance rising from 248,820.07 to 517,972.84 over the period while the fixed Sample Bank and Demo Finance instalments are paid monthly on schedule.",
+   "Several large inflows are labelled as internal transfers from individuals (e.g. Qasr Al-Diyafa, Maqahi Areeb, Turki Al-Mutairi, Nasser Al-Dosari on 2026-08-04) and tenant rent deposits; their source should be verified.",
+   "Some outflows are labelled inconsistently with their counterparty: 2026-04-01 'Payroll April' 52,135.23 is coded personal (transfer to individual) on the printed description and 2026-08-07 and 2026-10-12 'warehouse rent instalment' amounts are large recurring payments whose nature should be confirmed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 13750,
+  "output_tokens": 8420,
+  "latency_s": 28.94,
+  "cached": false
+ }
+}

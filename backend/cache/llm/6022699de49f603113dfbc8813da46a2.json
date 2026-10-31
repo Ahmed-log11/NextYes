@@ -1,0 +1,973 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 105399.05,
+  "closing_balance": 850443.65,
+  "transactions": [
+   {
+    "date": "2025-11-02",
+    "amount": 83034.03,
+    "balance": 188433.08,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2025-11-04",
+    "amount": 67221.17,
+    "balance": 255654.25,
+    "category": "revenue",
+    "counterparty": "POS batch 709661"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -96783.98,
+    "balance": 158870.27,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": -118961.17,
+    "balance": 39909.1,
+    "category": "opex",
+    "counterparty": "Shop rent NOV"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 70789.32,
+    "balance": 110698.42,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 141505.9,
+    "balance": 252204.32,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2025-11-21",
+    "amount": -86085.45,
+    "balance": 166118.87,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2025-11-23",
+    "amount": 102349.58,
+    "balance": 268468.45,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -87290.7,
+    "balance": 181177.75,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -2239.22,
+    "balance": 178938.53,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-11-25",
+    "amount": -2060.78,
+    "balance": 176877.75,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2025-12-01",
+    "amount": 36811.29,
+    "balance": 213689.04,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurant (internal transfer)"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 101983.37,
+    "balance": 315672.41,
+    "category": "revenue",
+    "counterparty": "Almawared Co"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": 56189.02,
+    "balance": 371861.43,
+    "category": "revenue",
+    "counterparty": "Terminal sales DEC"
+   },
+   {
+    "date": "2025-12-07",
+    "amount": -103772.65,
+    "balance": 268088.78,
+    "category": "opex",
+    "counterparty": "Mudad payroll DEC"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 94730.52,
+    "balance": 362819.3,
+    "category": "revenue",
+    "counterparty": "Nora Al-Subaie"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": -105414.82,
+    "balance": 257404.48,
+    "category": "opex",
+    "counterparty": "Warehouse lease"
+   },
+   {
+    "date": "2025-12-13",
+    "amount": -87324.15,
+    "balance": 170080.33,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2025-12-16",
+    "amount": 113263.54,
+    "balance": 283343.87,
+    "category": "revenue",
+    "counterparty": "Terminal sales DEC"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": 54022.26,
+    "balance": 337366.13,
+    "category": "revenue",
+    "counterparty": "Almawared Co"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -2239.22,
+    "balance": 335126.91,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2025-12-25",
+    "amount": -2060.78,
+    "balance": 333066.13,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2025-12-30",
+    "amount": -85997.38,
+    "balance": 247068.75,
+    "category": "opex",
+    "counterparty": "Business line bill 379725"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": 42776.29,
+    "balance": 289845.04,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": 64301.9,
+    "balance": 354146.94,
+    "category": "owner_funds",
+    "counterparty": "Nasser Al-Dosari"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -76045.46,
+    "balance": 278101.48,
+    "category": "opex",
+    "counterparty": "Mudad payroll JAN"
+   },
+   {
+    "date": "2026-01-16",
+    "amount": 68241.65,
+    "balance": 346343.13,
+    "category": "revenue",
+    "counterparty": "Terminal sales JAN"
+   },
+   {
+    "date": "2026-01-17",
+    "amount": 121853.41,
+    "balance": 468196.54,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-01-21",
+    "amount": 120728.65,
+    "balance": 588925.19,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -2239.22,
+    "balance": 586685.97,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-01-25",
+    "amount": -2060.78,
+    "balance": 584625.19,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-01-26",
+    "amount": -76535.62,
+    "balance": 508089.57,
+    "category": "opex",
+    "counterparty": "Shop rent JAN"
+   },
+   {
+    "date": "2026-01-27",
+    "amount": -82549.94,
+    "balance": 425539.63,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-01-30",
+    "amount": -60832.18,
+    "balance": 364707.45,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-02-02",
+    "amount": -74798.84,
+    "balance": 289908.61,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-02-07",
+    "amount": 99000.53,
+    "balance": 388909.14,
+    "category": "revenue",
+    "counterparty": "Masarat Trading"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": -56059.59,
+    "balance": 332849.55,
+    "category": "opex",
+    "counterparty": "Shop rent FEB"
+   },
+   {
+    "date": "2026-02-17",
+    "amount": 108860.59,
+    "balance": 441710.14,
+    "category": "revenue",
+    "counterparty": "POS batch 955668"
+   },
+   {
+    "date": "2026-02-18",
+    "amount": 48847.63,
+    "balance": 490557.77,
+    "category": "revenue",
+    "counterparty": "Masarat Trading (internal transfer)"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -50914.1,
+    "balance": 439643.67,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-02-24",
+    "amount": 56291.25,
+    "balance": 495934.92,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -2239.22,
+    "balance": 493695.7,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -2060.78,
+    "balance": 491634.92,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -80208.47,
+    "balance": 411426.45,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-03-03",
+    "amount": 98938.52,
+    "balance": 510364.97,
+    "category": "revenue",
+    "counterparty": "Alsafwa Restaurants (internal transfer)"
+   },
+   {
+    "date": "2026-03-07",
+    "amount": -91798.98,
+    "balance": 418565.99,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-03-09",
+    "amount": -61082.79,
+    "balance": 357483.2,
+    "category": "opex",
+    "counterparty": "Shop rent MAR"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -2239.22,
+    "balance": 355243.98,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -2060.78,
+    "balance": 353183.2,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-03-26",
+    "amount": -81607.63,
+    "balance": 271575.57,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-03-27",
+    "amount": 50721.16,
+    "balance": 322296.73,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 125343.36,
+    "balance": 447640.09,
+    "category": "revenue",
+    "counterparty": "Terminal sales MAR"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": 101396.96,
+    "balance": 549037.05,
+    "category": "revenue",
+    "counterparty": "POS batch 423989"
+   },
+   {
+    "date": "2026-03-28",
+    "amount": -80557.4,
+    "balance": 468479.65,
+    "category": "opex",
+    "counterparty": "Electricity bill"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 49347.23,
+    "balance": 517826.88,
+    "category": "revenue",
+    "counterparty": "Almawared Co (internal transfer)"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": 86711.03,
+    "balance": 604537.91,
+    "category": "revenue",
+    "counterparty": "Terminal sales APR"
+   },
+   {
+    "date": "2026-04-08",
+    "amount": 49894.62,
+    "balance": 654432.53,
+    "category": "revenue",
+    "counterparty": "Khalid Alharbi"
+   },
+   {
+    "date": "2026-04-18",
+    "amount": -85852.0,
+    "balance": 568580.53,
+    "category": "opex",
+    "counterparty": "Mudad payroll APR"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -2239.22,
+    "balance": 566341.31,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -2060.78,
+    "balance": 564280.53,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": 133014.51,
+    "balance": 697295.04,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -62940.86,
+    "balance": 634354.18,
+    "category": "opex",
+    "counterparty": "Shop rent APR"
+   },
+   {
+    "date": "2026-04-27",
+    "amount": 77432.61,
+    "balance": 711786.79,
+    "category": "revenue",
+    "counterparty": "Fahad Alotaibi"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": -99682.71,
+    "balance": 612104.08,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-04-30",
+    "amount": -83311.23,
+    "balance": 528792.85,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-05-02",
+    "amount": 52915.43,
+    "balance": 581708.28,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring settlement"
+   },
+   {
+    "date": "2026-05-10",
+    "amount": 58186.9,
+    "balance": 639895.18,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": 109281.56,
+    "balance": 749176.74,
+    "category": "revenue",
+    "counterparty": "Almawared Co"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": 29624.71,
+    "balance": 778801.45,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-05-18",
+    "amount": 92191.4,
+    "balance": 870992.85,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-05-23",
+    "amount": -59621.08,
+    "balance": 811371.77,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -73315.38,
+    "balance": 738056.39,
+    "category": "opex",
+    "counterparty": "Warehouse lease"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -2239.22,
+    "balance": 735817.17,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -2060.78,
+    "balance": 733756.39,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-05-26",
+    "amount": -90124.87,
+    "balance": 643631.52,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-05-31",
+    "amount": -63360.07,
+    "balance": 580271.45,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 70175.66,
+    "balance": 650447.11,
+    "category": "revenue",
+    "counterparty": "Reem Alshammari"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": 53596.54,
+    "balance": 704043.65,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -64341.1,
+    "balance": 639702.55,
+    "category": "opex",
+    "counterparty": "Mudad payroll JUN"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -69258.79,
+    "balance": 570443.76,
+    "category": "opex",
+    "counterparty": "Warehouse lease"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -65345.53,
+    "balance": 505098.23,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": 31405.03,
+    "balance": 536503.26,
+    "category": "revenue",
+    "counterparty": "Almawared Co (internal transfer)"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": 70479.12,
+    "balance": 606982.38,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring settlement"
+   },
+   {
+    "date": "2026-06-19",
+    "amount": -72912.18,
+    "balance": 534070.2,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-06-23",
+    "amount": 56361.57,
+    "balance": 590431.77,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring settlement"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": 42782.08,
+    "balance": 633213.85,
+    "category": "revenue",
+    "counterparty": "Turki Almutairi"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -2239.22,
+    "balance": 630974.63,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-06-25",
+    "amount": -2060.78,
+    "balance": 628913.85,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-07-10",
+    "amount": 34571.39,
+    "balance": 663485.24,
+    "category": "revenue",
+    "counterparty": "Almawared Co"
+   },
+   {
+    "date": "2026-07-12",
+    "amount": 76178.2,
+    "balance": 739663.44,
+    "category": "revenue",
+    "counterparty": "Al-Riyada Hotels"
+   },
+   {
+    "date": "2026-07-13",
+    "amount": 91252.73,
+    "balance": 830916.17,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-07-19",
+    "amount": -61926.21,
+    "balance": 768989.96,
+    "category": "opex",
+    "counterparty": "Mudad payroll JUL"
+   },
+   {
+    "date": "2026-07-21",
+    "amount": -75112.8,
+    "balance": 693877.16,
+    "category": "opex",
+    "counterparty": "Shop rent JUL"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": -75751.19,
+    "balance": 618125.97,
+    "category": "opex",
+    "counterparty": "Rimal Packaging"
+   },
+   {
+    "date": "2026-07-23",
+    "amount": -71120.2,
+    "balance": 547005.77,
+    "category": "opex",
+    "counterparty": "Business line bill 709589"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": 69061.08,
+    "balance": 616066.85,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -2239.22,
+    "balance": 613827.63,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -2060.78,
+    "balance": 611766.85,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-07-27",
+    "amount": 68136.6,
+    "balance": 679903.45,
+    "category": "revenue",
+    "counterparty": "POS batch 371521"
+   },
+   {
+    "date": "2026-08-01",
+    "amount": -72225.69,
+    "balance": 607677.76,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-08-04",
+    "amount": -72138.33,
+    "balance": 535539.43,
+    "category": "opex",
+    "counterparty": "Warehouse lease"
+   },
+   {
+    "date": "2026-08-05",
+    "amount": 96059.96,
+    "balance": 631599.39,
+    "category": "revenue",
+    "counterparty": "POS batch 150027"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": 27281.4,
+    "balance": 658880.79,
+    "category": "revenue",
+    "counterparty": "Al-Safwa Restaurants (internal transfer)"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": 28951.59,
+    "balance": 687832.38,
+    "category": "revenue",
+    "counterparty": "Terminal sales AUG"
+   },
+   {
+    "date": "2026-08-10",
+    "amount": -81470.01,
+    "balance": 606362.37,
+    "category": "opex",
+    "counterparty": "Fanar Equipment"
+   },
+   {
+    "date": "2026-08-13",
+    "amount": 32997.88,
+    "balance": 639360.25,
+    "category": "revenue",
+    "counterparty": "POS batch 582995"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -65358.27,
+    "balance": 574001.98,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -2239.22,
+    "balance": 571762.76,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -2060.78,
+    "balance": 569701.98,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-08-29",
+    "amount": 66937.2,
+    "balance": 636639.18,
+    "category": "revenue",
+    "counterparty": "Masarat Trading (internal transfer)"
+   },
+   {
+    "date": "2026-08-31",
+    "amount": 95671.97,
+    "balance": 732311.15,
+    "category": "revenue",
+    "counterparty": "Terminal sales AUG"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": -81686.4,
+    "balance": 650624.75,
+    "category": "opex",
+    "counterparty": "Mudad payroll SEP"
+   },
+   {
+    "date": "2026-09-07",
+    "amount": -65473.52,
+    "balance": 585151.23,
+    "category": "opex",
+    "counterparty": "Shop rent SEP"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": -97221.61,
+    "balance": 487929.62,
+    "category": "opex",
+    "counterparty": "Nawa Wholesale"
+   },
+   {
+    "date": "2026-09-15",
+    "amount": 90275.48,
+    "balance": 578205.1,
+    "category": "revenue",
+    "counterparty": "Almawared Co (internal transfer)"
+   },
+   {
+    "date": "2026-09-16",
+    "amount": 82320.3,
+    "balance": 660525.4,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 35355.87,
+    "balance": 695881.27,
+    "category": "revenue",
+    "counterparty": "Masarat Trading (internal transfer)"
+   },
+   {
+    "date": "2026-09-19",
+    "amount": 49688.33,
+    "balance": 745569.6,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring settlement"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": 88128.9,
+    "balance": 833698.5,
+    "category": "revenue",
+    "counterparty": "Terminal sales SEP"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -2239.22,
+    "balance": 831459.28,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -2060.78,
+    "balance": 829398.5,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": 32831.12,
+    "balance": 862229.62,
+    "category": "revenue",
+    "counterparty": "Masarat Trading (internal transfer)"
+   },
+   {
+    "date": "2026-09-26",
+    "amount": -72506.67,
+    "balance": 789722.95,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-10-01",
+    "amount": -88032.78,
+    "balance": 701690.17,
+    "category": "opex",
+    "counterparty": "Staff wages"
+   },
+   {
+    "date": "2026-10-06",
+    "amount": -74132.8,
+    "balance": 627557.37,
+    "category": "opex",
+    "counterparty": "Shop rent OCT"
+   },
+   {
+    "date": "2026-10-20",
+    "amount": 99038.23,
+    "balance": 726595.6,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring settlement"
+   },
+   {
+    "date": "2026-10-21",
+    "amount": -80267.34,
+    "balance": 646328.26,
+    "category": "opex",
+    "counterparty": "Purchase invoice settlement"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": 58840.29,
+    "balance": 705168.55,
+    "category": "revenue",
+    "counterparty": "Merchant acquiring settlement"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -2239.22,
+    "balance": 702929.33,
+    "category": "debt_service",
+    "counterparty": "Sample Bank (simulated)"
+   },
+   {
+    "date": "2026-10-25",
+    "amount": -2060.78,
+    "balance": 700868.55,
+    "category": "debt_service",
+    "counterparty": "Demo Finance Co. (simulated)"
+   },
+   {
+    "date": "2026-10-26",
+    "amount": 55708.76,
+    "balance": 756577.31,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 70282.35,
+    "balance": 826859.66,
+    "category": "revenue",
+    "counterparty": "Qasr Al-Diyafa"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": 54285.69,
+    "balance": 881145.35,
+    "category": "revenue",
+    "counterparty": "Omar Alghamdi"
+   },
+   {
+    "date": "2026-10-27",
+    "amount": -91446.38,
+    "balance": 789698.97,
+    "category": "opex",
+    "counterparty": "Water bill"
+   },
+   {
+    "date": "2026-10-29",
+    "amount": 60744.68,
+    "balance": 850443.65,
+    "category": "revenue",
+    "counterparty": "Al-Ufuq Schools"
+   }
+  ],
+  "notes": [
+   "The statement's Debit and Credit columns are not clearly separated in the text layout; amounts were assigned direction by matching each line's printed balance change (balance rises = credit, falls = debit).",
+   "Statement period runs to 2026-10-30 but the last transaction is 2026-10-29; the closing balance of 850443.65 matches the final running balance.",
+   "Owner Nasser Al-Dosari made a 64301.90 deposit on 2026-01-04, recorded as owner_funds.",
+   "Transfers labelled as internal from Alsafwa, Masarat, Almawared and Al-Safwa group companies are recorded as revenue as printed; the analyst should confirm they are third-party customer payments and not related-party funding.",
+   "Transactions in Arabic-only descriptions were categorised from their Arabic text; several 'Staff wages' and 'Shop rent' lines show gaps in regular monthly pattern.",
+   "Monthly rent and payroll lines stop in some months (e.g., no Mudad payroll for Feb-Mar 2026 and no shop rent in Aug 2026)."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 10095,
+  "output_tokens": 8092,
+  "latency_s": 28.19,
+  "cached": false
+ }
+}

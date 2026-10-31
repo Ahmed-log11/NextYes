@@ -1,0 +1,251 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 78411.71,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": -30854.67,
+    "balance": 47557.04,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -627.62,
+    "balance": 31482.29,
+    "category": "opex",
+    "counterparty": "إيجار المحل نوفمبر"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": -37191.66,
+    "balance": 36564.04,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -10112.75,
+    "balance": 27078.91,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": 7074.23,
+    "balance": 17186.98,
+    "category": "revenue",
+    "counterparty": "مستلم من أسواق بيت الخير"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": 53630.79,
+    "balance": 46556.56,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 99752.0,
+    "balance": 46121.21,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 129684.36,
+    "balance": 29932.36,
+    "category": "other",
+    "counterparty": "حوالة داخلية من سهل إكسبرس"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 161508.34,
+    "balance": 31823.98,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة نوفمبر"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -124510.11,
+    "balance": 36998.23,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 158208.76,
+    "balance": 33698.65,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فهد العتيبي"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": 180782.94,
+    "balance": 22574.18,
+    "category": "revenue",
+    "counterparty": "مستلم من مدارس الأفق"
+   },
+   {
+    "date": "2025-12-09",
+    "amount": -139432.83,
+    "balance": 41350.11,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2025-12-11",
+    "amount": 209218.5,
+    "balance": 69785.67,
+    "category": "other",
+    "counterparty": "حوالة داخلية من سعد القحطاني"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": -177640.41,
+    "balance": 31578.09,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2025-12-14",
+    "amount": -136227.09,
+    "balance": 41413.32,
+    "category": "opex",
+    "counterparty": "دفعة للمورد نوى للجملة"
+   },
+   {
+    "date": "2025-12-19",
+    "amount": -103957.41,
+    "balance": 32269.68,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2025-12-27",
+    "amount": 146200.78,
+    "balance": 42243.37,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2025-12-28",
+    "amount": 168798.91,
+    "balance": 22598.13,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مسارات للتجارة"
+   },
+   {
+    "date": "2026-01-01",
+    "amount": -161364.33,
+    "balance": 7434.58,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد يناير"
+   },
+   {
+    "date": "2026-01-04",
+    "amount": -154171.29,
+    "balance": 7193.04,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-01-07",
+    "amount": 159851.83,
+    "balance": 5680.54,
+    "category": "revenue",
+    "counterparty": "130305 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 168216.82,
+    "balance": 8364.99,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2026-01-09",
+    "amount": 174183.26,
+    "balance": 5966.44,
+    "category": "other",
+    "counterparty": "حوالة داخلية من شركة الموارد"
+   },
+   {
+    "date": "2026-01-18",
+    "amount": -167270.35,
+    "balance": 6912.91,
+    "category": "opex",
+    "counterparty": "دفعة للمورد سندس للمواد"
+   },
+   {
+    "date": "2026-01-23",
+    "amount": -158858.88,
+    "balance": 8411.47,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-01-24",
+    "amount": 169710.45,
+    "balance": 10851.57,
+    "category": "revenue",
+    "counterparty": "مستلم من تركي المطيري"
+   },
+   {
+    "date": "2026-01-28",
+    "amount": 177846.91,
+    "balance": 8136.46,
+    "category": "revenue",
+    "counterparty": "976935 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-02-04",
+    "amount": -152741.53,
+    "balance": 25105.38,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد فبراير"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -129303.48,
+    "balance": 23438.05,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-02-16",
+    "amount": 149830.55,
+    "balance": 20527.07,
+    "category": "other",
+    "counterparty": "حوالة داخلية من شركة الموارد"
+   },
+   {
+    "date": "2026-02-19",
+    "amount": -124780.66,
+    "balance": 25049.89,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   }
+  ],
+  "notes": [
+   "The printed columns do not reconcile: the balance column moves in the opposite direction to the debit/credit amounts on many lines (e.g. 2025-11-05 debit 30,854.67 yet balance rises from 78,411.71 base is ambiguous), so the running balances were copied as printed and the signs were assigned from the Debit/Credit columns as laid out.",
+   "Statement header lists a period ending 2026-10-30 but transactions run only to 2026-02-19 on this page; the period end date is as printed.",
+   "Several large round-trip inflows from related-looking counterparties (e.g. شركة الموارد, مدارس الأفق) and internal transfers from individuals (سهل إكسبرس, سعد القحطاني) are unusually large relative to the business; the analyst should verify their source.",
+   "Transfers from سعد القحطاني and سهل إكسبرس and تركي المطيري are person or unidentified sources; categorised as other or revenue as shown; verify whether any is the owner (Nasser Al-Dosari)."
+  ],
+  "category": "other"
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4016,
+  "output_tokens": 2442,
+  "latency_s": 7.96,
+  "cached": false
+ }
+}

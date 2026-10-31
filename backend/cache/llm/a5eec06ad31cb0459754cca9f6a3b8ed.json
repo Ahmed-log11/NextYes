@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 602000.0,
+  "overdue_90_plus": 48100.0,
+  "notes": [
+   "Aging buckets 0-30 and 31-60 are not all in the document's column order as expected; the 61-90 column total (211,007.32) is the largest bucket, so roughly a third of receivables are 61-90 days old.",
+   "Customer-level totals do not sum cleanly to the Total row: the 90+ column (48,100.00) and total (602,000.00) are as printed, but the Total row's bucket values do not appear to reconcile with each customer's Total column, so the figures should be verified against the source ledger."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 287,
+  "latency_s": 3.12,
+  "cached": false
+ }
+}

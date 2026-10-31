@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 611200,
+  "overdue_90_plus": 25600,
+  "notes": [
+   "Customer 90+ balances sum to 25,600.00 only if the Total row is taken as printed; the individual 90+ entries (4589.67, 8848.71, 7339.05, 482.91, 3788.08, 551.58) add to 25,599.00, a 1.00 difference from the printed Total."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1745,
+  "output_tokens": 217,
+  "latency_s": 1.75,
+  "cached": false
+ }
+}

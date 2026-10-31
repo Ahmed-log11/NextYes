@@ -1,0 +1,21 @@
+{
+ "document": "cr_certificate",
+ "fields": {
+  "business_name": "Al-Rawabi Logistics",
+  "cr_number": "1053972231",
+  "owner_name": "Faisal Al-Zahrani",
+  "owner_name_ar": "فيصل الزهراني",
+  "issue_date": "2014-10-30",
+  "expiry_date": "2027-12-26",
+  "status_active": true,
+  "notes": []
+ },
+ "record": {
+  "document": "cr_certificate",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1665,
+  "output_tokens": 247,
+  "latency_s": 1.78,
+  "cached": false
+ }
+}

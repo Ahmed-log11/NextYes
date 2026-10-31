@@ -1,0 +1,19 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 304000,
+  "overdue_90_plus": 23100,
+  "notes": [
+   "The Total row's bucket sums do not match the printed grand total: the four bucket totals (89,596.18 + 91,987.50 + 99,316.32 + 23,100.00) add to 304,000.00 only when checked, but the customer rows sum to a different figure, so the Total row cannot be reconciled to the customer detail."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1691,
+  "output_tokens": 224,
+  "latency_s": 1.72,
+  "cached": false
+ }
+}

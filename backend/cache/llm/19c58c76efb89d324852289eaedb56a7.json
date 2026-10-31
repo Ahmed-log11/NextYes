@@ -1,0 +1,25 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 192133.72,
+  "closing_balance": 659805.42,
+  "transactions": [],
+  "notes": [
+   "Statement period runs from 2025-11-01 to 2026-10-30, a 12-month span; the statement includes entries dated after the current-date reference, which I recorded as printed.",
+   "A transfer of 78106.09 on 2026-02-28 from تركي المطيري is categorised as owner_funds; it is not the account holder's name on the registration, so verify the relationship to the owner.",
+   "Column headers on the printed layout are reversed (Balance | Credit | Debit | Description | Date); the amounts were assigned by position and checked against the running balance.",
+   "Lender payments appear to Sample Bank (simulated) as 4,300.00 monthly, and no other facility payments appear with Demo Trade Supplier."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 8032,
+  "output_tokens": 7705,
+  "latency_s": 21.61,
+  "cached": false
+ }
+}

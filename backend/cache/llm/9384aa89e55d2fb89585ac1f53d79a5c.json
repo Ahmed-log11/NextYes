@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-07-18",
+    "amount": 25427.95,
+    "balance": 515841.12,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2026-07-18",
+    "amount": -55906.43,
+    "balance": 459934.69,
+    "category": "opex",
+    "counterparty": "دفعة للمورد سندس للمواد"
+   },
+   {
+    "date": "2026-07-22",
+    "amount": 71862.26,
+    "balance": 531796.95,
+    "category": "revenue",
+    "counterparty": "مستلم من مقاهي أريج"
+   },
+   {
+    "date": "2026-07-24",
+    "amount": -44579.33,
+    "balance": 487217.62,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-07-25",
+    "amount": -3500.0,
+    "balance": 483717.62,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-08-02",
+    "amount": -6680.64,
+    "balance": 477036.98,
+    "category": "personal",
+    "counterparty": "عقد إيجار سكني"
+   },
+   {
+    "date": "2026-08-06",
+    "amount": -53116.57,
+    "balance": 423920.41,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-08-16",
+    "amount": 83981.98,
+    "balance": 507902.39,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة أغسطس"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 70480.22,
+    "balance": 578382.61,
+    "category": "revenue",
+    "counterparty": "مستلم من قصر الضيافة"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": 33639.83,
+    "balance": 612022.44,
+    "category": "revenue",
+    "counterparty": "661930 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-08-17",
+    "amount": -5640.6,
+    "balance": 606381.84,
+    "category": "personal",
+    "counterparty": "سداد رسوم التعليم"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -44909.08,
+    "balance": 561472.76,
+    "category": "opex",
+    "counterparty": "إيجار المحل أغسطس"
+   },
+   {
+    "date": "2026-08-23",
+    "amount": -46195.66,
+    "balance": 515277.1,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-08-24",
+    "amount": 42197.97,
+    "balance": 557475.07,
+    "category": "revenue",
+    "counterparty": "318542 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-08-25",
+    "amount": -3500.0,
+    "balance": 553975.07,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": -34952.09,
+    "balance": 519022.98,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-08-27",
+    "amount": -4639.29,
+    "balance": 514383.69,
+    "category": "personal",
+    "counterparty": "تسوية البطاقة الائتمانية"
+   },
+   {
+    "date": "2026-09-02",
+    "amount": -36952.93,
+    "balance": 477430.76,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد سبتمبر"
+   },
+   {
+    "date": "2026-09-03",
+    "amount": -47470.37,
+    "balance": 429960.39,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-09-05",
+    "amount": 41641.22,
+    "balance": 471601.61,
+    "category": "revenue",
+    "counterparty": "إيداع خدمة التاجر"
+   },
+   {
+    "date": "2026-09-06",
+    "amount": -42740.43,
+    "balance": 428861.18,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 50172.33,
+    "balance": 479033.51,
+    "category": "revenue",
+    "counterparty": "مستلم من قصر الضيافة"
+   },
+   {
+    "date": "2026-09-10",
+    "amount": 29382.09,
+    "balance": 508415.6,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-09-12",
+    "amount": -1919.55,
+    "balance": 506496.05,
+    "category": "personal",
+    "counterparty": "عقد إيجار سكني"
+   },
+   {
+    "date": "2026-09-17",
+    "amount": 61270.2,
+    "balance": 567766.25,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من ريم الشمري"
+   },
+   {
+    "date": "2026-09-18",
+    "amount": -1914.23,
+    "balance": 565852.02,
+    "category": "personal",
+    "counterparty": "سداد رسوم التعليم"
+   },
+   {
+    "date": "2026-09-21",
+    "amount": -54654.87,
+    "balance": 511197.15,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-09-24",
+    "amount": -4360.83,
+    "balance": 506836.32,
+    "category": "personal",
+    "counterparty": "عقد إيجار سكني"
+   },
+   {
+    "date": "2026-09-25",
+    "amount": -3500.0,
+    "balance": 503336.32,
+    "category": "debt_service",
+    "counterparty": "قسط مرابحة البنك التجريبي"
+   },
+   {
+    "date": "2026-09-28",
+    "amount": 51234.16,
+    "balance": 554570.48,
+    "category": "revenue",
+    "counterparty": "مستلم من مطاعم الصفوة"
+   },
+   {
+    "date": "2026-10-01",
+    "amount": 40131.09,
+    "balance": 594701.57,
+    "category": "revenue",
+    "counterparty": "مستلم من مقاهي أريج"
+   },
+   {
+    "date": "2026-10-07",
+    "amount": -3266.8,
+    "balance": 591434.77,
+    "category": "personal",
+    "counterparty": "تسوية البطاقة الائتمانية"
+   },
+   {
+    "date": "2026-10-09",
+    "amount": 52113.36,
+    "balance": 643548.13,
+    "category": "revenue",
+    "counterparty": "276241 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-10-10",
+    "amount": -49439.4,
+    "balance": 594108.73,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -41027.21,
+    "balance": 553081.52,
+    "category": "opex",
+    "counterparty": "إيجار المحل أكتوبر"
+   },
+   {
+    "date": "2026-10-14",
+    "amount": -6420.73,
+    "balance": 546660.79,
+    "category": "personal",
+    "counterparty": "عقد إيجار سكني"
+   },
+   {
+    "date": "2026-10-16",
+    "amount": 45846.61,
+    "balance": 592507.4,
+    "category": "revenue",
+    "counterparty": "مستلم من مسارات للتجارة"
+   },
+   {
+    "date": "2026-10-18",
+    "amount": 46617.95,
+    "balance": 639125.35,
+    "category": "revenue",
+    "counterparty": "مستلم من مقاهي أريج"
+   },
+   {
+    "date": "2026-10-19",
+    "amount": -40080.92,
+    "balance": 599044.43,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2026-10-23",
+    "amount": 40672.31,
+    "balance": 639716.74,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من ناصر الدوسري"
+   },
+   {
+    "date": "2026-10-24",
+    "amount": 18118.68,
+    "balance": 657835.42,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مطاعم الصفوة"
+   }
+  ],
+  "notes": [
+   "Page 4 of 5 only: opening and closing balances, account type and period dates are not on this page.",
+   "Several 'Credit' amounts appear on the same line as balances that do not step consistently with the running balance from the prior line on some rows; recorded as printed."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4134,
+  "output_tokens": 2656,
+  "latency_s": 8.25,
+  "cached": false
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "document": "credit_report",
+ "fields": {
+  "report_date": "2026-10-30",
+  "facilities": [
+   {
+    "lender": "Sample Bank (simulated)",
+    "facility_type": "Vehicle financing",
+    "monthly_instalment": 2645.18,
+    "outstanding": 44968.06,
+    "status": "regular"
+   },
+   {
+    "lender": "Demo Finance Co. (simulated)",
+    "facility_type": "Working capital",
+    "monthly_instalment": 1854.82,
+    "outstanding": 22257.84,
+    "status": "regular"
+   }
+  ],
+  "notes": []
+ },
+ "record": {
+  "document": "credit_report",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4062,
+  "output_tokens": 223,
+  "latency_s": 4.17,
+  "cached": false
+ }
+}

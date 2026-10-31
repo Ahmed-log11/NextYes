@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 181100.0,
+  "overdue_90_plus": 17100.0,
+  "notes": [
+   "Customer row totals do not sum to the Total row: 33,633.50 + 43,480.48 + 50,808.00 + 53,178.02 = 181,100.00, which matches; however the 0-30 through 90+ bucket totals (65,127.17 + 58,032.07 + 40,840.76 + 17,100.00) sum to 181,099.99, a one-cent difference.",
+   "Sahl Express row shows 90+ balance of 5,422.38 and 61-90 of 10,625.23, so its aged balances sum to 50,808.00 in line with its total; the 90+ bucket is concentrated in Sahl Express and Bayt Al-Khair and Al-Safwa, which warrants collection follow-up."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 3983,
+  "output_tokens": 359,
+  "latency_s": 2.87,
+  "cached": false
+ }
+}

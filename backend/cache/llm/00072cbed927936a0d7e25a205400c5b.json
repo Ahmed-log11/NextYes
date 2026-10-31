@@ -1,0 +1,20 @@
+{
+ "document": "receivables_aging",
+ "fields": {
+  "as_of": "2026-10-30",
+  "total_outstanding": 266500,
+  "overdue_90_plus": 143000,
+  "notes": [
+   "The printed 90+ total (143000) is 53.6% of total outstanding (266500); the customer rows show the 90+ column is heavily concentrated, with Al-Riyada Hotels (37133.26) and Areej Cafes (31945.86) the largest contributors.",
+   "Customer rows do not sum to the printed Total row: the 90+ column sums to about 143000 but the 0-30 to 61-90 totals and the grand total should be checked against the customer lines before relying on them."
+  ]
+ },
+ "record": {
+  "document": "receivables_aging",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 1746,
+  "output_tokens": 275,
+  "latency_s": 2.47,
+  "cached": false
+ }
+}

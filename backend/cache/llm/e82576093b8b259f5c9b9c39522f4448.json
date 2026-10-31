@@ -1,0 +1,311 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": null,
+  "period_start": null,
+  "period_end": null,
+  "opening_balance": null,
+  "closing_balance": null,
+  "transactions": [
+   {
+    "date": "2026-02-06",
+    "amount": 38878.65,
+    "balance": 394889.45,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-02-06",
+    "amount": -44354.86,
+    "balance": 350534.59,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-02-09",
+    "amount": 56660.48,
+    "balance": 407195.07,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-02-10",
+    "amount": -44426.06,
+    "balance": 362769.01,
+    "category": "opex",
+    "counterparty": "إيجار المحل فبراير"
+   },
+   {
+    "date": "2026-02-13",
+    "amount": -47387.18,
+    "balance": 315381.83,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-02-25",
+    "amount": -4300.0,
+    "balance": 311081.83,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": 78106.09,
+    "balance": 389187.92,
+    "category": "personal",
+    "counterparty": "تركي المطيري"
+   },
+   {
+    "date": "2026-02-28",
+    "amount": -36796.1,
+    "balance": 352391.82,
+    "category": "opex",
+    "counterparty": "فاتورة المياه"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": 30591.69,
+    "balance": 382983.51,
+    "category": "revenue",
+    "counterparty": "فنادق الريادة"
+   },
+   {
+    "date": "2026-03-05",
+    "amount": -44918.82,
+    "balance": 338064.69,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-03-06",
+    "amount": 87572.7,
+    "balance": 425637.39,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-03-08",
+    "amount": -51468.8,
+    "balance": 374168.59,
+    "category": "opex",
+    "counterparty": "إيجار المحل مارس"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": 34462.13,
+    "balance": 408630.72,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-17",
+    "amount": -56130.03,
+    "balance": 352500.69,
+    "category": "opex",
+    "counterparty": "رمال للتغليف"
+   },
+   {
+    "date": "2026-03-23",
+    "amount": 56307.49,
+    "balance": 408808.18,
+    "category": "revenue",
+    "counterparty": "مسارات للتجارة"
+   },
+   {
+    "date": "2026-03-25",
+    "amount": -4300.0,
+    "balance": 404508.18,
+    "category": "debt_service",
+    "counterparty": "البنك التجريبي"
+   },
+   {
+    "date": "2026-03-29",
+    "amount": 30465.99,
+    "balance": 434974.17,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-03-30",
+    "amount": -41156.95,
+    "balance": 393817.22,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2026-04-01",
+    "amount": 25803.31,
+    "balance": 419620.53,
+    "category": "revenue",
+    "counterparty": "858212 دفعة نقاط بيع"
+   },
+   {
+    "date": "2026-04-02",
+    "amount": 24161.21,
+    "balance": 443781.74,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-04-04",
+    "amount": -51177.7,
+    "balance": 392604.04,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-04-05",
+    "amount": 76801.01,
+    "balance": 469405.05,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة أبريل"
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 47253.74,
+    "balance": 516658.79,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-04-09",
+    "amount": 59110.47,
+    "balance": 575769.26,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-04-14",
+    "amount": -51977.74,
+    "balance": 523791.52,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-04-16",
+    "amount": -58358.54,
+    "balance": 465432.98,
+    "category": "opex",
+    "counterparty": "سداد فواتير مشتريات"
+   },
+   {
+    "date": "2026-04-25",
+    "amount": -4300.0,
+    "balance": 461132.98,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-04-26",
+    "amount": -47450.72,
+    "balance": 413682.26,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-04-28",
+    "amount": 25170.26,
+    "balance": 438852.52,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 19041.32,
+    "balance": 457893.84,
+    "category": "personal",
+    "counterparty": "ماجد الشهري"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": 64894.32,
+    "balance": 522788.16,
+    "category": "revenue",
+    "counterparty": "مدارس الأفق"
+   },
+   {
+    "date": "2026-05-12",
+    "amount": 49218.3,
+    "balance": 572006.46,
+    "category": "revenue",
+    "counterparty": "قصر الضيافة"
+   },
+   {
+    "date": "2026-05-13",
+    "amount": -49960.67,
+    "balance": 522045.79,
+    "category": "opex",
+    "counterparty": "دفعة رواتب مدد مايو"
+   },
+   {
+    "date": "2026-05-14",
+    "amount": 68282.82,
+    "balance": 590328.61,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة مايو"
+   },
+   {
+    "date": "2026-05-15",
+    "amount": -36837.25,
+    "balance": 553491.36,
+    "category": "opex",
+    "counterparty": "قسط إيجار المستودع"
+   },
+   {
+    "date": "2026-05-18",
+    "amount": 27963.24,
+    "balance": 581454.6,
+    "category": "revenue",
+    "counterparty": "نجوم للإعاشة"
+   },
+   {
+    "date": "2026-05-25",
+    "amount": -4300.0,
+    "balance": 577154.6,
+    "category": "debt_service",
+    "counterparty": "سداد تسهيلات البنك التجريبي"
+   },
+   {
+    "date": "2026-05-29",
+    "amount": -47909.49,
+    "balance": 529245.11,
+    "category": "opex",
+    "counterparty": "سندس للمواد"
+   },
+   {
+    "date": "2026-05-30",
+    "amount": -50877.19,
+    "balance": 478367.92,
+    "category": "opex",
+    "counterparty": "فاتورة الكهرباء"
+   },
+   {
+    "date": "2026-06-01",
+    "amount": -48780.72,
+    "balance": 429587.2,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2026-06-06",
+    "amount": 24359.16,
+    "balance": 453946.36,
+    "category": "revenue",
+    "counterparty": "198571 دفعة نقاط بيع"
+   }
+  ],
+  "notes": [
+   "The statement shows a transfer of 78106.09 on 2026-02-28 from تركي المطيري, recorded as personal because the sender is not on the list of customers or the owner; review whether this is owner funding or a related-party transfer.",
+   "Page 2 of 4 only: the opening and closing balances, period dates and account type are not on this page."
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4161,
+  "output_tokens": 2543,
+  "latency_s": 7.89,
+  "cached": false
+ }
+}

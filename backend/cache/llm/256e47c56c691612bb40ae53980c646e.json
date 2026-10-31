@@ -1,0 +1,97 @@
+{
+ "document": "bank_statement",
+ "fields": {
+  "account_type": "business",
+  "period_start": "2025-11-01",
+  "period_end": "2026-10-30",
+  "opening_balance": 78411.71,
+  "closing_balance": 354166.91,
+  "transactions": [
+   {
+    "date": "2025-11-05",
+    "amount": -30854.67,
+    "balance": 47557.04,
+    "category": "opex",
+    "counterparty": "أجور العاملين"
+   },
+   {
+    "date": "2025-11-07",
+    "amount": -627.62,
+    "balance": 31482.29,
+    "category": "opex",
+    "counterparty": "إيجار المحل نوفمبر"
+   },
+   {
+    "date": "2025-11-09",
+    "amount": -37191.66,
+    "balance": 36564.04,
+    "category": "opex",
+    "counterparty": "دفعة للمورد فنار للمعدات"
+   },
+   {
+    "date": "2025-11-10",
+    "amount": -10112.75,
+    "balance": 27078.91,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من مدارس الأفق"
+   },
+   {
+    "date": "2025-11-12",
+    "amount": 7074.23,
+    "balance": 17186.98,
+    "category": "revenue",
+    "counterparty": "مستلم من أسواق بيت الخير"
+   },
+   {
+    "date": "2025-11-15",
+    "amount": 53630.79,
+    "balance": 46556.56,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2025-11-16",
+    "amount": 99752.0,
+    "balance": 46121.21,
+    "category": "revenue",
+    "counterparty": "مستلم من شركة الموارد"
+   },
+   {
+    "date": "2025-11-17",
+    "amount": 129684.36,
+    "balance": 29932.36,
+    "category": "revenue",
+    "counterparty": "حوالة داخلية من سهل إكسبرس"
+   },
+   {
+    "date": "2025-11-18",
+    "amount": 161508.34,
+    "balance": 31823.98,
+    "category": "revenue",
+    "counterparty": "مبيعات الأجهزة نوفمبر"
+   },
+   {
+    "date": "2025-11-24",
+    "amount": -36998.23,
+    "balance": 124510.11,
+    "category": "opex",
+    "counterparty": "فاتورة خط الأعمال"
+   },
+   {
+    "date": "2025-12-06",
+    "amount": 158208.76,
+    "balance": 158208.76,
+    "category": "revenue",
+    "counterparty": "تحويل فوري من فهد العتيبي"
+   }
+  ]
+ },
+ "record": {
+  "document": "bank_statement",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 7311,
+  "output_tokens": 819,
+  "latency_s": 2.91,
+  "cached": false
+ }
+}

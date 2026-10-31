@@ -1,0 +1,24 @@
+{
+ "document": "financing_application",
+ "fields": {
+  "requested_amount": 560000,
+  "tenor_months": 36,
+  "annual_profit_rate": 0.082,
+  "collateral_offered": false,
+  "kafalah_guarantee": true,
+  "operating_since": "2016-09-15",
+  "financial_statements_attached": true,
+  "notes": [
+   "Kafalah guarantee line is overprinted with other text and partly illegible; the approval and certificate status could not be fully confirmed from the scan.",
+   "Attachment list includes financial statements, but no financial statement figures appear on this form; verify the attached statements directly."
+  ]
+ },
+ "record": {
+  "document": "financing_application",
+  "model": "claude-haiku-5-5",
+  "input_tokens": 4093,
+  "output_tokens": 312,
+  "latency_s": 3.01,
+  "cached": false
+ }
+}
